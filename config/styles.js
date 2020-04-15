@@ -95,21 +95,7 @@ snippets.blockStyle = `
 */
 
 const globalStyles = `
-  /* NOTE: font import in App.js */
-
-  @font-face {
-    font-family: "Roboto Mono";
-    src: url("/RobotoMono-Regular.woff2") format("woff2"),
-    url("/RobotoMono-Regular.ttf") format("ttf");
-    font-weight: 400;
-  }
-
-  @font-face {
-    font-family: "Roboto Mono";
-    src: url("/RobotoMono-Medium.ttf") format("woff2"),
-    url("/RobotoMono-Medium.ttf") format("ttf");
-    font-weight: 500;
-  }   
+  /* NOTE: font import in gatsby-config.js */
 
   :root {
     font-size: ${ metrics.large.fontSizePx }px;
