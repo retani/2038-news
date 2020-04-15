@@ -1,2 +1,0 @@
-web: serve
-develop: develop
