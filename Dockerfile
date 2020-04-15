@@ -19,6 +19,6 @@ COPY . /app/
 
 #ENV PATH="/usr/local/bin:/app/node_modules/.bin:${PATH}"
 
-EXPOSE 8000 8001
+EXPOSE 8000
 
 ENTRYPOINT ["./entry.sh"]

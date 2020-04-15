@@ -19,14 +19,14 @@ elif  [ "$1" == "serve" ]
 then
   gatsby clean
   gatsby build
-  gatsby serve --host 0.0.0.0 --port 8001
+  gatsby serve --host 0.0.0.0 --port 8000
 
-elif  [ "$1" == "both" ]
-then
-  gatsby clean
-  gatsby build
-  gatsby serve --host 0.0.0.0 --port 8001 &
-  gatsby develop --host 0.0.0.0 --port 8000
+# elif  [ "$1" == "both" ]
+# then
+#   gatsby clean
+#   gatsby build
+#   gatsby serve --host 0.0.0.0 --port 8001 &
+#   gatsby develop --host 0.0.0.0 --port 8000
 
 
 else
