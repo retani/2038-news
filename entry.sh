@@ -8,7 +8,7 @@ export GATSBY_DIR="/app"
 if  [ "$1" == "develop" ]
 then
   gatsby clean
-  gatsby develop --host 0.0.0.0 --port 8000
+  gatsby develop --host 0.0.0.0 --port 80
 
 elif  [ "$1" == "build" ]
 then
@@ -19,7 +19,7 @@ elif  [ "$1" == "serve" ]
 then
   gatsby clean
   gatsby build
-  gatsby serve --host 0.0.0.0 --port 8000
+  gatsby serve --host 0.0.0.0 --port 80
 
 # elif  [ "$1" == "both" ]
 # then

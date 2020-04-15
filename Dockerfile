@@ -13,12 +13,13 @@ ENV PATH /app/node_modules/.bin:$PATH
 ADD package.json yarn.lock /app/
 RUN yarn --pure-lockfile
 RUN gatsby telemetry --disable
+#RUN echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && sysctl -p
 
 # Copy all frontend stuff to new "app" folder
 COPY . /app/
 
 #ENV PATH="/usr/local/bin:/app/node_modules/.bin:${PATH}"
 
-EXPOSE 8000
+EXPOSE 80
 
 ENTRYPOINT ["./entry.sh"]
