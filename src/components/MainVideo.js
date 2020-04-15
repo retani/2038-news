@@ -44,7 +44,7 @@ const MainVideo = ({vimeoId}) => {
       <Vimeo
         style={{
           position:"relative",
-          top:"50%"
+          /*top:"50%"*/
         }}
         video={vimeoId}
         responsive
