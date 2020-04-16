@@ -8,6 +8,7 @@ import { Landscape, LandscapeBlock } from "../blocks/Landscape"
 import { Publication, PublicationBlock } from "../blocks/Publication"
 import { News, NewsBlock } from "../blocks/News"
 import { With, WithBlock } from "../blocks/With"
+import { Section, SectionBlock } from "../blocks/Section"
 import { IntroVideo, IntroVideoBlock } from "../blocks/IntroVideo"
 import { Article, ArticleBlock } from "../blocks/Article"
 import { TalkingHeads, TalkingHeadsBlock } from '../blocks/TalkingHeads'
@@ -51,6 +52,8 @@ export default function Page({ data }) {
                 return <IntroVideo key={"IntroVideoBlock" + i} data={data} />
               case "WithBlock":
                 return <With key={"WithBlock" + i} data={data} />
+              case "SectionBlock":
+                return <Section key={"SectionBlock" + i} data={data} />                
               case "NewsBlock":
                 return <News key={"NewsBlock" + i} data={data} />                    
               case "ImpLinkBlock":
@@ -154,18 +157,19 @@ const PageForm = {
       name: "rawJson.blocks",
       component: "blocks",
       templates: {
-        TitleBlock,
-        ImageBlock,
+        ArticleBlock,
         ContentBlock,
         CountdownBlock,
-        TalkingHeadsBlock,
-        PublicationBlock,
-        LandscapeBlock,
-        ArticleBlock,
+        ImageBlock,
+        ImpLinkBlock,
         IntroVideoBlock,
+        LandscapeBlock,
+        TitleBlock,
         NewsBlock,
+        PublicationBlock,
+        SectionBlock,
+        TalkingHeadsBlock,
         WithBlock,
-        ImpLinkBlock
       },
     },
   ],
