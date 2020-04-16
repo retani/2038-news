@@ -2,25 +2,21 @@ import React from "react"
 import styled from 'styled-components'
 
 import {p as P} from '../components/HtmlElements'
+import { Header } from '../components/Header'
 
 const blockLabel = "SECTION"
 
 export function Section({ data }) {
   const {text} = data
   return (
-    <Container>
-      <Text>
-        {text}
-      </Text>
-    </Container>
+    <Header>
+      {text}
+    </Header>
   )
 }
 
 const Container = styled.div``
 
-const Text = styled(P)`
-  text-align: center;
-`
 
 export const SectionBlock = {
   label: blockLabel,

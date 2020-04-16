@@ -1,8 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import styled, { css } from "styled-components"
-import { Header } from "./header"
-import { Theme } from "./theme"
 import {Helmet} from "react-helmet"
 import slugify from "react-slugify"
 

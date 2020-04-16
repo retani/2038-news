@@ -9,6 +9,8 @@ import {p as P} from '../components/HtmlElements'
 import ButtonSmall from '../components/ButtonSmall'
 import Spacer from '../components/Spacer'
 
+import { typoSizes, typoStyles, typoSnippet } from '../../config/styles'
+
 const blockLabel = "APP PREVIEW"
 
 export function AppPreview({ data }) {
@@ -30,8 +32,9 @@ export function AppPreview({ data }) {
   )
 }
 
-const Text = styled(P)`
+const Text = styled.p`
   text-align: center;
+  ${ typoSnippet({ typoSize: typoSizes.moduleBig, typoStyle: typoStyles.RobotoMonoLight}) };
 `
 
 export const AppPreviewBlock = {

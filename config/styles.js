@@ -60,23 +60,22 @@ const typoSnippet =  function({typoSize, typoStyle}) {
   const { name, weight, lineTopPerc, lineBottomPerc} = typoStyle
   const { fontSizePx, lineHeightPx } = typoSize
   return `
-  position: relative;
+    position: relative;
 
-  font-size: ${fontSizePx.l + "px"}
-  line-height: ${lineHeightPx.l + "px"}
+    font-size: ${fontSizePx.l + "px"};
+    line-height: ${lineHeightPx.l + "px"};
 
-  margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.l) + "px" };
-  top: ${ (lineBottomPerc*fontSizePx.l) + "px" };
-  
-  @media ${ breakpoints.small } {
+    margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.l) + "px" };
+    top: ${ (lineBottomPerc*fontSizePx.l) + "px" };
+    
+    @media ${ breakpoints.small } {
 
-    font-size: ${fontSizePx.s + "px"}
-    line-height: ${lineHeightPx.s + "px"}
+      font-size: ${fontSizePx.s + "px"};
+      line-height: ${lineHeightPx.s + "px"};
 
-    margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.s) + "px" };
-    top: ${ (lineBottomPerc*fontSizePx.s) + "px" };  
-  }
-
+      margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.s) + "px" };
+      top: ${ (lineBottomPerc*fontSizePx.s) + "px" };  
+    }
   `
 }
 
