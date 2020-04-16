@@ -38,7 +38,6 @@ export const PublicationBlock = {
   name: "publication",
   itemProps: (item) => ({
     label: `${blockLabel}: ${item.text}`,
-    key: `${blockLabel}: ${item.text}`,
   }),  
   defaultItem: {
     image: "",

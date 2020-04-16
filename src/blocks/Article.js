@@ -60,14 +60,9 @@ export const ArticleBlock = {
   label: "ARTICLE",
   itemProps: (article) => ({
     label: `ARTICLE: ${article.text}`,
-    key: `ARTICLE: ${article.text}`,
   }),
   defaultItem: {
-    text: `„It was due to the new system, that
-        humanity redifined its relation to
-        nature. Today, {nature is an active
-        political agent: land, water, air and
-        light cannot be owned anymore.}“`,
+    text: `„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“`,
     text2: 'Conversation with Eyal Weizman',
     file: ''
   },

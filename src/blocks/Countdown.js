@@ -90,10 +90,8 @@ export const Countdown = (data) =>  {
 export const CountdownBlock = {
   label: blockLabel,
   name: "countdown",
-  key: "dunno",
   itemProps: (item) => ({
     label: `${blockLabel}: ${item.dateUTC}`,
-    key: `${blockLabel}: ${item.dateUTC}`,
   }),    
   defaultItem: {
     dateUTC: "2020-08-28-14-00",

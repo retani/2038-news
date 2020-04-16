@@ -28,7 +28,6 @@ export const IntroVideoBlock = {
   name: "introVideo",
   itemProps: (item) => ({
     label: `${blockLabel}: ${item.text}`,
-    key: `${blockLabel}: ${item.text}`,
   }),  
   defaultItem: {
     videoId: "370256053",
@@ -37,7 +36,7 @@ export const IntroVideoBlock = {
   },
   fields: [
     { name: "videoId", label: "Vimeo Video ID", component: "text" },
-    { name: "text", label: "Text", component: "text" },
+    { name: "text", label: "Text", component: "textarea" },
     { name: "text2", label: "Small Text", component: "text" },
   ],
 }
