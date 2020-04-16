@@ -19,6 +19,67 @@ const metrics = {
   }  
 }
 
+const typoSizes = {
+  button: {
+    fontSizePx: { l: 40, s: 25 },
+  },
+  title: {
+    fontSizePx:   { l: 70, s: 30 },
+    lineHeightPx: { l: 73, s: 34 },
+  },
+  moduleBig: {
+    fontSizePx:   { l: 50, s: 25 },
+    lineHeightPx: { l: 53, s: 28 },
+  },
+  moduleMedium: {
+    fontSizePx:   { l: 30, s: 18 },
+    lineHeightPx: { l: 33, s: 22 },
+  },
+  moduleSmall: {
+    fontSizePx:   { l: 20, s: 18 },
+    lineHeightPx: { l: 25, s: 22 },
+  },
+  moduleTitle: {
+    fontSizePx:   { l: 20, s: 15 },
+    lineHeightPx: { l: 25, s: 19 },
+  },
+  videoLoop: {
+    fontSizePx:   { l: 90, s: 38 },
+    lineHeightPx: { l: 90, s: 40 },
+  },
+}
+
+const typoStyles = {
+  RobotoMonoLight:   { name: "Roboto Mono", weight: 300, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
+  RobotoMonoRegular: { name: "Roboto Mono", weight: 400, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
+  RobotoMonoMedium:  { name: "Roboto Mono", weight: 500, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
+  NeueHaasUnicaBold: { name: "Neue Haas Unica",weight: 500 /*???*/, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
+}
+
+const typoSnippet =  function({typoSize, typoStyle}) {
+  const { name, weight, lineTopPerc, lineBottomPerc} = typoStyle
+  const { fontSizePx, lineHeightPx } = typoSize
+  return `
+  position: relative;
+
+  font-size: ${fontSizePx.l + "px"}
+  line-height: ${lineHeightPx.l + "px"}
+
+  margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.l) + "px" };
+  top: ${ (lineBottomPerc*fontSizePx.l) + "px" };
+  
+  @media ${ breakpoints.small } {
+
+    font-size: ${fontSizePx.s + "px"}
+    line-height: ${lineHeightPx.s + "px"}
+
+    margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.s) + "px" };
+    top: ${ (lineBottomPerc*fontSizePx.s) + "px" };  
+  }
+
+  `
+}
+
 const breakpoints = {
   small: "(max-width: 750px)",
   smallPx: 750,
@@ -122,10 +183,13 @@ const globalStyles = `
 `
 
 export {
-  metrics,
   globalStyles,
   dist,
   colors,
   snippets,
   breakpoints,
+  metrics,
+  typoSizes,
+  typoStyles,
+  typoSnippet,  
 }
