@@ -29,6 +29,7 @@
       "name": "dummy",
       "title": "dummy",
       "file": "../pdfs/dummy.pdf",
+      "link": "dummy",
       "center": false,
       "underline": true,
       "recipient": "dummy",

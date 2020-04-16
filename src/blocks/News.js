@@ -1,75 +1,58 @@
 import React from "react"
-//import styled from 'styled-components'
+import styled from 'styled-components'
 
-import {p as P} from '../components/HtmlElements'
+//import {p as P} from '../components/HtmlElements'
+import Spacer from '../components/Spacer'
+import { p as P } from '../components/HtmlElements'
 import ButtonSmall from '../components/ButtonSmall'
+
+import { colors } from '../../config/styles'
 
 const blockLabel = "NEWS"
 
 export function News({ data }) {
-  console.log(data)
-  const {newsItems} = data
+  const {text, text2, link} = data
   return (
-    <>
-      <h2>NEWS</h2>
-      {newsItems.map(newsItem => renderNewsItem(newsItem))}
-    </>
+    <Container>
+      <Spacer />
+      <LargeText>
+        +++ {text} +++
+      </LargeText>
+      <SmallText>
+        {text2}
+      </SmallText>      
+      <a href={link} title={link}>
+        <ButtonSmall>LINK</ButtonSmall>
+      </a>
+    </Container>
   )
 }
 
-function renderNewsItem(newsItem) {
-  const {text, link} = newsItem
-  return <div key={newsItem.link + newsItem.text + ""}>
-    <P>
-    +++ {text} +++
-    </P>
-    <a href={link || "/"} title={link}>
-      <ButtonSmall textOffset="3px" theme="light">
-        Link
-      </ButtonSmall>
-    </a>  
-  </div>
-}
+
+const Container = styled.div`
+  background-color: ${colors.white};
+`
+
+const LargeText = styled(P)`
+`
+
+const SmallText = styled(P)`
+`
 
 export const NewsBlock = {
-  label: blockLabel,
   name: "news",
-  itemProps: (item) => ({
-    label: `${blockLabel}`,
-    key: `${blockLabel} ${item.id}`,
+  label: blockLabel,
+  itemProps: (article) => ({
+    label: `${blockLabel}: ${article.text}`,
   }),
   defaultItem: {
-    id: Math.random()
-    .toString(36)
-    .substr(2, 9),
+    text: `Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.`,
+    text2: 'Erika Mustermann on theatlantic.com',
+    link: ''
   },
   fields: [
-    {
-      label: "News Items",
-      name: "newsItems",
-      component: "group-list",
-      itemProps: item => ({
-        key: item.text + item.link + "",
-        label: item.text,
-      }),
-      defaultItem: () => ({
-        text: 'New News Item',
-        id: Math.random()
-          .toString(36)
-          .substr(2, 9),
-      }),      
-      fields: [
-        {
-          label: "Text",
-          name: "text",
-          component: "text",
-        },
-        {
-          label: "Link",
-          name: "link",
-          component: "text",
-        },
-      ],
-    },    
+    { name: "text", label: "Text", component: "textarea", description: "Use {} to highlight" },
+    { name: "text2", label: "Small Text", component: "text" },
+    { name: "link", label: "Link", component: "text", description: "URL, e.g. https://theatlantic.com" },
   ],
 }

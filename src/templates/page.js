@@ -8,6 +8,7 @@ import { Landscape, LandscapeBlock } from "../blocks/Landscape"
 import { Publication, PublicationBlock } from "../blocks/Publication"
 import { News, NewsBlock } from "../blocks/News"
 import { With, WithBlock } from "../blocks/With"
+import { AppPreview, AppPreviewBlock } from '../blocks/AppPreview'
 import { Section, SectionBlock } from "../blocks/Section"
 import { IntroVideo, IntroVideoBlock } from "../blocks/IntroVideo"
 import { Article, ArticleBlock } from "../blocks/Article"
@@ -54,6 +55,8 @@ export default function Page({ data }) {
                 return <With key={"WithBlock" + i} data={data} />
               case "SectionBlock":
                 return <Section key={"SectionBlock" + i} data={data} />                
+              case "AppPreviewBlock":
+                return <AppPreview key={"AppPreviewBlock" + i} data={data} />                    
               case "NewsBlock":
                 return <News key={"NewsBlock" + i} data={data} />                    
               case "ImpLinkBlock":
@@ -157,6 +160,7 @@ const PageForm = {
       name: "rawJson.blocks",
       component: "blocks",
       templates: {
+        AppPreviewBlock,
         ArticleBlock,
         ContentBlock,
         CountdownBlock,
@@ -210,6 +214,7 @@ export const pageQuery = graphql`
         file
         text
         text2
+        link
         center
         recipient
         fields {
