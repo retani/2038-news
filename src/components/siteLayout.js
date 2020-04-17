@@ -30,6 +30,7 @@ const MasterLayout = ({ children }) => {
   )
 }
 
+/*
 const CreatePostButton = createRemarkButton({
   label: "New Post",
   filename(form) {
@@ -75,5 +76,6 @@ const CreatePageButton = new JsonCreatorPlugin({
     }
   },
 })
+*/
 
-export default withPlugin(MasterLayout, [CreatePostButton, CreatePageButton])
+export default withPlugin(MasterLayout, /*[CreatePostButton, CreatePageButton]*/)

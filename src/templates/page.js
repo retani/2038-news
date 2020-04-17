@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+
 import { Title, TitleBlock } from "../blocks/title"
 import { Image, ImageBlock } from "../blocks/image"
 import { Content, ContentBlock } from "../blocks/content"
@@ -14,6 +15,7 @@ import { IntroVideo, IntroVideoBlock } from "../blocks/IntroVideo"
 import { Article, ArticleBlock } from "../blocks/Article"
 import { TalkingHeads, TalkingHeadsBlock } from '../blocks/TalkingHeads'
 import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
+
 import { PageLayout } from "../components/pageLayout"
 import { globalStyles } from '../../config/styles'
 
@@ -23,7 +25,9 @@ import { Reset } from 'styled-reset'
 
 const GlobalStyle = createGlobalStyle`${globalStyles}`
 
-export default function Page({ data }) {
+export default function Page(props) {
+  console.log(props)
+  const data = props.data
   const [page] = useLocalJsonForm(data.page, PageForm)
   const blocks = (page && page.blocks) ? page.blocks : []
 
@@ -83,80 +87,10 @@ export default function Page({ data }) {
 }
 
 const PageForm = {
-  label: "Page",
+  label: "Main Page",
   fields: [
     {
-      label: "Title",
-      name: "rawJson.title",
-      component: "text",
-    },
-    {
-      label: "Hero",
-      name: "rawJson.hero",
-      component: "group",
-      fields: [
-        {
-          label: "Headline",
-          name: "headline",
-          component: "text",
-        },
-        {
-          label: "Textline",
-          name: "textline",
-          component: "text",
-        },
-        {
-          label: "Image",
-          name: "image",
-          component: "image",
-          parse: filename => `../images/${filename}`,
-          uploadDir: () => `/content/images/`,
-          previewSrc: formValues => {
-            if (!formValues.jsonNode.hero || !formValues.jsonNode.hero.image)
-              return ""
-            return formValues.jsonNode.hero.image.childImageSharp.fluid.src
-          },
-        },
-        {
-          label: "Actions",
-          name: "ctas",
-          component: "group-list",
-          itemProps: item => ({
-            key: item.link,
-            label: item.label,
-          }),
-          fields: [
-            {
-              label: "Label",
-              name: "label",
-              component: "text",
-            },
-            {
-              label: "Link",
-              name: "link",
-              component: "text",
-            },
-            {
-              label: "Primary",
-              name: "primary",
-              component: "toggle",
-            },
-            {
-              label: "Arrow",
-              name: "arrow",
-              component: "toggle",
-            },
-          ],
-        },
-        {
-          label: "Large",
-          name: "large",
-          component: "toggle",
-        },
-      ],
-    },
-    {
-      label: "Page Sections",
+      label: "Modules",
       name: "rawJson.blocks",
       component: "blocks",
       templates: {

@@ -126,9 +126,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
 
   result.data.pages.edges.forEach(({ node }) => {
+    const template = (node.path === "/imprint" ? "imprint" : "page")
     createPage({
       path: node.path,
-      component: path.resolve(`src/templates/page.js`),
+      component: path.resolve(`src/templates/${template}.js`),
       context: {},
     })
   })

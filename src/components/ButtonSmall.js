@@ -10,6 +10,12 @@ const themes={
     "hoverFg":colors.blue,    
     "hoverBg": colors.white,
   },
+  "blue-on-white": {
+    "linkFg": colors.blue,
+    "linkBg": colors.white,
+    "hoverFg":colors.white,    
+    "hoverBg": colors.blue,
+  },  
   "light":{
     "linkFg": colors.white,
     "linkBg": colors.grey1,

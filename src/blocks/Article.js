@@ -4,9 +4,10 @@ import styled from 'styled-components'
 //import {p as P} from '../components/HtmlElements'
 import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
+import MarkedText from '../components/MarkedText'
 import { p as P } from '../components/HtmlElements'
 
-import { colors } from '../../config/styles'
+import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
 export function Article({ data }) {
   const {text, text2, file} = data
@@ -14,7 +15,7 @@ export function Article({ data }) {
     <Container>
       <Spacer />
       <LargeText>
-        {parseText(text)}
+        <MarkedText text={text} />
       </LargeText>
       <SmallText>
         {text2}
@@ -24,35 +25,28 @@ export function Article({ data }) {
   )
 }
 
-const parseText = function(text) {
-  let out =[]
-  let groups = text
-    .split("{")
-    .map( g => g.split("}") )
-  if (groups.length > 0) {
-    for (let gg of groups) {
-      if (gg.length > 1) {
-        out.push(<mark>{gg[0]}</mark>)
-        out.push(<span>{gg[1]}</span>)
-      } else {
-        out.push(<span>{gg[0]}</span>)
-      }
-    }
-  }
-  //console.log(out);
-  return out.map(c => <Fragment key={c.props.children}>{c}</Fragment>)
-  //return text.replace(/\{/, '<mark>').replace(/\}/, '</mark>')  
-}
-
 const Container = styled.div`
   background-color: ${colors.white};
 `
 
 const LargeText = styled(P)`
-  font-size: 30px;
+  ${ 
+    typoSnippet({ 
+      typoSize: typoSizes.moduleBig, 
+      typoStyle: typoStyles.RobotoMonoLight
+    }) 
+  };
 `
 
 const SmallText = styled(P)`
+  ${ 
+    typoSnippet({ 
+      typoSize: typoSizes.moduleSmall, 
+      typoStyle: typoStyles.RobotoMonoRegular
+    }) 
+  };
+  text-align: center;
+  color: ${ colors.blue };
 `
 
 export const ArticleBlock = {

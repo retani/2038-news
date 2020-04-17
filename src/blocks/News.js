@@ -5,8 +5,9 @@ import styled from 'styled-components'
 import Spacer from '../components/Spacer'
 import { p as P } from '../components/HtmlElements'
 import ButtonSmall from '../components/ButtonSmall'
+import MarkedText from '../components/MarkedText'
 
-import { colors } from '../../config/styles'
+import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
 const blockLabel = "NEWS"
 
@@ -16,27 +17,40 @@ export function News({ data }) {
     <Container>
       <Spacer />
       <LargeText>
-        +++ {text} +++
+        +++ <MarkedText text={text} /> +++
       </LargeText>
       <SmallText>
         {text2}
       </SmallText>      
       <a href={link} title={link}>
-        <ButtonSmall>LINK</ButtonSmall>
+        <ButtonSmall theme="blue-on-white">LINK</ButtonSmall>
       </a>
     </Container>
   )
 }
 
-
 const Container = styled.div`
-  background-color: ${colors.white};
+  background-color: ${colors.blue};
+  color: ${ colors.white };
 `
 
 const LargeText = styled(P)`
+  ${ 
+    typoSnippet({ 
+      typoSize: typoSizes.moduleMedium, 
+      typoStyle: typoStyles.RobotoMonoRegular
+    }) 
+  };
 `
 
 const SmallText = styled(P)`
+  ${ 
+    typoSnippet({ 
+      typoSize: typoSizes.moduleSmall, 
+      typoStyle: typoStyles.RobotoMonoRegular
+    }) 
+  };
+  text-align: center;
 `
 
 export const NewsBlock = {

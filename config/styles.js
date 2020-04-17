@@ -61,6 +61,7 @@ const typoSnippet =  function({typoSize, typoStyle}) {
   const { fontSizePx, lineHeightPx } = typoSize
   return `
     position: relative;
+    font-weight: ${ weight };
 
     font-size: ${fontSizePx.l + "px"};
     line-height: ${lineHeightPx.l + "px"};
@@ -80,8 +81,8 @@ const typoSnippet =  function({typoSize, typoStyle}) {
 }
 
 const breakpoints = {
-  small: "(max-width: 750px)",
-  smallPx: 750,
+  small: "(max-width: 900px)",
+  smallPx: 900,
 }
 
 const dist = {
@@ -101,6 +102,7 @@ const colors = {
   turquoise: "#00ffff",
   white: "white",
   green: "#00ff00",
+  mark: "#ff00ff",
 }
 
 let snippets = {

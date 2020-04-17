@@ -8,3 +8,4 @@ export const removeNull = obj =>
           : { ...newObj, [k]: obj[k] }, // Copy value.
       {}
     )
+
