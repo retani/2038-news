@@ -87,7 +87,7 @@ export default function Page(props) {
 }
 
 const PageForm = {
-  label: "Main Page",
+  label: "2038",
   fields: [
     {
       label: "Modules",

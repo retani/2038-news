@@ -65,14 +65,6 @@ const SiteForm = {
   label: "Site",
   fields: [
     {
-      label: "Logo",
-      name: "rawJson.logo",
-      component: "text",
-      parse(value) {
-        return value || ""
-      },
-    },
-    {
       label: "Title",
       name: "rawJson.title",
       component: "text",
