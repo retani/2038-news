@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Content, ContentBlock } from "../blocks/content"
+
+import { Document, DocumentBlock } from "../blocks/Document"
 
 import { BackLink, Spacer }  from '../components'
 import { PageLayout } from "../components/pageLayout"
@@ -27,10 +28,10 @@ export default function Page({ data }) {
         {blocks &&
           blocks.map(({ _template, ...data }, i) => {
             switch (_template) {
-              case "ContentBlock":
+              case "DocumentBlock":
                 if (data.content && page.childrenPagesJsonBlockMarkdown[i])
                   return (
-                    <Content
+                    <Document
                       data={data}
                       html={
                         page.childrenPagesJsonBlockMarkdown[i]
@@ -38,7 +39,7 @@ export default function Page({ data }) {
                       }
                     />
                   )
-                break
+                break                
               default:
                 return true
             }
@@ -56,7 +57,7 @@ const PageForm = {
       name: "rawJson.blocks",
       component: "blocks",
       templates: {
-        ContentBlock,
+        DocumentBlock
       },
     },
   ],

@@ -41,7 +41,7 @@ export const AppPreviewBlock = {
   label: blockLabel,
   name: "apppreview",
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.text}`,
+    label: <mark>{`${blockLabel}: ${item.text}`}</mark>,
   }),  
   defaultItem: {
     image: "",
