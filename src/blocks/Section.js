@@ -2,7 +2,7 @@ import React from "react"
 import styled from 'styled-components'
 
 import {p as P} from '../components/HtmlElements'
-import { Header } from '../components'
+import Header from '../components/Header'
 
 const blockLabel = "SECTION"
 
