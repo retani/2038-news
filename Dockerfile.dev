@@ -17,10 +17,14 @@ RUN gatsby telemetry --disable
 
 # Copy all frontend stuff to new "app" folder
 COPY . /app/
+COPY .git /app/
+RUN ls -la
 
 #ENV PATH="/usr/local/bin:/app/node_modules/.bin:${PATH}"
 
 EXPOSE 8000
+
+ENV TINA_CEE true
 
 ENTRYPOINT ["gatsby"]
 CMD ["develop", "--host", "0.0.0.0", "--port", "8000"]
