@@ -6,7 +6,7 @@ import ButtonSmall from './ButtonSmall'
 import Document from './Document'
 import DownloadLink from './DownloadLink'
 import FullscreenButton from './FullscreenButton'
-//import Header from './Header'
+import Header from './Header'
 import Logos from './Logos'
 import MainVideo from './MainVideo'
 import MarkedText from './MarkedText'
@@ -22,7 +22,7 @@ export {
   Document,
   DownloadLink,
   FullscreenButton,
-  //Header,
+  Header,
   Logos,
   MainVideo,
   MarkedText,
