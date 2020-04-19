@@ -12,6 +12,7 @@ const BlockStyleDiv = styled.div`
 const p = styled.p`
   ${blockStyle}
   ${ props => props.color && "color:" + props.color };
+  ${ props => props.center && "text-align:center" };
 `
 
 const table = styled.table`${blockStyle}`

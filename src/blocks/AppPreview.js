@@ -27,7 +27,11 @@ export function AppPreview({ data }) {
       <Text>
         {text}
       </Text>
-      <ButtonSmall>SOON</ButtonSmall>
+      <P center>
+        <ButtonSmall textOffset="1px">
+          SOON
+        </ButtonSmall>
+      </P>
     </Document>
   )
 }

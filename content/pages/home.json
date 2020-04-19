@@ -94,6 +94,16 @@
       "content": ""
     },
     {
+      "content": "Press: \npress@2038.xyz",
+      "center": false,
+      "_template": "ContentBlock"
+    },
+    {
+      "content": "Contact: \nmail@2038.xyz",
+      "center": false,
+      "_template": "ContentBlock"
+    },
+    {
       "text": "IMP.",
       "_template": "ImpLinkBlock",
       "content": ""

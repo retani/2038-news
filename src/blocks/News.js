@@ -22,9 +22,11 @@ export function News({ data }) {
       <SmallText>
         {text2}
       </SmallText>      
-      <a href={link} title={link}>
-        <ButtonSmall theme="blue-on-white">LINK</ButtonSmall>
-      </a>
+      <P center>
+        <a href={link} title={link}>
+          <ButtonSmall theme="blue-on-white">LINK</ButtonSmall>
+        </a>
+      </P>
     </Container>
   )
 }

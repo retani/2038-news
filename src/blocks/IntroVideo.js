@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import MainVideo from '../components/MainVideo'
 import {p as P} from '../components/HtmlElements'
 
+import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
+
 const blockLabel = "INTRO VIDEO"
 
 export function IntroVideo({ data }) {
@@ -14,14 +16,25 @@ export function IntroVideo({ data }) {
       <P>
         {text}
       </P>
-      <P>
+      <SmallText>
         {text2}
-      </P>
+      </SmallText>
     </Container>
   )
 }
 
 const Container = styled.div``
+
+const SmallText = styled(P)`
+  ${ 
+    typoSnippet({ 
+      typoSize: typoSizes.moduleSmall, 
+      typoStyle: typoStyles.RobotoMonoRegular
+    }) 
+  };
+  color: ${ colors.blue };
+  text-align: center;
+`
 
 export const IntroVideoBlock = {
   label: blockLabel,

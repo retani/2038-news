@@ -44,10 +44,17 @@ const sizes={
   }
 }
 
-export default ({children, onClick, style, theme, textOffset, size="small"}) => {
-  return <Container size={sizes[size]} theme={theme && themes[theme] ? themes[theme] : themes[themes.default]} onClick={onClick} style={style}>
+export default ({children, onClick, style, theme, textOffset, serious, size="small"}) => {
+  return (
+    <Container 
+        size={sizes[size]} 
+        theme={theme && themes[theme] ? themes[theme] : themes[themes.default]} 
+        onClick={onClick} 
+        style={style}
+        serious={serious}>
       <Text offset={textOffset}>{children}</Text>
-  </Container>
+    </Container>
+  )
 }
 
 const Container = styled.span`
@@ -63,14 +70,33 @@ const Container = styled.span`
   line-height: ${({size}) => size.lineHeight};
   transition: all 0.3s !important;
   &:hover {
-    background-color: ${ ({theme}) => theme.hoverBg };
-    color: ${ ({theme}) => theme.hoverFg };
     cursor: pointer;
+    ${({theme, serious, size}) => serious ? `
+      background-color: ${theme.hoverBg };
+      color: ${ theme.hoverFg };    
+    ` :
+    `
+      transition: none !important;
+      background-color: ${ theme.linkBg };
+      color: ${ theme.linkBg };
+      &::before {
+        content: "👀";
+        font-size: 120%; /* arbitrary value depending on emoji and os */
+        line-height: ${ size.height};
+        position: absolute;
+        top: 5%; /* arbitrary value depending on emoji and os */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index:1;
+      }    
+    `    
+    }
   }
 `
 
 const Text = styled.span`
   position: relative;
   font-weight: 500;
+  text-align: center;
   left: ${ ({offset}) => offset };
 `
