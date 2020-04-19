@@ -5,7 +5,7 @@ import { colors, dist, metrics, breakpoints } from '../../config/styles'
 import Spacer from './Spacer'
 
 
-export default /*function Header*/ ({children, backgroundColor, color, style, beforeText}) => {
+export default ({children, backgroundColor, color, style, beforeText}) => {
   return (
     <Head backgroundColor={backgroundColor} style={style} beforeText={beforeText}>
       <HeadText backgroundColor={color} color={backgroundColor}>
