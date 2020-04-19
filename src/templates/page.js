@@ -26,7 +26,6 @@ import { Reset } from 'styled-reset'
 const GlobalStyle = createGlobalStyle`${globalStyles}`
 
 export default function Page(props) {
-  console.log(props)
   const data = props.data
   const [page] = useLocalJsonForm(data.page, PageForm)
   const blocks = (page && page.blocks) ? page.blocks : []
@@ -36,54 +35,60 @@ export default function Page(props) {
       <Reset />
       <GlobalStyle />
       <PageLayout page={page}>
-        {blocks &&
-          blocks.map(({ _template, ...data }, i) => {
-            switch (_template) {
-              case "TitleBlock":
-                return <Title page={page} data={data} />
-              case "ImageBlock":
-                return <Image data={data} />
-              case "CountdownBlock":
-                return <Countdown key={"CountdownBlock" + i} data={data} />
-              case "TalkingHeadsBlock":
-                return <TalkingHeads key={"TalkingHeadsBlock" + i} data={data} />
-              case "LandscapeBlock":
-                return <Landscape key={"LandscapeBlock" + i} data={data} />
-              case "PublicationBlock":
-                return <Publication key={"PublicationBlock" + i} data={data} />
-              case "ArticleBlock":
-                return <Article key={"ArticleBlock" + i} data={data} />                    
-              case "IntroVideoBlock":
-                return <IntroVideo key={"IntroVideoBlock" + i} data={data} />
-              case "WithBlock":
-                return <With key={"WithBlock" + i} data={data} />
-              case "SectionBlock":
-                return <Section key={"SectionBlock" + i} data={data} />                
-              case "AppPreviewBlock":
-                return <AppPreview key={"AppPreviewBlock" + i} data={data} />                    
-              case "NewsBlock":
-                return <News key={"NewsBlock" + i} data={data} />                    
-              case "ImpLinkBlock":
-                return <ImpLink key={"ImpLinkBlock" + i} data={data} />                                
-              case "ContentBlock":
-                if (data.content && page.childrenPagesJsonBlockMarkdown[i])
-                  return (
-                    <Content
-                      data={data}
-                      html={
-                        page.childrenPagesJsonBlockMarkdown[i]
-                          .childMarkdownRemark.html
-                      }
-                    />
-                  )
-                break
-              default:
-                return true
-            }
-          })}
+        {mapBlocks(data,page,blocks)}
       </PageLayout>
     </>
   )
+}
+
+const mapBlocks = function(data,page,blocks) {
+  if (!blocks) return null
+  return blocks.map(({ _template, ...data }, i, arr) => {
+    switch (_template) {
+      case "TitleBlock":
+        return <Title page={page} data={data} />
+      case "ImageBlock":
+        return <Image data={data} />
+      case "CountdownBlock":
+        return <Countdown key={"CountdownBlock" + i} data={data} />
+      case "TalkingHeadsBlock":
+        return <TalkingHeads key={"TalkingHeadsBlock" + i} data={data} />
+      case "LandscapeBlock":
+        return <Landscape key={"LandscapeBlock" + i} data={data} />
+      case "PublicationBlock":
+        return <Publication key={"PublicationBlock" + i} data={data} />
+      case "ArticleBlock":
+        const shadeBlocks = ["SectionBlock", "WithBlock"]
+        const shade = (arr[i+1] && shadeBlocks.indexOf(arr[i+1]._template) > -1 )
+        return <Article key={"ArticleBlock" + i} shade={shade} data={data} />                    
+      case "IntroVideoBlock":
+        return <IntroVideo key={"IntroVideoBlock" + i} data={data} />
+      case "WithBlock":
+        return <With key={"WithBlock" + i} data={data} />
+      case "SectionBlock":
+        return <Section key={"SectionBlock" + i} data={data} />                
+      case "AppPreviewBlock":
+        return <AppPreview key={"AppPreviewBlock" + i} data={data} />                    
+      case "NewsBlock":
+        return <News key={"NewsBlock" + i} data={data} />                    
+      case "ImpLinkBlock":
+        return <ImpLink key={"ImpLinkBlock" + i} data={data} />                                
+      case "ContentBlock":
+        if (data.content && page.childrenPagesJsonBlockMarkdown[i])
+          return (
+            <Content
+              data={data}
+              html={
+                page.childrenPagesJsonBlockMarkdown[i]
+                  .childMarkdownRemark.html
+              }
+            />
+          )
+        break
+      default:
+        return true
+    }
+  })
 }
 
 const PageForm = {

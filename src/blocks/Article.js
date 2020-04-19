@@ -9,10 +9,10 @@ import { p as P } from '../components/HtmlElements'
 
 import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
-export function Article({ data }) {
+export function Article({ data, shade }) {
   const {text, text2, file} = data
   return (
-    <Container>
+    <Container shade={shade}>
       <Spacer />
       <LargeText>
         <MarkedText text={text} />
@@ -27,6 +27,12 @@ export function Article({ data }) {
 
 const Container = styled.div`
   background-color: ${colors.white};
+  ${({shade})=> shade && `
+    background-size: 100% 100px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: linear-gradient(to bottom, ${colors.white} 0%, ${colors.bg} 100%);
+  `}
 `
 
 const LargeText = styled(P)`
