@@ -6,6 +6,7 @@ import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
 import MarkedText from '../components/MarkedText'
 import { p as P } from '../components/HtmlElements'
+import { BlockListItem } from '../components'
 
 import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
@@ -60,8 +61,8 @@ const SmallText = styled(P)`
 export const ArticleBlock = {
   name: "article",
   label: blockLabel,
-  itemProps: (article) => ({
-    label: `${blockLabel}: ${article.text}`,
+  itemProps: (item) => ({
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),
   defaultItem: {
     text: `„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“`,

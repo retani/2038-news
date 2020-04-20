@@ -6,6 +6,7 @@ import Spacer from '../components/Spacer'
 import { p as P } from '../components/HtmlElements'
 import ButtonSmall from '../components/ButtonSmall'
 import MarkedText from '../components/MarkedText'
+import { BlockListItem } from '../components'
 
 import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
@@ -58,8 +59,8 @@ const SmallText = styled(P)`
 export const NewsBlock = {
   name: "news",
   label: blockLabel,
-  itemProps: (article) => ({
-    label: `${blockLabel}: ${article.text}`,
+  itemProps: (item) => ({
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),
   defaultItem: {
     text: `Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.`,

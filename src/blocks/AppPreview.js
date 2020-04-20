@@ -8,6 +8,7 @@ import {p as P} from '../components/HtmlElements'
 //import DownloadLink from '../components/DownloadLink'
 import ButtonSmall from '../components/ButtonSmall'
 import Spacer from '../components/Spacer'
+import { BlockListItem } from '../components'
 
 import { typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
@@ -45,7 +46,7 @@ export const AppPreviewBlock = {
   label: blockLabel,
   name: "apppreview",
   itemProps: (item) => ({
-    label: <mark>{`${blockLabel}: ${item.text}`}</mark>,
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),  
   defaultItem: {
     image: "",

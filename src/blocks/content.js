@@ -1,6 +1,8 @@
 import React from "react"
 import styled, { css } from "styled-components"
 
+import { BlockListItem } from '../components'
+
 import { snippets, breakpoints, metrics, dist } from '../../config/styles'
 
 const blockLabel = "Plain Text"
@@ -41,8 +43,8 @@ const StyledContent = styled.div`
 
 export const ContentBlock = {
   label: blockLabel,
-  itemProps: (article) => ({
-    label: `${blockLabel}: ${article.content}`,
+  itemProps: (item) => ({
+    label: <BlockListItem label={blockLabel} preview={item.content} />,
   }),
   name: "content",
   key: "test",

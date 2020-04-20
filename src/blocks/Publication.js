@@ -7,6 +7,7 @@ import Document from '../components/Document'
 import {p as P} from '../components/HtmlElements'
 import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
+import { BlockListItem } from '../components'
 
 const blockLabel = "PUBLICATION"
 
@@ -37,7 +38,7 @@ export const PublicationBlock = {
   label: blockLabel,
   name: "publication",
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.text}`,
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),  
   defaultItem: {
     image: "",

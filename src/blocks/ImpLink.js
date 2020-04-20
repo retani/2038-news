@@ -4,6 +4,9 @@ import { Link } from '../components/Router'
 
 import ButtonSmall from '../components/ButtonSmall'
 import { p as P } from '../components/HtmlElements'
+import { BlockListItem } from '../components'
+
+const blockLabel = "Imprint Link"
 
 export const ImpLink = props =>  {
   const {text} = props.data
@@ -17,12 +20,15 @@ export const ImpLink = props =>  {
 }
 
 export const ImpLinkBlock = {
-  label: "Imprint Link",
+  label: blockLabel,
   name: "ImpLink",
   key: "dunno",
   defaultItem: {
     text: "IMP.",
   },
+  itemProps: (item) => ({
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
+  }),    
   fields: [
     { name: "text", label: "Link Text", component: "text" },
   ],

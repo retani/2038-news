@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import MainVideo from '../components/MainVideo'
 import {p as P} from '../components/HtmlElements'
+import { BlockListItem } from '../components'
 
 import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
@@ -40,7 +41,7 @@ export const IntroVideoBlock = {
   label: blockLabel,
   name: "introVideo",
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.text}`,
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),  
   defaultItem: {
     videoId: "370256053",

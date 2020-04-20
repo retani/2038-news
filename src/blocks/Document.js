@@ -1,7 +1,7 @@
 import React from "react"
 import styled, { css } from "styled-components"
 
-import { Spacer, Document as Doc } from '../components'
+import { Spacer, Document as Doc, BlockListItem } from '../components'
 
 import { snippets, breakpoints, metrics, dist } from '../../config/styles'
 
@@ -47,7 +47,7 @@ export const DocumentBlock = {
   name: "document",
   key: "test",
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.content}`,
+    label: <BlockListItem label={blockLabel} preview={item.content} />,
   }),    
   defaultItem: {
     content: "",

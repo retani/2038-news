@@ -1,6 +1,8 @@
 import React from "react"
 import styled from 'styled-components'
+
 import BackgroundVideo from "../components/BackgroundVideo"
+import { BlockListItem } from '../components'
 
 import {   
   typoSizes,
@@ -51,8 +53,7 @@ export const LandscapeBlock = {
   name: "landscape",
   id:"landscape",
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.text}`,
-    key: `${blockLabel}: ${item.text}`,
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),
   defaultItem: {
     videoId: "115845843",

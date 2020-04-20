@@ -1,34 +1,25 @@
 import React, {Fragment} from "react"
-import styled from 'styled-components'
 
 //import {p as P} from '../components/HtmlElements'
 import DownloadLink from '../components/DownloadLink'
-import Spacer from '../components/Spacer'
-import MarkedText from '../components/MarkedText'
-import { BlockStyleDiv } from '../components/HtmlElements'
+import { BlockListItem } from '../components'
 
-import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
+import { basename } from '../helpers/misc'
 
-const blockLabel = "Zip"
+const blockLabel = "Zip Download"
 const blockName = "zip"
 
 export function Zip({ data }) {
   console.log(data)
   const {file} = data
-  return (
-    <Container>
-      <DownloadLink title={file} text=".ZIP" href={file} />
-    </Container>
-  )
+  return <DownloadLink title={file} text=".ZIP" href={file} />
 }
 
-const Container = styled(BlockStyleDiv)`
-`
 export const ZipBlock = {
   name: blockName,
   label: blockLabel,
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.file}`,
+    label: <BlockListItem label={blockLabel} preview={basename(item.file)} />,
   }),
   defaultItem: {
     file: ''

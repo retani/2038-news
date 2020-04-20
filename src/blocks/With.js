@@ -5,6 +5,7 @@ import Accordion from '../components/Accordion'
 import Logos from '../components/Logos'
 import Document from '../components/Document'
 import Spacer from '../components/Spacer'
+import { BlockListItem } from '../components'
 
 const blockLabel = "WITH"
 
@@ -35,8 +36,7 @@ export const WithBlock = {
   name: "with",
   label: blockLabel,
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.text}`,
-    key: `${blockLabel}: ${item.text}`,
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),   
   defaultItem: {
     text: `2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:

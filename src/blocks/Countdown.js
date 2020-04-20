@@ -5,6 +5,7 @@ import { colors, breakpoints } from '../../config/styles'
 import Accordion from '../components/Accordion'
 import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
+import { BlockListItem } from '../components'
 
 const blockLabel = "COUNTDOWN"
 
@@ -91,7 +92,7 @@ export const CountdownBlock = {
   label: blockLabel,
   name: "countdown",
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.dateUTC}`,
+    label: <BlockListItem label={blockLabel} preview={item.dateUTC} />,
   }),    
   defaultItem: {
     dateUTC: "2020-08-28-14-00",

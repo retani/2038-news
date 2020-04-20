@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import {p as P} from '../components/HtmlElements'
 import Header from '../components/SectionHeader'
+import { BlockListItem } from '../components'
 
 const blockLabel = "SECTION"
 
@@ -22,7 +23,7 @@ export const SectionBlock = {
   label: blockLabel,
   name: "section",
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.text}`,
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),  
   defaultItem: {
     text: `2038`,

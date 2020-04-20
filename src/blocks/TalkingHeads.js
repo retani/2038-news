@@ -1,6 +1,7 @@
 import React from "react"
 import MainVideo from '../components/MainVideo'
 import Document from '../components/Document'
+import { BlockListItem } from '../components'
 
 const blockLabel = "TALKING HEADS"
 
@@ -19,8 +20,7 @@ export const TalkingHeadsBlock = {
   name: "talkingHeads",
   id: "th",
   itemProps: (item) => ({
-    label: `${blockLabel}: ${item.text}`,
-    key: `${blockLabel}: ${item.text}`,
+    label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),  
   defaultItem: {
     videoId: "370256053",
