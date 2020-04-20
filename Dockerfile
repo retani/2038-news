@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:12 as builder
 
 # set working directory
 RUN mkdir /app
@@ -20,11 +20,20 @@ COPY . /app/
 
 #ENV PATH="/usr/local/bin:/app/node_modules/.bin:${PATH}"
 
-EXPOSE 8000
-
 RUN gatsby build
 
-ENTRYPOINT ["gatsby"]
-CMD ["serve", "--host", "0.0.0.0", "--port", "8000"]
+FROM mhart/alpine-node:12
+
+COPY --from=builder /app/public /public
+
+WORKDIR /public
+RUN yarn global add serve
+
+EXPOSE 8000
+
+ENTRYPOINT [ "serve", "-p", "8000" ]
+
+#ENTRYPOINT ["gatsby"]
+#CMD ["serve", "--host", "0.0.0.0", "--port", "8000"]
 
 #ENTRYPOINT ["./entry.sh"]
