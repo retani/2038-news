@@ -2,6 +2,11 @@ import React from "react"
 import styled from 'styled-components'
 import BackgroundVideo from "../components/BackgroundVideo"
 
+import {   
+  typoSizes,
+  typoStyles,
+  typoSnippet,  } from '../../config/styles'
+
 const blockLabel = "LANDSCAPE"
 
 export function Landscape({ data }) {
@@ -32,6 +37,13 @@ const TextContainer = styled.div`
   align-items: center;
 `
 const Text = styled.span`
+  ${ 
+    typoSnippet({ 
+      typoSize: typoSizes.videoLoop, 
+      typoStyle: typoStyles.NeueHaasUnicaBold
+    }) 
+  };
+  text-align: center;
 `
 
 export const LandscapeBlock = {

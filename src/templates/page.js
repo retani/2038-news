@@ -8,6 +8,7 @@ import { Countdown, CountdownBlock } from "../blocks/Countdown"
 import { Landscape, LandscapeBlock } from "../blocks/Landscape"
 import { Publication, PublicationBlock } from "../blocks/Publication"
 import { News, NewsBlock } from "../blocks/News"
+import { Zip, ZipBlock  } from '../blocks/Zip'
 import { With, WithBlock } from "../blocks/With"
 import { AppPreview, AppPreviewBlock } from '../blocks/AppPreview'
 import { Section, SectionBlock } from "../blocks/Section"
@@ -47,8 +48,6 @@ const mapBlocks = function(data,page,blocks) {
     switch (_template) {
       case "TitleBlock":
         return <Title page={page} data={data} />
-      case "ImageBlock":
-        return <Image data={data} />
       case "CountdownBlock":
         return <Countdown key={"CountdownBlock" + i} data={data} />
       case "TalkingHeadsBlock":
@@ -69,6 +68,8 @@ const mapBlocks = function(data,page,blocks) {
         return <Section key={"SectionBlock" + i} data={data} />                
       case "AppPreviewBlock":
         return <AppPreview key={"AppPreviewBlock" + i} data={data} />                    
+      case "ZipBlock":
+        return <Zip key={"ZipBlock" + i} data={data} />  
       case "NewsBlock":
         return <News key={"NewsBlock" + i} data={data} />                    
       case "ImpLinkBlock":
@@ -101,18 +102,17 @@ const PageForm = {
       templates: {
         AppPreviewBlock,
         ArticleBlock,
-        ContentBlock,
         CountdownBlock,
-        ImageBlock,
-        ImpLinkBlock,
         IntroVideoBlock,
         LandscapeBlock,
-        TitleBlock,
         NewsBlock,
         PublicationBlock,
         SectionBlock,
-        TalkingHeadsBlock,
+        /*TalkingHeadsBlock,*/
         WithBlock,
+        ContentBlock,
+        ImpLinkBlock,
+        ZipBlock,
       },
     },
   ],

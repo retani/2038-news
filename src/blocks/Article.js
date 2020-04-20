@@ -9,6 +9,8 @@ import { p as P } from '../components/HtmlElements'
 
 import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
+const blockLabel = "ARTICLE"
+
 export function Article({ data, shade }) {
   const {text, text2, file} = data
   return (
@@ -57,9 +59,9 @@ const SmallText = styled(P)`
 
 export const ArticleBlock = {
   name: "article",
-  label: "ARTICLE",
+  label: blockLabel,
   itemProps: (article) => ({
-    label: `ARTICLE: ${article.text}`,
+    label: `${blockLabel}: ${article.text}`,
   }),
   defaultItem: {
     text: `„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“`,

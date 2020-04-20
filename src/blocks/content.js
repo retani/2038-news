@@ -3,9 +3,10 @@ import styled, { css } from "styled-components"
 
 import { snippets, breakpoints, metrics, dist } from '../../config/styles'
 
+const blockLabel = "Plain Text"
+
 export function Content({ data, html }) {
   const centered = data.center ? data.center : false
-console.log(data, html)
   return (
     <StyledContent
       center={centered}
@@ -39,7 +40,10 @@ const StyledContent = styled.div`
 `
 
 export const ContentBlock = {
-  label: "Content",
+  label: blockLabel,
+  itemProps: (article) => ({
+    label: `${blockLabel}: ${article.content}`,
+  }),
   name: "content",
   key: "test",
   defaultItem: {

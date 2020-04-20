@@ -33,7 +33,7 @@ const Head = styled.h2`
   }
 `
 
-const HeadText = styled.span`
+export const HeadText = styled.span`
   display: inline-block;
   height: 100%;
   padding-left: ${ dist.letterWidth };
