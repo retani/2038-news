@@ -116,6 +116,10 @@ module.exports = {
         google: {
           families: ["Roboto Mono:300,400,500"],
         },
+        custom: {
+          families: ['NeueHaasUnicaW1G-Bold'],
+          urls: ['/NeueHaasUnicaW1G-Bold.css']
+        }
       },
     },
   ],

@@ -53,7 +53,7 @@ const typoStyles = {
   RobotoMonoLight:   { name: "Roboto Mono", weight: 300, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
   RobotoMonoRegular: { name: "Roboto Mono", weight: 400, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
   RobotoMonoMedium:  { name: "Roboto Mono", weight: 500, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
-  NeueHaasUnicaBold: { name: "Neue Haas Unica",weight: 500 /*???*/, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
+  NeueHaasUnicaBold: { name: "NeueHaasUnicaW1G-Bold",weight: "normal" /*???*/, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
 }
 
 const typoSnippet =  function({typoSize, typoStyle}) {
@@ -61,6 +61,7 @@ const typoSnippet =  function({typoSize, typoStyle}) {
   const { fontSizePx, lineHeightPx } = typoSize
   return `
     position: relative;
+    font-family: ${ name };
     font-weight: ${ weight };
 
     font-size: ${fontSizePx.l + "px"};
@@ -182,6 +183,17 @@ const globalStyles = `
     font-family: 'Roboto Mono', 'Andale Mono', monospace;
   }
 `
+
+/***** EXAMPLE USE 
+
+  ${ 
+    typoSnippet({ 
+      typoSize: typoSizes.moduleBig, 
+      typoStyle: typoStyles.RobotoMonoLight
+    }) 
+  };
+
+******/
 
 export {
   globalStyles,
