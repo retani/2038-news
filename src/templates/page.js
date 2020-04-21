@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 
+import {Helmet} from "react-helmet"
+
 import { Title, TitleBlock } from "../blocks/title"
 import { Image, ImageBlock } from "../blocks/image"
 import { Content, ContentBlock } from "../blocks/content"
@@ -35,6 +37,13 @@ export default function Page(props) {
     <>
       <Reset />
       <GlobalStyle />
+      <Helmet>
+        <style>
+          {`div[class^=FormHeader] + div {
+            overflow: auto;
+          }`}
+        </style>
+      </Helmet>
       <PageLayout page={page}>
         {mapBlocks(data,page,blocks)}
       </PageLayout>
