@@ -43,7 +43,7 @@ export default function Page(props) {
 }
 
 const mapBlocks = function(data,page,blocks) {
-  if (!blocks) return null
+  if (!blocks || !Array.isArray(blocks)) return null
   return blocks.map(({ _template, ...data }, i, arr) => {
     switch (_template) {
       case "TitleBlock":
