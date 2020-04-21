@@ -106,10 +106,6 @@ export const pageQuery = graphql`
           inputType
           autocomplete
         }
-        newsItems {
-          text
-          link
-        }
         image {
           childImageSharp {
             fluid(quality: 70, maxWidth: 1920) {

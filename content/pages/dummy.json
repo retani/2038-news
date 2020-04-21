@@ -34,12 +34,6 @@
       "underline": true,
       "recipient": "dummy",
       "image": "../images/dummy.jpg",
-      "newsItems": [
-        { 
-          "text" : "dummy",
-          "link" : "dummy"
-        }
-      ],
       "fields": [
         {
           "_template": "dummy",

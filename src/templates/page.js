@@ -78,6 +78,7 @@ const mapBlocks = function(data,page,blocks) {
         if (data.content && page.childrenPagesJsonBlockMarkdown[i])
           return (
             <Content
+              key={"ContentBlock" + i}
               data={data}
               html={
                 page.childrenPagesJsonBlockMarkdown[i]
@@ -160,10 +161,6 @@ export const pageQuery = graphql`
           label
           inputType
           autocomplete
-        }
-        newsItems {
-          text
-          link
         }
         image {
           childImageSharp {
