@@ -39,7 +39,7 @@ export default function Page(props) {
       <GlobalStyle />
       <Helmet>
         <style>
-          {`div[class^=FormHeader] + div {
+          {`div[class^=FormHeader] + div > div {
             overflow: auto;
           }`}
         </style>
