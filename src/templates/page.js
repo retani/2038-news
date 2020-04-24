@@ -22,6 +22,8 @@ import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
 import { PageLayout } from "../components/pageLayout"
 import { globalStyles } from '../../config/styles'
 
+import { spaces } from '../../config/styles'
+
 import { useLocalJsonForm } from "gatsby-tinacms-json"
 import { createGlobalStyle } from 'styled-components'
 import { Reset } from 'styled-reset'
@@ -80,7 +82,11 @@ const mapBlocks = function(data,page,blocks) {
       case "ZipBlock":
         return <Zip key={"ZipBlock" + i} data={data} />  
       case "NewsBlock":
-        return <News key={"NewsBlock" + i} data={data} />                    
+        const repeated = (arr[i+1] && arr[i+1]._template === "NewsBlock" )
+    return <>
+          <News key={"NewsBlock" + i} data={data} />
+          { repeated && <div key={"NewsBlockSpacer" + i} style={{height: spaces.verySmallPx.s + "px"}} /> }
+        </>
       case "ImpLinkBlock":
         return <ImpLink key={"ImpLinkBlock" + i} data={data} />                                
       case "ContentBlock":

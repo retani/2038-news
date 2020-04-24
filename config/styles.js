@@ -86,6 +86,14 @@ const breakpoints = {
   smallPx: 900,
 }
 
+const spaces = {
+  largePx:        { l: 60, s: 40 },
+  mediumPx:       { l: 40, s: 30 },
+  mediumShrinkPx: { l: 40, s: 20 },
+  smallPx:        { l: 20, s: 20 },
+  verySmallPx:    { l:  5, s:  5 }
+}
+
 const dist = {
   lineTop: -metrics.large.lineTopPx + "px",
   spacer: "40px",
@@ -198,6 +206,7 @@ const globalStyles = `
 export {
   globalStyles,
   dist,
+  spaces,
   colors,
   snippets,
   breakpoints,
