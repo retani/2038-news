@@ -76,11 +76,11 @@ export const ArticleBlock = {
       name: "file",
       label: "PDF",
       component: "file",
-      description: 'This is a pdf upload field',
-      /*accept: 'application/pdf',*/
+      description: '.PDF Upload',
+      accept: 'application/pdf',
       clearable: true,
-      parse: (file) => `/pdfs/${file}`,
-      uploadDir: () => '/content/pdfs/', 
+      parse: (file) => `/uploads/pdfs/${file}`,
+      uploadDir: () => '/static/uploads/pdfs/', 
     },
   ],
 }

@@ -17,7 +17,8 @@ RUN gatsby telemetry --disable
 
 # Copy all frontend stuff to new "app" folder
 COPY . /app/
-
+#RUN ls -la
+#RUN apt install libglu1 libxi-dev
 #ENV PATH="/usr/local/bin:/app/node_modules/.bin:${PATH}"
 
 RUN gatsby build

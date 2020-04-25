@@ -29,12 +29,12 @@ export const ZipBlock = {
       name: "file",
       label: "ZIP",
       component: "file",
-      description: 'This is a zip upload field',
-      /*accept: 'application/zip',*/
+      description: '.ZIP Upload',
+      accept: 'application/zip',
       clearable: true,
       onClear: ()=>"",
-      parse: (file) => `/zips/${file}`,
-      uploadDir: () => `/content/zips/`, 
+      parse: (file) => `/uploads/zips/${file}`,
+      uploadDir: () => `/static/uploads/zips/`, 
     },
   ],
 }
