@@ -6,6 +6,9 @@ import Logos from '../components/Logos'
 import Document from '../components/Document'
 import Spacer from '../components/Spacer'
 import { BlockListItem } from '../components'
+import { Block } from '../components/HtmlElements'
+
+import { spaces, typoSizes, typoStyles } from '../../config/styles'
 
 const blockLabel = "WITH"
 
@@ -17,7 +20,14 @@ export function With({ data }) {
     <Accordion head="WITH" initOpen>
       <Document>
         <Spacer />
-        <p>
+        <Block 
+            typoStyle={typoStyles.moduleSmall} 
+            spaceSide={spaces.small}
+            spaceBottom={spaces.medium}
+          >
+          {text}
+        </Block>
+        {/*<p>
           2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:
         </p>
         <p>
@@ -25,7 +35,7 @@ export function With({ data }) {
         </p>
         <p>
           Commissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)
-        </p>
+        </p>*/}
         <Logos />
       </Document>
     </Accordion>

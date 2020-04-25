@@ -15,7 +15,7 @@ export default ({children, href, text, textOffset, theme, size="small"}) =>  {
   </Container>
 }
 
-const Container = styled(P)`
+const Container = styled.div`
   text-align: center;
   letter-spacing: 0.02em;
 `

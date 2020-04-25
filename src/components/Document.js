@@ -11,20 +11,16 @@ export default ({children}) =>  <Center>
 
 const Container = styled.div`
   background-color: ${ colors.white };
-  margin-left: 20px;
-  margin-right: 20px;  
-  max-width: 440px; /* Textbreite 400px */
-  font-size: ${ metrics.small.fontSizePx }px;
-  line-height: ${ metrics.small.lineHeightPx }px;
-  @media (min-width: ${breakpoints.smallPx+1}px) {
-    font-size: ${ metrics.medium.fontSizePx }px;
-    line-height: ${ metrics.medium.lineHeightPx }px;
-    max-width: 780px; /* Textbreite 700px */
-    margin-left: 120px;
-    margin-right: 120px;
+  width: 66.66%;
+  @media ${ breakpoints.large } {
+  min-width: 600px;
   }
-  p {
-    ${snippets.blockStyle}
+  /*max-width: 440px; /* Textbreite 400px */
+  @media ${ breakpoints.tiny } {
+    /*max-width: 780px; /* Textbreite 700px */
+    /*margin-left: 120px;
+    margin-right: 120px;*/
+    width: calc( 100% - 20px);
   }
 `
 

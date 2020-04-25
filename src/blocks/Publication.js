@@ -9,6 +9,8 @@ import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
 import { BlockListItem } from '../components'
 
+import { spaces, blockSnippet, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
+
 const blockLabel = "PUBLICATION"
 
 export function Publication({ data }) {
@@ -21,17 +23,35 @@ export function Publication({ data }) {
           <Img fluid={data.image.childImageSharp.fluid} />
         )
       }
-      <Spacer />
+      <Spacer space={spaces.medium}/>
       <Text>
         {text}
       </Text>
-      <DownloadLink text=".PDF" />
+      <Bottom>
+        <DownloadLink text=".PDF" />
+      </Bottom>
     </Document>
   )
 }
 
-const Text = styled(P)`
+const Text = styled.p`
+  ${ 
+    blockTypoSnippet({ 
+      typoSize: typoSizes.moduleMedium, 
+      typoStyle: typoStyles.RobotoMonoRegular,
+      spaceTop: spaces.medium,
+      spaceBottom: spaces.medium,
+    }) 
+  };
   text-align: center;
+`
+
+const Bottom = styled.p`
+  ${ 
+    blockSnippet({ 
+      spaceBottom: spaces.small,
+    }) 
+  };
 `
 
 export const PublicationBlock = {

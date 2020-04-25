@@ -3,12 +3,12 @@ import styled from 'styled-components'
 
 //import {p as P} from '../components/HtmlElements'
 import Spacer from '../components/Spacer'
-import { p as P } from '../components/HtmlElements'
+import { p as P, Block } from '../components/HtmlElements'
 import ButtonSmall from '../components/ButtonSmall'
 import MarkedText from '../components/MarkedText'
 import { BlockListItem, DownloadLink } from '../components'
 
-import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
+import { colors, spaces,  typoSizes, blockSnippet, blockTypoSnippet, typoStyles, typoSnippet } from '../../config/styles'
 
 const blockLabel = "NEWS"
 
@@ -16,22 +16,22 @@ export function News({ data }) {
   const {text, text2, link, file, usePdf} = data
   return (
     <Container>
-      <Spacer />
+      <Spacer space={spaces.medium}/>
       <LargeText>
         +++ <MarkedText text={text} /> +++
       </LargeText>
       <SmallText>
         {text2}
       </SmallText>
-      { !usePdf ? 
-        <P center>
-          <a href={link} title={link}>
-            <ButtonSmall theme="blue-on-white">LINK</ButtonSmall>
-          </a>
-        </P>
-        :
-        <DownloadLink theme="blue-on-white" title={file} text=".PDF" href={file} />
-      }
+      <Bottom>
+        { !usePdf ? 
+            <a href={link} title={link}>
+              <ButtonSmall theme="blue-on-white">LINK</ButtonSmall>
+            </a>
+          :
+          <DownloadLink theme="blue-on-white" title={file} text=".PDF" href={file} />
+        }
+      </Bottom>
     </Container>
   )
 }
@@ -39,25 +39,38 @@ export function News({ data }) {
 const Container = styled.div`
   background-color: ${colors.blue};
   color: ${ colors.white };
+  overflow: hidden;
 `
 
-const LargeText = styled(P)`
+const LargeText = styled.p`
   ${ 
-    typoSnippet({ 
+    blockTypoSnippet({ 
       typoSize: typoSizes.moduleMedium, 
-      typoStyle: typoStyles.RobotoMonoRegular
+      typoStyle: typoStyles.RobotoMonoRegular,
+      spaceBottom: spaces.medium
     }) 
   };
 `
 
-const SmallText = styled(P)`
+const SmallText = styled.p`
   ${ 
-    typoSnippet({ 
+    blockTypoSnippet({ 
       typoSize: typoSizes.moduleSmall, 
-      typoStyle: typoStyles.RobotoMonoRegular
+      typoStyle: typoStyles.RobotoMonoRegular,
+      spaceBottom: spaces.small
     }) 
   };
   text-align: center;
+`
+
+const Bottom = styled.p`
+  ${ 
+    blockSnippet({ 
+      spaceBottom: spaces.small
+    }) 
+  };
+  text-align: center;
+
 `
 
 export const NewsBlock = {

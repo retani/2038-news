@@ -8,7 +8,7 @@ import MarkedText from '../components/MarkedText'
 import { p as P } from '../components/HtmlElements'
 import { BlockListItem } from '../components'
 
-import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
+import { colors, spaces, blockTypoSnippet, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
 const blockLabel = "ARTICLE"
 
@@ -16,14 +16,14 @@ export function Article({ data, shade }) {
   const {text, text2, file} = data
   return (
     <Container shade={shade}>
-      <Spacer />
       <LargeText>
         <MarkedText text={text} />
       </LargeText>
       <SmallText>
         {text2}
-      </SmallText>      
+      </SmallText>
       <DownloadLink title={file} text=".PDF" href={file} />
+      <Spacer space={spaces.large} />
     </Container>
   )
 }
@@ -36,22 +36,26 @@ const Container = styled.div`
     background-position: bottom;
     background-image: linear-gradient(to bottom, ${colors.white} 0%, ${colors.bg} 100%);
   `}
+  overflow: hidden;
 `
 
-const LargeText = styled(P)`
+const LargeText = styled.div`
   ${ 
-    typoSnippet({ 
+    blockTypoSnippet({ 
       typoSize: typoSizes.moduleBig, 
-      typoStyle: typoStyles.RobotoMonoLight
+      typoStyle: typoStyles.RobotoMonoRegular,
+      spaceTop: spaces.medium,
+      spaceBottom: spaces.medium,
     }) 
   };
 `
 
-const SmallText = styled(P)`
+const SmallText = styled.div`
   ${ 
-    typoSnippet({ 
+    blockTypoSnippet({ 
       typoSize: typoSizes.moduleSmall, 
-      typoStyle: typoStyles.RobotoMonoRegular
+      typoStyle: typoStyles.RobotoMonoRegular,
+      spaceBottom: spaces.small,
     }) 
   };
   text-align: center;

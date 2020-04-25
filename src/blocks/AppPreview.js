@@ -4,13 +4,13 @@ import Img from "gatsby-image"
 import get from "lodash.get"
 
 import Document from '../components/Document'
-import {p as P} from '../components/HtmlElements'
+import {p as P, Block} from '../components/HtmlElements'
 //import DownloadLink from '../components/DownloadLink'
 import ButtonSmall from '../components/ButtonSmall'
 import Spacer from '../components/Spacer'
 import { BlockListItem } from '../components'
 
-import { typoSizes, typoStyles, typoSnippet } from '../../config/styles'
+import { typoSizes, spaces, typoStyles, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "APP PREVIEW"
 
@@ -24,22 +24,26 @@ export function AppPreview({ data }) {
           <Img fluid={data.image.childImageSharp.fluid} />
         )
       }
-      <Spacer />
       <Text>
         {text}
       </Text>
-      <P center>
+      <Block center spaceBottom={spaces.small}>
         <ButtonSmall textOffset="1px">
           SOON
         </ButtonSmall>
-      </P>
+      </Block>
     </Document>
   )
 }
 
 const Text = styled.p`
   text-align: center;
-  ${ typoSnippet({ typoSize: typoSizes.moduleBig, typoStyle: typoStyles.RobotoMonoLight}) };
+  ${ blockTypoSnippet({ 
+    typoSize: typoSizes.moduleBig, 
+    typoStyle: typoStyles.RobotoMonoLight,
+    spaceTop: spaces.medium,
+    spaceBottom: spaces.medium,
+    }) };
 `
 
 export const AppPreviewBlock = {

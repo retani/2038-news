@@ -20,9 +20,13 @@ import { TalkingHeads, TalkingHeadsBlock } from '../blocks/TalkingHeads'
 import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
 
 import { PageLayout } from "../components/pageLayout"
-import { globalStyles } from '../../config/styles'
 
-import { spaces } from '../../config/styles'
+import {
+  TypoTester
+} from '../components'
+
+import { globalStyles, spaces } from '../../config/styles'
+import { Spacer } from '../components'
 
 import { useLocalJsonForm } from "gatsby-tinacms-json"
 import { createGlobalStyle } from 'styled-components'
@@ -47,6 +51,7 @@ export default function Page(props) {
         </style>
       </Helmet>
       <PageLayout page={page}>
+        {/*<TypoTester />*/}
         {mapBlocks(data,page,blocks)}
       </PageLayout>
     </>
@@ -85,7 +90,7 @@ const mapBlocks = function(data,page,blocks) {
         const repeated = (arr[i+1] && arr[i+1]._template === "NewsBlock" )
     return <>
           <News key={"NewsBlock" + i} data={data} />
-          { repeated && <div key={"NewsBlockSpacer" + i} style={{height: spaces.verySmallPx.s + "px"}} /> }
+          { repeated && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall}/> }
         </>
       case "ImpLinkBlock":
         return <ImpLink key={"ImpLinkBlock" + i} data={data} />                                

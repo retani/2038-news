@@ -12,7 +12,7 @@ import Logos from './Logos'
 import MainVideo from './MainVideo'
 import MarkedText from './MarkedText'
 import Spacer from './Spacer'
-
+import TypoTester from './TypoTester'
 
 export {
   Accordion,
@@ -26,6 +26,7 @@ export {
   FullscreenButton,
   SectionHeader,
   Logos,
+  TypoTester,
   MainVideo,
   MarkedText,
   Spacer

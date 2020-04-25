@@ -30,7 +30,7 @@ const sizes={
     width: "70px",
     height: dist.smallButtonHeight,
     borderRadius: "30px",
-    marginBottom: "5px",
+    marginBottom: "0px",
     fontSize: metrics.medium.fontSizePx + "px",
     lineHeight: dist.smallButtonHeight,
   },

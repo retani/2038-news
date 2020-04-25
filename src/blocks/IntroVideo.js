@@ -2,10 +2,10 @@ import React from "react"
 import styled from 'styled-components'
 
 import MainVideo from '../components/MainVideo'
-import {p as P} from '../components/HtmlElements'
+import {p as P, Block} from '../components/HtmlElements'
 import { BlockListItem } from '../components'
 
-import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
+import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "INTRO VIDEO"
 
@@ -14,9 +14,13 @@ export function IntroVideo({ data }) {
   return (
     <Container>
       <MainVideo vimeoId={videoId} />
-      <P>
+      <Block
+        typoSize={typoSizes.medium}
+        typoStyle={typoStyles.RobotoMonoRegular}  
+        spaceBottom={spaces.medium}
+      >
         {text}
-      </P>
+      </Block>
       <SmallText>
         {text2}
       </SmallText>
@@ -28,9 +32,10 @@ const Container = styled.div``
 
 const SmallText = styled(P)`
   ${ 
-    typoSnippet({ 
+    blockTypoSnippet({ 
       typoSize: typoSizes.moduleSmall, 
-      typoStyle: typoStyles.RobotoMonoRegular
+      typoStyle: typoStyles.RobotoMonoRegular,
+      spaceBottom: spaces.large,
     }) 
   };
   color: ${ colors.blue };

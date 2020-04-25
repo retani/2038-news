@@ -1,7 +1,39 @@
+import React from 'react'
 import styled from 'styled-components'
 import { Link } from './Router'
 
-import { dist, snippets, breakpoints } from '../../config/styles'
+import { dist, blockTypoSnippet, blockSnippet, snippets, breakpoints } from '../../config/styles'
+
+const Block = ({
+  elem,
+  children,
+  typoSize,
+  typoStyle,
+  spaceTop,
+  spaceSide,
+  spaceBottom,
+  center,
+}) => {
+  const Container = styled[elem || "p"]`
+    ${ props =>
+      (props.typoSize && props.typoStyle) ?
+        blockTypoSnippet(props)
+        :
+        blockSnippet(props)
+    };
+    ${ props => props.center && "text-align:center" };
+  `
+  return <Container 
+      typoSize={typoSize}
+      typoStyle={typoStyle}
+      spaceTop={spaceTop}
+      spaceSide={spaceSide}
+      spaceBottom={spaceBottom}
+      center={center}
+    >
+      {children}
+    </Container>
+}
 
 const blockStyle = snippets.blockStyle
 
@@ -103,5 +135,6 @@ export {
   StyledLink,
   LargeSpacer,
   BlockStyleDiv,
-  OnlyLarge
+  OnlyLarge,
+  Block,
 }

@@ -43,6 +43,10 @@ const typoSizes = {
     fontSizePx:   { l: 20, s: 15 },
     lineHeightPx: { l: 25, s: 19 },
   },
+  sectionHeader: {
+    fontSizePx:   { l: 40, s: 25 },
+    lineHeightPx: { l: 60, s: 40 },
+  },  
   videoLoop: {
     fontSizePx:   { l: 90, s: 38 },
     lineHeightPx: { l: 90, s: 40 },
@@ -50,12 +54,16 @@ const typoSizes = {
 }
 
 const typoStyles = {
-  RobotoMonoLight:   { name: "Roboto Mono", weight: 300, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
-  RobotoMonoRegular: { name: "Roboto Mono", weight: 400, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
-  RobotoMonoMedium:  { name: "Roboto Mono", weight: 500, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
+  RobotoMonoLight:   { name: "Roboto Mono", weight: 300, lineTopPerc: 0.18, lineBottomPerc: 0.17 },
+  RobotoMonoRegular: { name: "Roboto Mono", weight: 400, lineTopPerc: 0.18, lineBottomPerc: 0.17 },
+  RobotoMonoMedium:  { name: "Roboto Mono", weight: 500, lineTopPerc: 0.18, lineBottomPerc: 0.17 },
   NeueHaasUnicaBold: { name: "NeueHaasUnicaW1G-Bold",weight: "normal" /*???*/, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
 }
 
+// usage: typoSnippet({
+//  typoStyle: typoStyles.RobotoMonoRegular, 
+//  typoSize: typoSizes.moduleMedium
+// })
 const typoSnippet =  function({typoSize, typoStyle}) {
   const { name, weight, lineTopPerc, lineBottomPerc} = typoStyle
   const { fontSizePx, lineHeightPx } = typoSize
@@ -82,16 +90,52 @@ const typoSnippet =  function({typoSize, typoStyle}) {
 }
 
 const breakpoints = {
-  small: "(max-width: 900px)",
-  smallPx: 900,
+  large: "(min-width: 751px)",
+  small: "(max-width: 750px)",
+  tiny: "(max-width: 550px)",
+  smallPx: 750,
 }
 
 const spaces = {
-  largePx:        { l: 60, s: 40 },
-  mediumPx:       { l: 40, s: 30 },
-  mediumShrinkPx: { l: 40, s: 20 },
-  smallPx:        { l: 20, s: 20 },
-  verySmallPx:    { l:  5, s:  5 }
+  large: {
+    px: { l: 60, s: 40 },
+  },
+  medium: {
+    px: { l: 40, s: 30 },
+  },
+  mediumShrink: {
+    px: { l: 40, s: 20 },
+  },
+  small: {
+    px: { l: 20, s: 20 },
+  },
+  verySmall: {
+    px: { l:  5, s:  5 }
+  }
+}
+
+// usage: spaced(`
+//   margin: %large;
+//   padding-top: %small;
+// `)
+//
+//
+const spaced = function(string) {
+  //const largeSpaces = objectMap(spaces, space => space.l)
+  //const smallSpaces = objectMap(spaces, space => space.s)
+  let largeString = string
+  let smallString = string
+  for (let space in spaces) {
+    console.log(`%${space}`, `${spaces[space].px.l}px`)
+    largeString = largeString.replace(`%${space}`, `${spaces[space].px.l}px`)
+    smallString = smallString.replace(`%${space}`, `${spaces[space].px.s}px`)
+  }
+  return `
+    ${largeString};
+    @media ${ breakpoints.small } {
+      ${smallString};
+    }
+  `
 }
 
 const dist = {
@@ -133,23 +177,83 @@ let snippets = {
         inset 0px -0.1em ${colors.bg},
         inset 0 -0.2em #000;
     `,
+    grid: `
+      background-size: 20px 20px;
+      background-image:
+        linear-gradient(to right, grey 1px, transparent 1px),
+        linear-gradient(to bottom, grey 1px, transparent 1px);  
+    `
   }
 }
 
-snippets.blockStyle = `
-  ${snippets.typography.topAdjust};
-  padding-bottom: ${dist.spacer};
-  margin-left: ${ dist.spacer };
-  margin-right: ${ dist.spacer };
-  padding-left: 10px;
-  padding-right: 10px;  
-  @media ${ breakpoints.small } {
-    padding-bottom: ${dist.smallSpacer};
-    margin-left: ${ dist.smallSpacer };
-    margin-right: ${ dist.smallSpacer };
+/*
+snippets.spaceSnippet = function({
+
+  }){
+  let largeString = string
+  let smallString = string
+  for (let space in spaces) {
+    console.log(`%${space.substr(0,space.length-2)}`, `${spaces[space].l}px`)
+    largeString = largeString.replace(`%${space.substr(0,space.length-2)}`, `${spaces[space].l}px`)
+    smallString = smallString.replace(`%${space.substr(0,space.length-2)}`, `${spaces[space].s}px`)
   }
+  return `
+    ${largeString};
+    @media ${ breakpoints.small } {
+      ${smallString};
+    }
+  `
+}
+*/
+
+snippets.blockStyle = `
+  ${typoSnippet({
+      typoStyle: typoStyles.RobotoMonoRegular, 
+      typoSize: typoSizes.moduleMedium
+     })};
+  ${ spaced(`
+    margin: %medium;
+    `)}
   white-space: pre-wrap;
 `
+
+const blockSnippet = function({
+    spaceTop = {px: {s:0, l:0}},
+    spaceSide = spaces.medium,
+    spaceBottom = {px: {s:0, l:0}},
+  }) {
+  return `
+    padding-top: ${spaceTop.px.l}px;
+    margin: 0 ${spaceSide.px.l}px ${spaceBottom.px.l}px;
+    @media ${ breakpoints.small } {
+      padding-top: ${spaceTop.px.s}px;
+      margin: 0 ${spaceSide.px.s}px ${spaceBottom.px.s}px;
+    }
+    white-space: pre-wrap;
+  `
+}
+
+const blockTypoSnippet = function({
+    typoStyle,
+    typoSize,
+    spaceTop,
+    spaceSide,
+    spaceBottom,
+  }) {
+  return `
+  ${blockSnippet({
+    spaceTop,
+    spaceSide,
+    spaceBottom,
+  })}  
+  ${typoSnippet({
+    typoStyle: typoStyle, 
+    typoSize: typoSize
+   })};
+  `
+}
+
+
 
 /*
   border-style: solid;
@@ -208,10 +312,13 @@ export {
   dist,
   spaces,
   colors,
+  spaced,
   snippets,
   breakpoints,
   metrics,
   typoSizes,
   typoStyles,
   typoSnippet,  
+  blockSnippet,
+  blockTypoSnippet,
 }

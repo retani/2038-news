@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 
-import { colors, dist, metrics, breakpoints } from '../../config/styles'
+import { colors, dist, spaces, metrics, breakpoints, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 import Spacer from './Spacer'
 
 let firstMount = true
@@ -73,13 +73,19 @@ const Container = styled.div`
 `
 
 const Head = styled.h2`
-  height: 60px;
+  height: ${ spaces.large.px.l+"px" };
+  font-size: ${typoSizes.sectionHeader.fontSizePx.l + "px"};
+  line-height: ${typoSizes.sectionHeader.lineHeightPx.l + "px"};
+  @media ${ breakpoints.small } {
+    height: ${ spaces.large.px.s+"px" };
+    font-size: ${typoSizes.sectionHeader.fontSizePx.s + "px"};
+    line-height: ${typoSizes.sectionHeader.lineHeightPx.s + "px"};
+  }
   background-color: ${ ({isOpen}) => isOpen ? colors.blue : colors.white };
   text-align: center;
   cursor: pointer;
   user-select: none;
-  font-size: ${ metrics.veryLarge.fontSizePx }px;
-  line-height: 57px;
+
   &::before {
   content: "${ ({isOpen}) => isOpen ?  "-" : "+" }";
     position: absolute;

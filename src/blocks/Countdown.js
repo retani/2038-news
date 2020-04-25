@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 
-import { colors, breakpoints } from '../../config/styles'
+import { colors, breakpoints, spaces } from '../../config/styles'
 import Accordion from '../components/Accordion'
 import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
@@ -83,7 +83,7 @@ export const Countdown = (data) =>  {
         backgroundColorOpen={colors.turquoise}
       >
       <DownloadLink href="/opening-2038.ics" text="iCal" textOffset="1px" size="small"/>
-      <Spacer onlySmall />
+      <Spacer space={spaces.medium} />
     </Accordion>
   </Div>
 }
@@ -122,10 +122,4 @@ const Div = styled.div`
   }*/
 `
 
-const Text = styled.span`
-  @media ${ breakpoints.small } {
-    font-size: ${ 25 }px;
-    top: -4px;
-    position: relative;
-  }
-`
+const Text = styled.span``
