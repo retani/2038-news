@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Wrapper, Main } from "./style"
 import { SEO } from "./seo"
-import { NavForm } from "./nav"
 import { ThemeForm } from "./theme"
 
 import { useGlobalJsonForm } from "gatsby-tinacms-json"
@@ -12,22 +11,6 @@ const merge = require("lodash.merge")
 export const PageLayout = ({ page, children }) => {
   const data = useStaticQuery(graphql`
     query PageLayoutQuery {
-      nav: settingsJson(
-        fileRelativePath: { eq: "/content/settings/menu.json" }
-      ) {
-        ...nav
-
-        rawJson
-        fileRelativePath
-      }
-      theme: settingsJson(
-        fileRelativePath: { eq: "/content/settings/theme.json" }
-      ) {
-        ...globalTheme
-
-        rawJson
-        fileRelativePath
-      }
       site: settingsJson(
         fileRelativePath: { eq: "/content/settings/site.json" }
       ) {
