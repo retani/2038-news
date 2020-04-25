@@ -11,7 +11,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 # install and cache app dependencies using yarn
 ADD package.json yarn.lock /app/
-RUN yarn --pure-lockfile
+RUN yarn --pure-lockfile --production
 RUN gatsby telemetry --disable
 #RUN echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && sysctl -p
 
