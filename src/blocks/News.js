@@ -6,14 +6,14 @@ import Spacer from '../components/Spacer'
 import { p as P } from '../components/HtmlElements'
 import ButtonSmall from '../components/ButtonSmall'
 import MarkedText from '../components/MarkedText'
-import { BlockListItem } from '../components'
+import { BlockListItem, DownloadLink } from '../components'
 
 import { colors, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
 const blockLabel = "NEWS"
 
 export function News({ data }) {
-  const {text, text2, link} = data
+  const {text, text2, link, file, usePdf} = data
   return (
     <Container>
       <Spacer />
@@ -22,12 +22,16 @@ export function News({ data }) {
       </LargeText>
       <SmallText>
         {text2}
-      </SmallText>      
-      <P center>
-        <a href={link} title={link}>
-          <ButtonSmall theme="blue-on-white">LINK</ButtonSmall>
-        </a>
-      </P>
+      </SmallText>
+      { !usePdf ? 
+        <P center>
+          <a href={link} title={link}>
+            <ButtonSmall theme="blue-on-white">LINK</ButtonSmall>
+          </a>
+        </P>
+        :
+        <DownloadLink theme="blue-on-white" title={file} text=".PDF" href={file} />
+      }
     </Container>
   )
 }
@@ -70,6 +74,30 @@ export const NewsBlock = {
   fields: [
     { name: "text", label: "Text", component: "textarea", description: "Use {} to highlight" },
     { name: "text2", label: "Small Text", component: "text" },
-    { name: "link", label: "Link", component: "text", description: "URL, e.g. https://theatlantic.com" },
+    {
+      label: 'Link or PDF',
+      name: 'usePdf',
+      description: 'Choose Link (left) or PDF (right)',
+      component: "condition",
+      trigger: {
+        component: "toggle"
+      },
+      fields: (usePdf) => {
+        return !usePdf ? [
+          { name: "link", label: "Link", component: "text", description: "URL, e.g. https://theatlantic.com" },
+        ] : [
+          {
+            name: "file",
+            label: "PDF",
+            component: "file",
+            description: '.PDF Upload',
+            accept: 'application/pdf',
+            clearable: true,
+            parse: (file) => `/uploads/pdfs/${file}`,
+            uploadDir: () => '/static/uploads/pdfs/', 
+          },
+        ]
+      }
+    },    
   ],
 }

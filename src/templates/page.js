@@ -172,6 +172,7 @@ export const pageQuery = graphql`
         link
         center
         recipient
+        usePdf
         fields {
           label
           inputType

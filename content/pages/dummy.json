@@ -33,6 +33,7 @@
       "center": false,
       "underline": true,
       "recipient": "dummy",
+      "usePdf": false,
       "image": "../images/dummy.jpg",
       "fields": [
         {

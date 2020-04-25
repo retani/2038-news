@@ -14405,6 +14405,13 @@ timsort@^0.3.0:
   resolved "https://registry.npmjs.org/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tinacms-condition-field@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/tinacms-condition-field/-/tinacms-condition-field-1.0.6.tgz#4d334a2ca5f91e2bb1032730f608bd1a2461c3c7"
+  integrity sha512-UHd+xrdoS1X6wX+U3AcJtVZBJFNNEAIYsQT4E4Tbn141idES24nKsGJ3K4or8tagqifklHFxETQkhp5pB6DDpA==
+  dependencies:
+    styled-components "^5.0.1"
+
 tinacms-file-field@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/tinacms-file-field/-/tinacms-file-field-1.2.1.tgz#1796263a7de9e16eaa1757b15caf81f5c6d024c7"
