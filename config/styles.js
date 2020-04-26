@@ -21,7 +21,12 @@ const metrics = {
 
 const typoSizes = {
   button: {
-    fontSizePx: { l: 40, s: 25 },
+    fontSizePx:   { l: 40, s: 25 },
+    lineHeightPx: { l: 60, s: 35 },
+  },
+  buttonSmall: {
+    fontSizePx:   { l: 20, s: 15 },
+    lineHeightPx: { l: 30, s: 20 },
   },
   title: {
     fontSizePx:   { l: 70, s: 30 },
@@ -58,6 +63,25 @@ const typoStyles = {
   RobotoMonoRegular: { name: "Roboto Mono", weight: 400, lineTopPerc: 0.18, lineBottomPerc: 0.17 },
   RobotoMonoMedium:  { name: "Roboto Mono", weight: 500, lineTopPerc: 0.18, lineBottomPerc: 0.17 },
   NeueHaasUnicaBold: { name: "NeueHaasUnicaW1G-Bold",weight: "normal" /*???*/, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
+}
+
+const fontSnippet = ({typoSize, typoStyle}) => {
+  const { name, weight} = typoStyle
+  const { fontSizePx, lineHeightPx } = typoSize
+  return `
+    font-family: ${ name };
+    font-weight: ${ weight };
+
+    font-size: ${fontSizePx.l + "px"};
+    line-height: ${lineHeightPx.l + "px"};
+    
+    @media ${ breakpoints.small } {
+
+      font-size: ${fontSizePx.s + "px"};
+      line-height: ${lineHeightPx.s + "px"};
+
+    }
+  `  
 }
 
 // usage: typoSnippet({
@@ -318,6 +342,7 @@ export {
   metrics,
   typoSizes,
   typoStyles,
+  fontSnippet,
   typoSnippet,  
   blockSnippet,
   blockTypoSnippet,

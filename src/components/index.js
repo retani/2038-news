@@ -4,6 +4,7 @@ import BackLink from './BackLink'
 import BlockListItem from './BlockListItem'
 import ButtonLarge from './ButtonLarge'
 import ButtonSmall from './ButtonSmall'
+import Button from './Button'
 import Document from './Document'
 import DownloadLink from './DownloadLink'
 import FullscreenButton from './FullscreenButton'
@@ -21,6 +22,7 @@ export {
   BlockListItem,
   ButtonLarge,
   ButtonSmall,
+  Button,
   Document,
   DownloadLink,
   FullscreenButton,

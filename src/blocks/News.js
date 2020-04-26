@@ -4,9 +4,11 @@ import styled from 'styled-components'
 //import {p as P} from '../components/HtmlElements'
 import Spacer from '../components/Spacer'
 import { p as P, Block } from '../components/HtmlElements'
-import ButtonSmall from '../components/ButtonSmall'
 import MarkedText from '../components/MarkedText'
-import { BlockListItem, DownloadLink } from '../components'
+import { 
+  BlockListItem, 
+  DownloadLink,
+  Button } from '../components'
 
 import { colors, spaces,  typoSizes, blockSnippet, blockTypoSnippet, typoStyles, typoSnippet } from '../../config/styles'
 
@@ -26,7 +28,7 @@ export function News({ data }) {
       <Bottom>
         { !usePdf ? 
             <a href={link} title={link}>
-              <ButtonSmall theme="blue-on-white">LINK</ButtonSmall>
+              <Button theme="blue-on-white">LINK</Button>
             </a>
           :
           <DownloadLink theme="blue-on-white" title={file} text=".PDF" href={file} />

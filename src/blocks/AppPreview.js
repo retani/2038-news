@@ -5,10 +5,7 @@ import get from "lodash.get"
 
 import Document from '../components/Document'
 import {p as P, Block} from '../components/HtmlElements'
-//import DownloadLink from '../components/DownloadLink'
-import ButtonSmall from '../components/ButtonSmall'
-import Spacer from '../components/Spacer'
-import { BlockListItem } from '../components'
+import { BlockListItem, Button } from '../components'
 
 import { typoSizes, spaces, typoStyles, blockTypoSnippet } from '../../config/styles'
 
@@ -28,9 +25,9 @@ export function AppPreview({ data }) {
         {text}
       </Text>
       <Block center spaceBottom={spaces.small}>
-        <ButtonSmall textOffset="1px">
+        <Button textOffset="1px">
           SOON
-        </ButtonSmall>
+        </Button>
       </Block>
     </Document>
   )
