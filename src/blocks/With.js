@@ -21,7 +21,8 @@ export function With({ data }) {
       <Document>
         <Spacer />
         <Block 
-            typoStyle={typoStyles.moduleSmall} 
+            typoSize={typoSizes.moduleSmall} 
+            typoStyle={typoStyles.RobotoMonoRegular}
             spaceSide={spaces.small}
             spaceBottom={spaces.medium}
           >
