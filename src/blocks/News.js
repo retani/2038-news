@@ -16,11 +16,12 @@ const blockLabel = "NEWS"
 
 export function News({ data }) {
   const {text, text2, link, file, usePdf} = data
+  const textTrimmed = text.replace(/^\s+|\s+$/g, '')
   return (
     <Container>
       <Spacer space={spaces.medium}/>
       <LargeText>
-        +++ <MarkedText text={text} /> +++
+        <MarkedText text={`+++ ${textTrimmed} +++`} typoSize={typoSizes.moduleMedium}/>
       </LargeText>
       <SmallText>
         {text2}

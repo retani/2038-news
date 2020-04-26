@@ -17,7 +17,9 @@ export function Article({ data, shade }) {
   return (
     <Container shade={shade}>
       <LargeText>
-        <MarkedText text={text} />
+        <div>
+          <MarkedText text={text} typoSize={typoSizes.moduleBig}/>
+        </div>
       </LargeText>
       <SmallText>
         {text2}
