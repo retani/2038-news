@@ -25,7 +25,7 @@ export function AppPreview({ data }) {
         {text}
       </Text>
       <Block center spaceBottom={spaces.small}>
-        <Button textOffset="1px">
+        <Button textOffset="1px" disabled>
           SOON
         </Button>
       </Block>

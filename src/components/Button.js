@@ -54,13 +54,15 @@ const sizes={
   }
 }
 
-export default ({children, onClick, style, theme, textOffset, serious, size="small"}) => {
+export default ({children, onClick, style, theme, textOffset, serious, disabled, size="small"}) => {
+  console.log(disabled, textOffset)
   return (
     <Container 
         size={sizes[size]} 
         theme={theme && themes[theme] ? themes[theme] : themes[themes.default]} 
         onClick={onClick} 
         style={style}
+        disabled={disabled}
         serious={serious}>
       <Text offset={textOffset}>{children}</Text>
     </Container>
@@ -91,6 +93,8 @@ const Container = styled.span`
     padding: 0 ${({size}) => size.l.paddingSidePx};
     border-radius: ${({size}) => size.s.borderRadiusPx};
   }
+
+  ${ props => props.disabled && "pointer-events: none;" }
 
   &:hover {
     cursor: pointer;
