@@ -71,6 +71,7 @@ export default ({children, onClick, style, theme, textOffset, serious, disabled,
 
 const Container = styled.span`
   display: inline-block;
+  position: relative;
 
   background-color: ${ ({theme}) => theme.linkBg };
   color: ${ ({theme}) => theme.linkFg };
