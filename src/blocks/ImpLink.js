@@ -10,7 +10,7 @@ const blockLabel = "Imprint Link"
 export const ImpLink = props =>  {
   const {text} = props.data
   return <Container>
-    <Link to="/imprint">
+    <Link to="/imprint" title="/imprint">
       <Button textOffset="3px" theme="light">
         { text }
       </Button>

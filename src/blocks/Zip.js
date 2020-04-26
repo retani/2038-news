@@ -2,17 +2,21 @@ import React, {Fragment} from "react"
 
 //import {p as P} from '../components/HtmlElements'
 import DownloadLink from '../components/DownloadLink'
-import { BlockListItem } from '../components'
+import { BlockListItem, Spacer } from '../components'
 
 import { basename } from '../helpers/misc'
+import { spaces } from "../../config/styles"
 
 const blockLabel = "Zip Download"
 const blockName = "zip"
 
 export function Zip({ data }) {
-  console.log(data)
   const {file} = data
-  return <DownloadLink title={file} text=".ZIP" href={file} />
+  return <>
+    <Spacer space={spaces.medium} />
+    <DownloadLink title={file} text=".ZIP" href={file} />
+    <Spacer space={spaces.medium} />
+  </>
 }
 
 export const ZipBlock = {

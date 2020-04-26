@@ -24,7 +24,7 @@ export function Article({ data, shade }) {
       <SmallText>
         {text2}
       </SmallText>
-      <DownloadLink title={file} text=".PDF" href={file} />
+      <DownloadLink text=".PDF" href={file} />
       <Spacer space={spaces.large} />
     </Container>
   )
