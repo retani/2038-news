@@ -8,7 +8,8 @@ import MarkedText from '../components/MarkedText'
 import { 
   BlockListItem, 
   DownloadLink,
-  Button } from '../components'
+  Button,
+  ButtonBlock } from '../components'
 
 import { colors, spaces,  typoSizes, blockSnippet, blockTypoSnippet, typoStyles, typoSnippet } from '../../config/styles'
 
@@ -28,11 +29,9 @@ export function News({ data }) {
       </SmallText>
       <Bottom>
         { !usePdf ? 
-            <a href={link} title={link}>
-              <Button theme="blue-on-white">LINK</Button>
-            </a>
+            <ButtonBlock href={link} title={link} theme="blue-on-white">LINK</ButtonBlock>
           :
-          <DownloadLink theme="blue-on-white" title={file} text=".PDF" href={file} />
+          <ButtonBlock theme="blue-on-white" title={file} text=".PDF" href={file} />
         }
       </Bottom>
     </Container>

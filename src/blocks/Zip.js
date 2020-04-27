@@ -1,8 +1,7 @@
 import React, {Fragment} from "react"
 
 //import {p as P} from '../components/HtmlElements'
-import DownloadLink from '../components/DownloadLink'
-import { BlockListItem, Spacer } from '../components'
+import { BlockListItem, Spacer, ButtonBlock } from '../components'
 
 import { basename } from '../helpers/misc'
 import { spaces } from "../../config/styles"
@@ -14,7 +13,7 @@ export function Zip({ data }) {
   const {file} = data
   return <>
     <Spacer space={spaces.medium} />
-    <DownloadLink title={file} text=".ZIP" href={file} />
+    <ButtonBlock title={file} text=".ZIP" href={file} download />
     <Spacer space={spaces.medium} />
   </>
 }

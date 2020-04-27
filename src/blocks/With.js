@@ -5,7 +5,7 @@ import Accordion from '../components/Accordion'
 import Logos from '../components/Logos'
 import Document from '../components/Document'
 import Spacer from '../components/Spacer'
-import { BlockListItem } from '../components'
+import { BlockListItem, DownloadLink, ButtonBlock } from '../components'
 import { Block } from '../components/HtmlElements'
 
 import { spaces, typoSizes, typoStyles } from '../../config/styles'
@@ -14,12 +14,13 @@ const blockLabel = "WITH"
 
 export function With({ data }) {
   const {
-    text
+    text,
+    file
   } = data
   return (
     <Accordion head="WITH" initOpen>
       <Document>
-        <Spacer />
+        <Spacer space={spaces.medium}/>
         <Block 
             typoSize={typoSizes.moduleSmall} 
             typoStyle={typoStyles.RobotoMonoRegular}
@@ -38,6 +39,13 @@ export function With({ data }) {
           Commissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)
         </p>*/}
         <Logos />
+        <Spacer space={spaces.medium} />
+        { file && 
+          <>
+            <ButtonBlock text=".PDF" href={file} download />
+            <Spacer space={spaces.small} />
+          </>
+        }
       </Document>
     </Accordion>
   )
@@ -58,5 +66,15 @@ export const WithBlock = {
   },
   fields: [
     { name: "text", label: "Text", component: "textarea"},
+    {
+      name: "file",
+      label: "PDF",
+      component: "file",
+      description: '.PDF Upload',
+      accept: 'application/pdf',
+      clearable: true,
+      parse: (file) => `/uploads/pdfs/${file}`,
+      uploadDir: () => '/static/uploads/pdfs/', 
+    },       
   ],
 }

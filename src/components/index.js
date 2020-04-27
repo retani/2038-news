@@ -5,6 +5,7 @@ import BlockListItem from './BlockListItem'
 import ButtonLarge from './ButtonLarge'
 import ButtonSmall from './ButtonSmall'
 import Button from './Button'
+import ButtonBlock from './ButtonBlock'
 import Document from './Document'
 import DownloadLink from './DownloadLink'
 import FullscreenButton from './FullscreenButton'
@@ -23,6 +24,7 @@ export {
   ButtonLarge,
   ButtonSmall,
   Button,
+  ButtonBlock,
   Document,
   DownloadLink,
   FullscreenButton,

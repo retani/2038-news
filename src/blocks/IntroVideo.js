@@ -5,7 +5,7 @@ import MainVideo from '../components/MainVideo'
 import {p as P, Block} from '../components/HtmlElements'
 import { 
   BlockListItem, 
-  DownloadLink,
+  ButtonBlock,
   Spacer } from '../components'
 
 import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
@@ -30,7 +30,7 @@ export function IntroVideo({ data }) {
       { file && 
         <>
           <Spacer space={spaces.small} />
-          <DownloadLink text=".PDF" href={file} />
+          <ButtonBlock text=".PDF" href={file} />
         </>
       }
       <Spacer space={spaces.large} />

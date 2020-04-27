@@ -6,7 +6,7 @@ import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
 import MarkedText from '../components/MarkedText'
 import { p as P } from '../components/HtmlElements'
-import { BlockListItem } from '../components'
+import { BlockListItem, ButtonBlock } from '../components'
 
 import { colors, spaces, blockTypoSnippet, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
@@ -24,8 +24,8 @@ export function Article({ data, shade }) {
       <SmallText>
         {text2}
       </SmallText>
-      <DownloadLink text=".PDF" href={file} />
-      <Spacer space={spaces.large} />
+      <ButtonBlock text=".PDF" href={file} />
+      <Spacer space={spaces.small} />
     </Container>
   )
 }
