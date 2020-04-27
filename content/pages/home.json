@@ -32,8 +32,8 @@
     },
     {
       "videoId": "370256053",
-      "text": "{The Coronavirus Pandemic demonstrates the Failures of Capitalism}\n\nthis op-ed argues that the coronavirus outbreak has shown us how little capitalism has done for so many people in the U.S. — and that other ways of living and working are possible\n\npublished in Teen Vogue on 24 March 2020",
-      "text2": "By Kandist Mallett",
+      "text": "The crisis has shown us how little capitalism has done for so many people and that {other ways of living and working} are possible.",
+      "text2": "By Kandist Mallett published in Teen Vogue on 24.03.2020",
       "_template": "ArticleBlock",
       "content": "",
       "file": "/uploads/pdfs/",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "text": "Politics\nThe Post-Virus Economic Recovery Could Be a Green One\n\nInvesting in solar farms, electric vehicle infrastructure, and high speed internet would create a new way forward.",
+      "text": "The Post-Virus Economic Recovery Could Be a Green One\n",
       "text2": "Unlike in the aftermath of the 2008 financial crisis, when fossil fuel-heavy and otherwise polluting industries received a major share of the bailout money, today green investment options are plentiful. Renewable energy is cheaper than coal almost everywhere in the world, and increasingly competitive with gas. High-speed trains, electric vehicle chargers, and fiber-optic infrastructure should also be on governments’ minds.  published on 18 March 2020 by Laura Millan Lombrana",
       "link": "https://www.bloomberg.com/news/articles/2020-03-18/green-projects-could-pull-economies-out-of-the-coronavirus-slump?utm_source=url_link",
       "_template": "NewsBlock",
@@ -50,7 +50,7 @@
       "usePdf": false
     },
     {
-      "text": "Coronavirus: Spain to become first country in Europe to roll out universal basic income\n\nGovernment plans to keep payments ‘a permanent instrument’ after pandemic is over\n",
+      "text": "Spain to become first country in Europe to roll out universal basic income. Government plans to keep payments ‘a permanent instrument’ after crisis is over",
       "text2": "Kate Nag on 6 April 2020 in the Independent",
       "link": "https://www.independent.co.uk/news/world/europe/coronavirus-spain-universal-basic-income-europe-a9449336.html",
       "_template": "NewsBlock",
