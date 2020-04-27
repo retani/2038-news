@@ -18,7 +18,7 @@ export function IntroVideo({ data }) {
     <Container>
       <MainVideo vimeoId={videoId} />
       <Block
-        typoSize={typoSizes.medium}
+        typoSize={typoSizes.moduleMedium}
         typoStyle={typoStyles.RobotoMonoRegular}  
         spaceBottom={spaces.medium}
       >
@@ -39,6 +39,17 @@ export function IntroVideo({ data }) {
 }
 
 const Container = styled.div``
+
+const LargeText = styled(P)`
+  ${ 
+    blockTypoSnippet({ 
+      typoSize: typoSizes.moduleSmall, 
+      typoStyle: typoStyles.RobotoMonoRegular,
+    }) 
+  };
+  color: ${ colors.blue };
+  text-align: center;
+`
 
 const SmallText = styled(P)`
   ${ 

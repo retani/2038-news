@@ -15,11 +15,35 @@ export function TypoTester() {
         />
         <FontTester 
           typoStyle={typoStyles.RobotoMonoLight}
+          typoSize={typoSizes.moduleBig}
+        />        
+        <FontTester 
+          typoStyle={typoStyles.RobotoMonoLight}
+          typoSize={typoSizes.moduleMedium}
+        />                
+        <FontTester 
+          typoStyle={typoStyles.RobotoMonoLight}
+          typoSize={typoSizes.moduleSmall}
+        />        
+        <FontTester 
+          typoStyle={typoStyles.RobotoMonoLight}
         />
         <Spacer debug space={spaces.large} />
         <FontTester 
           typoStyle={typoStyles.RobotoMonoRegular}
         />                                
+        <FontTester 
+          typoStyle={typoStyles.RobotoMonoRegular}
+          typoSize={typoSizes.moduleBig}
+        />        
+        <FontTester 
+          typoStyle={typoStyles.RobotoMonoRegular}
+          typoSize={typoSizes.moduleMedium}
+        />                
+        <FontTester 
+          typoStyle={typoStyles.RobotoMonoRegular}
+          typoSize={typoSizes.moduleSmall}
+        />                
         <FontTester 
           typoStyle={typoStyles.RobotoMonoRegular}
         />                                
@@ -65,12 +89,12 @@ const FontTesterStyled = styled.div`
     };
   `
 
-const FontTester = ({typoStyle, typoSize}) => {
+const FontTester = ({typoStyle, typoSize = typoSizes.moduleMedium}) => {
   return <FontTesterStyled
     typoStyle={typoStyle}
     typoSize={typoSize}
   >
-    Test genau Test genau Test genau Test genau 
+    Test genau {typoStyle.name} font-size: {typoSize.fontSizePx.l}/{typoSize.fontSizePx.s} line-height: {typoSize.lineHeightPx.l}/{typoSize.lineHeightPx.s}
   </FontTesterStyled>
   }
 

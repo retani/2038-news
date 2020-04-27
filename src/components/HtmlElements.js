@@ -22,6 +22,7 @@ const Block = ({
         blockSnippet(props)
     };
     ${ props => props.center && "text-align:center" };
+    overflow: hidden;
   `
   return <Container 
       typoSize={typoSize}

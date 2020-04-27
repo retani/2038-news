@@ -84,7 +84,7 @@ const Container = styled.span`
   position: relative;*/
 
   ${ ({size}) => fontSnippet({
-    typoStyle: typoStyles.RobotoMonoRegular,
+    typoStyle: typoStyles.RobotoMonoMedium,
     typoSize: size.typoSize
   })}
 

@@ -26,7 +26,7 @@ const typoSizes = {
   },
   buttonSmall: {
     fontSizePx:   { l: 20, s: 15 },
-    lineHeightPx: { l: 30, s: 20 },
+    lineHeightPx: { l: 28, s: 20 },
   },
   title: {
     fontSizePx:   { l: 70, s: 30 },
@@ -59,9 +59,9 @@ const typoSizes = {
 }
 
 const typoStyles = {
-  RobotoMonoLight:   { name: "Roboto Mono", weight: 300, lineTopPerc: 0.18, lineBottomPerc: 0.17 },
-  RobotoMonoRegular: { name: "Roboto Mono", weight: 400, lineTopPerc: 0.18, lineBottomPerc: 0.17 },
-  RobotoMonoMedium:  { name: "Roboto Mono", weight: 500, lineTopPerc: 0.18, lineBottomPerc: 0.17 },
+  RobotoMonoLight:   { name: "Roboto Mono", weight: 300, lineTopPerc: 0.12, lineBottomPerc: 0.12 },
+  RobotoMonoRegular: { name: "Roboto Mono", weight: 400, lineTopPerc: 0.12, lineBottomPerc: 0.12 },
+  RobotoMonoMedium:  { name: "Roboto Mono", weight: 500, lineTopPerc: 0.12, lineBottomPerc: 0.12 },
   NeueHaasUnicaBold: { name: "NeueHaasUnicaW1G-Bold",weight: "normal" /*???*/, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
 }
 
@@ -89,8 +89,16 @@ const fontSnippet = ({typoSize, typoStyle}) => {
 //  typoSize: typoSizes.moduleMedium
 // })
 const typoSnippet =  function({typoSize, typoStyle}) {
-  const { name, weight, lineTopPerc, lineBottomPerc} = typoStyle
+  const { name, weight} = typoStyle
+  let { lineTopPerc, lineBottomPerc} = typoStyle
   const { fontSizePx, lineHeightPx } = typoSize
+
+  //lineTopPerc = lineTopPerc * fontSizePx
+  const diff = {
+    l: lineHeightPx.l  - fontSizePx.l,
+    s: lineHeightPx.s  - fontSizePx.s,
+  }
+
   return `
     position: relative;
     font-family: ${ name };
@@ -99,16 +107,16 @@ const typoSnippet =  function({typoSize, typoStyle}) {
     font-size: ${fontSizePx.l + "px"};
     line-height: ${lineHeightPx.l + "px"};
 
-    margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.l) + "px" };
-    top: ${ (lineBottomPerc*fontSizePx.l) + "px" };
+    margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.l - diff.l) + "px" };
+    top: ${ (lineBottomPerc*fontSizePx.l + (diff.l/2)) + "px" };
     
     @media ${ breakpoints.small } {
 
       font-size: ${fontSizePx.s + "px"};
       line-height: ${lineHeightPx.s + "px"};
 
-      margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.s) + "px" };
-      top: ${ (lineBottomPerc*fontSizePx.s) + "px" };  
+      margin-top: ${ (-(lineTopPerc+lineBottomPerc)*fontSizePx.s - diff.s) + "px" };
+      top: ${ (lineBottomPerc*fontSizePx.s + (diff.s/2)) + "px" };  
     }
   `
 }
@@ -243,7 +251,7 @@ snippets.blockStyle = `
 
 const blockSnippet = function({
     spaceTop = {px: {s:0, l:0}},
-    spaceSide = spaces.medium,
+    spaceSide = spaces.mediumShrink,
     spaceBottom = {px: {s:0, l:0}},
   }) {
   return `

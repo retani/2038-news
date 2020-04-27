@@ -20,7 +20,7 @@ const Container = styled.div`
     /*max-width: 780px; /* Textbreite 700px */
     /*margin-left: 120px;
     margin-right: 120px;*/
-    width: calc( 100% - 20px);
+    width: calc( 100% - 40px);
   }
 `
 

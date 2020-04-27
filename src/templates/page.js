@@ -50,6 +50,7 @@ export default function Page(props) {
       <PageLayout page={page}>
         {/*<TypoTester />*/}
         {mapBlocks(data,page,blocks)}
+        <Spacer space={spaces.large} />
       </PageLayout>
     </>
   )
@@ -83,6 +84,8 @@ const mapBlocks = function(data,page,blocks) {
         return <AppPreview key={"AppPreviewBlock" + i} data={data} />                    
       case "ZipBlock":
         return <Zip key={"ZipBlock" + i} data={data} />  
+      case "TypoTesterBlock":
+        return <TypoTester key={"TypoTesterBlock" + i} data={data} />          
       case "NewsBlock":
         const repeated = (arr[i+1] && arr[i+1]._template === "NewsBlock" )
     return <>
@@ -131,6 +134,7 @@ const PageForm = {
         ContentBlock,
         ImpLinkBlock,
         ZipBlock,
+        TypoTesterBlock,
       },
     },
   ],
