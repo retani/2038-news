@@ -40,7 +40,7 @@ export function With({ data }) {
         </p>*/}
         <Logos />
         <Spacer space={spaces.medium} />
-        { file && 
+        { file && file.substr(-3,3).toLowerCase==="pdf" &&
           <>
             <ButtonBlock text=".PDF" href={file} download />
             <Spacer space={spaces.small} />

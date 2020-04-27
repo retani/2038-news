@@ -6,7 +6,7 @@ import { Document, DocumentBlock } from "../blocks/Document"
 import { BackLink, Spacer }  from '../components'
 import { PageLayout } from "../components/pageLayout"
 
-import { globalStyles } from '../../config/styles'
+import { globalStyles, spaces } from '../../config/styles'
 
 import { useLocalJsonForm } from "gatsby-tinacms-json"
 import { createGlobalStyle } from 'styled-components'
@@ -23,7 +23,6 @@ export default function Page({ data }) {
       <Reset />
       <GlobalStyle />
       <PageLayout page={page}>
-        <Spacer />
         <BackLink />
         {blocks &&
           blocks.map(({ _template, ...data }, i) => {
@@ -44,6 +43,7 @@ export default function Page({ data }) {
                 return true
             }
           })}
+        <Spacer space={spaces.large} />
       </PageLayout>
     </>
   )

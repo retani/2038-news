@@ -3,14 +3,14 @@ import styled, { css } from "styled-components"
 
 import { Spacer, Document as Doc, BlockListItem } from '../components'
 
-import { snippets, breakpoints, metrics, dist } from '../../config/styles'
+import { snippets, spaces, breakpoints, metrics, dist, blockTypoSnippet, typoStyles, typoSizes } from '../../config/styles'
 
 const blockLabel = "DOCUMENT"
 
 export function Document({ data, html }) {
   return (
     <Doc>
-      <Spacer />
+      <Spacer space={spaces.medium}/>
       <StyledContent
         dangerouslySetInnerHTML={{
           __html: html,
@@ -22,7 +22,12 @@ export function Document({ data, html }) {
 
 const StyledContent = styled.div`
   p, ul {
-    ${snippets.blockStyle}
+    ${blockTypoSnippet({
+      typoSize:typoSizes.moduleSmall ,
+      typoStyle:typoStyles.RobotoMonoRegular,
+      spaceSide:spaces.small,
+      spaceBottom:spaces.medium,
+    })}
   }
 
   li {

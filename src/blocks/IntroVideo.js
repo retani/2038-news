@@ -27,7 +27,7 @@ export function IntroVideo({ data }) {
       <SmallText>
         <span>{text2}</span>
       </SmallText>
-      { file && 
+      { file && file.substr(-3,3).toLowerCase==="pdf" &&
         <>
           <Spacer space={spaces.small} />
           <ButtonBlock text=".PDF" href={file} />
