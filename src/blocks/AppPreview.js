@@ -27,7 +27,7 @@ export function AppPreview({ data }) {
       <Text>
         {text}
       </Text>
-      <ButtonBlock textOffset="1px" disabled>
+      <ButtonBlock disabled>
         SOON
       </ButtonBlock>
       <Spacer space={spaces.small} />

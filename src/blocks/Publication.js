@@ -9,7 +9,7 @@ import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
 import { BlockListItem } from '../components'
 
-import { spaces, blockSnippet, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
+import { spaces, colors, blockSnippet, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "PUBLICATION"
 
@@ -44,6 +44,7 @@ const Text = styled.p`
     }) 
   };
   text-align: center;
+  color: ${ colors.blue};
 `
 
 const Bottom = styled.p`

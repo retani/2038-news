@@ -92,7 +92,7 @@ const Container = styled.span`
   border-radius: ${({size}) => size.l.borderRadiusPx};
 
   @media ${ breakpoints.small } {
-    padding: 0 ${({size}) => size.l.paddingSidePx};
+    padding: 0 ${({size}) => size.s.paddingSidePx};
     border-radius: ${({size}) => size.s.borderRadiusPx};
   }
 

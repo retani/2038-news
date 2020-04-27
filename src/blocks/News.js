@@ -25,7 +25,7 @@ export function News({ data }) {
         <MarkedText text={`+++ ${textTrimmed} +++`} typoSize={typoSizes.moduleMedium}/>
       </LargeText>
       <SmallText>
-        {text2}
+        <span>{text2}</span>
       </SmallText>
       <Bottom>
         { !usePdf ? 
@@ -63,6 +63,9 @@ const SmallText = styled.p`
     }) 
   };
   text-align: center;
+  span { max-width: 800px; }
+  display: flex;
+  justify-content: center;
 `
 
 const Bottom = styled.p`

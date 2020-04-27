@@ -26,7 +26,7 @@ const typoSizes = {
   },
   buttonSmall: {
     fontSizePx:   { l: 20, s: 15 },
-    lineHeightPx: { l: 28, s: 20 },
+    lineHeightPx: { l: 28, s: 22 },
   },
   title: {
     fontSizePx:   { l: 70, s: 30 },
@@ -41,12 +41,12 @@ const typoSizes = {
     lineHeightPx: { l: 33, s: 22 },
   },
   moduleSmall: {
-    fontSizePx:   { l: 20, s: 18 },
-    lineHeightPx: { l: 25, s: 22 },
-  },
-  moduleTitle: {
     fontSizePx:   { l: 20, s: 15 },
     lineHeightPx: { l: 25, s: 19 },
+  },
+  moduleTitle: {
+    fontSizePx:   { l: 20, s: 18 },
+    lineHeightPx: { l: 25, s: 22 },
   },
   sectionHeader: {
     fontSizePx:   { l: 40, s: 25 },

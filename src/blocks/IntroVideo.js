@@ -25,7 +25,7 @@ export function IntroVideo({ data }) {
         {text}
       </Block>
       <SmallText>
-        {text2}
+        <span>{text2}</span>
       </SmallText>
       { file && 
         <>
@@ -60,6 +60,9 @@ const SmallText = styled(P)`
   };
   color: ${ colors.blue };
   text-align: center;
+  span { max-width: 800px; }
+  display: flex;
+  justify-content: center;  
 `
 
 export const IntroVideoBlock = {

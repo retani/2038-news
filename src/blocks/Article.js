@@ -22,7 +22,7 @@ export function Article({ data, shade }) {
         </div>
       </LargeText>
       <SmallText>
-        {text2}
+        <span>{text2}</span>
       </SmallText>
       <ButtonBlock text=".PDF" href={file} />
       <Spacer space={spaces.small} />
@@ -62,6 +62,9 @@ const SmallText = styled.div`
   };
   text-align: center;
   color: ${ colors.blue };
+  span { max-width: 800px; }
+  display: flex;
+  justify-content: center;
 `
 
 export const ArticleBlock = {
