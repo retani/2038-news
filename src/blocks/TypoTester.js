@@ -1,11 +1,11 @@
 import React, {Fragment} from "react"
 import styled from 'styled-components'
 
-import { Spacer } from './'
+import { Spacer } from '../components'
 
 import { colors, spaces, blockTypoSnippet, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
-export default function TypoTester() {
+export function TypoTester() {
   return (
     <OuterContainer>
       <Container>
@@ -86,3 +86,12 @@ const BlockTester = styled.div`
   };
 `
 
+export const TypoTesterBlock = {
+  label: "TypoTester",
+  name: "typotester",
+  defaultItem: {
+  },
+  fields: [
+    
+  ],
+}

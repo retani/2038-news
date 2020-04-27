@@ -18,12 +18,9 @@ import { IntroVideo, IntroVideoBlock } from "../blocks/IntroVideo"
 import { Article, ArticleBlock } from "../blocks/Article"
 import { TalkingHeads, TalkingHeadsBlock } from '../blocks/TalkingHeads'
 import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
+import { TypoTester, TypoTesterBlock } from '../blocks/TypoTester'
 
 import { PageLayout } from "../components/pageLayout"
-
-import {
-  TypoTester
-} from '../components'
 
 import { globalStyles, spaces } from '../../config/styles'
 import { Spacer } from '../components'
