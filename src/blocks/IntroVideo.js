@@ -3,14 +3,17 @@ import styled from 'styled-components'
 
 import MainVideo from '../components/MainVideo'
 import {p as P, Block} from '../components/HtmlElements'
-import { BlockListItem } from '../components'
+import { 
+  BlockListItem, 
+  DownloadLink,
+  Spacer } from '../components'
 
 import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "INTRO VIDEO"
 
 export function IntroVideo({ data }) {
-  const {text,text2,videoId} = data
+  const {text,text2,videoId, file} = data
   return (
     <Container>
       <MainVideo vimeoId={videoId} />
@@ -24,6 +27,13 @@ export function IntroVideo({ data }) {
       <SmallText>
         {text2}
       </SmallText>
+      { file && 
+        <>
+          <Spacer space={spaces.small} />
+          <DownloadLink text=".PDF" href={file} />
+        </>
+      }
+      <Spacer space={spaces.large} />
     </Container>
   )
 }
@@ -35,7 +45,6 @@ const SmallText = styled(P)`
     blockTypoSnippet({ 
       typoSize: typoSizes.moduleSmall, 
       typoStyle: typoStyles.RobotoMonoRegular,
-      spaceBottom: spaces.large,
     }) 
   };
   color: ${ colors.blue };
@@ -57,5 +66,15 @@ export const IntroVideoBlock = {
     { name: "videoId", label: "Vimeo Video ID", component: "text" },
     { name: "text", label: "Text", component: "textarea" },
     { name: "text2", label: "Small Text", component: "text" },
+    {
+      name: "file",
+      label: "PDF",
+      component: "file",
+      description: '.PDF Upload',
+      accept: 'application/pdf',
+      clearable: true,
+      parse: (file) => `/uploads/pdfs/${file}`,
+      uploadDir: () => '/static/uploads/pdfs/', 
+    },    
   ],
 }
