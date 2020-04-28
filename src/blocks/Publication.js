@@ -27,7 +27,7 @@ export function Publication({ data }) {
         {text}
       </Text>
       <Bottom>
-    { file && file.substr(-3,3).toLowerCase==="pdf" && <ButtonBlock text=".PDF" href={file}/> }
+    { file && file.substr(-3,3).toLowerCase()==="pdf" && <ButtonBlock text=".PDF" href={file}/> }
       </Bottom>
     </Document>
   )
