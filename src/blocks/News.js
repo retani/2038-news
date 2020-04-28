@@ -7,8 +7,6 @@ import { p as P, Block } from '../components/HtmlElements'
 import MarkedText from '../components/MarkedText'
 import { 
   BlockListItem, 
-  DownloadLink,
-  Button,
   ButtonBlock } from '../components'
 
 import { colors, spaces,  typoSizes, blockSnippet, blockTypoSnippet, typoStyles, typoSnippet } from '../../config/styles'

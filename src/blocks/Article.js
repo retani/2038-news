@@ -2,7 +2,6 @@ import React, {Fragment} from "react"
 import styled from 'styled-components'
 
 //import {p as P} from '../components/HtmlElements'
-import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
 import MarkedText from '../components/MarkedText'
 import { p as P } from '../components/HtmlElements'

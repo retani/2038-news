@@ -5,16 +5,15 @@ import get from "lodash.get"
 
 import Document from '../components/Document'
 import {p as P} from '../components/HtmlElements'
-import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
-import { BlockListItem } from '../components'
+import { BlockListItem, ButtonBlock } from '../components'
 
 import { spaces, colors, blockSnippet, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "PUBLICATION"
 
 export function Publication({ data }) {
-  const {text} = data
+  const {text, file} = data
   return (
     <Document>
       {
@@ -28,7 +27,7 @@ export function Publication({ data }) {
         {text}
       </Text>
       <Bottom>
-        <DownloadLink text=".PDF" />
+    { file && file.substr(-3,3).toLowerCase==="pdf" && <ButtonBlock text=".PDF" href={file}/> }
       </Bottom>
     </Document>
   )
@@ -80,5 +79,14 @@ export const PublicationBlock = {
         return imageNode.childImageSharp.fluid.src
       },
     },
+    {
+      name: "file",
+      label: "PDF",
+      component: "file",
+      accept: 'application/pdf',
+      clearable: true,
+      parse: (file) => `/uploads/pdfs/${file}`,
+      uploadDir: () => '/static/uploads/pdfs/', 
+    },    
   ],
 }
