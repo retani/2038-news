@@ -1,0 +1,11 @@
+FROM node:12
+
+# set working directory
+RUN mkdir /app
+WORKDIR /app
+
+ENV PATH /app/node_modules/.bin:$PATH
+
+ADD package.json yarn.lock /app/
+RUN yarn --pure-lockfile
+RUN rm package.json yarn.lock
