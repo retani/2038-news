@@ -56,7 +56,7 @@ export const AppPreviewBlock = {
     text: `> New perspectives <`,
   },
   fields: [
-    { name: "text", label: "Text", component: "text" },
+    { name: "text", label: "Text", component: "textarea" },
     {
       label: "Image",
       name: "image",
