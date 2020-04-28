@@ -14,6 +14,7 @@ const Container = styled.div`
   width: 66.66%;
   @media ${ breakpoints.large } {
   min-width: 600px;
+  max-width: 1333px;
   }
   /*max-width: 440px; /* Textbreite 400px */
   @media ${ breakpoints.tiny } {
