@@ -54,6 +54,14 @@
       "content": ""
     },
     {
+      "text": "Unlike in the aftermath of the financial crisis, when fossil fuel-heavy and otherwise polluting industries received a major share of the bailout money, today {green investment} options are plentiful. {Renewable energy is cheaper than coal} almost everywhere in the world, and increasingly competitive with gas. {High-speed trains, electric vehicle chargers, and fiber-optic infrastructure} should also be on governments’ minds. ",
+      "text2": "Laura Millan Lombrana, Bloomberg",
+      "link": "https://www.bloomberg.com/news/articles/2020-03-18/green-projects-could-pull-economies-out-of-the-coronavirus-slump?utm_source=url_link",
+      "_template": "NewsBlock",
+      "content": "",
+      "usePdf": false
+    },
+    {
       "image": "../images/apppreview.png",
       "text": "New Perspectives, Our Dimensions",
       "_template": "AppPreviewBlock",
@@ -63,14 +71,6 @@
       "text": ".APP",
       "_template": "SectionBlock",
       "content": ""
-    },
-    {
-      "text": "The Post-Virus Economic Recovery Could Be a Green One\n",
-      "text2": "Unlike in the aftermath of the 2008 financial crisis, when fossil fuel-heavy and otherwise polluting industries received a major share of the bailout money, today green investment options are plentiful. Renewable energy is cheaper than coal almost everywhere in the world, and increasingly competitive with gas. High-speed trains, electric vehicle chargers, and fiber-optic infrastructure should also be on governments’ minds.  published on 18 March 2020 by Laura Millan Lombrana",
-      "link": "https://www.bloomberg.com/news/articles/2020-03-18/green-projects-could-pull-economies-out-of-the-coronavirus-slump?utm_source=url_link",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": false
     },
     {
       "text": "Spain to become first country in Europe to roll out universal basic income. Government plans to keep payments ‘a permanent instrument’ after crisis is over",
