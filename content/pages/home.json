@@ -62,9 +62,10 @@
       "usePdf": false
     },
     {
-      "image": "../images/apppreview.png",
-      "text": "New Perspectives, Our Dimensions",
-      "_template": "AppPreviewBlock",
+      "text": "{Es war einmal in der Zukunft}\n\nÜblicherweise versuchen wir, aus der Gegenwart heraus eine Zukunft zu entwerfen. Jetzt drehen Künstler wie das deutsche Biennale Team oder der Kanadier Jeremy Shaw die Blickrichtung um und schauen aus einer gedachten Zukunft zurück auf die Gegenwart.  ",
+      "text2": "Holger Liebs, 20 April 2020, Frankfurter Allgemeine Sonntagszeitung",
+      "file": "/pdfs/20200419_F.A.S._Seite 38.pdf",
+      "_template": "ArticleBlock",
       "content": ""
     },
     {
@@ -73,17 +74,26 @@
       "content": ""
     },
     {
+      "image": "../images/apppreview.png",
+      "text": "New Perspectives, Our Dimensions",
+      "_template": "AppPreviewBlock",
+      "content": ""
+    },
+    {
+      "dateUTC": "2020-07-01-09-00",
+      "_template": "CountdownBlock",
+      "content": ""
+    },
+    {
+      "text": "2038",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
       "text": "Spain to become first country in Europe to roll out universal basic income. Government plans to keep payments ‘a permanent instrument’ after crisis is over",
       "text2": "Kate Nag on 6 April 2020 in the Independent",
       "link": "https://www.independent.co.uk/news/world/europe/coronavirus-spain-universal-basic-income-europe-a9449336.html",
       "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "{Es war einmal in der Zukunft}\n\nÜblicherweise versuchen wir, aus der Gegenwart heraus eine Zukunft zu entwerfen. Jetzt drehen Künstler wie das deutsche Biennale Team oder der Kanadier Jeremy Shaw die Blickrichtung um und schauen aus einer gedachten Zukunft zurück auf die Gegenwart.  ",
-      "text2": "Holger Liebs, 20 April 2020, Frankfurter Allgemeine Sonntagszeitung",
-      "file": "/pdfs/20200419_F.A.S._Seite 38.pdf",
-      "_template": "ArticleBlock",
       "content": ""
     },
     {
