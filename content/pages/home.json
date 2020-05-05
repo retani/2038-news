@@ -88,6 +88,13 @@
       "content": ""
     },
     {
+      "text": "„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“",
+      "text2": "Conversation with Eyal Weizman",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
       "text": ".APP",
       "_template": "SectionBlock",
       "content": ""
@@ -109,9 +116,9 @@
       "content": ""
     },
     {
-      "text": "Quote ",
-      "text2": "  Name, 2038",
-      "file": "/pdfs/Amsterdam to embrace 'doughnut' model to mend post-coronavirus economy | World news | The Guardian.pdf",
+      "text": "„It was due to {the new system, that humanity redifined its relation to nature.} Today, nature is an active political agent: land, water, air and light cannot be owned anymore.“",
+      "text2": "Conversation with Eyal Weizman",
+      "file": "",
       "_template": "ArticleBlock",
       "content": ""
     },
@@ -123,8 +130,15 @@
       "content": ""
     },
     {
-      "text": "„It was due to {the new system, that humanity redifined its relation to nature.} Today, nature is an active political agent: land, water, air and light cannot be owned anymore.“",
-      "text2": "Conversation with Eyal Weizman",
+      "text": "Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.",
+      "text2": "Erika Mustermann on theatlantic.com",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "Quote",
+      "text2": "Name, 2038",
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
