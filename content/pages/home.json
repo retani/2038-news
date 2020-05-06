@@ -107,7 +107,7 @@
     },
     {
       "image": "../images/apppreview.png",
-      "text": "New Perspectives",
+      "text": "",
       "_template": "AppPreviewBlock",
       "content": ""
     },
