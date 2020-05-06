@@ -20,7 +20,7 @@
     },
     {
       "image": "../images/cover publication.jpg",
-      "text": "with Diana Alvarez-Marin, Francesca Bria, Evgeny Morozov, Caroline Nevejan, Christian Posthofen, Galaad Van Daele, Mark Wigley and many more",
+      "text": "with Diana Alvarez-Marin, Baubotanik, Francesca Bria, Ludwig Engel, ExRotaprint, Evgeny Morozov, Caroline Nevejan, Sabine Oberhuber & Thomas Rau, Frei Otto, Rebiennale, Audrey Tang, Terra0, Mark Wigley and many more",
       "_template": "PublicationBlock",
       "content": "",
       "file": "/uploads/pdfs/TSTPDF.pdf"
@@ -88,8 +88,8 @@
       "content": ""
     },
     {
-      "text": "„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“",
-      "text2": "Conversation with Eyal Weizman",
+      "text": "„Nature is an active political agent: land, water, air and light cannot be owned.“",
+      "text2": "Eyal Weizman, 2038",
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
