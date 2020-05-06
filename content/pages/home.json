@@ -107,7 +107,7 @@
     },
     {
       "image": "../images/apppreview.png",
-      "text": "",
+      "text": "2038 App",
       "_template": "AppPreviewBlock",
       "content": ""
     },
