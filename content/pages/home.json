@@ -2,10 +2,10 @@
   "path": "/",
   "blocks": [
     {
-      "text": "Buckminster Fuller captured this mismatch almost 40 years ago:\n\n    We have today, in fact, 150 supreme admirals and only one ship – Spaceship Earth. We have the 150 admirals in their 150 staterooms each trying to run their respective stateroom as if it were a separate ship. We have the starboard side admirals’ league trying to sink the port side admirals’ league. If either is successful in careening the ship to drown the ‘enemy’ side, the whole ship will be lost.\n",
-      "text2": "Buckminster Fuller, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
+      "text": "Political economist Elinor Ostrom’s work on cultivating global solidarity through “polycentric governance” – fostering collective action between those who make decisions in contexts of competition, conflict resolution, cooperation, and social learning – provides important coordinates for such an endeavour.",
+      "text2": "Tom Pegram on theconversation.com",
+      "link": "https://theconversation.com/coronavirus-is-a-failure-of-global-governance-now-the-world-needs-a-radical-transformation-136535",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
@@ -46,6 +46,13 @@
       "videoId": "368271163",
       "text": "legislation",
       "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "We have today, in fact, 150 supreme admirals and only one ship – Spaceship Earth. We have the 150 admirals in their 150 staterooms each trying to run their respective stateroom as if it were a separate ship. We have the starboard side admirals’ league trying to sink the port side admirals’ league. If either is successful in careening the ship to drown the ‘enemy’ side, the whole ship will be lost.\n",
+      "text2": "Buckminster Fuller, 2038 ",
+      "file": "",
+      "_template": "ArticleBlock",
       "content": ""
     },
     {
