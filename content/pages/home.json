@@ -2,7 +2,7 @@
   "path": "/",
   "blocks": [
     {
-      "image": "",
+      "image": "../images/Terra0.jpg",
       "text": "Terra0",
       "_template": "AppPreviewBlock",
       "content": ""
