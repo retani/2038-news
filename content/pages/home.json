@@ -31,19 +31,19 @@
       "content": ""
     },
     {
-      "image": "../images/maponly-5fbf17c93807088ff8d04abd25ee43819a3adccbaece9e7313ec5aebf667cb91.jpg",
-      "text": "",
-      "_template": "PublicationBlock",
-      "content": ""
-    },
-    {
       "text": "2038",
       "_template": "SectionBlock",
       "content": ""
     },
     {
+      "image": "../images/maponly-5fbf17c93807088ff8d04abd25ee43819a3adccbaece9e7313ec5aebf667cb91.jpg",
+      "text": "World Game  \nBuckminster Fuller",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
       "text": "We have today, in fact, 150 supreme admirals and only one ship – Spaceship Earth. We have the 150 admirals in their 150 staterooms each trying to run their respective stateroom as if it were a separate ship. We have the starboard side admirals’ league trying to sink the port side admirals’ league. If either is successful in careening the ship to drown the ‘enemy’ side, the whole ship will be lost.\n",
-      "text2": "Buckminster Fuller, 2038 ",
+      "text2": " ",
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
