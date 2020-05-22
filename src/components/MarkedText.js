@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import { colors, breakpoints } from '../../config/styles'
 
-export default function({text, typoSize}) {
+export default function({text, typoSize, color}) {
   let out =[]
   let groups = text
     .split("{")
@@ -24,7 +24,7 @@ export default function({text, typoSize}) {
       <Container>
         {fragment}
       </Container>
-      <Container2  aria-hidden="true" lineHeightPx={typoSize ? typoSize.lineHeightPx : {l:2,s:1}}>
+      <Container2 color={color || colors.mark} aria-hidden="true" lineHeightPx={typoSize ? typoSize.lineHeightPx : {l:2,s:1}}>
           {fragment}
       </Container2>      
     </Span>
@@ -57,6 +57,6 @@ const Container2 = styled.span`
   color: transparent;
   mark {
     color: rgba(0,0,0,0);
-    background-color: ${ colors.mark }
+    background-color: ${ ({color}) => color };
   }
 `

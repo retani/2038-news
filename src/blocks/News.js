@@ -20,7 +20,7 @@ export function News({ data }) {
     <Container>
       <Spacer space={spaces.medium}/>
       <LargeText>
-        <MarkedText text={`+++ ${textTrimmed} +++`} typoSize={typoSizes.moduleMedium}/>
+        <MarkedText text={`+++ ${textTrimmed} +++`} typoSize={typoSizes.moduleMedium} color={colors.green}/>
       </LargeText>
       <SmallText>
         <span>{text2}</span>
