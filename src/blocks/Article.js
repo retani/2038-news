@@ -7,6 +7,7 @@ import MarkedText from '../components/MarkedText'
 import { p as P } from '../components/HtmlElements'
 import { BlockListItem, ButtonBlock } from '../components'
 
+import { hasFile } from '../helpers/validators'
 import { colors, spaces, blockTypoSnippet, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
 const blockLabel = "QUOTE / ARTICLE"
@@ -20,11 +21,18 @@ export function Article({ data, shade }) {
           <MarkedText text={text} typoSize={typoSizes.moduleBig}/>
         </div>
       </LargeText>
-      <SmallText>
-        <span>{text2}</span>
-      </SmallText>
-      <ButtonBlock text=".PDF" href={file} />
-      <Spacer space={spaces.small} />
+        {
+          text2 && <SmallText>
+            <span>{text2}</span>
+          </SmallText>
+        }
+        { 
+          hasFile(file, "pdf") && <>
+            <ButtonBlock text=".PDF" href={file} /> 
+            <Spacer space={spaces.small} />
+          </>
+        }
+
     </Container>
   )
 }

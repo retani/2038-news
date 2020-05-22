@@ -9,7 +9,9 @@ import {
   BlockListItem, 
   ButtonBlock } from '../components'
 
+import { hasFile } from '../helpers/validators'
 import { colors, spaces,  typoSizes, blockSnippet, blockTypoSnippet, typoStyles, typoSnippet } from '../../config/styles'
+
 
 const blockLabel = "NEWS"
 
@@ -27,9 +29,9 @@ export function News({ data }) {
       </SmallText>
       <Bottom>
         { !usePdf ? 
-            <ButtonBlock href={link} title={link} theme="blue-on-white">LINK</ButtonBlock>
+          link && <ButtonBlock href={link} title={link} theme="blue-on-white">LINK</ButtonBlock>
           :
-          <ButtonBlock theme="blue-on-white" title={file} text=".PDF" href={file} />
+          hasFile(file, "pdf") && <ButtonBlock theme="blue-on-white" title={file} text=".PDF" href={file} />
         }
       </Bottom>
     </Container>

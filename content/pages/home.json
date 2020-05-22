@@ -23,7 +23,7 @@
       "text": "with Diana Alvarez-Marin, Baubotanik, Francesca Bria, Ludwig Engel, ExRotaprint, Evgeny Morozov, Caroline Nevejan, Sabine Oberhuber & Thomas Rau, Frei Otto, Rebiennale, Audrey Tang, Terra0, Mark Wigley and many more",
       "_template": "PublicationBlock",
       "content": "",
-      "file": "/uploads/pdfs/TSTPDF.pdf"
+      "file": "/uploads/pdfs/"
     },
     {
       "dateUTC": "2020-06-01-09-00",
@@ -43,8 +43,8 @@
     },
     {
       "text": "We have today, in fact, 150 supreme admirals and only one ship – Spaceship Earth. We have the 150 admirals in their 150 staterooms each trying to run their respective stateroom as if it were a separate ship. We have the starboard side admirals’ league trying to sink the port side admirals’ league. If either is successful in careening the ship to drown the ‘enemy’ side, the whole ship will be lost.\n",
-      "text2": " ",
-      "file": "",
+      "text2": "",
+      "file": "/uploads/pdfs/",
       "_template": "ArticleBlock",
       "content": ""
     },
@@ -53,7 +53,8 @@
       "text2": "Tom Pegram on theconversation.com",
       "link": "https://theconversation.com/coronavirus-is-a-failure-of-global-governance-now-the-world-needs-a-radical-transformation-136535",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "usePdf": false
     },
     {
       "text": "2038",

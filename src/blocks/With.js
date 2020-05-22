@@ -8,6 +8,7 @@ import Spacer from '../components/Spacer'
 import { BlockListItem, DownloadLink, ButtonBlock } from '../components'
 import { Block } from '../components/HtmlElements'
 
+import { hasFile } from '../helpers/validators'
 import { spaces, typoSizes, typoStyles } from '../../config/styles'
 
 const blockLabel = "WITH"
@@ -40,7 +41,7 @@ export function With({ data }) {
         </p>*/}
         <Logos />
         <Spacer space={spaces.medium} />
-        { file && file.substr(-3,3).toLowerCase()==="pdf" &&
+        { hasFile(file,"pdf") &&
           <>
             <ButtonBlock text=".PDF" href={file} />
             <Spacer space={spaces.small} />
