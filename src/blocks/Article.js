@@ -9,7 +9,7 @@ import { BlockListItem, ButtonBlock } from '../components'
 
 import { colors, spaces, blockTypoSnippet, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
-const blockLabel = "ARTICLE"
+const blockLabel = "QUOTE / ARTICLE"
 
 export function Article({ data, shade }) {
   const {text, text2, file} = data
