@@ -143,6 +143,9 @@ const spaces = {
   },
   verySmall: {
     px: { l:  5, s:  5 }
+  },
+  none: {
+    px: { l: 0, s: 0 }
   }
 }
 

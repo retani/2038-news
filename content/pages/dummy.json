@@ -35,6 +35,7 @@
       "recipient": "dummy",
       "usePdf": false,
       "image": "../images/dummy.jpg",
+      "color": "#000000",
       "fields": [
         {
           "_template": "dummy",

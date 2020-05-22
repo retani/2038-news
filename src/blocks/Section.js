@@ -5,12 +5,14 @@ import {p as P} from '../components/HtmlElements'
 import Header from '../components/SectionHeader'
 import { BlockListItem } from '../components'
 
+import { colors } from '../../config/styles'
+
 const blockLabel = "SECTION"
 
 export function Section({ data }) {
-  const {text} = data
+  const {text, color} = data
   return (
-    <Header>
+    <Header backgroundColor={color}>
       {text}
     </Header>
   )
@@ -27,8 +29,17 @@ export const SectionBlock = {
   }),  
   defaultItem: {
     text: `2038`,
+    color: colors.blue
   },
   fields: [
     { name: "text", label: "Text", component: "text" },
+    {
+      name: 'color',
+      component: 'color',
+      label: 'Background Color',
+      colorFormat: 'hex',
+      colors: [colors.blue, colors.green],
+      widget: 'block',
+    },    
   ],
 }

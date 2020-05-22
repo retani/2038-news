@@ -6,6 +6,7 @@ import Spacer from './Spacer'
 
 
 export default ({children, backgroundColor, color, style, beforeText}) => {
+  console.log(backgroundColor)
   return (
     <Head backgroundColor={backgroundColor} style={style} beforeText={beforeText}>
       <HeadText backgroundColor={color} color={backgroundColor}>

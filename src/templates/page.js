@@ -63,7 +63,11 @@ const mapBlocks = function(data,page,blocks) {
       case "TitleBlock":
         return <Title page={page} data={data} />
       case "CountdownBlock":
-        return <Countdown key={"CountdownBlock" + i} data={data} />
+        return <>
+          { (arr[i-1] && ["IntroVideoBlock"].indexOf(arr[i-1]._template) < 0 )
+             && <Spacer space={spaces.none} /> }
+          <Countdown key={"CountdownBlock" + i} data={data} />
+        </>        
       case "TalkingHeadsBlock":
         return <TalkingHeads key={"TalkingHeadsBlock" + i} data={data} />
       case "LandscapeBlock":
@@ -77,9 +81,19 @@ const mapBlocks = function(data,page,blocks) {
       case "IntroVideoBlock":
         return <IntroVideo key={"IntroVideoBlock" + i} data={data} />
       case "WithBlock":
-        return <With key={"WithBlock" + i} data={data} />
+        return <>
+          { (arr[i-1] && ["NewsBlock"].indexOf(arr[i-1]._template) > -1 )
+             && <Spacer space={spaces.verySmall} /> }
+          <With key={"WithBlock" + i} data={data} />
+        </>
       case "SectionBlock":
-        return <Section key={"SectionBlock" + i} data={data} />                
+        let sectionSpace = spaces.none
+        if (arr[i-1] && ["CountdownBlock"].indexOf(arr[i-1]._template) >-1 ) sectionSpace = spaces.none
+        if (arr[i-1] && ["NewsBlock"].indexOf(arr[i-1]._template) >-1 ) sectionSpace = spaces.verySmall
+        return <>
+          <Spacer space={sectionSpace} />
+          <Section key={"SectionBlock" + i} data={data} />                
+        </>
       case "AppPreviewBlock":
         return <AppPreview key={"AppPreviewBlock" + i} data={data} />                    
       case "ZipBlock":
@@ -87,8 +101,8 @@ const mapBlocks = function(data,page,blocks) {
       case "TypoTesterBlock":
         return <TypoTester key={"TypoTesterBlock" + i} data={data} />          
       case "NewsBlock":
-        const repeated = (arr[i+1] && arr[i+1]._template === "NewsBlock" )
-    return <>
+        const repeated = (arr[i+1] && ["NewsBlock"].indexOf(arr[i+1]._template) > -1 )
+        return <>
           <News key={"NewsBlock" + i} data={data} />
           { repeated && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall}/> }
         </>
@@ -179,6 +193,7 @@ export const pageQuery = graphql`
         center
         recipient
         usePdf
+        color
         fields {
           label
           inputType
