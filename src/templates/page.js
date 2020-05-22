@@ -89,7 +89,7 @@ const mapBlocks = function(data,page,blocks) {
       case "SectionBlock":
         let sectionSpace = spaces.none
         if (arr[i-1] && ["CountdownBlock"].indexOf(arr[i-1]._template) >-1 ) sectionSpace = spaces.none
-        if (arr[i-1] && ["NewsBlock"].indexOf(arr[i-1]._template) >-1 ) sectionSpace = spaces.verySmall
+        if (arr[i-1] && ["NewsBlock"].indexOf(arr[i-1]._template) >-1 ) sectionSpace = spaces.none
         return <>
           <Spacer space={sectionSpace} />
           <Section key={"SectionBlock" + i} data={data} />                
