@@ -25,20 +25,8 @@
       "content": ""
     },
     {
-      "image": "../images/",
-      "text": "with Olaf Grawert, Dorothee Hahn, Nils Havelka, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt and many more",
-      "_template": "PublicationBlock",
-      "content": ""
-    },
-    {
       "text": "2038",
       "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/maponly-5fbf17c93807088ff8d04abd25ee43819a3adccbaece9e7313ec5aebf667cb91.jpg",
-      "text": "Richard Buckminster Fuller",
-      "_template": "PublicationBlock",
       "content": ""
     },
     {
@@ -46,6 +34,12 @@
       "text2": "",
       "file": "/uploads/pdfs/",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "image": "../images/maponly-5fbf17c93807088ff8d04abd25ee43819a3adccbaece9e7313ec5aebf667cb91.jpg",
+      "text": "Richard Buckminster Fuller",
+      "_template": "PublicationBlock",
       "content": ""
     },
     {
