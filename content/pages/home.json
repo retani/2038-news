@@ -26,7 +26,7 @@
     },
     {
       "text": "NEWS",
-      "color": "#99FF99",
+      "color": "#FF00FF",
       "_template": "SectionBlock",
       "content": ""
     },
@@ -46,7 +46,7 @@
     },
     {
       "text": "2038",
-      "color": "#FF00FF",
+      "color": "#00FF00",
       "_template": "SectionBlock",
       "content": ""
     },
@@ -60,6 +60,12 @@
       "frontmatter": {
         "text": "<p>„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen agan.“</p>"
       }
+    },
+    {
+      "image": "../images/apppreview.png",
+      "text": "",
+      "_template": "AppPreviewBlock",
+      "content": ""
     },
     {
       "text": "We have today, in fact, 150 supreme admirals and only one ship – Spaceship Earth. We have the 150 admirals in their 150 staterooms each trying to run their respective stateroom as if it were a separate ship. We have the starboard side admirals’ league trying to sink the port side admirals’ league. If either is successful in careening the ship to drown the ‘enemy’ side, the whole ship will be lost.\n",
@@ -82,12 +88,6 @@
       "usePdf": false
     },
     {
-      "image": "../images/Still 2038_POPE Joanna_Quote 5.jpg",
-      "text": "Joanna  Pope, 2038",
-      "_template": "PublicationBlock",
-      "content": ""
-    },
-    {
       "text": "Today, {green investment} options are plentiful. {Renewable energy is cheaper than coal} almost everywhere in the world, and increasingly competitive with gas. {High-speed trains, electric vehicle chargers, and fiber-optic infrastructure} should also be on governments’ minds. ",
       "text2": "Laura Millan Lombrana, Bloomberg",
       "link": "https://www.bloomberg.com/news/articles/2020-03-18/green-projects-could-pull-economies-out-of-the-coronavirus-slump?utm_source=url_link",
@@ -105,6 +105,12 @@
       "text": "TEST",
       "color": "#99FF99",
       "_template": "SectionBlock",
+      "content": ""
+    },
+    {
+      "image": "../images/Still 2038_POPE Joanna_Quote 5.jpg",
+      "text": "Joanna  Pope, 2038",
+      "_template": "PublicationBlock",
       "content": ""
     },
     {
@@ -162,12 +168,6 @@
     {
       "text": ".APP",
       "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/apppreview.png",
-      "text": "2038 MEME GENERATOR\n(coming soon - watch this space)",
-      "_template": "AppPreviewBlock",
       "content": ""
     },
     {
