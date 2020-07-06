@@ -75,7 +75,7 @@
       "content": ""
     },
     {
-      "text": "Today, {green investment} options are plentiful. {Renewable energy is cheaper than coal} almost everywhere in the world, and increasingly competitive with gas. {High-speed trains, electric vehicle chargers, and fiber-optic infrastructure} should also be on governments’ minds. ",
+      "text": "Today, {green investment} options are plentiful. Renewable energy is cheaper than coal almost everywhere in the world, and {increasingly competitive} with gas. ",
       "text2": "Laura Millan Lombrana, Bloomberg",
       "link": "https://www.bloomberg.com/news/articles/2020-03-18/green-projects-could-pull-economies-out-of-the-coronavirus-slump?utm_source=url_link",
       "_template": "NewsBlock",
