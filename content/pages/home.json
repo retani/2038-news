@@ -25,12 +25,6 @@
       "content": ""
     },
     {
-      "text": "NEWS",
-      "color": "#FF99FF",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
       "text": "Man kann sagen, dass dieser Pavillon einer der optimistischsten ist, die es je gab, eben {weil nicht nur behauptet wird, dass man eventuell Ideen für mögliche Lösungen habe, sondern aus der Zukunft verfügt und erklärt wird}, dass und wie diese Lösungen funktioniert haben.",
       "text2": "Niklas Maak, FAZ",
       "link": "https://www.faz.net/aktuell/feuilleton/kunst/vertagte-architektur-biennale-in-venedig-16799052.html",
@@ -46,7 +40,7 @@
     },
     {
       "text": "2038",
-      "color": "#99FF99",
+      "color": "#00FF00",
       "_template": "SectionBlock",
       "content": ""
     },
@@ -80,12 +74,16 @@
       "content": ""
     },
     {
-      "text": "Political economist Elinor Ostrom’s work on cultivating global solidarity through “polycentric governance” – fostering collective action between those who make decisions in contexts of competition, conflict resolution, cooperation, and social learning – provides important coordinates for (...) addressing systemic global risks. Intergovernmental bodies' dysfunctions are symptomatic of a broken global political system. ",
-      "text2": "Tom Pegram on theconversation.com",
-      "link": "https://theconversation.com/coronavirus-is-a-failure-of-global-governance-now-the-world-needs-a-radical-transformation-136535",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": false
+      "text": "NEWS",
+      "color": "#FF99FF",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
+      "text": "STOPP HERE",
+      "color": "#FF00FF",
+      "_template": "SectionBlock",
+      "content": ""
     },
     {
       "text": "Today, {green investment} options are plentiful. {Renewable energy is cheaper than coal} almost everywhere in the world, and increasingly competitive with gas. {High-speed trains, electric vehicle chargers, and fiber-optic infrastructure} should also be on governments’ minds. ",
@@ -96,10 +94,12 @@
       "usePdf": false
     },
     {
-      "text": "TEST",
-      "color": "#FF00FF",
-      "_template": "SectionBlock",
-      "content": ""
+      "text": "Political economist Elinor Ostrom’s work on cultivating global solidarity through “polycentric governance” – fostering collective action between those who make decisions in contexts of competition, conflict resolution, cooperation, and social learning – provides important coordinates for (...) addressing systemic global risks. Intergovernmental bodies' dysfunctions are symptomatic of a broken global political system. ",
+      "text2": "Tom Pegram on theconversation.com",
+      "link": "https://theconversation.com/coronavirus-is-a-failure-of-global-governance-now-the-world-needs-a-radical-transformation-136535",
+      "_template": "NewsBlock",
+      "content": "",
+      "usePdf": false
     },
     {
       "text": "TEST",
