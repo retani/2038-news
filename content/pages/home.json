@@ -25,8 +25,10 @@
       "content": ""
     },
     {
-      "text": "2038",
-      "_template": "SectionBlock",
+      "text": "Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.",
+      "text2": "Niklas Maak on faz.net",
+      "link": "https://www.faz.net/aktuell/feuilleton/kunst/vertagte-architektur-biennale-in-venedig-16799052.html",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
@@ -34,6 +36,11 @@
       "text2": "",
       "file": "/uploads/pdfs/",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "2038",
+      "_template": "SectionBlock",
       "content": ""
     },
     {
@@ -49,11 +56,6 @@
       "_template": "NewsBlock",
       "content": "",
       "usePdf": false
-    },
-    {
-      "text": "2038",
-      "_template": "SectionBlock",
-      "content": ""
     },
     {
       "image": "../images/Still 2038_POPE Joanna_Quote 5.jpg",
