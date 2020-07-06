@@ -57,7 +57,7 @@
     },
     {
       "image": "../images/200608_2038xAWC_Caroline Nevejan.jpg",
-      "text": "T",
+      "text": "Test",
       "_template": "AppPreviewBlock",
       "content": ""
     },
@@ -68,7 +68,7 @@
       "content": ""
     },
     {
-      "image": "../images/200608_2038xAWC_Audrey Tang.jpg",
+      "image": "",
       "text": "Test",
       "_template": "AppPreviewBlock",
       "content": ""
