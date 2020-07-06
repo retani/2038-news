@@ -2,6 +2,12 @@
   "path": "/",
   "blocks": [
     {
+      "image": "../images/200608_2038xAWC_Caroline Nevejan.jpg",
+      "text": "We created legal entities around natural living forms that are not human, that are more than human. Natural elements, crucial for the survival of the planet, have rights.",
+      "_template": "AppPreviewBlock",
+      "content": ""
+    },
+    {
       "videoId": "370256053",
       "text": "Today, in the year 2038, we have mastered the great crises. It was close, but we made it. The global ecological, social and economic disasters of the 2020s brought people, states, institutions and companies together. They committed themselves to fundamental rights and jointly created viable, adaptable systems and legal frameworks on a planetary basis, giving decentralised, local structures the space to maintain and create highly diverse models of co-existing.\n\nTechnology and big data helped us to turn new and old ideas into reality. And often architects were part of the solution because they had answers instead of coming up with more questions. Drama is now history. We live in a radical democracy, in a radical bureaucracy. On a planet that doesn't know or need heroes or villains.",
       "text2": "German Contribution to the 17 International Architecture Exhibition Venice ",
@@ -32,13 +38,6 @@
       "content": ""
     },
     {
-      "text": "The crisis has shown us how little capitalism has done for so many people and that other ways of living and working are possible.",
-      "text2": "Kandist Mallett, Teen Vogue ",
-      "link": "https://www.teenvogue.com/story/coronavirus-pandemic-failures-capitalism",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
@@ -54,6 +53,13 @@
       "frontmatter": {
         "text": "<p>„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen agan.“</p>"
       }
+    },
+    {
+      "text": "The crisis has shown us how little capitalism has done for so many people and that other ways of living and working are possible.",
+      "text2": "Kandist Mallett, Teen Vogue ",
+      "link": "https://www.teenvogue.com/story/coronavirus-pandemic-failures-capitalism",
+      "_template": "NewsBlock",
+      "content": ""
     },
     {
       "image": "../images/200608_2038xAWC_Caroline Nevejan.jpg",
@@ -110,65 +116,16 @@
       "content": ""
     },
     {
-      "text": "STOP!",
-      "color": "#FF0033",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "text": "Political economist Elinor Ostrom’s work on cultivating global solidarity through “polycentric governance” – fostering collective action between those who make decisions in contexts of competition, conflict resolution, cooperation, and social learning – provides important coordinates for (...) addressing systemic global risks. Intergovernmental bodies' dysfunctions are symptomatic of a broken global political system. ",
-      "text2": "Tom Pegram on theconversation.com",
-      "link": "https://theconversation.com/coronavirus-is-a-failure-of-global-governance-now-the-world-needs-a-radical-transformation-136535",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": false
-    },
-    {
-      "text": "Taiwan has one of the world’s top health care systems, strong research capabilities and transparent information that we actively share with both the public and international bodies. ",
-      "text2": "President Tsai Ing-wen on time.com",
-      "link": "https://time.com/collection/finding-hope-coronavirus-pandemic/5820596/taiwan-coronavirus-lessons/?utm_source=nl&utm_brand=wired&utm_mailing=WIR_Science_041620_TechinTwo&utm_campaign=aud-dev&utm_medium=email&utm_term=WIR_Science&bxid=5dfdfd4e7e553f101a67d5d4&cndid=59455406&esrc=&source=EDT_WIR_NEWSLETTER_0_SCIENCE_ZZ",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": false
-    },
-    {
-      "text": ".APP",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "dateUTC": "2020-07-01-09-00",
-      "_template": "CountdownBlock",
-      "content": ""
-    },
-    {
-      "text": "2038",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "text": "2038",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/Still 2038_AGBODJINOU Sénamé Koffi_Quote 2.jpg",
-      "text": "Sénamé Koffi Agbodjinou, 2038",
-      "_template": "PublicationBlock",
-      "content": ""
-    },
-    {
-      "text": "Involving citizens in how we deal with the city during the crisis has made the city more sustainable, not only environmentally, but also socially.",
-      "text2": "Marcus Vesterager, 2038",
-      "file": "/pdfs/20200419_F.A.S._Seite 38.pdf",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
       "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
       "text2": "Daniel Boffey on theguardian.com",
       "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "STOP!",
+      "color": "#FF0033",
+      "_template": "SectionBlock",
       "content": ""
     },
     {
