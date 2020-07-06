@@ -25,6 +25,12 @@
       "content": ""
     },
     {
+      "text": "NEWS",
+      "color": "#00FF00",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
       "text": "Man kann sagen, dass dieser Pavillon einer der optimistischsten ist, die es je gab, eben weil nicht nur behauptet wird, dass man eventuell Ideen für mögliche Lösungen habe, sondern aus der Zukunft verfügt und erklärt wird, dass und wie diese Lösungen funktioniert haben.",
       "text2": "Niklas Maak, FAZ",
       "link": "https://www.faz.net/aktuell/feuilleton/kunst/vertagte-architektur-biennale-in-venedig-16799052.html",
@@ -36,6 +42,12 @@
       "text2": "Kandist Mallett, Teen Vogue ",
       "link": "https://www.teenvogue.com/story/coronavirus-pandemic-failures-capitalism",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "115845843",
+      "text": "legal bodies",
+      "_template": "LandscapeBlock",
       "content": ""
     },
     {
@@ -59,12 +71,6 @@
     {
       "text": "2038",
       "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/maponly-5fbf17c93807088ff8d04abd25ee43819a3adccbaece9e7313ec5aebf667cb91.jpg",
-      "text": "Richard Buckminster Fuller",
-      "_template": "PublicationBlock",
       "content": ""
     },
     {
