@@ -62,27 +62,16 @@
       "content": ""
     },
     {
+      "text": "!BIS HIER UND NICHT WEITER!",
+      "color": "#FF00FF",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
       "text": "We have today, in fact, 150 supreme admirals and only one ship – Spaceship Earth. We have the 150 admirals in their 150 staterooms each trying to run their respective stateroom as if it were a separate ship. We have the starboard side admirals’ league trying to sink the port side admirals’ league. If either is successful in careening the ship to drown the ‘enemy’ side, the whole ship will be lost.\n",
       "text2": "",
       "file": "/uploads/pdfs/",
       "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "text": "2038",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "text": "NEWS",
-      "color": "#FF99FF",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "text": "STOPP HERE",
-      "color": "#FF00FF",
-      "_template": "SectionBlock",
       "content": ""
     },
     {
