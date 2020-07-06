@@ -68,13 +68,7 @@
       "content": ""
     },
     {
-      "image": "../images/200608_2038xAWC_Caroline Nevejan.jpg",
-      "text": "We created legal entities around natural living forms that are not human, that are more than human. Natural elements, crucial for the survival of the planet, have rights.",
-      "_template": "AppPreviewBlock",
-      "content": ""
-    },
-    {
-      "text": "We created legal entities around natural living forms that are not human, that are more than human. Natural elements, crucial for the survival of the planet, have rights.",
+      "text": "We created {legal entities} around natural living forms {that are not human},  natural elements, {crucial for the survival of the planet}, have rights.",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
