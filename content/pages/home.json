@@ -83,17 +83,17 @@
       "usePdf": false
     },
     {
-      "text": "Üblicherweise versuchen wir, aus der Gegenwart heraus eine Zukunft zu entwerfen. Jetzt drehen wir die Blickrichtung um und schauen aus einer gedachten Zukunft zurück auf die Gegenwart.  ",
-      "text2": "Holger Liebs, F.A.S.",
-      "link": "https://www.independent.co.uk/news/world/europe/coronavirus-spain-universal-basic-income-europe-a9449336.html",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
       "text": "Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.",
       "text2": "Mark Wigley, 2038",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "Üblicherweise versuchen wir, aus der Gegenwart heraus eine Zukunft zu entwerfen. Jetzt drehen wir die Blickrichtung um und schauen aus einer gedachten Zukunft zurück auf die Gegenwart.  ",
+      "text2": "Holger Liebs, F.A.S.",
+      "link": "https://www.independent.co.uk/news/world/europe/coronavirus-spain-universal-basic-income-europe-a9449336.html",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
