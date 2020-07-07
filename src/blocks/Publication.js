@@ -24,7 +24,7 @@ export function Publication({ data }) {
             <Img fluid={data.image.childImageSharp.fluid} />
           )
         }
-        <Spacer space={spaces.medium}/>
+        {/*<Spacer space={spaces.medium}/>*/}
         <Text>
           {text}
         </Text>
