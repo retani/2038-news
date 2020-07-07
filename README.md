@@ -1,4 +1,4 @@
-###ENV
+### ENV
 ```
 GIT_REMOTE no effect
 SSH_KEY
@@ -10,7 +10,7 @@ TINA_CEE - This needs to be set to ensure that Tina knows that it is being run i
 source: https://tinacms.org/blog/using-tinacms-on-gatsby-cloud
 
 
-###docker
+### docker
 
 ```
 docker build --tag 2038-news:latest .
