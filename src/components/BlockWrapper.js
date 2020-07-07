@@ -1,11 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import { useCMS } from 'tinacms'
 
 export default function({ label, show, children }) {
-  show = show || process.env.NODE_ENV === "development"
+  //const cms = useCMS()
+  show = /*( show || cms.sidebar.isOpen ) && */ process.env.NODE_ENV === "development"
+  //console.log(cms.sidebar.hidden, "SIDEBAR")
   return <Wrapper>
-    { show && <Label>{label}</Label> }
-    { children}
+      { show && <Label>{label}</Label> }
+      { children}
   </Wrapper>
 }
 
