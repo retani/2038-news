@@ -51,6 +51,13 @@
       "content": ""
     },
     {
+      "text": "Wired News here",
+      "text2": "Federica Carugati, Wired ",
+      "link": "https://www.wired.com/story/opinion-a-council-of-citizens-should-regulate-algorithms/",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "videoId": "",
       "text": "enacting dis-ownership",
       "_template": "LandscapeBlock",
