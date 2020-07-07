@@ -1,3 +1,9 @@
+## WARNING: Do not commit to master branch unless you rebuild the admin system at the same time
+
+otherwise all changes made in admin will fail *silently* (that's not done well in TinaCMS) and changes won't be saved.
+
+DO CHANGE README ON THE FLY OR ANYTHING LIKE THAT. WILL BREAK THE SYSTEM AND LEAD TO LOSS OF DATA.
+
 ### ENV
 ```
 GIT_REMOTE no effect
