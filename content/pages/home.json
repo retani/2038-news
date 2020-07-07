@@ -178,13 +178,6 @@
       "content": ""
     },
     {
-      "text": "Quote Caroline Nevejan here",
-      "text2": "",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
       "videoId": "",
       "text": "architecting time & space",
       "_template": "LandscapeBlock",
@@ -217,8 +210,8 @@
       "content": ""
     },
     {
-      "image": "",
-      "text": "Sename Koffi Agbodjinou, 2038",
+      "image": "../images/200608_2038xAWC_Jennifer Jacquet Becca Franks_web.jpg",
+      "text": "Jennifer Jacquet & Becca Franks and some other species, 2038",
       "_template": "PublicationBlock",
       "content": ""
     },
