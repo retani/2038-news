@@ -171,6 +171,13 @@
       "content": ""
     },
     {
+      "text": "We created {legal entities} around natural living forms {that are not human},  natural elements, {crucial for the survival of the planet}, have rights.",
+      "text2": "",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
       "text": "Quote Caroline Nevejan here",
       "text2": "",
       "file": "",
@@ -203,12 +210,6 @@
       "content": ""
     },
     {
-      "text": "STOP!",
-      "color": "#FF0033",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
       "text": "Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.",
       "text2": "Mark Wigley, 2038",
       "file": "",
@@ -216,17 +217,9 @@
       "content": ""
     },
     {
-      "text": "Üblicherweise versuchen wir, aus der Gegenwart heraus eine Zukunft zu entwerfen. Jetzt drehen wir die Blickrichtung um und schauen aus einer gedachten Zukunft zurück auf die Gegenwart.  ",
-      "text2": "Holger Liebs, F.A.S.",
-      "link": "https://www.independent.co.uk/news/world/europe/coronavirus-spain-universal-basic-income-europe-a9449336.html",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "\"How might we?\" is the question democracy is supposed to ask.",
-      "text2": "Audrey Tang, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
+      "text": "STOP!",
+      "color": "#FF0033",
+      "_template": "SectionBlock",
       "content": ""
     },
     {
@@ -237,29 +230,17 @@
       "content": ""
     },
     {
-      "videoId": "390360814",
-      "text": "multispecies co-habitation",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
-      "text": "We created {legal entities} around natural living forms {that are not human},  natural elements, {crucial for the survival of the planet}, have rights.",
-      "text2": "",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/Still 2038_MALIK Suhail_Quote 2.jpg",
-      "text": "Suhail Malik, 2038",
-      "_template": "PublicationBlock",
-      "content": ""
-    },
-    {
       "text": "GO!",
       "_template": "SectionBlock",
       "content": "",
       "color": "#FF0000"
+    },
+    {
+      "text": "Üblicherweise versuchen wir, aus der Gegenwart heraus eine Zukunft zu entwerfen. Jetzt drehen wir die Blickrichtung um und schauen aus einer gedachten Zukunft zurück auf die Gegenwart.  ",
+      "text2": "Holger Liebs, F.A.S.",
+      "link": "https://www.independent.co.uk/news/world/europe/coronavirus-spain-universal-basic-income-europe-a9449336.html",
+      "_template": "NewsBlock",
+      "content": ""
     },
     {
       "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\nBlaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class, Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, BMI, Oana Bogdan, Mohamed Bourouissa, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Vera Bühlmann, Bureau N, Benjamin Burq, Vint Cerf, cfk architetti, Elke Doppelbauer, Tobia de Eccher, Keller Easterling, Eidotech, Kurt Eggenschwiler, Ludwig Engel, ExRotaprint, Cosimo Flohr, Lenny Flohr, Michaela Friedberg, Jan-Peter Gieseking, Goethe Institut, Olaf Grawert, Dorothee Hahn, Nils Havelka, Hecker’s Hotel Kurfürstendamm, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt, Pan Hu, JUNG, Jennifer Jacquet & Becca Franks, Mitchell Joachim, Sonja Junkers, Roberta Jurcic, Claudia Kessler, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Christopher Kulendran Thomas & Annika Kuhlmann, Lawrence Lessig, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Hilary Mason, V. Mitch McEwen, James Meadway, Omoju Miller, Evgeny Morozov, Motif, Motor Productions, Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber, Jorge Orozco, Verena Otto, Poligonal, Leif Randt, Thomas Rau, RAUE Rechtsanwälte und Rechtsanwältinnen, Rebiennale, Denis 'Jaromil' Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, Saygel, Schreiber & Gioberti, Jan Schmidt-Garre, Patrik Schumacher, Max Senges, Deane Simpson, Sol Marino, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, TECE, The Laboratory of Manuel Bürger, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, VITRA International, Georg Vrachliotis, Julian Wäckerlin, Eyal Weizman, Julia Werlen, E. Glen Weyl, Why Ventures, Mark Wigley, Erez Yoeli, Tirdad Zolghadr and many others\n    \nCommissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
