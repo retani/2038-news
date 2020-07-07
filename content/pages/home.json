@@ -44,6 +44,11 @@
       "content": ""
     },
     {
+      "dateUTC": "2020-07-17-00-01",
+      "_template": "CountdownBlock",
+      "content": ""
+    },
+    {
       "text": "This is what we call {permanent BETA}, a digital contract between individuals that is constantly updated and re-invented because it is never finished.",
       "text2": "Diana Alvarez-Marin, 2038",
       "file": "",
