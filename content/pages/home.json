@@ -165,6 +165,12 @@
       "content": ""
     },
     {
+      "image": "../images/200608_2038xAWC_Caroline Nevejan.jpg",
+      "text": "Caroline Nevejan, 2038",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
       "text": "STOP!",
       "color": "#FF0033",
       "_template": "SectionBlock",
