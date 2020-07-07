@@ -217,6 +217,12 @@
       "content": ""
     },
     {
+      "image": "",
+      "text": "Sename Koffi Agbodjinou, 2038",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
       "text": "STOP!",
       "color": "#FF0033",
       "_template": "SectionBlock",
