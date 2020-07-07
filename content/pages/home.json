@@ -132,6 +132,12 @@
       "content": ""
     },
     {
+      "videoId": "",
+      "text": "reconnecting ecosystems",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
       "text": "STOP!",
       "color": "#FF0033",
       "_template": "SectionBlock",
