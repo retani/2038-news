@@ -216,23 +216,10 @@
       "content": ""
     },
     {
-      "text": "STOP!",
-      "color": "#FF0033",
+      "text": "NEWS",
+      "color": "#0000ff",
       "_template": "SectionBlock",
       "content": ""
-    },
-    {
-      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
-      "text2": "Daniel Boffey on theguardian.com",
-      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "GO!",
-      "_template": "SectionBlock",
-      "content": "",
-      "color": "#FF0000"
     },
     {
       "text": "Üblicherweise versuchen wir, aus der Gegenwart heraus eine Zukunft zu entwerfen. Jetzt drehen wir die Blickrichtung um und schauen aus einer gedachten Zukunft zurück auf die Gegenwart.  ",
@@ -265,6 +252,19 @@
     {
       "text": "IMP.",
       "_template": "ImpLinkBlock",
+      "content": ""
+    },
+    {
+      "text": "STOP!",
+      "color": "#FF0033",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
+      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
+      "text2": "Daniel Boffey on theguardian.com",
+      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
+      "_template": "NewsBlock",
       "content": ""
     }
   ],
