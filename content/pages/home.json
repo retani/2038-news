@@ -115,10 +115,16 @@
       "content": ""
     },
     {
-      "text": "We created {legal entities} around natural living forms {that are not human},  natural elements, {crucial for the survival of the planet}, have rights.",
+      "text": "Quote Erez Yoeli here",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "STOP!",
+      "color": "#FF0033",
+      "_template": "SectionBlock",
       "content": ""
     },
     {
@@ -176,9 +182,10 @@
       "content": ""
     },
     {
-      "text": "STOP!",
-      "color": "#FF0033",
-      "_template": "SectionBlock",
+      "text": "We created {legal entities} around natural living forms {that are not human},  natural elements, {crucial for the survival of the planet}, have rights.",
+      "text2": "",
+      "file": "",
+      "_template": "ArticleBlock",
       "content": ""
     },
     {
