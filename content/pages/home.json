@@ -264,11 +264,6 @@
       "content": ""
     },
     {
-      "content": "Contact: \nmail@2038.xyz",
-      "center": false,
-      "_template": "ContentBlock"
-    },
-    {
       "text": "IMP.",
       "_template": "ImpLinkBlock",
       "content": ""
@@ -278,6 +273,11 @@
       "color": "#FF0033",
       "_template": "SectionBlock",
       "content": ""
+    },
+    {
+      "content": "Contact: \nmail@2038.xyz",
+      "center": false,
+      "_template": "ContentBlock"
     },
     {
       "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
