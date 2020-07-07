@@ -52,9 +52,16 @@
     },
     {
       "text": "Wired News here",
-      "text2": "Federica Carugati, Wired ",
+      "text2": "Federica Carugati, Wired",
       "link": "https://www.wired.com/story/opinion-a-council-of-citizens-should-regulate-algorithms/",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "Bria Quote here",
+      "text2": "Francesca Bria, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
       "content": ""
     },
     {
