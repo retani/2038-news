@@ -6,6 +6,7 @@ import Spacer from '../components/Spacer'
 import MarkedText from '../components/MarkedText'
 import { p as P } from '../components/HtmlElements'
 import { BlockListItem, ButtonBlock } from '../components'
+import BlockWrapper from '../components/BlockWrapper'
 
 import { hasFile } from '../helpers/validators'
 import { colors, spaces, blockTypoSnippet, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
@@ -15,25 +16,27 @@ const blockLabel = "QUOTE / ARTICLE"
 export function Article({ data, shade }) {
   const {text, text2, file} = data
   return (
-    <Container shade={shade}>
-      <LargeText>
-        <div>
-          <MarkedText text={text} typoSize={typoSizes.moduleBig}/>
-        </div>
-      </LargeText>
-        {
-          text2 && <SmallText>
-            <span>{text2}</span>
-          </SmallText>
-        }
-        { 
-          hasFile(file, "pdf") && <>
-            <ButtonBlock text=".PDF" href={file} /> 
-            <Spacer space={spaces.small} />
-          </>
-        }
+    <BlockWrapper label={blockLabel}>
+      <Container shade={shade}>
+        <LargeText>
+          <div>
+            <MarkedText text={text} typoSize={typoSizes.moduleBig}/>
+          </div>
+        </LargeText>
+          {
+            text2 && <SmallText>
+              <span>{text2}</span>
+            </SmallText>
+          }
+          { 
+            hasFile(file, "pdf") && <>
+              <ButtonBlock text=".PDF" href={file} /> 
+              <Spacer space={spaces.small} />
+            </>
+          }
 
-    </Container>
+      </Container>
+    </BlockWrapper>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from "react"
 import styled from 'styled-components'
 
+import BlockWrapper from '../components/BlockWrapper'
 import BackgroundVideo from "../components/BackgroundVideo"
 import { BlockListItem } from '../components'
 
@@ -14,12 +15,14 @@ const blockLabel = "LANDSCAPE"
 export function Landscape({ data }) {
   const {text, videoId } = data
   return (
-    <Container>
-      <BackgroundVideo vimeoId={videoId} />
-      <TextContainer>
-        <Text>{text}</Text>
-      </TextContainer>
-    </Container>
+    <BlockWrapper label={blockLabel}>
+      <Container>
+        <BackgroundVideo vimeoId={videoId} />
+        <TextContainer>
+          <Text>{text}</Text>
+        </TextContainer>
+      </Container>
+    </BlockWrapper>
   )
 }
 

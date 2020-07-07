@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Img from "gatsby-image"
 import get from "lodash.get"
 
+import BlockWrapper from '../components/BlockWrapper'
 import Document from '../components/Document'
 import {p as P} from '../components/HtmlElements'
 import Spacer from '../components/Spacer'
@@ -15,21 +16,23 @@ const blockLabel = "PUBLICATION"
 export function Publication({ data }) {
   const {text, file} = data
   return (
-    <Document>
-      {
-        data.image &&
-        data.image.childImageSharp && (
-          <Img fluid={data.image.childImageSharp.fluid} />
-        )
-      }
-      <Spacer space={spaces.medium}/>
-      <Text>
-        {text}
-      </Text>
-      <Bottom>
-    { file && file.substr(-3,3).toLowerCase()==="pdf" && <ButtonBlock text=".PDF" href={file}/> }
-      </Bottom>
-    </Document>
+    <BlockWrapper label={blockLabel}>
+      <Document>
+        {
+          data.image &&
+          data.image.childImageSharp && (
+            <Img fluid={data.image.childImageSharp.fluid} />
+          )
+        }
+        <Spacer space={spaces.medium}/>
+        <Text>
+          {text}
+        </Text>
+        <Bottom>
+      { file && file.substr(-3,3).toLowerCase()==="pdf" && <ButtonBlock text=".PDF" href={file}/> }
+        </Bottom>
+      </Document>
+    </BlockWrapper>
   )
 }
 

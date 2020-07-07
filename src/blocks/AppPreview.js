@@ -3,8 +3,9 @@ import styled from 'styled-components'
 import Img from "gatsby-image"
 import get from "lodash.get"
 
+import BlockWrapper from '../components/BlockWrapper'
 import Document from '../components/Document'
-import {p as P, Block} from '../components/HtmlElements'
+
 import { 
   BlockListItem, 
   ButtonBlock,
@@ -17,6 +18,7 @@ const blockLabel = "APP PREVIEW"
 export function AppPreview({ data }) {
   const {text} = data
   return (
+    <BlockWrapper label={blockLabel}>
     <Document>
       {
         data.image &&
@@ -32,6 +34,7 @@ export function AppPreview({ data }) {
       </ButtonBlock>
       <Spacer space={spaces.small} />
     </Document>
+    </BlockWrapper>
   )
 }
 

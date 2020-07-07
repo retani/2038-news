@@ -2,6 +2,7 @@ import React from "react"
 import styled from 'styled-components'
 
 //import {p as P} from '../components/HtmlElements'
+import BlockWrapper from '../components/BlockWrapper'
 import Spacer from '../components/Spacer'
 import { p as P, Block } from '../components/HtmlElements'
 import MarkedText from '../components/MarkedText'
@@ -19,22 +20,24 @@ export function News({ data }) {
   const {text, text2, link, file, usePdf} = data
   const textTrimmed = text.replace(/^\s+|\s+$/g, '')
   return (
-    <Container>
-      <Spacer space={spaces.medium}/>
-      <LargeText>
-        <MarkedText text={`+++ ${textTrimmed} +++`} typoSize={typoSizes.moduleMedium} color={colors.green}/>
-      </LargeText>
-      <SmallText>
-        <span>{text2}</span>
-      </SmallText>
-      <Bottom>
-        { !usePdf ? 
-          link && <ButtonBlock href={link} title={link} theme="blue-on-white">LINK</ButtonBlock>
-          :
-          hasFile(file, "pdf") && <ButtonBlock theme="blue-on-white" title={file} text=".PDF" href={file} />
-        }
-      </Bottom>
-    </Container>
+    <BlockWrapper label={blockLabel}>
+      <Container>
+        <Spacer space={spaces.medium}/>
+        <LargeText>
+          <MarkedText text={`+++ ${textTrimmed} +++`} typoSize={typoSizes.moduleMedium} color={colors.green}/>
+        </LargeText>
+        <SmallText>
+          <span>{text2}</span>
+        </SmallText>
+        <Bottom>
+          { !usePdf ? 
+            link && <ButtonBlock href={link} title={link} theme="blue-on-white">LINK</ButtonBlock>
+            :
+            hasFile(file, "pdf") && <ButtonBlock theme="blue-on-white" title={file} text=".PDF" href={file} />
+          }
+        </Bottom>
+      </Container>
+    </BlockWrapper>
   )
 }
 
