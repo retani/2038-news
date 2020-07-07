@@ -138,6 +138,11 @@
       "content": ""
     },
     {
+      "dateUTC": "2020-07-31-00-01",
+      "_template": "CountdownBlock",
+      "content": ""
+    },
+    {
       "text": "STOP!",
       "color": "#FF0033",
       "_template": "SectionBlock",
