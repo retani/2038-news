@@ -249,6 +249,11 @@
       "file": "/uploads/pdfs/TSTPDF.pdf"
     },
     {
+      "dateUTC": "2021-05-21-15-00",
+      "_template": "CountdownBlock",
+      "content": ""
+    },
+    {
       "content": "Press: \npress@2038.xyz",
       "center": false,
       "_template": "ContentBlock"
