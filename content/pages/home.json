@@ -158,6 +158,13 @@
       "usePdf": false
     },
     {
+      "text": "Quote Schöne Ludwig here",
+      "text2": "Ferdinand Ludwig & Daniel Schönle, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
       "text": "STOP!",
       "color": "#FF0033",
       "_template": "SectionBlock",
@@ -178,22 +185,10 @@
       "content": ""
     },
     {
-      "image": "../images/200608_2038xAWC_Audrey Tang.jpg",
-      "text": "Audrey Tang",
-      "_template": "AppPreviewBlock",
-      "content": ""
-    },
-    {
       "text": "\"How might we?\" is the question democracy is supposed to ask.",
       "text2": "Audrey Tang, 2038",
       "file": "",
       "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/200608_2038xAWC_Jennifer Jacquet Becca Franks Kopie.jpg",
-      "text": "Test",
-      "_template": "AppPreviewBlock",
       "content": ""
     },
     {
