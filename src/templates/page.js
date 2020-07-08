@@ -193,6 +193,7 @@ export const pageQuery = graphql`
         text2
         link
         center
+        bool
         recipient
         usePdf
         color

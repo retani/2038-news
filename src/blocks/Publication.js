@@ -15,7 +15,7 @@ import { spaces, colors, blockSnippet, typoSizes, typoStyles, blockTypoSnippet }
 const blockLabel = "PUBLICATION"
 
 export function Publication({ data }) {
-  const {text, file, usePdf, link} = data
+  const {text, file, usePdf, link, color=colors.blue } = data
   return (
     <BlockWrapper label={blockLabel}>
       <Document>
@@ -26,14 +26,14 @@ export function Publication({ data }) {
           )
         }
         {/*<Spacer space={spaces.medium}/>*/}
-        <SmallText>
+        <SmallText color={color}>
           {text}
         </SmallText>
         <Bottom>
           { !usePdf ? 
-            link && <ButtonBlock href={link} title={link}>LINK</ButtonBlock>
+            link && <ButtonBlock href={link} theme={/*color===colors.black ? "black-on-white" : null*/null} title={link}>LINK</ButtonBlock>
             :
-            hasFile(file, "pdf") && <ButtonBlock title={file} text=".PDF" href={file} />
+            hasFile(file, "pdf") && <ButtonBlock theme={/*color===colors.black ? "black-on-white" : null*/null} title={file} text=".PDF" href={file} />
           }      
         </Bottom>
       </Document>
@@ -67,7 +67,7 @@ const SmallText = styled.p`
   span { max-width: 800px; }
   display: flex;
   justify-content: center;
-  color: ${ colors.blue};
+  color: ${ ({color}) => color || colors.blue};
 `
 
 const Bottom = styled.p`
@@ -86,6 +86,7 @@ export const PublicationBlock = {
   }),  
   defaultItem: {
     image: "",
+    color: colors.black,
     text: `ARTS OF THE WORKING CLASS\nWith texts by Olaf Grawert, Dorothee Hahn, Nils Havelka, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt and many more`,
   },
   fields: [
@@ -127,6 +128,14 @@ export const PublicationBlock = {
           },
         ]
       }
+    },    
+    {
+      name: 'color',
+      component: 'color',
+      label: 'Text Color',
+      colorFormat: 'hex',
+      colors: [colors.blue, colors.black],
+      widget: 'block',
     },    
   ],
 }

@@ -16,6 +16,12 @@ const themes={
     "hoverFg":colors.white,    
     "hoverBg": colors.blue,
   },  
+  "black-on-white": {
+    "linkFg": colors.white,
+    "linkBg": colors.black,
+    "hoverFg":colors.white,    
+    "hoverBg": colors.black,
+  },    
   "light":{
     "linkFg": colors.white,
     "linkBg": colors.grey1,

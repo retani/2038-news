@@ -191,6 +191,7 @@ const colors = {
   white: "white",
   green: "#00ff00",
   mark: "#ff00ff",
+  black: "#000000"
 }
 
 let snippets = {
