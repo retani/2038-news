@@ -11,7 +11,8 @@
     {
       "dateUTC": "2021-05-21-15-00",
       "_template": "CountdownBlock",
-      "content": ""
+      "content": "",
+      "file": "/uploads/ics/opening-2038.ics"
     },
     {
       "text": "NEWS",
@@ -108,7 +109,7 @@
       "text2": "Joanna Pope, 2038",
       "_template": "ArticleBlock",
       "content": "",
-      "file": "/uploads/pdfs/undefined",
+      "file": "/uploads/pdfs/2038xAWC_On the Growthocene_by Joanna Pope.pdf",
       "frontmatter": {
         "text": "<p>„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen agan.“</p>"
       }
@@ -129,23 +130,23 @@
     },
     {
       "image": "../images/200608_2038xAWC_Evgeny Morozov_web.jpg",
-      "text": "Evgeny Morozov, 2038",
+      "text": "",
       "_template": "PublicationBlock",
       "content": ""
     },
     {
       "text": "\"What we actually achieved, post-crisis, was the development of {a society not obsessed with competition.}\" ",
-      "text2": "",
+      "text2": "Evgeny Morozov, 2038",
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
     },
     {
-      "videoId": "",
+      "videoId": "436540448",
       "text": "reconnecting ecosystems",
       "_template": "LandscapeBlock",
       "content": "",
-      "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg",
+      "image": "../images/",
       "color": "#FFFFFF"
     },
     {
@@ -156,7 +157,7 @@
     {
       "text": "„A {new design} has emerged: one that treats buildings as {a raw material stock} for the future.“",
       "text2": "Sabine Oberhuber & Thomas Rau, 2038",
-      "file": "",
+      "file": "/uploads/pdfs/2038xAWC_Material Matters_by Sabine Oberhuber and Thomas Rau.pdf",
       "_template": "ArticleBlock",
       "content": ""
     },
@@ -182,6 +183,13 @@
       "content": ""
     },
     {
+      "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg",
+      "color": "#000000",
+      "text": "",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
       "text": "\"Multi-species urbanism means everything has a voice. 🌊🌳🌸🌴🐛🐬, you and I, {we all have a voice and thus we have rights.}\"",
       "text2": "Caroline Nevejan, 2038",
       "file": "",
@@ -202,9 +210,9 @@
       "content": ""
     },
     {
-      "text": "\"Non-human agents and matter become active political agents, {co-authoring the design} project.\" ",
+      "text": "\"Architecture, in {a feedback loop with reality}: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences {based on contingency.}\" ",
       "text2": "Cedric Libert, 2038",
-      "file": "",
+      "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
       "_template": "ArticleBlock",
       "content": ""
     },
