@@ -3,7 +3,7 @@
   "blocks": [
     {
       "videoId": "370256053",
-      "text": "Today, in the year 2038, we have mastered the great crises. It was close, but we made it. The global ecological, social and economic disasters of the 2020s brought people, states, institutions and companies together. They committed themselves to fundamental rights and jointly created viable, adaptable systems and legal frameworks on a 🌍🌎🌏 basis, giving decentralised, local structures the space to maintain and create highly diverse models of co-existing.\n\nTechnology and big data helped us to turn new and old ideas into reality. And often architects were part of the solution because they had answers instead of coming up with more questions. Drama is now history. We live in a radical democracy, in a radical bureaucracy. On a planet that doesn't know or need heroes or villain.\n",
+      "text": "Today, in the year 2038, we have mastered the great crises. It was close, but we made it. The global ecological, social and economic disasters of the 2020s brought people, states, institutions and companies together. They committed themselves to fundamental rights and jointly created viable, adaptable systems and legal frameworks on a 🌏 🌍 🌎 basis, giving decentralized, local structures the space to maintain and create highly diverse models of co-existing.\n\nTechnology and big data helped us to turn new and old ideas into reality. And often architects were part of the solution because they had answers instead of coming up with more questions. Drama is now history. We live in a radical democracy, in a radical bureaucracy. On a planet that doesn't know or need heroes or villains.\n",
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
       "_template": "IntroVideoBlock",
       "content": ""
@@ -20,12 +20,13 @@
       "content": ""
     },
     {
-      "image": "../images/2038xAWC Cover web_v7.jpg",
-      "text": "with Diana Alvarez-Marin, Baubotanik, Francesca Bria, Ludwig Engel, Sename Koffi Agbodjinou, Lucy Lobster, Sabine Oberhuber & Thomas Rau, Joanna Pope, Rebiennale / R3B, Leif Randt, Audrey Tang, Cassie Thornton, Mark Wigley, Anna Yeboah and many more",
+      "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
+      "text": "with Andrés Arauz, Diana Alvarez-Marín, Lara Verena Bellenghi, Anne Katrin Bohle, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Agnieszka Brzezanska, Marina Castillo Deball, Park Chan-sol, Kristof Croes, Ludwig Engel, Manuel Falkenhahn, Jan Fermon & Jonas Staal, Katrin Fritsch & Helene von Schwichow, Bar Gregoryan & Bee Haven, Olaf Grawert, Guerilla Architects, Dorothee Hahn, Ludger Hovestadt, Finley Hoxha, Jeanne Hu, Varuna Jael, Mitchell Joachim, Goda Klumbyte & Loren Britton, Sénamé Koffi Agbodjinou, Lukas Kubina, Matylda Krzykowski, Foreign Legion, Samira Lenzin, Cédric Libert, Ferdinand Ludwig & Daniel Schönle, Lucy Lobster, Suhail Malik, Charlotte Malterre-Barthes, Renzo Martens, Evgeny Morozov, Caroline Nevejan, Aang Nkurunziza, Paulina Nolte, Sabine Oberhuber & Thomas Rau, Verena Otto, Wong Ping, Leonard Pongo, Joanna Pope, Christian Posthofen, Rebiennale / R3B & Giulio Grillo, Leif Randt, Christopher Roth, S.a.L.E. Docks, Attila Saygel, Jack Self, Audrey Tang, Cassie Thornton, Galaad Van Daele, Marlo Wang, Mark Wigley, Anna Yeboah",
       "_template": "PublicationBlock",
       "content": "",
       "usePdf": false,
-      "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/"
+      "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
+      "color": "#0000FF"
     },
     {
       "text": "Man kann sagen, dass dieser Pavillon einer der optimistischsten ist, die es je gab, eben weil nicht nur behauptet wird, dass man eventuell Ideen für mögliche Lösungen habe, sondern {aus der Zukunft} verfügt und {erklärt wird,} dass und {wie diese Lösungen funktioniert haben.}",
@@ -46,7 +47,8 @@
       "text": "decoding social relations",
       "_template": "LandscapeBlock",
       "content": "",
-      "image": "../images/200608_2038xAWC_Audrey Tang_web.jpg"
+      "image": "../images/200608_2038xAWC_Audrey Tang_web.jpg",
+      "color": "#FFFFFF"
     },
     {
       "dateUTC": "2020-07-10-14-00",
@@ -92,7 +94,8 @@
       "text": "enacting disownership",
       "_template": "LandscapeBlock",
       "content": "",
-      "image": "../images/200608_2038xAWC_Evgeny Morozov_web.jpg"
+      "image": "../images/200608_2038xAWC_Evgeny Morozov_web.jpg",
+      "color": "#FFFFFF"
     },
     {
       "dateUTC": "2020-07-17-14-00",
@@ -142,7 +145,8 @@
       "text": "reconnecting ecosystems",
       "_template": "LandscapeBlock",
       "content": "",
-      "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg"
+      "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg",
+      "color": "#FFFFFF"
     },
     {
       "dateUTC": "2020-07-24-14-00",
@@ -189,7 +193,8 @@
       "text": "architecting time & space",
       "_template": "LandscapeBlock",
       "content": "",
-      "image": "../images/200608_2038xAWC_Jennifer Jacquet Becca Franks_web.jpg"
+      "image": "../images/200608_2038xAWC_Jennifer Jacquet Becca Franks_web.jpg",
+      "color": "#FFFFFF"
     },
     {
       "dateUTC": "2020-07-31-14-01",
@@ -274,27 +279,6 @@
       "text": "IMP.",
       "_template": "ImpLinkBlock",
       "content": ""
-    },
-    {
-      "text": "STOP!",
-      "color": "#FF0033",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "text": "\"It's one of those things that you look back on, and you think \"{How could we have done that for so long?}\"",
-      "text2": "Jennifer Jacquet & Becca Franks and some other species, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "text": "Today, green investment options are plentiful. Renewable energy is cheaper than coal almost everywhere in the world, and increasingly competitive with gas. ",
-      "text2": "Laura Millan Lombrana, Bloomberg",
-      "link": "https://www.bloomberg.com/news/articles/2020-03-18/green-projects-could-pull-economies-out-of-the-coronavirus-slump?utm_source=url_link",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": false
     },
     {
       "text": "\"Architekt*innen sind heute verantwortlich für die grundsätzlich in Relation zu allen anderen Umweltsystemen stehenden Effekte ihrer Praxis. Die Effekte werden zu Bausteinen, der von ihnen zu schaffenden räumlichen Situation.\"",
