@@ -1,3 +1,17 @@
+## WARNING: Do not commit to master branch unless you rebuild the admin system at the same time
+
+otherwise all changes made in admin will fail *silently* (that's not done well in TinaCMS) and changes won't be saved.
+
+DO CHANGE README ON THE FLY OR ANYTHING LIKE THAT. WILL BREAK THE SYSTEM AND LEAD TO LOSS OF DATA.
+
+## HOW TO COMMIT
+
+Rule 1: Push to dev
+
+Rule 2: To release a new version, ssh into intergestalt-cloud first. Then, start the rebuild script. It will prompt you to do add your commits to master branch. Do so by merging dev into master. Let the script continue.
+
+Rule 3: Check if the commits are in sync. On intergestalt-cloud: `docker exec 2038-news-admin.web.1 git rev-parse HEAD` compare to latest master commit in github.
+
 ### ENV
 ```
 GIT_REMOTE no effect
