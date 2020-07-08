@@ -150,24 +150,9 @@
       "content": ""
     },
     {
-      "text": "Today, green investment options are plentiful. Renewable energy is cheaper than coal almost everywhere in the world, and increasingly competitive with gas. ",
-      "text2": "Laura Millan Lombrana, Bloomberg",
-      "link": "https://www.bloomberg.com/news/articles/2020-03-18/green-projects-could-pull-economies-out-of-the-coronavirus-slump?utm_source=url_link",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": false
-    },
-    {
-      "text": "A circular economy is focused on designing out waste and pollution, keeping products and materials in use, and regenerating natural systems, so that we do not exhaust the resources of our planet.",
+      "text": "A {circular economy} is focused on designing out waste and pollution, keeping products and materials in use, and regenerating natural systems, so that we {do not exhaust the resources of our planet.} 🌎 ",
       "text2": "Naoko Ishii & Frans van Houten, WEF",
       "link": "https://www.weforum.org/agenda/2020/07/to-build-resilience-to-future-pandemics-and-climate-change-we-must-go-circular/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
-      "text2": "Daniel Boffey on theguardian.com",
-      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
       "_template": "NewsBlock",
       "content": ""
     },
@@ -176,6 +161,13 @@
       "text2": "Ferdinand Ludwig & Daniel Schönle, 2038",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
+      "text2": "Daniel Boffey on theguardian.com",
+      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
@@ -300,6 +292,14 @@
       "color": "#FF0033",
       "_template": "SectionBlock",
       "content": ""
+    },
+    {
+      "text": "Today, green investment options are plentiful. Renewable energy is cheaper than coal almost everywhere in the world, and increasingly competitive with gas. ",
+      "text2": "Laura Millan Lombrana, Bloomberg",
+      "link": "https://www.bloomberg.com/news/articles/2020-03-18/green-projects-could-pull-economies-out-of-the-coronavirus-slump?utm_source=url_link",
+      "_template": "NewsBlock",
+      "content": "",
+      "usePdf": false
     },
     {
       "text": "\"Architekt*innen sind heute verantwortlich für die grundsätzlich in Relation zu allen anderen Umweltsystemen stehenden Effekte ihrer Praxis. Die Effekte werden zu Bausteinen, der von ihnen zu schaffenden räumlichen Situation.\"",
