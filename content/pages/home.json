@@ -306,6 +306,11 @@
       "content": ""
     },
     {
+      "content": "Contact: \nmail@2038.xyz",
+      "center": false,
+      "_template": "ContentBlock"
+    },
+    {
       "text": "IMP.",
       "_template": "ImpLinkBlock",
       "content": ""
@@ -322,11 +327,6 @@
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
-    },
-    {
-      "content": "Contact: \nmail@2038.xyz",
-      "center": false,
-      "_template": "ContentBlock"
     }
   ],
   "hero": {
