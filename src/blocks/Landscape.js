@@ -10,14 +10,16 @@ import { BlockListItem } from '../components'
 import {   
   typoSizes,
   typoStyles,
-  typoSnippet,  } from '../../config/styles'
+  typoSnippet,
+  colors,
+  spaced  } from '../../config/styles'
 
 import {vimeoIdValid} from '../helpers/validators'
 
 const blockLabel = "LANDSCAPE"
 
 export function Landscape({ data }) {
-  const {text, videoId } = data
+  const {text, videoId, color=colors.black } = data
   return (
     <BlockWrapper label={blockLabel}>
       <Container>
@@ -34,7 +36,7 @@ export function Landscape({ data }) {
           </ImgContainer>
         }
         <TextContainer>
-          <Text>{text}</Text>
+          <Text color={color}>{text}</Text>
         </TextContainer>
       </Container>
     </BlockWrapper>
@@ -52,6 +54,11 @@ const TextContainer = styled.div`
   top:0;
   width: 100%;
   height: 100%;
+  box-sizing:border-box;
+  ${spaced(`
+      padding-left: %mediumShrink;
+      padding-right: %mediumShrink;
+      `)};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,6 +71,7 @@ const Text = styled.span`
     }) 
   };
   text-align: center;
+  color: ${ ({color}) => color };
 `
 
 const ImgContainer = styled.div`
@@ -84,6 +92,7 @@ export const LandscapeBlock = {
   defaultItem: {
     videoId: "115845843",
     text: "legal bodies",
+    color: colors.black
   },
   fields: [
     { name: "videoId", label: "Vimeo Video ID", component: "text" },
@@ -101,5 +110,13 @@ export const LandscapeBlock = {
       },
     },
     { name: "text", label: "Text", component: "textarea" },    
+    {
+      name: 'color',
+      component: 'color',
+      label: 'Text Color',
+      colorFormat: 'hex',
+      colors: [colors.black, colors.white, colors.turquoise, colors.green],
+      widget: 'block',
+    },  
   ],
 }

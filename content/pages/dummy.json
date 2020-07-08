@@ -32,6 +32,7 @@
       "link": "dummy",
       "center": false,
       "underline": true,
+      "bool": false,
       "recipient": "dummy",
       "usePdf": false,
       "image": "../images/dummy.jpg",

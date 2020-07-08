@@ -16,7 +16,7 @@ export default ({children, backgroundColor, color, style, beforeText}) => {
   )
 }
 
-const Head = styled.h2`
+export const Head = styled.h2`
   height: ${ spaces.large.px.l+"px" };
   font-size: ${typoSizes.sectionHeader.fontSizePx.l + "px"};
   line-height: ${typoSizes.sectionHeader.lineHeightPx.l + "px"};
