@@ -19,6 +19,13 @@
       "content": ""
     },
     {
+      "videoId": "",
+      "text": "out now",
+      "_template": "LandscapeBlock",
+      "content": "",
+      "image": "../images/2038xAWC Cover web_v5.jpg"
+    },
+    {
       "image": "../images/2038xAWC Cover web_v7.jpg",
       "text": "with Diana Alvarez-Marin, Baubotanik, Francesca Bria, Ludwig Engel, Sename Koffi Agbodjinou, Lucy Lobster, Sabine Oberhuber & Thomas Rau, Joanna Pope, Rebiennale / R3B, Leif Randt, Audrey Tang, Cassie Thornton, Mark Wigley, Anna Yeboah and many more",
       "_template": "PublicationBlock",
