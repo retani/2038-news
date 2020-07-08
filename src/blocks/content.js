@@ -24,7 +24,7 @@ const StyledContent = styled.div`
     ${blockTypoSnippet({
       typoStyle: typoStyles.RobotoMonoRegular,
       typoSize: typoSizes.moduleMedium,
-      spaceBottom: typoSizes.moduleMedium.lineHeightPx,
+      spaceBottom: {px: typoSizes.moduleMedium.lineHeightPx},
     })}
   }
 
