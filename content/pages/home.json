@@ -11,7 +11,8 @@
     {
       "dateUTC": "2021-05-21-15-00",
       "_template": "CountdownBlock",
-      "content": ""
+      "content": "",
+      "file": "/uploads/ics/opening-2038.ics"
     },
     {
       "text": "NEWS",
@@ -108,7 +109,7 @@
       "text2": "Joanna Pope, 2038",
       "_template": "ArticleBlock",
       "content": "",
-      "file": "/uploads/pdfs/",
+      "file": "/uploads/pdfs/2038xAWC_On the Growthocene_by Joanna Pope.pdf",
       "frontmatter": {
         "text": "<p>„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen agan.“</p>"
       }
