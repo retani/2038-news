@@ -21,6 +21,7 @@ import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
 import { TypoTester, TypoTesterBlock } from '../blocks/TypoTester'
 
 import { PageLayout } from "../components/pageLayout"
+import { Menu } from "../components/Menu"
 
 import { globalStyles, spaces } from '../../config/styles'
 import { Spacer } from '../components'
@@ -49,6 +50,7 @@ export default function Page(props) {
       </Helmet>
       <PageLayout page={page}>
         {/*<TypoTester />*/}
+        <Menu />
         {mapBlocks(data,page,blocks)}
         <Spacer space={spaces.large} />
       </PageLayout>
