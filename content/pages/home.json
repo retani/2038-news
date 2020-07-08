@@ -9,11 +9,6 @@
       "content": ""
     },
     {
-      "text": "",
-      "_template": "WithBlock",
-      "content": ""
-    },
-    {
       "dateUTC": "2021-05-21-15-00",
       "_template": "CountdownBlock",
       "content": ""
@@ -25,7 +20,7 @@
     },
     {
       "image": "../images/2038xAWC Cover web_v7.jpg",
-      "text": "with Diana Alvarez-Marin, Francesca Bria, Ludwig Engel, Sename Koffi Agbodjinou, Lucy Lobster, Sabine Oberhuber & Thomas Rau, Joanna Pope, Rebiennale / R3B, Leif Randt, Audrey Tang, Cassie Thornton, Mark Wigley, Anna Yeboah and many more",
+      "text": "with Diana Alvarez-Marin, Baubotanik, Francesca Bria, Ludwig Engel, Sename Koffi Agbodjinou, Lucy Lobster, Sabine Oberhuber & Thomas Rau, Joanna Pope, Rebiennale / R3B, Leif Randt, Audrey Tang, Cassie Thornton, Mark Wigley, Anna Yeboah and many more",
       "_template": "PublicationBlock",
       "content": ""
     },
