@@ -100,6 +100,6 @@ export const LandscapeBlock = {
         return imageNode.childImageSharp.fluid.src
       },
     },
-    { name: "text", label: "Text", component: "text" },    
+    { name: "text", label: "Text", component: "textarea" },    
   ],
 }
