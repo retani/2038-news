@@ -52,7 +52,7 @@
       "content": ""
     },
     {
-      "text": "This is what we call {permanent BETA}, a digital contract between individuals that is constantly updated and re-invented because it is never finished.",
+      "text": "\"This is what we call {permanent BETA}, a digital contract between individuals that is constantly updated and re-invented because it is never finished.\"",
       "text2": "Diana Alvarez-Marin, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -66,7 +66,7 @@
       "content": ""
     },
     {
-      "text": "Citizens' collective intelligence is part of the decision making processes that are happening at our town halls.",
+      "text": "\"Citizens' collective intelligence is part of the decision making processes that are happening at our town halls.\"",
       "text2": "Francesca Bria, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -79,7 +79,7 @@
       "content": ""
     },
     {
-      "text": "The digital was crucial for finding better ways to facilitate dialogue and work toward common understandings between different actors and groups.",
+      "text": "\"The digital was crucial for finding better ways to facilitate dialogue and work toward common understandings between different actors and groups.\"",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
@@ -104,7 +104,7 @@
     },
     {
       "videoId": "370256053",
-      "text": "This new world exists only so long as transnational solidarity exists, allowing processes of cooperation and autonomous self-determination to keep unfolding.",
+      "text": "\"This new world exists only so long as transnational solidarity exists, allowing processes of cooperation and autonomous self-determination to keep unfolding.\"",
       "text2": "Joanna Pope, 2038",
       "_template": "ArticleBlock",
       "content": "",
@@ -121,7 +121,7 @@
       "content": ""
     },
     {
-      "text": "Today, private property is no longer a viable basis for social organization, neither in terms of the human social system, which used to be dominated by the market and the commerce, nor in terms of the environment. ",
+      "text": "\"Today, private property is no longer a viable basis for social organization, neither in terms of the human social system, which used to be dominated by the market and the commerce, nor in terms of the environment.\"",
       "text2": "Suhail Malik, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -134,7 +134,7 @@
       "content": ""
     },
     {
-      "text": "What we actually achieved, post-crisis, was the development of a society not obsessed with competition. ",
+      "text": "\"What we actually achieved, post-crisis, was the development of a society not obsessed with competition.\" ",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
@@ -187,7 +187,7 @@
       "content": ""
     },
     {
-      "text": "A designer is more like a gardener, deciding the direction and not the form, thinking of a process, of different possibilities of different future. ",
+      "text": "\"A designer is more like a gardener, deciding the direction and not the form, thinking of a process, of different possibilities of different future.\" ",
       "text2": "Ferdinand Ludwig & Daniel Schönle, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -200,7 +200,7 @@
       "content": ""
     },
     {
-      "text": "Multi-species urbanism means everything has a voice. The river, the tree, the worm, you and I, we all have a voice and thus we have rights.",
+      "text": "\"Multi-species urbanism means everything has a voice. The river, the tree, the worm, you and I, we all have a voice and thus we have rights.\"",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
@@ -224,7 +224,7 @@
       "content": ""
     },
     {
-      "text": "Non-human agents and matter become active political agents, co-authoring the design project. ",
+      "text": "\"Non-human agents and matter become active political agents, co-authoring the design project.\" ",
       "text2": "Cedric Libert, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -238,7 +238,7 @@
       "content": ""
     },
     {
-      "text": "Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.",
+      "text": "\"Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.\"",
       "text2": "Mark Wigley, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -306,6 +306,11 @@
       "content": ""
     },
     {
+      "content": "Contact: \nmail@2038.xyz",
+      "center": false,
+      "_template": "ContentBlock"
+    },
+    {
       "text": "IMP.",
       "_template": "ImpLinkBlock",
       "content": ""
@@ -322,11 +327,6 @@
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
-    },
-    {
-      "content": "Contact: \nmail@2038.xyz",
-      "center": false,
-      "_template": "ContentBlock"
     }
   ],
   "hero": {
