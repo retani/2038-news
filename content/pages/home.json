@@ -68,14 +68,8 @@
       "content": ""
     },
     {
-      "image": "../images/200608_2038xAWC_Audrey Tang_web_text.jpg",
-      "text": "Audrey Tang, 2038",
-      "_template": "PublicationBlock",
-      "content": ""
-    },
-    {
       "text": "\"The digital was crucial for finding better ways to {facilitate dialogue and work toward common understandings} between different actors and groups.\"",
-      "text2": "",
+      "text2": "Audrey Tang, 2038",
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
@@ -86,6 +80,12 @@
       "_template": "LandscapeBlock",
       "content": "",
       "image": "../images/200608_2038xAWC_Evgeny Morozov_web.jpg"
+    },
+    {
+      "image": "../images/200608_2038xAWC_Audrey Tang_web_text.jpg",
+      "text": "Audrey Tang, 2038",
+      "_template": "PublicationBlock",
+      "content": ""
     },
     {
       "dateUTC": "2020-07-17-14-00",
