@@ -75,7 +75,7 @@
     },
     {
       "image": "../images/200608_2038xAWC_Audrey Tang.jpg",
-      "text": "Audrey Tang, 2038",
+      "text": "\"The digital was crucial for finding better ways to facilitate dialogue and work toward common understandings between different actors and groups.\"\n\nAudrey Tang, 2038",
       "_template": "PublicationBlock",
       "content": ""
     },
@@ -96,7 +96,8 @@
       "videoId": "",
       "text": "enacting disownership",
       "_template": "LandscapeBlock",
-      "content": ""
+      "content": "",
+      "image": "../images/200608_2038xAWC_Evgeny Morozov_web.jpg"
     },
     {
       "dateUTC": "2020-07-17-14-00",
