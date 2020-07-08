@@ -13,7 +13,6 @@ import {
 import { hasFile } from '../helpers/validators'
 import { colors, spaces,  typoSizes, blockSnippet, blockTypoSnippet, typoStyles, typoSnippet } from '../../config/styles'
 
-
 const blockLabel = "NEWS"
 
 export function News({ data }) {

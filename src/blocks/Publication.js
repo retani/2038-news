@@ -9,12 +9,13 @@ import {p as P} from '../components/HtmlElements'
 import Spacer from '../components/Spacer'
 import { BlockListItem, ButtonBlock } from '../components'
 
+import { hasFile } from '../helpers/validators'
 import { spaces, colors, blockSnippet, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "PUBLICATION"
 
 export function Publication({ data }) {
-  const {text, file} = data
+  const {text, file, usePdf, link} = data
   return (
     <BlockWrapper label={blockLabel}>
       <Document>
@@ -29,7 +30,11 @@ export function Publication({ data }) {
           {text}
         </Text>
         <Bottom>
-      { file && file.substr(-3,3).toLowerCase()==="pdf" && <ButtonBlock text=".PDF" href={file}/> }
+          { !usePdf ? 
+            link && <ButtonBlock href={link} title={link}>LINK</ButtonBlock>
+            :
+            hasFile(file, "pdf") && <ButtonBlock title={file} text=".PDF" href={file} />
+          }      
         </Bottom>
       </Document>
     </BlockWrapper>
@@ -83,13 +88,29 @@ export const PublicationBlock = {
       },
     },
     {
-      name: "file",
-      label: "PDF",
-      component: "file",
-      accept: 'application/pdf',
-      clearable: true,
-      parse: (file) => `/uploads/pdfs/${file}`,
-      uploadDir: () => '/static/uploads/pdfs/', 
+      label: 'Link or PDF',
+      name: 'usePdf',
+      description: 'Choose Link (left) or PDF (right)',
+      component: "condition",
+      trigger: {
+        component: "toggle"
+      },
+      fields: (usePdf) => {
+        return !usePdf ? [
+          { name: "link", label: "Link", component: "text", description: "URL, e.g. https://theatlantic.com" },
+        ] : [
+          {
+            name: "file",
+            label: "PDF",
+            component: "file",
+            description: '.PDF Upload',
+            accept: 'application/pdf',
+            clearable: true,
+            parse: (file) => `/uploads/pdfs/${file}`,
+            uploadDir: () => '/static/uploads/pdfs/', 
+          },
+        ]
+      }
     },    
   ],
 }
