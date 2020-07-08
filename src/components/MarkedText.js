@@ -47,6 +47,7 @@ const Container = styled.span`
 
 const Container2 = styled.span`
   /*outline: 1px black solid;*/
+  user-select: none;
   position: absolute;
   left:0;
   top: ${ props => props.lineHeightPx.l * 0.05 }px; 
