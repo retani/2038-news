@@ -141,11 +141,11 @@
       "content": ""
     },
     {
-      "videoId": "",
+      "videoId": "436540448",
       "text": "reconnecting ecosystems",
       "_template": "LandscapeBlock",
       "content": "",
-      "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg",
+      "image": "../images/",
       "color": "#FFFFFF"
     },
     {
@@ -179,6 +179,13 @@
       "text2": "Daniel Boffey, The Guardian",
       "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg",
+      "color": "#000000",
+      "text": "",
+      "_template": "PublicationBlock",
       "content": ""
     },
     {
