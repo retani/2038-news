@@ -54,7 +54,7 @@
       "content": ""
     },
     {
-      "text": "We know from social scientists that a {diverse group of people} can make very good decisions. We also know from a number of recent experiments that citizens can be called upon to make decisions on very tough policy issues, including climate change, and even to shape constitutions. Finally, we can draw from the past for inspiration on how to actually build {citizen-run institutions.}",
+      "text": "We know from social scientists that a {diverse group of people} can make very good decisions. We also know from a number of recent experiments that {citizens can be called upon to make decisions} on very tough policy issues, including climate change, and even to shape constitutions. Finally, we can draw from the past for inspiration on how to actually build {citizen-run institutions.}",
       "text2": "Federica Carugati, Wired",
       "link": "https://www.wired.com/story/opinion-a-council-of-citizens-should-regulate-algorithms/",
       "_template": "NewsBlock",
@@ -74,7 +74,7 @@
       "content": ""
     },
     {
-      "text": "\"The digital was crucial for finding better ways to facilitate dialogue and work toward common understandings between different actors and groups.\"",
+      "text": "\"The digital was crucial for finding better ways to {facilitate dialogue and work toward common understandings} between different actors and groups.\"",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
