@@ -281,27 +281,6 @@
       "content": ""
     },
     {
-      "text": "STOP!",
-      "color": "#FF0033",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "text": "\"It's one of those things that you look back on, and you think \"{How could we have done that for so long?}\"",
-      "text2": "Jennifer Jacquet & Becca Franks and some other species, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "text": "Today, green investment options are plentiful. Renewable energy is cheaper than coal almost everywhere in the world, and increasingly competitive with gas. ",
-      "text2": "Laura Millan Lombrana, Bloomberg",
-      "link": "https://www.bloomberg.com/news/articles/2020-03-18/green-projects-could-pull-economies-out-of-the-coronavirus-slump?utm_source=url_link",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": false
-    },
-    {
       "text": "\"Architekt*innen sind heute verantwortlich für die grundsätzlich in Relation zu allen anderen Umweltsystemen stehenden Effekte ihrer Praxis. Die Effekte werden zu Bausteinen, der von ihnen zu schaffenden räumlichen Situation.\"",
       "text2": "Christian Posthofen, 2038",
       "file": "",
