@@ -224,6 +224,12 @@
       "content": ""
     },
     {
+      "image": "",
+      "text": "> New perspectives <",
+      "_template": "AppPreviewBlock",
+      "content": ""
+    },
+    {
       "text": "NEWS",
       "color": "#0000ff",
       "_template": "SectionBlock",
