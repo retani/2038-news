@@ -26,9 +26,9 @@ export function Publication({ data }) {
           )
         }
         {/*<Spacer space={spaces.medium}/>*/}
-        <Text>
+        <SmallText>
           {text}
-        </Text>
+        </SmallText>
         <Bottom>
           { !usePdf ? 
             link && <ButtonBlock href={link} title={link}>LINK</ButtonBlock>
@@ -51,6 +51,22 @@ const Text = styled.p`
     }) 
   };
   text-align: center;
+  color: ${ colors.blue};
+`
+
+const SmallText = styled.p`
+  ${ 
+    blockTypoSnippet({ 
+      typoSize: typoSizes.moduleSmall, 
+      typoStyle: typoStyles.RobotoMonoRegular,
+      spaceTop: spaces.small,
+      spaceBottom: spaces.small
+    }) 
+  };
+  text-align: center;
+  span { max-width: 800px; }
+  display: flex;
+  justify-content: center;
   color: ${ colors.blue};
 `
 
