@@ -50,7 +50,7 @@ export default function Page(props) {
       </Helmet>
       <PageLayout page={page}>
         {/*<TypoTester />*/}
-        <Menu />
+        {/*<Menu />*/}
         {mapBlocks(data,page,blocks)}
         <Spacer space={spaces.large} />
       </PageLayout>

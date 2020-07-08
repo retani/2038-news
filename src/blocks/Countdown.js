@@ -33,7 +33,7 @@ function renderOffsetObject(distance) {
 
 export const Countdown = (data) =>  {
   
-  const {dateUTC} = data.data
+  const {dateUTC, file} = data.data
 
   const parts = dateUTC ? dateUTC.split("-") : "0-0-0-0-0"
   //if (parts.length !== 5) {
@@ -82,7 +82,7 @@ export const Countdown = (data) =>  {
         backgroundColorClosed={colors.green} 
         backgroundColorOpen={colors.turquoise}
       >
-      <DownloadLink href="/opening-2038.ics" text="iCal" textOffset="1px" size="small"/>
+      <DownloadLink href={file} text="iCal" textOffset="1px" size="small"/>
       <Spacer space={spaces.medium} />
     </Accordion>
   </Div>
@@ -96,9 +96,20 @@ export const CountdownBlock = {
   }),    
   defaultItem: {
     dateUTC: "2020-08-28-14-00",
+    file: "/opening-2038.ics"
   },
   fields: [
     { name: "dateUTC", label: "Date (UTC)", component: "text", description: "Format: YYYY-MM-DD-hh-mm" },
+    {
+      name: "file",
+      label: "Calendar File",
+      component: "file",
+      description: '.ics File Generator: https://www.terminsysteme.de/ics/index.php',
+      accept: 'text/calendar',
+      clearable: true,
+      parse: (file) => `/uploads/ics/${file}`,
+      uploadDir: () => '/static/uploads/ics/', 
+    },    
   ],
 }
 
