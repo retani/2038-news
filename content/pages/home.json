@@ -3,8 +3,8 @@
   "blocks": [
     {
       "videoId": "370256053",
-      "text": "Today, in the year 2038, we have mastered the great crises. It was close, but we made it. The global ecological, social and economic disasters of the 2020s brought people, states, institutions and companies together. They committed themselves to fundamental rights and jointly created viable, adaptable systems and legal frameworks on a planetary basis, giving decentralised, local structures the space to maintain and create highly diverse models of co-existing.\n\nTechnology and big data helped us to turn new and old ideas into reality. And often architects were part of the solution because they had answers instead of coming up with more questions. Drama is now history. We live in a radical democracy, in a radical bureaucracy. On a planet that doesn't know or need heroes or villains.",
-      "text2": "German Contribution to the 17 International Architecture Exhibition Venice ",
+      "text": "Today, in the year 2038, we have mastered the great crises. It was close, but we made it. The global ecological, social and economic disasters of the 2020s brought people, states, institutions and companies together. They committed themselves to fundamental rights and jointly created viable, adaptable systems and legal frameworks on a planetary basis, giving decentralised, local structures the space to maintain and create highly diverse models of co-existing.\n\nTechnology and big data helped us to turn new and old ideas into reality. And often architects were part of the solution because they had answers instead of coming up with more questions. Drama is now history. We live in a radical democracy, in a radical bureaucracy. On a planet that doesn't know or need heroes or villains.\n",
+      "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
       "_template": "IntroVideoBlock",
       "content": ""
     },
@@ -20,7 +20,7 @@
     },
     {
       "image": "../images/2038xAWC Cover web_v7.jpg",
-      "text": "with Diana Alvarez-Marin, Francesca Bria, Ludwig Engel, Sename Koffi Agbodjinou, Lucy Lobster, Sabine Oberhuber & Thomas Rau, Joanna Pope, Rebiennale / R3B, Leif Randt, Audrey Tang, Cassie Thornton, Mark Wigley, Anna Yeboah and many more",
+      "text": "with Diana Alvarez-Marin, Baubotanik, Francesca Bria, Ludwig Engel, Sename Koffi Agbodjinou, Lucy Lobster, Sabine Oberhuber & Thomas Rau, Joanna Pope, Rebiennale / R3B, Leif Randt, Audrey Tang, Cassie Thornton, Mark Wigley, Anna Yeboah and many more",
       "_template": "PublicationBlock",
       "content": "",
       "usePdf": false,
@@ -36,7 +36,7 @@
     },
     {
       "text": "2038",
-      "color": "#00FF00",
+      "color": "#FF6FFF",
       "_template": "SectionBlock",
       "content": ""
     },
@@ -59,14 +59,14 @@
       "content": ""
     },
     {
-      "text": "Wired News here",
+      "text": "We know from social scientists that a diverse group of people can make very good decisions. We also know from a number of recent experiments that citizens can be called upon to make decisions on very tough policy issues, including climate change, and even to shape constitutions. Finally, we can draw from the past for inspiration on how to actually build citizen-run institutions.",
       "text2": "Federica Carugati, Wired",
       "link": "https://www.wired.com/story/opinion-a-council-of-citizens-should-regulate-algorithms/",
       "_template": "NewsBlock",
       "content": ""
     },
     {
-      "text": "Bria Quote here",
+      "text": "Citizens' collective intelligence is part of the decision making processes that are happening at our town halls.",
       "text2": "Francesca Bria, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -79,10 +79,16 @@
       "content": ""
     },
     {
-      "text": "Audrey Tang Quote here",
+      "text": "The digital was crucial for finding better ways to facilitate dialogue and work toward common understandings between different actors and groups.",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "2038",
+      "color": "#FF6FFF",
+      "_template": "SectionBlock",
       "content": ""
     },
     {
@@ -98,7 +104,7 @@
     },
     {
       "videoId": "370256053",
-      "text": "Joanna Pope AWC Quote Here",
+      "text": "This new world exists only so long as transnational solidarity exists, allowing processes of cooperation and autonomous self-determination to keep unfolding.",
       "text2": "Joanna Pope, 2038",
       "_template": "ArticleBlock",
       "content": "",
@@ -115,7 +121,7 @@
       "content": ""
     },
     {
-      "text": "Suhail Quote here",
+      "text": "Today, private property is no longer a viable basis for social organization, neither in terms of the human social system, which used to be dominated by the market and the commerce, nor in terms of the environment. ",
       "text2": "Suhail Malik, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -128,10 +134,16 @@
       "content": ""
     },
     {
-      "text": "Quote Evgeny Morozov here",
+      "text": "What we actually achieved, post-crisis, was the development of a society not obsessed with competition. ",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "2038",
+      "color": "#FF6FFF",
+      "_template": "SectionBlock",
       "content": ""
     },
     {
@@ -146,7 +158,7 @@
       "content": ""
     },
     {
-      "text": "Quote Oberhuber Rau from AWC here",
+      "text": "„A new design has emerged: one that treats buildings as a raw material stock for the future.“",
       "text2": "Sabine Oberhuber & Thomas Rau, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -161,7 +173,21 @@
       "usePdf": false
     },
     {
-      "text": "Quote Schöne Ludwig here",
+      "text": "A circular economy is focused on designing out waste and pollution, keeping products and materials in use, and regenerating natural systems, so that we do not exhaust the resources of our planet.",
+      "text2": "Naoko Ishii & Frans van Houten, WEF",
+      "link": "https://www.weforum.org/agenda/2020/07/to-build-resilience-to-future-pandemics-and-climate-change-we-must-go-circular/",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
+      "text2": "Daniel Boffey on theguardian.com",
+      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "A designer is more like a gardener, deciding the direction and not the form, thinking of a process, of different possibilities of different future. ",
       "text2": "Ferdinand Ludwig & Daniel Schönle, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -174,10 +200,16 @@
       "content": ""
     },
     {
-      "text": "We created {legal entities} around natural living forms {that are not human},  natural elements, {crucial for the survival of the planet}, have rights.",
+      "text": "Multi-species urbanism means everything has a voice. The river, the tree, the worm, you and I, we all have a voice and thus we have rights.",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "2038",
+      "color": "#FF6FFF",
+      "_template": "SectionBlock",
       "content": ""
     },
     {
@@ -192,7 +224,7 @@
       "content": ""
     },
     {
-      "text": "Quote Cedric Libert her",
+      "text": "Non-human agents and matter become active political agents, co-authoring the design project. ",
       "text2": "Cedric Libert, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -219,21 +251,28 @@
       "content": ""
     },
     {
+      "text": "\"It's one of those things that you look back on, and you think \"How could we have done that for so long?\"",
+      "text2": "",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
       "text": "NEWS",
       "color": "#0000ff",
       "_template": "SectionBlock",
       "content": ""
     },
     {
-      "text": "Alexander Russ quote here",
+      "text": "Das Frappierende Ihres Konzepts ist, dass es zu einem gewissen Teil von der Realität eingeholt wurde. Allerdings haben Ihre Krisenszenarien ökonomische und ökologische Ursachen. Tatsächlich ist die aktuelle Krise, die wir momentan erleben, anderen Ursprungs.",
       "text2": "Alexander Russ, Baumeister",
       "link": "https://www.baumeister.de/die-neue-gelassenheit/",
       "_template": "NewsBlock",
       "content": ""
     },
     {
-      "text": "Fabian Peter",
-      "text2": "Fabian Peters, Stylepa",
+      "text": "All das sind Ideen, die bereits heute als Antworten auf die aktuellen Fragestellungen proklamiert werden. Und die \"Zeitzeugen\" des Jahres 2038, die in den Interviews die segensreichen Auswirkungen beschreiben, die diese Maßnahmen entwickelt haben, sind genau jene Akteure, die die Umsetzung dieser Vorschläge heute fordern.",
+      "text2": "Fabian Peters, Stylepark",
       "link": "https://www.stylepark.com/de/news/deutscher-pavillon-biennale-2020",
       "_template": "NewsBlock",
       "content": ""
@@ -278,16 +317,16 @@
       "content": ""
     },
     {
+      "text": "\"Architekt*innen sind heute verantwortlich für die grundsätzlich in Relation zu allen anderen Umweltsystemen stehenden Effekte ihrer Praxis. Die Effekte werden zu Bausteinen, der von ihnen zu schaffenden räumlichen Situation.\"",
+      "text2": "Christian Posthofen, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
       "content": "Contact: \nmail@2038.xyz",
       "center": false,
       "_template": "ContentBlock"
-    },
-    {
-      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
-      "text2": "Daniel Boffey on theguardian.com",
-      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
-      "_template": "NewsBlock",
-      "content": ""
     }
   ],
   "hero": {
