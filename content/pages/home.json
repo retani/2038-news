@@ -197,7 +197,7 @@
       "content": ""
     },
     {
-      "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] provide a meta-offering to the allied disciplines – forms with which to design or actually manipulate them.",
+      "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] {provide a meta-offering to the allied disciplines} – forms with which to design or actually manipulate them.",
       "text2": "Keller Easterling, Frieze",
       "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
       "_template": "NewsBlock",
@@ -212,7 +212,7 @@
     },
     {
       "text": "NEWS",
-      "color": "#0000ff",
+      "color": "#00FF00",
       "_template": "SectionBlock",
       "content": ""
     },
