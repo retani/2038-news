@@ -33,14 +33,19 @@
     },
     {
       "text": "2038",
-      "color": "#00FFFF",
+      "color": "#00FF00",
       "_template": "SectionBlock",
       "content": ""
     },
     {
-      "videoId": "386741145",
+      "videoId": "",
       "text": "decoding social relations",
       "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "dateUTC": "2020-07-10-14-00",
+      "_template": "CountdownBlock",
       "content": ""
     },
     {
@@ -51,14 +56,46 @@
       "content": ""
     },
     {
+      "text": "Wired News here",
+      "text2": "Federica Carugati, Wired",
+      "link": "https://www.wired.com/story/opinion-a-council-of-citizens-should-regulate-algorithms/",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "Bria Quote here",
+      "text2": "Francesca Bria, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "image": "../images/200608_2038xAWC_Audrey Tang.jpg",
+      "text": "Audrey Tang, 2038",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
+      "text": "Audrey Tang Quote here",
+      "text2": "",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
       "videoId": "",
-      "text": "enacting dis-ownership",
+      "text": "enacting disownership",
       "_template": "LandscapeBlock",
       "content": ""
     },
     {
+      "dateUTC": "2020-07-17-14-00",
+      "_template": "CountdownBlock",
+      "content": ""
+    },
+    {
       "videoId": "370256053",
-      "text": "The macro-economic shift supported by {redistributive measures} created {social and ecological justice}.",
+      "text": "Joanna Pope AWC Quote Here",
       "text2": "Joanna Pope, 2038",
       "_template": "ArticleBlock",
       "content": "",
@@ -75,14 +112,39 @@
       "content": ""
     },
     {
-      "image": "../images/200608_2038xAWC_Caroline Nevejan.jpg",
-      "text": "Caroline Nevejan",
-      "_template": "AppPreviewBlock",
+      "text": "Suhail Quote here",
+      "text2": "Suhail Malik, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
       "content": ""
     },
     {
-      "text": "We created {legal entities} around natural living forms {that are not human},  natural elements, {crucial for the survival of the planet}, have rights.",
+      "image": "../images/200608_2038xAWC_Evgeny Morozov_web.jpg",
+      "text": "Evgeny Morozov, 2038",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
+      "text": "Quote Evgeny Morozov here",
       "text2": "",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "videoId": "",
+      "text": "reconnecting ecosystems",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "dateUTC": "2020-07-24-14-00",
+      "_template": "CountdownBlock",
+      "content": ""
+    },
+    {
+      "text": "Quote Oberhuber Rau from AWC here",
+      "text2": "Sabine Oberhuber & Thomas Rau, 2038",
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
@@ -96,10 +158,81 @@
       "usePdf": false
     },
     {
+      "text": "Quote Schöne Ludwig here",
+      "text2": "Ferdinand Ludwig & Daniel Schönle, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "image": "../images/200608_2038xAWC_Caroline Nevejan.jpg",
+      "text": "Caroline Nevejan, 2038",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
+      "text": "We created {legal entities} around natural living forms {that are not human},  natural elements, {crucial for the survival of the planet}, have rights.",
+      "text2": "",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "videoId": "",
+      "text": "architecting time & space",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "dateUTC": "2020-07-31-14-01",
+      "_template": "CountdownBlock",
+      "content": ""
+    },
+    {
+      "text": "Quote Cedric Libert her",
+      "text2": "Cedric Libert, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "news here",
+      "text2": "Erika Mustermann, XYZ",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "text": "Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.",
       "text2": "Mark Wigley, 2038",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "image": "../images/200608_2038xAWC_Jennifer Jacquet Becca Franks_web.jpg",
+      "text": "Jennifer Jacquet & Becca Franks and some other species, 2038",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
+      "text": "NEWS",
+      "color": "#0000ff",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
+      "text": "Alexander Russ quote here",
+      "text2": "Alexander Russ, Baumeister",
+      "link": "https://www.baumeister.de/die-neue-gelassenheit/",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "Fabian Peter",
+      "text2": "Fabian Peters, Stylepa",
+      "link": "https://www.stylepark.com/de/news/deutscher-pavillon-biennale-2020",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
@@ -110,54 +243,9 @@
       "content": ""
     },
     {
-      "image": "../images/200608_2038xAWC_Audrey Tang.jpg",
-      "text": "Audrey Tang",
-      "_template": "AppPreviewBlock",
+      "dateUTC": "2021-05-21-15-00",
+      "_template": "CountdownBlock",
       "content": ""
-    },
-    {
-      "text": "\"How might we?\" is the question democracy is supposed to ask.",
-      "text2": "Audrey Tang, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/200608_2038xAWC_Jennifer Jacquet Becca Franks Kopie.jpg",
-      "text": "Test",
-      "_template": "AppPreviewBlock",
-      "content": ""
-    },
-    {
-      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
-      "text2": "Daniel Boffey on theguardian.com",
-      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "videoId": "390360814",
-      "text": "multispecies co-habitation",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
-      "text": "STOP!",
-      "color": "#FF0033",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/Still 2038_MALIK Suhail_Quote 2.jpg",
-      "text": "Suhail Malik, 2038",
-      "_template": "PublicationBlock",
-      "content": ""
-    },
-    {
-      "text": "GO!",
-      "_template": "SectionBlock",
-      "content": "",
-      "color": "#FF0000"
     },
     {
       "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\nBlaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class, Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, BMI, Oana Bogdan, Mohamed Bourouissa, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Vera Bühlmann, Bureau N, Benjamin Burq, Vint Cerf, cfk architetti, Elke Doppelbauer, Tobia de Eccher, Keller Easterling, Eidotech, Kurt Eggenschwiler, Ludwig Engel, ExRotaprint, Cosimo Flohr, Lenny Flohr, Michaela Friedberg, Jan-Peter Gieseking, Goethe Institut, Olaf Grawert, Dorothee Hahn, Nils Havelka, Hecker’s Hotel Kurfürstendamm, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt, Pan Hu, JUNG, Jennifer Jacquet & Becca Franks, Mitchell Joachim, Sonja Junkers, Roberta Jurcic, Claudia Kessler, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Christopher Kulendran Thomas & Annika Kuhlmann, Lawrence Lessig, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Hilary Mason, V. Mitch McEwen, James Meadway, Omoju Miller, Evgeny Morozov, Motif, Motor Productions, Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber, Jorge Orozco, Verena Otto, Poligonal, Leif Randt, Thomas Rau, RAUE Rechtsanwälte und Rechtsanwältinnen, Rebiennale, Denis 'Jaromil' Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, Saygel, Schreiber & Gioberti, Jan Schmidt-Garre, Patrik Schumacher, Max Senges, Deane Simpson, Sol Marino, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, TECE, The Laboratory of Manuel Bürger, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, VITRA International, Georg Vrachliotis, Julian Wäckerlin, Eyal Weizman, Julia Werlen, E. Glen Weyl, Why Ventures, Mark Wigley, Erez Yoeli, Tirdad Zolghadr and many others\n    \nCommissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
@@ -166,7 +254,7 @@
       "file": "/uploads/pdfs/TSTPDF.pdf"
     },
     {
-      "content": "Press: \npress@2038.xyz",
+      "content": "2038 x AWC Launch:\n09.07.2020, 18:00-22:00\nSchinkel Pavillon, Berlin\n-\nOpening Pavilion:\n21.05.2021,\nGiardini della Biennale, Venice\n-\nPress Contact: \npress@2038.xyz",
       "center": false,
       "_template": "ContentBlock"
     },
@@ -176,13 +264,26 @@
       "content": ""
     },
     {
+      "text": "IMP.",
+      "_template": "ImpLinkBlock",
+      "content": ""
+    },
+    {
+      "text": "STOP!",
+      "color": "#FF0033",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
       "content": "Contact: \nmail@2038.xyz",
       "center": false,
       "_template": "ContentBlock"
     },
     {
-      "text": "IMP.",
-      "_template": "ImpLinkBlock",
+      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
+      "text2": "Daniel Boffey on theguardian.com",
+      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
+      "_template": "NewsBlock",
       "content": ""
     }
   ],
