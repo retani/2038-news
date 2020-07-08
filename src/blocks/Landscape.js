@@ -1,5 +1,7 @@
 import React from "react"
 import styled from 'styled-components'
+import Img from "gatsby-image"
+import get from "lodash.get"
 
 import BlockWrapper from '../components/BlockWrapper'
 import BackgroundVideo from "../components/BackgroundVideo"
@@ -10,6 +12,8 @@ import {
   typoStyles,
   typoSnippet,  } from '../../config/styles'
 
+import {vimeoIdValid} from '../helpers/validators'
+
 const blockLabel = "LANDSCAPE"
 
 export function Landscape({ data }) {
@@ -17,7 +21,18 @@ export function Landscape({ data }) {
   return (
     <BlockWrapper label={blockLabel}>
       <Container>
-        <BackgroundVideo vimeoId={videoId} />
+        { !data.image ? 
+          <BackgroundVideo vimeoId={videoId} />
+          :
+          <ImgContainer>
+            {
+              data.image &&
+              data.image.childImageSharp && (
+                <Img fluid={data.image.childImageSharp.fluid} />
+              )
+            }
+          </ImgContainer>
+        }
         <TextContainer>
           <Text>{text}</Text>
         </TextContainer>
@@ -51,6 +66,14 @@ const Text = styled.span`
   text-align: center;
 `
 
+const ImgContainer = styled.div`
+  box-sizing: content-box;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+` 
+
 export const LandscapeBlock = {
   label: blockLabel,
   name: "landscape",
@@ -64,6 +87,19 @@ export const LandscapeBlock = {
   },
   fields: [
     { name: "videoId", label: "Vimeo Video ID", component: "text" },
-    { name: "text", label: "Text", component: "text" },
+    {
+      label: "Image",
+      name: "image",
+      component: "image",
+      parse: filename => `../images/${filename}`,
+      uploadDir: () => `/content/images/`,
+      previewSrc: (formValues, fieldProps) => {
+        const pathName = fieldProps.input.name.replace("rawJson", "jsonNode")
+        const imageNode = get(formValues, pathName)
+        if (!imageNode || !imageNode.childImageSharp) return ""
+        return imageNode.childImageSharp.fluid.src
+      },
+    },
+    { name: "text", label: "Text", component: "text" },    
   ],
 }
