@@ -42,6 +42,12 @@
       "usePdf": false
     },
     {
+      "text": "2038",
+      "color": "#00FF00",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
       "videoId": "386741145",
       "text": "decoding social relations",
       "_template": "LandscapeBlock",
@@ -75,6 +81,12 @@
       "content": ""
     },
     {
+      "image": "../images/200608_2038xAWC_Audrey Tang_web.jpg",
+      "text": "Audrey Tang, 2038",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
       "text": "\"The digital was crucial for finding better ways to {facilitate dialogue and work toward common understandings} between different actors and groups.\"",
       "text2": "Audrey Tang, 2038",
       "file": "",
@@ -87,12 +99,6 @@
       "_template": "LandscapeBlock",
       "content": "",
       "image": "../images/200608_2038xAWC_Evgeny Morozov_web.jpg"
-    },
-    {
-      "image": "../images/200608_2038xAWC_Audrey Tang_web_text.jpg",
-      "text": "Audrey Tang, 2038",
-      "_template": "PublicationBlock",
-      "content": ""
     },
     {
       "dateUTC": "2020-07-17-14-00",
