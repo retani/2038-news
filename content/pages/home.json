@@ -33,7 +33,7 @@
     },
     {
       "text": "2038",
-      "color": "#00FF00",
+      "color": "#FF6FFF",
       "_template": "SectionBlock",
       "content": ""
     },
@@ -71,7 +71,7 @@
     },
     {
       "image": "../images/200608_2038xAWC_Audrey Tang.jpg",
-      "text": "Audrey Tang, 2038",
+      "text": "",
       "_template": "PublicationBlock",
       "content": ""
     },
@@ -80,6 +80,12 @@
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "2038",
+      "color": "#FF6FFF",
+      "_template": "SectionBlock",
       "content": ""
     },
     {
