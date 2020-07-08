@@ -16,6 +16,7 @@ const blockLabel = "PUBLICATION"
 
 export function Publication({ data }) {
   const {text, file, usePdf, link, color=colors.blue } = data
+  const hasAttachment = link || usePdf && file
   return (
     <BlockWrapper label={blockLabel}>
       <Document>
@@ -26,16 +27,19 @@ export function Publication({ data }) {
           )
         }
         {/*<Spacer space={spaces.medium}/>*/}
-        <SmallText color={color}>
-          {text}
-        </SmallText>
-        <Bottom>
-          { !usePdf ? 
-            link && <ButtonBlock href={link} theme={/*color===colors.black ? "black-on-white" : null*/null} title={link}>LINK</ButtonBlock>
-            :
-            hasFile(file, "pdf") && <ButtonBlock theme={/*color===colors.black ? "black-on-white" : null*/null} title={file} text=".PDF" href={file} />
-          }      
-        </Bottom>
+        { (text || hasAttachment) && <SmallText color={color}>
+            {text}
+          </SmallText>
+        }
+        { hasAttachment &&
+          <Bottom>
+            { !usePdf ? 
+              link && <ButtonBlock href={link} theme={/*color===colors.black ? "black-on-white" : null*/null} title={link}>LINK</ButtonBlock>
+              :
+              hasFile(file, "pdf") && <ButtonBlock theme={/*color===colors.black ? "black-on-white" : null*/null} title={file} text=".PDF" href={file} />
+            }      
+          </Bottom>
+        }
       </Document>
     </BlockWrapper>
   )
