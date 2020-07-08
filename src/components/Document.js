@@ -11,7 +11,7 @@ export default ({children}) =>  <Center>
 
 const Container = styled.div`
   background-color: ${ colors.white };
-  width: 66.66%;
+  width: 75%;
   @media ${ breakpoints.large } {
   min-width: 600px;
   max-width: 1333px;

@@ -3,7 +3,7 @@ import styled, { css } from "styled-components"
 
 import { BlockListItem } from '../components'
 
-import { snippets, breakpoints, metrics, dist, typoStyles, typoSizes, blockTypoSnippet } from '../../config/styles'
+import { snippets, breakpoints, spaces, dist, typoStyles, typoSizes, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "Plain Text"
 
@@ -23,7 +23,8 @@ const StyledContent = styled.div`
   p, ul {
     ${blockTypoSnippet({
       typoStyle: typoStyles.RobotoMonoRegular,
-      typoSize: typoSizes.moduleMedium
+      typoSize: typoSizes.moduleMedium,
+      spaceBottom: typoSizes.moduleMedium.lineHeightPx,
     })}
   }
 
