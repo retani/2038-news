@@ -177,6 +177,13 @@
       "content": ""
     },
     {
+      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
+      "text2": "Daniel Boffey on theguardian.com",
+      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "text": "A designer is more like a gardener, deciding the direction and not the form, thinking of a process, of different possibilities of different future. ",
       "text2": "Ferdinand Ludwig & Daniel Schönle, 2038",
       "file": "",
@@ -303,13 +310,6 @@
       "content": "Contact: \nmail@2038.xyz",
       "center": false,
       "_template": "ContentBlock"
-    },
-    {
-      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice. (...) recognise the need for national government and supranational authorities to get on board.",
-      "text2": "Daniel Boffey on theguardian.com",
-      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
-      "_template": "NewsBlock",
-      "content": ""
     }
   ],
   "hero": {
