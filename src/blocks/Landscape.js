@@ -10,7 +10,8 @@ import { BlockListItem } from '../components'
 import {   
   typoSizes,
   typoStyles,
-  typoSnippet,  } from '../../config/styles'
+  typoSnippet,
+  spaced  } from '../../config/styles'
 
 import {vimeoIdValid} from '../helpers/validators'
 
@@ -52,6 +53,11 @@ const TextContainer = styled.div`
   top:0;
   width: 100%;
   height: 100%;
+  box-sizing:border-box;
+  ${spaced(`
+      padding-left: %mediumShrink;
+      padding-right: %mediumShrink;
+      `)};
   display: flex;
   justify-content: center;
   align-items: center;
