@@ -9,7 +9,7 @@
       "content": ""
     },
     {
-      "dateUTC": "2021-05-21-15-00",
+      "dateUTC": "2021-05-21-13-00",
       "_template": "CountdownBlock",
       "content": "",
       "file": "/uploads/ics/opening-2038.ics"
@@ -52,9 +52,10 @@
       "color": "#FFFFFF"
     },
     {
-      "dateUTC": "2020-07-10-14-00",
+      "dateUTC": "2020-07-10-12-00",
       "_template": "CountdownBlock",
-      "content": ""
+      "content": "",
+      "file": "/uploads/ics/iCal_10 July 2038.ics"
     },
     {
       "text": "\"This is what we call {permanent BETA}, a digital contract between individuals that is constantly updated and re-invented because it is never finished.\"",
@@ -91,7 +92,7 @@
       "content": ""
     },
     {
-      "videoId": "",
+      "videoId": "436674406",
       "text": "enacting disownership",
       "_template": "LandscapeBlock",
       "content": "",
@@ -99,9 +100,10 @@
       "color": "#FFFFFF"
     },
     {
-      "dateUTC": "2020-07-17-14-00",
+      "dateUTC": "2020-07-17-12-00",
       "_template": "CountdownBlock",
-      "content": ""
+      "content": "",
+      "file": "/uploads/ics/iCal_17 July 2038.ics"
     },
     {
       "videoId": "370256053",
@@ -129,13 +131,14 @@
       "content": ""
     },
     {
-      "image": "../images/200608_2038xAWC_Evgeny Morozov_web.jpg",
-      "text": "",
-      "_template": "PublicationBlock",
+      "text": "ISCA proposes a system where artists whose work and activities are not remunerated by the market are {supported by a cooperatively owned} platform that redistributes the spoils of art’s financialization. ",
+      "text2": "João Enxuto & Erica Love, Artforum",
+      "link": "",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
-      "text": "\"What we actually achieved, post-crisis, was the development of {a society not obsessed with competition.}\" ",
+      "text": "\"What we actually achieved, post-crisis, was the development of a {society not obsessed with competition.}\" ",
       "text2": "Evgeny Morozov, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -150,9 +153,10 @@
       "color": "#FFFFFF"
     },
     {
-      "dateUTC": "2020-07-24-14-00",
+      "dateUTC": "2020-07-24-12-00",
       "_template": "CountdownBlock",
-      "content": ""
+      "content": "",
+      "file": "/uploads/ics/iCal_24 July 2038.ics"
     },
     {
       "text": "„A {new design} has emerged: one that treats buildings as {a raw material stock} for the future.“",
@@ -162,7 +166,7 @@
       "content": ""
     },
     {
-      "text": "A {circular economy} is focused on designing out waste and pollution, keeping products and materials in use, and regenerating natural systems, so that we {do not exhaust the resources of our planet.}  ",
+      "text": "A {circular economy} is focused on designing out waste and pollution, keeping products and materials in use, and regenerating natural systems, so that {we do not exhaust the resources of our planet.}  ",
       "text2": "Naoko Ishii & Frans van Houten, WEF",
       "link": "https://www.weforum.org/agenda/2020/07/to-build-resilience-to-future-pandemics-and-climate-change-we-must-go-circular/",
       "_template": "NewsBlock",
@@ -197,17 +201,18 @@
       "content": ""
     },
     {
-      "videoId": "",
+      "videoId": "436672771",
       "text": "architecting time & space",
       "_template": "LandscapeBlock",
       "content": "",
-      "image": "../images/200608_2038xAWC_Jennifer Jacquet Becca Franks_web.jpg",
+      "image": "../images/",
       "color": "#FFFFFF"
     },
     {
-      "dateUTC": "2020-07-31-14-01",
+      "dateUTC": "2020-07-31-12-00",
       "_template": "CountdownBlock",
-      "content": ""
+      "content": "",
+      "file": "/uploads/ics/iCal_31 July 2038.ics"
     },
     {
       "text": "\"Architecture, in {a feedback loop with reality}: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences {based on contingency.}\" ",
@@ -231,16 +236,23 @@
       "content": ""
     },
     {
-      "text": "NEWS",
-      "color": "#00FF00",
-      "_template": "SectionBlock",
+      "image": "../images/200501_Stills 2038_ROTICH Juliana_AI.jpg",
+      "color": "#000000",
+      "text": "",
+      "_template": "PublicationBlock",
       "content": ""
     },
     {
-      "text": "Das Frappierende Ihres Konzepts ist, dass es zu einem gewissen Teil von der Realität eingeholt wurde. Allerdings haben Ihre Krisenszenarien ökonomische und ökologische Ursachen. Tatsächlich ist die aktuelle Krise, die wir momentan erleben, anderen Ursprungs.",
-      "text2": "Alexander Russ, Baumeister",
-      "link": "https://www.baumeister.de/die-neue-gelassenheit/",
-      "_template": "NewsBlock",
+      "text": "\"This is {the future that is currently the present.}\"",
+      "text2": "Juliana Rotich, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "NEWS",
+      "color": "#00FF00",
+      "_template": "SectionBlock",
       "content": ""
     },
     {
@@ -263,7 +275,7 @@
       "content": ""
     },
     {
-      "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\nBlaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class, Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, BMI, Oana Bogdan, Mohamed Bourouissa, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Vera Bühlmann, Bureau N, Benjamin Burq, Vint Cerf, cfk architetti, Elke Doppelbauer, Tobia de Eccher, Keller Easterling, Eidotech, Kurt Eggenschwiler, Ludwig Engel, ExRotaprint, Cosimo Flohr, Lenny Flohr, Michaela Friedberg, Jan-Peter Gieseking, Goethe Institut, Olaf Grawert, Dorothee Hahn, Nils Havelka, Hecker’s Hotel Kurfürstendamm, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt, Pan Hu, JUNG, Jennifer Jacquet & Becca Franks, Mitchell Joachim, Sonja Junkers, Roberta Jurcic, Claudia Kessler, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Christopher Kulendran Thomas & Annika Kuhlmann, Lawrence Lessig, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Hilary Mason, V. Mitch McEwen, James Meadway, Omoju Miller, Evgeny Morozov, Motif, Motor Productions, Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber, Jorge Orozco, Verena Otto, Poligonal, Leif Randt, Thomas Rau, RAUE Rechtsanwälte und Rechtsanwältinnen, Rebiennale, Denis 'Jaromil' Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, Saygel, Schreiber & Gioberti, Jan Schmidt-Garre, Patrik Schumacher, Max Senges, Deane Simpson, Sol Marino, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, TECE, The Laboratory of Manuel Bürger, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, VITRA International, Georg Vrachliotis, Julian Wäckerlin, Eyal Weizman, Julia Werlen, E. Glen Weyl, Why Ventures, Mark Wigley, Erez Yoeli, Tirdad Zolghadr and many others\n    \nCommissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
+      "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\nBlaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class, Nick Axel, Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, Tatiana Bilbao, BMI, Oana Bogdan, Erik Bordeleau, Mohamed Bourouissa, Daniela Brahm & Les Schliesser, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Otis Sloan Brittain, Vera Bühlmann, Bureau N, Benjamin Burq, BVNT, Marco Carrino, Mary Ellen Carroll, Vint Cerf, cfk architetti, Kristof Croes, Elke Doppelbauer, Keller Easterling, Tobia de Eccher, Eidotech, Kurt Eggenschwiler, Ludwig Engel, Joao Enxuto & Erica Love, Marta Fernandez Guardado, Cosimo Flohr, Lenny Flohr, Becca Franks & Jennifer Jacquet, Michaela Friedberg, Yona Friedman, Renée Gailhoustet, Jan-Peter Gieseking, Goethe Institut, Olaf Grawert, Dorothee Hahn, Hecker’s Hotel Kurfürstendamm, Helene Hegemann, Holger Heissmeyer, Laura Henno, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild-Drummond, Ludger Hovestadt, Pan Hu, JUNG, Mitchell Joachim, Sonja Junkers, Roberta Jurcic, Claudia Kessler, Gabor Kocsis, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Christopher Kulendran Thomas & Annika Kuhlmann, Phyllis Lambert, Lawrence Lessig, Cedric Libert, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Hilary Mason, V. Mitch McEwen, James Meadway, Omoju Miller, Evgeny Morozov, MOTIF — Institute for Digital Culture, Motor Productions, Salum Mshamu, Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber & Thomas Rau, Jorge Orozco, Verena Otto, Erica Overmeer & Muck Petzet, POLIGONAL — Office for Urban Communication, Joanna Pope, Leif Randt, RAUE Rechtsanwälte und Rechtsanwältinnen, Rebiennale / R3B, Denis 'Jaromil' Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, S.a.L.E. Docks, Saygel, Schreiber & Gioberti, Jan Schmidt-Garre, Patrik Schumacher, Max Senges, Deane Simpson, Solmarino, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, Target Due, Irene Tassinari, Terra0, The Laboratory of Manuel Bürger, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, Marcus Vesterager, VITRA, Georg Vrachliotis, Julian Wäckerlin, Eyal Weizman, Julia Werlen, Glen Weyl, WHY Ventures, Mark Wigley, Hannah Wood, Erez Yoeli, Tirdad Zolghadr\n    \nCommissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
       "_template": "WithBlock",
       "content": "",
       "file": "/uploads/pdfs/TSTPDF.pdf"
@@ -286,13 +298,6 @@
     {
       "text": "IMP.",
       "_template": "ImpLinkBlock",
-      "content": ""
-    },
-    {
-      "text": "\"Architekt*innen sind heute verantwortlich für die grundsätzlich in Relation zu allen anderen Umweltsystemen stehenden Effekte ihrer Praxis. Die Effekte werden zu Bausteinen, der von ihnen zu schaffenden räumlichen Situation.\"",
-      "text2": "Christian Posthofen, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
       "content": ""
     }
   ],
