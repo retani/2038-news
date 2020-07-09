@@ -61,7 +61,7 @@ const sizes={
 }
 
 export default ({children, onClick, style, theme, textOffset, serious, disabled, size="small"}) => {
-  console.log(disabled, textOffset)
+  //console.log(disabled, textOffset)
   return (
     <Container 
         size={sizes[size]} 

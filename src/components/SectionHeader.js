@@ -6,7 +6,7 @@ import Spacer from './Spacer'
 
 
 export default ({children, backgroundColor, color, style, beforeText}) => {
-  console.log(backgroundColor)
+  //console.log(backgroundColor)
   return (
     <Head backgroundColor={backgroundColor} style={style} beforeText={beforeText}>
       <HeadText backgroundColor={color} color={backgroundColor}>
@@ -31,7 +31,7 @@ export const Head = styled.h2`
 
   background-color: ${ ({backgroundColor}) => backgroundColor || colors.blue };
   text-align: center;
-  cursor: pointer;
+  /*cursor: pointer;*/
   user-select: none;
 
   &::before {
