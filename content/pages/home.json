@@ -54,7 +54,8 @@
     {
       "dateUTC": "2020-07-10-14-00",
       "_template": "CountdownBlock",
-      "content": ""
+      "content": "",
+      "file": "/uploads/ics/iCal_10 July 2038.ics"
     },
     {
       "text": "\"This is what we call {permanent BETA}, a digital contract between individuals that is constantly updated and re-invented because it is never finished.\"",
