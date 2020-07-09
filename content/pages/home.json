@@ -232,6 +232,13 @@
       "content": ""
     },
     {
+      "image": "../images/200501_Stills 2038_ROTICH Juliana_AI.jpg",
+      "color": "#000000",
+      "text": "",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
       "text": "NEWS",
       "color": "#00FF00",
       "_template": "SectionBlock",
