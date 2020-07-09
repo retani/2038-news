@@ -31,7 +31,7 @@ export const Head = styled.h2`
 
   background-color: ${ ({backgroundColor}) => backgroundColor || colors.blue };
   text-align: center;
-  cursor: pointer;
+  /*cursor: pointer;*/
   user-select: none;
 
   &::before {
