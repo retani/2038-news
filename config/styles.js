@@ -161,7 +161,7 @@ const spaced = function(string) {
   let largeString = string
   let smallString = string
   for (let space in spaces) {
-    console.log(`%${space}`, `${spaces[space].px.l}px`)
+    //console.log(`%${space}`, `${spaces[space].px.l}px`)
     largeString = largeString.replace(new RegExp(`%${space}([ ;])`,'g'), `${spaces[space].px.l}px$1`)
     smallString = smallString.replace(new RegExp(`%${space}([ ;])`,'g'), `${spaces[space].px.s}px$1`)
   }

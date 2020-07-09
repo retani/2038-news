@@ -15,7 +15,7 @@ export default ({children, head, contentStyle, backgroundColorClosed, background
   const backgroundColor = backgroundColorClosed && backgroundColorOpen ? ( isOpen ? backgroundColorOpen : backgroundColorClosed ) : null
 
   const toggle = () => {
-    console.log(innerContentElem)
+    //console.log(innerContentElem)
     setHeight(!isOpen ? innerContentElem.current.clientHeight + "px" : 0)
     setIsOpen(!isOpen, )
   }
@@ -30,7 +30,7 @@ export default ({children, head, contentStyle, backgroundColorClosed, background
 
     if (typeof initOpen != "undefined") {
       if (initOpen && !isOpen && firstMount) {
-        console.log("set open")
+        //console.log("set open")
         setTimeout(()=>{
         toggle()
         firstMount = false

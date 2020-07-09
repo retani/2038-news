@@ -19,7 +19,7 @@ const sizes={
 export default ({children, href, to, title, download, text, textOffset, theme, disabled, size="small"}) =>  {
   const _title = title || href || to
   const _target = href && !download ? "_blank" : null
-  console.log(_target)
+  //console.log(_target)
 
   const button = <Button disabled={disabled} textOffset={textOffset} size={size} theme={theme}>
     {text}{children}
