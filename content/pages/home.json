@@ -57,13 +57,6 @@
       "content": ""
     },
     {
-      "text": "Move",
-      "text2": "Conversation with Eyal Weizman",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
       "text": "\"This is what we call {permanent BETA}, a digital contract between individuals that is constantly updated and re-invented because it is never finished.\"",
       "text2": "Diana Alvarez-Marin, 2038",
       "file": "/uploads/pdfs/2038xAWC_Collective Contracts_by Finley Hoxha with Diana Alvarez Marin.pdf",
@@ -243,6 +236,13 @@
       "color": "#000000",
       "text": "",
       "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
+      "text": "Move me",
+      "text2": "Juliana Rotich, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
       "content": ""
     },
     {
