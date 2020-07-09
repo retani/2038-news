@@ -42,7 +42,7 @@ const Container = styled.div`
     }
   `}
   text-align: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
   letter-spacing: 0.02em;
 `
 
