@@ -2,6 +2,7 @@ import React from "react"
 import styled from 'styled-components'
 
 import MainVideo from '../components/MainVideo'
+import MainVideoYoutube from '../components/MainVideoYoutube'
 import {p as P, Block} from '../components/HtmlElements'
 import { 
   BlockListItem, 
