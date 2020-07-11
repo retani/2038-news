@@ -160,10 +160,10 @@
       "color": "#FFFFFF"
     },
     {
-      "dateUTC": "2020-07-10-12-00",
+      "dateUTC": "2020-07-31-12-00",
       "_template": "CountdownBlock",
       "content": "",
-      "file": "/uploads/ics/iCal_10 July 2038.ics"
+      "file": "/uploads/ics/iCal_31 July 2038.ics"
     },
     {
       "text": "„A {new design} has emerged: one that treats buildings as {a raw material stock} for the future.“",
@@ -216,10 +216,10 @@
       "color": "#FFFFFF"
     },
     {
-      "dateUTC": "2020-07-31-12-00",
+      "dateUTC": "2020-08-07-12-00",
       "_template": "CountdownBlock",
       "content": "",
-      "file": "/uploads/ics/iCal_31 July 2038.ics"
+      "file": "/uploads/ics/iCal_10 July 2038.ics"
     },
     {
       "text": "\"Architecture, in {a feedback loop with reality}: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences {based on contingency.}\" ",
