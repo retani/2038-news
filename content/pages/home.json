@@ -21,8 +21,15 @@
       "content": ""
     },
     {
+      "text": "We have been hacked @ARCH+ @ARCHITECTURALTHEORY.TV @ESTHERSCHIPPER",
+      "text2": "20",
+      "link": "https://www.e-flux.com/announcements/339033/a-message-from-2038/",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
-      "text": "with Andrés Arauz, Diana Alvarez-Marín, Lara Verena Bellenghi, Anne Katrin Bohle, Erik Bordeleau, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Agnieszka Brzezanska, Marina Castillo Deball, Park Chan-sol, Kristof Croes, Ludwig Engel, Manuel Falkenhahn, Jan Fermon & Jonas Staal, Katrin Fritsch & Helene von Schwichow, Bar Gregoryan & Bee Haven, Olaf Grawert, Guerilla Architects, Dorothee Hahn, Ludger Hovestadt, Finley Hoxha, Jeanne Hu, Varuna Jael, Mitchell Joachim, Goda Klumbyte & Loren Britton, Sénamé Koffi Agbodjinou, Lukas Kubina, Matylda Krzykowski, Foreign Legion, Samira Lenzin, Cédric Libert, Ferdinand Ludwig & Daniel Schönle, Lucy Lobster, Suhail Malik, Charlotte Malterre-Barthes, Renzo Martens, Evgeny Morozov, Caroline Nevejan, Aang Nkurunziza, Paulina Nolte, Sabine Oberhuber & Thomas Rau, Verena Otto, Wong Ping, Leonard Pongo, Joanna Pope, Christian Posthofen, Rebiennale / R3B & Giulio Grillo, Leif Randt, Christopher Roth, S.a.L.E. Docks, Attila Saygel, Jack Self, Audrey Tang, Cassie Thornton, Galaad Van Daele, Marlo Wang, Mark Wigley, Anna Yeboah",
+      "text": "",
       "_template": "PublicationBlock",
       "content": "",
       "usePdf": false,
