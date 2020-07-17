@@ -21,7 +21,7 @@
       "content": ""
     },
     {
-      "text": "We are always already at stake with each other, partnered all the way down. Inhabitants of the world, [] {human and non-human, are entangled in a series of interlaced trails and creative feedback loops}, holding open life for one another. Everyone holds pieces of each other’s life, {socially and financially}. We are entre-preneurs and entre-donneurs, inter-holders and inter-givers, networked together {to collectively distribute the risks and opportunities of living}. ",
+      "text": "We are always already at stake with each other, partnered all the way down. Inhabitants of the world, [] {human and non-human, are entangled in a series of interlaced trails and creative feedback loops}, holding open life for one another. Everyone holds pieces of each other’s life, socially and financially. We are entre-preneurs and entre-donneurs, inter-holders and inter-givers, networked together {to collectively distribute the risks and opportunities of living}. ",
       "text2": "Erik Bordelau, e-flux",
       "link": "https://www.e-flux.com/announcements/339141/more-footage-from-the-future/",
       "_template": "NewsBlock",
@@ -86,13 +86,6 @@
       "content": ""
     },
     {
-      "text": "\"The challenge has been to figure out which technologies we want to keep and which ones are just too socially and ecologically detrimental in everyday arrangements and everyday life to keep maintaining. Now both—{bottom-up and top-down processes—have to work together to end the artificial scarcity that capitalism created}.\" says Joanna Pope.",
-      "text2": "2038, e-flux",
-      "link": "https://www.e-flux.com/announcements/339033/a-message-from-2038/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
       "image": "../images/200608_2038xAWC_Audrey Tang_web.jpg",
       "text": "Audrey Tang, 2038",
       "_template": "PublicationBlock",
@@ -103,6 +96,13 @@
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "\"The challenge has been to figure out which technologies we want to keep and which ones are just too socially and ecologically detrimental in everyday arrangements and everyday life to keep maintaining. Now both—{bottom-up and top-down processes—have to work together to end the artificial scarcity that capitalism created}.\" says Joanna Pope.",
+      "text2": "2038, e-flux",
+      "link": "https://www.e-flux.com/announcements/339033/a-message-from-2038/",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
