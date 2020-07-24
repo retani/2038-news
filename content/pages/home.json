@@ -28,13 +28,6 @@
       "content": ""
     },
     {
-      "text": "We are always already at stake with each other, partnered all the way down. Inhabitants of the world, [] {human and non-human, are entangled in a series of interlaced trails and creative feedback loops}, holding open life for one another. Everyone holds pieces of each other’s life, socially and financially. We are entre-preneurs and entre-donneurs, inter-holders and inter-givers, networked together {to collectively distribute the risks and opportunities of living}. ",
-      "text2": "Erik Bordelau, e-flux",
-      "link": "https://www.e-flux.com/announcements/339141/more-footage-from-the-future/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
       "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
       "text": "Andrés Arauz, Diana Alvarez-Marín, Lara Verena Bellenghi, Anne Katrin Bohle, Erik Bordeleau, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Agnieszka Brzezanska, Marina Castillo Deball, Park Chan-sol, Kristof Croes, Ludwig Engel, Manuel Falkenhahn, Jan Fermon & Jonas Staal, Katrin Fritsch & Helene von Schwichow, Bar Gregoryan & Bee Haven, Olaf Grawert, Guerilla Architects, Dorothee Hahn, Ludger Hovestadt, Finley Hoxha, Jeanne Hu, Varuna Jael, Mitchell Joachim, Goda Klumbyte & Loren Britton, Sénamé Koffi Agbodjinou, Lukas Kubina, Matylda Krzykowski, Foreign Legion, Samira Lenzin, Cédric Libert, Ferdinand Ludwig & Daniel Schönle, Lucy Lobster, Suhail Malik, Charlotte Malterre-Barthes, Renzo Martens, Evgeny Morozov, Caroline Nevejan, Aang Nkurunziza, Paulina Nolte, Sabine Oberhuber & Thomas Rau, Verena Otto, Wong Ping, Leonard Pongo, Joanna Pope, Christian Posthofen, Rebiennale / R3B & Giulio Grillo, Leif Randt, Christopher Roth, S.a.L.E. Docks, Attila Saygel, Jack Self, Audrey Tang, Cassie Thornton, Galaad Van Daele, Marlo Wang, Mark Wigley, Anna Yeboah ",
       "_template": "PublicationBlock",
@@ -66,7 +59,7 @@
       "color": "#FFFFFF"
     },
     {
-      "dateUTC": "2020-07-17-12-00",
+      "dateUTC": "2020-08-07-12-00",
       "_template": "CountdownBlock",
       "content": "",
       "file": "/uploads/ics/iCal_17 July 2038.ics"
@@ -163,6 +156,13 @@
       "text2": "Evgeny Morozov, 2038",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "We are always already at stake with each other, partnered all the way down. Inhabitants of the world, [] {human and non-human, are entangled in a series of interlaced trails and creative feedback loops}, holding open life for one another. Everyone holds pieces of each other’s life, socially and financially. We are entre-preneurs and entre-donneurs, inter-holders and inter-givers, networked together {to collectively distribute the risks and opportunities of living}. ",
+      "text2": "Erik Bordelau, e-flux",
+      "link": "https://www.e-flux.com/announcements/339141/more-footage-from-the-future/",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
