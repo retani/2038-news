@@ -2,6 +2,13 @@
   "path": "/",
   "blocks": [
     {
+      "text": "\"New Serenity\" does not mean that we smile and hold hands all the time. No no, don't worry, in 2038, we are still arguing. Sometimes we're even yelling at each other. We also fight. There are still bad people around, but, and this is crucial: we look much more optimistically into the future. And, unlike 10 or 15 years ago, we are not constantly afraid that the world will end next month. Come watch! @RADICALXCHANGE @ONARCHITECTURE @BUREAUN ",
+      "text2": "2038, e-flux",
+      "link": "https://www.e-flux.com/announcements/339142/a-much-better-world/",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "dateUTC": "2021-05-21-13-00",
       "_template": "CountdownBlock",
       "content": "",
