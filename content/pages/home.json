@@ -2,13 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "text": "Eventually, we managed to create an adaptable, viable model. “{From 2031 onwards, private property is no longer a viable condition to keep things going}. Both in terms of the human social system, which used to be so influenced by commerce, but also in terms of the environment.” Watch more future-footage from the friendly hackers {@ACCATTONE} {@DAZ} {@KNTXTR}",
-      "text2": "Suhail Malik, e-flux",
-      "link": "https://www.e-flux.com/announcements/339153/always-the-property-drama/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
       "dateUTC": "2021-05-21-13-00",
       "_template": "CountdownBlock",
       "content": "",
@@ -28,9 +21,9 @@
       "content": ""
     },
     {
-      "text": "\"It's like in Star Trek. {People are still messed up and imperfect} and all sorts of bad things happen. {But it's also clearly a much better world.} In some pretty profound and radical ways.\" Come and watch the future #2038 @RADICALXCHANGE @ONARCHITECTURE @BUREAUN ",
-      "text2": "E. Glen Weyl, e-flux",
-      "link": "https://www.e-flux.com/announcements/339142/a-much-better-world/",
+      "text": "Eventually, we managed to create an adaptable, viable model. “{From 2031 onwards, private property is no longer a viable condition to keep things going}. Both in terms of the human social system, which used to be so influenced by commerce, but also in terms of the environment.” Watch more future-footage from the friendly hackers {@ACCATTONE} {@DAZ} {@KNTXTR}",
+      "text2": "Suhail Malik, e-flux",
+      "link": "https://www.e-flux.com/announcements/339153/always-the-property-drama/",
       "_template": "NewsBlock",
       "content": ""
     },
@@ -166,9 +159,9 @@
       "content": ""
     },
     {
-      "text": "We are always already at stake with each other, partnered all the way down. Inhabitants of the world, [] {human and non-human, are entangled in a series of interlaced trails and creative feedback loops}, holding open life for one another. Everyone holds pieces of each other’s life, socially and financially. We are entre-preneurs and entre-donneurs, inter-holders and inter-givers, networked together {to collectively distribute the risks and opportunities of living}. ",
-      "text2": "Erik Bordelau, e-flux",
-      "link": "https://www.e-flux.com/announcements/339141/more-footage-from-the-future/",
+      "text": "\"It's like in Star Trek. {People are still messed up and imperfect} and all sorts of bad things happen. {But it's also clearly a much better world.} In some pretty profound and radical ways.\" Come and watch the future #2038 @RADICALXCHANGE @ONARCHITECTURE @BUREAUN ",
+      "text2": "E. Glen Weyl, e-flux",
+      "link": "https://www.e-flux.com/announcements/339142/a-much-better-world/",
       "_template": "NewsBlock",
       "content": ""
     },
@@ -219,6 +212,13 @@
       "color": "#0000FF",
       "text": "Caroline Nevejan, 2038",
       "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
+      "text": "We are always already at stake with each other, partnered all the way down. Inhabitants of the world, [] {human and non-human, are entangled in a series of interlaced trails and creative feedback loops}, holding open life for one another. Everyone holds pieces of each other’s life, socially and financially. We are entre-preneurs and entre-donneurs, inter-holders and inter-givers, networked together {to collectively distribute the risks and opportunities of living}. ",
+      "text2": "Erik Bordelau, e-flux",
+      "link": "https://www.e-flux.com/announcements/339141/more-footage-from-the-future/",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
