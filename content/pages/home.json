@@ -2,6 +2,13 @@
   "path": "/",
   "blocks": [
     {
+      "text": "More than {2 hours of news from the future} already running. {Come watch!} Watch more! @ACCATTONE @ARCH+ {@Architekturgalerie Berlin} {@Architekturgalerie München} @ARCHITECTURALTHEORY.EU @Arts of the Working Class @Bureau N {@Gut Oggau} @KNTXTR and many more ...",
+      "text2": "2038, e-flux",
+      "link": "https://www.e-flux.com/announcements/339155/i-love-my-time/",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "dateUTC": "2021-05-21-13-00",
       "_template": "CountdownBlock",
       "content": "",
