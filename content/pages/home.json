@@ -21,13 +21,6 @@
       "content": ""
     },
     {
-      "text": "Eventually, we managed to create an adaptable, viable model. “{From 2031 onwards, private property is no longer a viable condition to keep things going}. Both in terms of the human social system, which used to be so influenced by commerce, but also in terms of the environment.” Watch more future-footage from the friendly hackers {@ACCATTONE} {@DAZ} {@KNTXTR}",
-      "text2": "Suhail Malik, e-flux",
-      "link": "https://www.e-flux.com/announcements/339153/always-the-property-drama/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
       "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
       "text": "Andrés Arauz, Diana Alvarez-Marín, Lara Verena Bellenghi, Anne Katrin Bohle, Erik Bordeleau, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Agnieszka Brzezanska, Marina Castillo Deball, Park Chan-sol, Kristof Croes, Ludwig Engel, Manuel Falkenhahn, Jan Fermon & Jonas Staal, Katrin Fritsch & Helene von Schwichow, Bar Gregoryan & Bee Haven, Olaf Grawert, Guerilla Architects, Dorothee Hahn, Ludger Hovestadt, Finley Hoxha, Jeanne Hu, Varuna Jael, Mitchell Joachim, Goda Klumbyte & Loren Britton, Sénamé Koffi Agbodjinou, Lukas Kubina, Matylda Krzykowski, Foreign Legion, Samira Lenzin, Cédric Libert, Ferdinand Ludwig & Daniel Schönle, Lucy Lobster, Suhail Malik, Charlotte Malterre-Barthes, Renzo Martens, Evgeny Morozov, Caroline Nevejan, Aang Nkurunziza, Paulina Nolte, Sabine Oberhuber & Thomas Rau, Verena Otto, Wong Ping, Leonard Pongo, Joanna Pope, Christian Posthofen, Rebiennale / R3B & Giulio Grillo, Leif Randt, Christopher Roth, S.a.L.E. Docks, Attila Saygel, Jack Self, Audrey Tang, Cassie Thornton, Galaad Van Daele, Marlo Wang, Mark Wigley, Anna Yeboah ",
       "_template": "PublicationBlock",
@@ -57,12 +50,6 @@
       "content": "",
       "image": "../images/",
       "color": "#FFFFFF"
-    },
-    {
-      "dateUTC": "2020-08-14-12-00",
-      "_template": "CountdownBlock",
-      "content": "",
-      "file": "/uploads/ics/iCal_14 August 2038.ics"
     },
     {
       "text": "\"This is what we call {permanent BETA}, a digital contract between individuals that is constantly updated and re-invented because it is never finished.\"",
@@ -112,12 +99,6 @@
       "content": "",
       "image": "../images/",
       "color": "#FFFFFF"
-    },
-    {
-      "dateUTC": "2020-08-21-12-00",
-      "_template": "CountdownBlock",
-      "content": "",
-      "file": "/uploads/ics/iCal_21 August 2038 .ics"
     },
     {
       "videoId": "370256053",
@@ -172,12 +153,6 @@
       "content": "",
       "image": "../images/",
       "color": "#FFFFFF"
-    },
-    {
-      "dateUTC": "2020-07-31-12-00",
-      "_template": "CountdownBlock",
-      "content": "",
-      "file": "/uploads/ics/iCal_31 July 2038.ics"
     },
     {
       "text": "„A {new design} has emerged: one that treats buildings as {a raw material stock} for the future.“",
@@ -237,12 +212,6 @@
       "color": "#FFFFFF"
     },
     {
-      "dateUTC": "2020-08-07-12-00",
-      "_template": "CountdownBlock",
-      "content": "",
-      "file": "/uploads/ics/iCal_10 July 2038.ics"
-    },
-    {
       "text": "\"Architecture, in {a feedback loop with reality}: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences {based on contingency.}\" ",
       "text2": "Cedric Libert, 2038",
       "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
@@ -250,9 +219,9 @@
       "content": ""
     },
     {
-      "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] {provide a meta-offering to the allied disciplines} – forms with which to design or actually manipulate them.",
-      "text2": "Keller Easterling, Frieze",
-      "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
+      "text": "Eventually, we managed to create an adaptable, viable model. “{From 2031 onwards, private property is no longer a viable condition to keep things going}. Both in terms of the human social system, which used to be so influenced by commerce, but also in terms of the environment.” Watch more future-footage from the friendly hackers {@ACCATTONE} {@DAZ} {@KNTXTR}",
+      "text2": "Suhail Malik, e-flux",
+      "link": "https://www.e-flux.com/announcements/339153/always-the-property-drama/",
       "_template": "NewsBlock",
       "content": ""
     },
@@ -261,6 +230,13 @@
       "text2": "Mark Wigley, 2038",
       "file": "",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] {provide a meta-offering to the allied disciplines} – forms with which to design or actually manipulate them.",
+      "text2": "Keller Easterling, Frieze",
+      "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
