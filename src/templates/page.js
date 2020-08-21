@@ -47,6 +47,7 @@ export default function Page(props) {
             overflow: auto;
           }`}
         </style>
+        <script src="https://space-time.tv/embed2038.js"></script>
       </Helmet>
       <PageLayout page={page}>
         {/*<TypoTester />*/}
