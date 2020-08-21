@@ -19,6 +19,7 @@ import { Article, ArticleBlock } from "../blocks/Article"
 import { TalkingHeads, TalkingHeadsBlock } from '../blocks/TalkingHeads'
 import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
 import { TypoTester, TypoTesterBlock } from '../blocks/TypoTester'
+import { HtmlSnippet } from '../blocks/htmlSnippet'
 
 import { PageLayout } from "../components/pageLayout"
 import { Menu } from "../components/Menu"
@@ -41,20 +42,23 @@ export default function Page(props) {
     <>
       <Reset />
       <GlobalStyle />
+      
       <Helmet>
         <style>
           {`div[class^=FormHeader] + div > div {
             overflow: auto;
           }`}
         </style>
-        <script src="https://space-time.tv/embed2038.js"></script>
       </Helmet>
+
       <PageLayout page={page}>
         {/*<TypoTester />*/}
         {/*<Menu />*/}
         {mapBlocks(data,page,blocks)}
         <Spacer space={spaces.large} />
       </PageLayout>
+
+      <HtmlSnippet />
     </>
   )
 }
