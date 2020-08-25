@@ -12,7 +12,7 @@ import FullscreenButton from './FullscreenButton'
 
 let timeoutHandler = null
 
-const MainVideo = ({vimeoId}) => { 
+const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor }) => { 
   const [loaded, setLoaded] = useState(false);
   const [shouldPlay, setShouldPlay] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -63,8 +63,8 @@ const MainVideo = ({vimeoId}) => {
       <Overlay show={overlay || !playing} onClick={triggerPlay} style={{mixBlendMode: "screen"}}>
         <ButtonContainer style={{mixBlendMode: "screen"}}>
           { loaded &&
-            <div style={{opacity: shouldPlay ? "0.6" : "0.8", transition: "opacity 1s", mixBlendMode: "screen" }}>
-              <ButtonLarge highlight={hover} style={{mixBlendMode: "screen", fontWeight: "500"}}
+            <div style={{opacity: shouldPlay ? "0.8" : "1", transition: "opacity 1s", mixBlendMode: "screen" }}>
+              <ButtonLarge highlight={!!buttonColor} color={buttonColor} style={{mixBlendMode: "screen", fontWeight: "500"}}
                   >
                 { "PLAY"}
               </ButtonLarge>
@@ -72,7 +72,7 @@ const MainVideo = ({vimeoId}) => {
           }
         </ButtonContainer>
       </Overlay>
-      { fscreen.fullscreenEnabled &&
+      { fullscreenButton && fscreen.fullscreenEnabled &&
         <FullscreenButtonContainer>
           <FullscreenButton 
             onClick={ event => { setFullscreen(!fullscreen) } }

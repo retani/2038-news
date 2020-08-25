@@ -150,7 +150,7 @@ const PageForm = {
         NewsBlock,
         PublicationBlock,
         SectionBlock,
-        /*TalkingHeadsBlock,*/
+        TalkingHeadsBlock,
         WithBlock,
         ContentBlock,
         ImpLinkBlock,
@@ -193,6 +193,9 @@ export const pageQuery = graphql`
         underline
         dateUTC
         videoId
+        videoId2
+        videoId3
+        videoId4
         file
         text
         text2
