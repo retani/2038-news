@@ -9,7 +9,7 @@ import {
   ButtonBlock
 } from '../components'
 import { hasFile, vimeoIdValid } from '../helpers/validators'
-import { colors, spaces, typoSizes, blockSnippet, blockTypoSnippet, typoStyles, typoSnippet } from '../../config/styles'
+import { colors, spaces, typoSizes, blockSnippet, blockTypoSnippet, typoStyles, breakpoints, typoSnippet } from '../../config/styles'
 
 const blockLabel = "TALKING HEADS"
 
@@ -151,6 +151,15 @@ const VideoGrid = styled.div`
     &:nth-child(1), &:nth-child(2) {
       [class^=MainVideo__Container] {
         ${ ({ videosAmount }) => videosAmount > 2 && "margin-bottom: 0" };
+      }
+    }
+
+    @media ${ breakpoints.small } {
+      width: 100%;
+      &:not(:last-child) {
+        [class^=MainVideo__Container] {
+          margin-bottom: 0;
+        }
       }
     }
   }
