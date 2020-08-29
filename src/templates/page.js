@@ -58,7 +58,7 @@ export default function Page(props) {
         <Spacer space={spaces.large} />
       </PageLayout>
 
-      <HtmlSnippet />
+      {/*<HtmlSnippet />*/}
     </>
   )
 }
