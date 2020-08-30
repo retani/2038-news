@@ -12,6 +12,7 @@ import FullscreenButton from './FullscreenButton'
 import SectionHeader from './SectionHeader'
 import Logos from './Logos'
 import MainVideo from './MainVideo'
+import MainVideoYoutubePlaylist from './MainVideoYoutubePlaylist'
 import MarkedText from './MarkedText'
 import Spacer from './Spacer'
 
@@ -30,6 +31,7 @@ export {
   SectionHeader,
   Logos,
   MainVideo,
+  MainVideoYoutubePlaylist,
   MarkedText,
   Spacer
 }

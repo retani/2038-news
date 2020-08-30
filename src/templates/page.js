@@ -17,6 +17,7 @@ import { Section, SectionBlock } from "../blocks/Section"
 import { IntroVideo, IntroVideoBlock } from "../blocks/IntroVideo"
 import { Article, ArticleBlock } from "../blocks/Article"
 import { TalkingHeads, TalkingHeadsBlock } from '../blocks/TalkingHeads'
+import { YoutubePlaylist, YoutubePlaylistBlock } from '../blocks/YoutubePlaylist'
 import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
 import { TypoTester, TypoTesterBlock } from '../blocks/TypoTester'
 import { HtmlSnippet } from '../blocks/htmlSnippet'
@@ -77,6 +78,8 @@ const mapBlocks = function(data,page,blocks) {
         </>        
       case "TalkingHeadsBlock":
         return <TalkingHeads key={"TalkingHeadsBlock" + i} data={data} />
+      case "YoutubePlaylistBlock":
+        return <YoutubePlaylist key={"YoutubePlaylistBlock" + i} data={data} />
       case "LandscapeBlock":
         return <Landscape key={"LandscapeBlock" + i} data={data} />
       case "PublicationBlock":
@@ -151,6 +154,7 @@ const PageForm = {
         PublicationBlock,
         SectionBlock,
         TalkingHeadsBlock,
+        YoutubePlaylistBlock,
         WithBlock,
         ContentBlock,
         ImpLinkBlock,
@@ -196,6 +200,7 @@ export const pageQuery = graphql`
         videoId2
         videoId3
         videoId4
+        youtubePlaylistId
         file
         text
         text2
