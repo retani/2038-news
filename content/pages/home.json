@@ -2,13 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
-      "text2": "",
-      "link": "http://artsoftheworkingclass.org/places",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
       "dateUTC": "2021-05-21-13-00",
       "_template": "CountdownBlock",
       "content": "",
@@ -28,6 +21,13 @@
       "content": ""
     },
     {
+      "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
+      "text2": "",
+      "link": "http://artsoftheworkingclass.org/places",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
       "text": "Andrés Arauz, Diana Alvarez-Marín, Lara Verena Bellenghi, Anne Katrin Bohle, Erik Bordeleau, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Agnieszka Brzezanska, Marina Castillo Deball, Park Chan-sol, Kristof Croes, Ludwig Engel, Manuel Falkenhahn, Jan Fermon & Jonas Staal, Katrin Fritsch & Helene von Schwichow, Bar Gregoryan & Bee Haven, Olaf Grawert, Guerilla Architects, Dorothee Hahn, Ludger Hovestadt, Finley Hoxha, Jeanne Hu, Varuna Jael, Mitchell Joachim, Goda Klumbyte & Loren Britton, Sénamé Koffi Agbodjinou, Lukas Kubina, Matylda Krzykowski, Foreign Legion, Samira Lenzin, Cédric Libert, Ferdinand Ludwig & Daniel Schönle, Lucy Lobster, Suhail Malik, Charlotte Malterre-Barthes, Renzo Martens, Evgeny Morozov, Caroline Nevejan, Aang Nkurunziza, Paulina Nolte, Sabine Oberhuber & Thomas Rau, Verena Otto, Wong Ping, Leonard Pongo, Joanna Pope, Christian Posthofen, Rebiennale / R3B & Giulio Grillo, Leif Randt, Christopher Roth, S.a.L.E. Docks, Attila Saygel, Jack Self, Audrey Tang, Cassie Thornton, Galaad Van Daele, Marlo Wang, Mark Wigley, Anna Yeboah ",
       "_template": "PublicationBlock",
@@ -35,21 +35,6 @@
       "usePdf": false,
       "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
       "color": "#0000FF"
-    },
-    {
-      "text": "Find the first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
-      "text2": "2038 x Arts of the Wor",
-      "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "Man kann sagen, dass dieser Pavillon einer der optimistischsten ist, die es je gab, eben weil nicht nur behauptet wird, dass man eventuell Ideen für mögliche Lösungen habe, sondern {aus der Zukunft} verfügt und {erklärt wird,} dass und {wie diese Lösungen funktioniert haben.}",
-      "text2": "Niklas Maak, FAZ",
-      "link": "https://www.faz.net/aktuell/feuilleton/kunst/vertagte-architektur-biennale-in-venedig-16799052.html",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": false
     },
     {
       "text": "2038",
@@ -272,6 +257,14 @@
       "color": "#00FF00",
       "_template": "SectionBlock",
       "content": ""
+    },
+    {
+      "text": "Man kann sagen, dass dieser Pavillon einer der optimistischsten ist, die es je gab, eben weil nicht nur behauptet wird, dass man eventuell Ideen für mögliche Lösungen habe, sondern aus der Zukunft verfügt und erklärt wird, dass und wie diese Lösungen funktioniert haben.",
+      "text2": "Niklas Maak, FAZ",
+      "link": "https://www.faz.net/aktuell/feuilleton/kunst/vertagte-architektur-biennale-in-venedig-16799052.html",
+      "_template": "NewsBlock",
+      "content": "",
+      "usePdf": false
     },
     {
       "text": "All das sind Ideen, die bereits heute als Antworten auf die aktuellen Fragestellungen proklamiert werden. Und die \"Zeitzeugen\" des Jahres 2038, die in den Interviews die segensreichen Auswirkungen beschreiben, die diese Maßnahmen entwickelt haben, sind genau jene Akteure, die die Umsetzung dieser Vorschläge heute fordern.",
