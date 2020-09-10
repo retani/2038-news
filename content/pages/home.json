@@ -2,6 +2,13 @@
   "path": "/",
   "blocks": [
     {
+      "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
+      "text2": "",
+      "link": "http://artsoftheworkingclass.org/places",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "dateUTC": "2021-05-21-13-00",
       "_template": "CountdownBlock",
       "content": "",
@@ -31,7 +38,7 @@
     },
     {
       "text": "Find the first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
-      "text2": "2038 x Arts of the Working Class",
+      "text2": "2038 x Arts of the Wor",
       "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
       "_template": "NewsBlock",
       "content": ""
