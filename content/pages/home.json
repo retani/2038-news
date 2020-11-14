@@ -189,21 +189,7 @@
       "color": "#FFFFFF"
     },
     {
-      "text": "\"Architecture, in {a feedback loop with reality}: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences {based on contingency.}\" ",
-      "text2": "Cedric Libert, 2038",
-      "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "text": "Eventually, we managed to create an adaptable, viable model. “{From 2031 onwards, private property is no longer a viable condition to keep things going}. Both in terms of the human social system, which used to be so influenced by commerce, but also in terms of the environment.” Watch more future-footage from the friendly hackers {@ACCATTONE} {@DAZ} {@KNTXTR}",
-      "text2": "Suhail Malik, e-flux",
-      "link": "https://www.e-flux.com/announcements/339153/always-the-property-drama/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "\"Any idea you have about the future cannot be the future, because {the future is by definition what exceeds your ideas.}\"",
+      "text": "\"Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.\"",
       "text2": "Mark Wigley, 2038",
       "file": "",
       "_template": "ArticleBlock",
@@ -214,6 +200,13 @@
       "text2": "Keller Easterling, Frieze",
       "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "\"Architecture, in {a feedback loop with reality}: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences {based on contingency.}\" ",
+      "text2": "Cedric Libert, 2038",
+      "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
+      "_template": "ArticleBlock",
       "content": ""
     },
     {
@@ -234,6 +227,13 @@
       "text": "NEWS",
       "color": "#00FF00",
       "_template": "SectionBlock",
+      "content": ""
+    },
+    {
+      "text": "Eventually, we managed to create an adaptable, viable model. “{From 2031 onwards, private property is no longer a viable condition to keep things going}. Both in terms of the human social system, which used to be so influenced by commerce, but also in terms of the environment.” Watch more future-footage from the friendly hackers {@ACCATTONE} {@DAZ} {@KNTXTR}",
+      "text2": "Suhail Malik, e-flux",
+      "link": "https://www.e-flux.com/announcements/339153/always-the-property-drama/",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
