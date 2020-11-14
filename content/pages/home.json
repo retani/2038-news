@@ -15,6 +15,12 @@
       "content": ""
     },
     {
+      "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\nBlaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class, Nick Axel, Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, Tatiana Bilbao, BMI, Oana Bogdan, Erik Bordeleau, Mohamed Bourouissa, Daniela Brahm & Les Schliesser, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Otis Sloan Brittain, Vera Bühlmann, Bureau N, Benjamin Burq, BVNT, Marco Carrino, Mary Ellen Carroll, Vint Cerf, cfk architetti, Kristof Croes, Elke Doppelbauer, Keller Easterling, Tobia de Eccher, Eidotech, Kurt Eggenschwiler, Ludwig Engel, Joao Enxuto & Erica Love, Marta Fernandez Guardado, Cosimo Flohr, Lenny Flohr, Becca Franks & Jennifer Jacquet, Michaela Friedberg, Yona Friedman, Renée Gailhoustet, Jan-Peter Gieseking, Goethe Institut, Olaf Grawert, Dorothee Hahn, Hecker’s Hotel Kurfürstendamm, Helene Hegemann, Holger Heissmeyer, Laura Henno, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild-Drummond, Ludger Hovestadt, Pan Hu, JUNG, Mitchell Joachim, Sonja Junkers, Roberta Jurcic, Claudia Kessler, Gabor Kocsis, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Christopher Kulendran Thomas & Annika Kuhlmann, Phyllis Lambert, Lawrence Lessig, Cedric Libert, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Hilary Mason, V. Mitch McEwen, James Meadway, Omoju Miller, Evgeny Morozov, MOTIF — Institute for Digital Culture, Motor Productions, Salum Mshamu, Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber & Thomas Rau, Jorge Orozco, Verena Otto, Erica Overmeer & Muck Petzet, POLIGONAL — Office for Urban Communication, Joanna Pope, Leif Randt, RAUE Rechtsanwälte und Rechtsanwältinnen, Rebiennale / R3B, Denis 'Jaromil' Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, S.a.L.E. Docks, Saygel, Schreiber & Gioberti, Jan Schmidt-Garre, Patrik Schumacher, Max Senges, Deane Simpson, Solmarino, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, Target Due, Irene Tassinari, Terra0, The Laboratory of Manuel Bürger, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, Marcus Vesterager, VITRA, Georg Vrachliotis, Julian Wäckerlin, Eyal Weizman, Julia Werlen, Glen Weyl, WHY Ventures, Mark Wigley, Hannah Wood, Erez Yoeli, Tirdad Zolghadr\n    \nCommissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
+      "_template": "WithBlock",
+      "content": "",
+      "file": "/uploads/pdfs/"
+    },
+    {
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
@@ -209,6 +215,22 @@
       "content": ""
     },
     {
+      "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
+      "text": "Andrés Arauz, Diana Alvarez-Marín, Lara Verena Bellenghi, Anne Katrin Bohle, Erik Bordeleau, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Agnieszka Brzezanska, Marina Castillo Deball, Park Chan-sol, Kristof Croes, Ludwig Engel, Manuel Falkenhahn, Jan Fermon & Jonas Staal, Katrin Fritsch & Helene von Schwichow, Bar Gregoryan & Bee Haven, Olaf Grawert, Guerilla Architects, Dorothee Hahn, Ludger Hovestadt, Finley Hoxha, Jeanne Hu, Varuna Jael, Mitchell Joachim, Goda Klumbyte & Loren Britton, Sénamé Koffi Agbodjinou, Lukas Kubina, Matylda Krzykowski, Foreign Legion, Samira Lenzin, Cédric Libert, Ferdinand Ludwig & Daniel Schönle, Lucy Lobster, Suhail Malik, Charlotte Malterre-Barthes, Renzo Martens, Evgeny Morozov, Caroline Nevejan, Aang Nkurunziza, Paulina Nolte, Sabine Oberhuber & Thomas Rau, Verena Otto, Wong Ping, Leonard Pongo, Joanna Pope, Christian Posthofen, Rebiennale / R3B & Giulio Grillo, Leif Randt, Christopher Roth, S.a.L.E. Docks, Attila Saygel, Jack Self, Audrey Tang, Cassie Thornton, Galaad Van Daele, Marlo Wang, Mark Wigley, Anna Yeboah ",
+      "_template": "PublicationBlock",
+      "content": "",
+      "usePdf": false,
+      "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
+      "color": "#0000FF"
+    },
+    {
+      "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
+      "text2": "",
+      "link": "http://artsoftheworkingclass.org/places",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "text": "\"The challenge has been to figure out which technologies we want to keep and which ones are just too socially and ecologically detrimental in everyday arrangements and everyday life to keep maintaining. Now both—{bottom-up and top-down processes—have to work together to end the artificial scarcity that capitalism created}.\" says Joanna Pope.",
       "text2": "2038, e-flux",
       "link": "https://www.e-flux.com/announcements/339033/a-message-from-2038/",
@@ -228,22 +250,6 @@
       "link": "https://www.e-flux.com/announcements/339141/more-footage-from-the-future/",
       "_template": "NewsBlock",
       "content": ""
-    },
-    {
-      "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
-      "text2": "",
-      "link": "http://artsoftheworkingclass.org/places",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
-      "text": "Andrés Arauz, Diana Alvarez-Marín, Lara Verena Bellenghi, Anne Katrin Bohle, Erik Bordeleau, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Agnieszka Brzezanska, Marina Castillo Deball, Park Chan-sol, Kristof Croes, Ludwig Engel, Manuel Falkenhahn, Jan Fermon & Jonas Staal, Katrin Fritsch & Helene von Schwichow, Bar Gregoryan & Bee Haven, Olaf Grawert, Guerilla Architects, Dorothee Hahn, Ludger Hovestadt, Finley Hoxha, Jeanne Hu, Varuna Jael, Mitchell Joachim, Goda Klumbyte & Loren Britton, Sénamé Koffi Agbodjinou, Lukas Kubina, Matylda Krzykowski, Foreign Legion, Samira Lenzin, Cédric Libert, Ferdinand Ludwig & Daniel Schönle, Lucy Lobster, Suhail Malik, Charlotte Malterre-Barthes, Renzo Martens, Evgeny Morozov, Caroline Nevejan, Aang Nkurunziza, Paulina Nolte, Sabine Oberhuber & Thomas Rau, Verena Otto, Wong Ping, Leonard Pongo, Joanna Pope, Christian Posthofen, Rebiennale / R3B & Giulio Grillo, Leif Randt, Christopher Roth, S.a.L.E. Docks, Attila Saygel, Jack Self, Audrey Tang, Cassie Thornton, Galaad Van Daele, Marlo Wang, Mark Wigley, Anna Yeboah ",
-      "_template": "PublicationBlock",
-      "content": "",
-      "usePdf": false,
-      "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
-      "color": "#0000FF"
     },
     {
       "text": "Eventually, we managed to create an adaptable, viable model. “{From 2031 onwards, private property is no longer a viable condition to keep things going}. Both in terms of the human social system, which used to be so influenced by commerce, but also in terms of the environment.” Watch more future-footage from the friendly hackers {@ACCATTONE} {@DAZ} {@KNTXTR}",
@@ -280,10 +286,10 @@
       "content": ""
     },
     {
-      "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\nBlaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class, Nick Axel, Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, Tatiana Bilbao, BMI, Oana Bogdan, Erik Bordeleau, Mohamed Bourouissa, Daniela Brahm & Les Schliesser, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Otis Sloan Brittain, Vera Bühlmann, Bureau N, Benjamin Burq, BVNT, Marco Carrino, Mary Ellen Carroll, Vint Cerf, cfk architetti, Kristof Croes, Elke Doppelbauer, Keller Easterling, Tobia de Eccher, Eidotech, Kurt Eggenschwiler, Ludwig Engel, Joao Enxuto & Erica Love, Marta Fernandez Guardado, Cosimo Flohr, Lenny Flohr, Becca Franks & Jennifer Jacquet, Michaela Friedberg, Yona Friedman, Renée Gailhoustet, Jan-Peter Gieseking, Goethe Institut, Olaf Grawert, Dorothee Hahn, Hecker’s Hotel Kurfürstendamm, Helene Hegemann, Holger Heissmeyer, Laura Henno, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild-Drummond, Ludger Hovestadt, Pan Hu, JUNG, Mitchell Joachim, Sonja Junkers, Roberta Jurcic, Claudia Kessler, Gabor Kocsis, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Christopher Kulendran Thomas & Annika Kuhlmann, Phyllis Lambert, Lawrence Lessig, Cedric Libert, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Hilary Mason, V. Mitch McEwen, James Meadway, Omoju Miller, Evgeny Morozov, MOTIF — Institute for Digital Culture, Motor Productions, Salum Mshamu, Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber & Thomas Rau, Jorge Orozco, Verena Otto, Erica Overmeer & Muck Petzet, POLIGONAL — Office for Urban Communication, Joanna Pope, Leif Randt, RAUE Rechtsanwälte und Rechtsanwältinnen, Rebiennale / R3B, Denis 'Jaromil' Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, S.a.L.E. Docks, Saygel, Schreiber & Gioberti, Jan Schmidt-Garre, Patrik Schumacher, Max Senges, Deane Simpson, Solmarino, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, Target Due, Irene Tassinari, Terra0, The Laboratory of Manuel Bürger, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, Marcus Vesterager, VITRA, Georg Vrachliotis, Julian Wäckerlin, Eyal Weizman, Julia Werlen, Glen Weyl, WHY Ventures, Mark Wigley, Hannah Wood, Erez Yoeli, Tirdad Zolghadr\n    \nCommissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
-      "_template": "WithBlock",
-      "content": "",
-      "file": "/uploads/pdfs/"
+      "text": "2038",
+      "color": "#0000ff",
+      "_template": "SectionBlock",
+      "content": ""
     },
     {
       "content": "2038 x AWC Launch:\n09.07.2020, 18:00-22:00\nSchinkel Pavillon, Berlin\n\nOpening Pavilion:\n21.05.2021,\nGiardini della Biennale, Venice\n\nPress Contact: \npress@2038.xyz",
