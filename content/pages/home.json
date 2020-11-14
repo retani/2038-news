@@ -21,6 +21,14 @@
       "content": ""
     },
     {
+      "videoId": "436672771",
+      "text": "architecting time & space",
+      "_template": "LandscapeBlock",
+      "content": "",
+      "image": "../images/",
+      "color": "#FFFFFF"
+    },
+    {
       "videoId": "436539725",
       "text": "decoding social relations",
       "_template": "LandscapeBlock",
@@ -179,14 +187,6 @@
       "link": "https://www.e-flux.com/announcements/339141/more-footage-from-the-future/",
       "_template": "NewsBlock",
       "content": ""
-    },
-    {
-      "videoId": "436672771",
-      "text": "architecting time & space",
-      "_template": "LandscapeBlock",
-      "content": "",
-      "image": "../images/",
-      "color": "#FFFFFF"
     },
     {
       "text": "\"Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.\"",
