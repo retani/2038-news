@@ -29,7 +29,7 @@
       "color": "#FFFFFF"
     },
     {
-      "content": "<p></p>\n<p></p>\ntest",
+      "content": "<p>test</p>\n\n     ",
       "center": false,
       "_template": "ContentBlock"
     },
