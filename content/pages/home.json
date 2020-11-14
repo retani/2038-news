@@ -225,15 +225,8 @@
     },
     {
       "text": "NEWS",
-      "color": "#00FF00",
+      "color": "#0000FF",
       "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "text": "Eventually, we managed to create an adaptable, viable model. “{From 2031 onwards, private property is no longer a viable condition to keep things going}. Both in terms of the human social system, which used to be so influenced by commerce, but also in terms of the environment.” Watch more future-footage from the friendly hackers {@ACCATTONE} {@DAZ} {@KNTXTR}",
-      "text2": "Suhail Malik, e-flux",
-      "link": "https://www.e-flux.com/announcements/339153/always-the-property-drama/",
-      "_template": "NewsBlock",
       "content": ""
     },
     {
@@ -251,6 +244,13 @@
       "usePdf": false,
       "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
       "color": "#0000FF"
+    },
+    {
+      "text": "Eventually, we managed to create an adaptable, viable model. “{From 2031 onwards, private property is no longer a viable condition to keep things going}. Both in terms of the human social system, which used to be so influenced by commerce, but also in terms of the environment.” Watch more future-footage from the friendly hackers {@ACCATTONE} {@DAZ} {@KNTXTR}",
+      "text2": "Suhail Malik, e-flux",
+      "link": "https://www.e-flux.com/announcements/339153/always-the-property-drama/",
+      "_template": "NewsBlock",
+      "content": ""
     },
     {
       "text": "Man kann sagen, dass dieser Pavillon einer der optimistischsten ist, die es je gab, eben weil nicht nur behauptet wird, dass man eventuell Ideen für mögliche Lösungen habe, sondern aus der Zukunft verfügt und erklärt wird, dass und wie diese Lösungen funktioniert haben.",
