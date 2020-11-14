@@ -36,9 +36,9 @@
       "content": ""
     },
     {
-      "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] provide a meta-offering to the allied disciplines – forms with which to design or actually manipulate them.",
-      "text2": "Keller Easterling, Frieze",
-      "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
+      "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
+      "text2": "",
+      "link": "http://artsoftheworkingclass.org/places",
       "_template": "NewsBlock",
       "content": ""
     },
@@ -47,6 +47,13 @@
       "text2": "Cedric Libert, 2038",
       "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
       "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] provide a meta-offering to the allied disciplines – forms with which to design or actually manipulate them.",
+      "text2": "Keller Easterling, Frieze",
+      "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
@@ -206,13 +213,6 @@
       "text": "NEWS",
       "color": "#0000FF",
       "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
-      "text2": "",
-      "link": "http://artsoftheworkingclass.org/places",
-      "_template": "NewsBlock",
       "content": ""
     },
     {
