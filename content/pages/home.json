@@ -2,6 +2,13 @@
   "path": "/",
   "blocks": [
     {
+      "videoId": "370256053",
+      "text": "„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen again.“",
+      "text2": "Conversation with Charlotte Malterre",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
@@ -27,11 +34,6 @@
       "content": "",
       "image": "../images/",
       "color": "#FFFFFF"
-    },
-    {
-      "content": "<p>test</p>\n\n     ",
-      "center": false,
-      "_template": "ContentBlock"
     },
     {
       "text": "\"Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.\"",
