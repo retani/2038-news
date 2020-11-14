@@ -29,52 +29,88 @@
       "color": "#FFFFFF"
     },
     {
-      "videoId": "436539725",
-      "text": "decoding social relations",
-      "_template": "LandscapeBlock",
-      "content": "",
-      "image": "../images/",
-      "color": "#FFFFFF"
-    },
-    {
-      "text": "\"This is what we call {permanent BETA}, a digital contract between individuals that is constantly updated and re-invented because it is never finished.\"",
-      "text2": "Diana Alvarez-Marin, 2038",
-      "file": "/uploads/pdfs/2038xAWC_Collective Contracts_by Finley Hoxha with Diana Alvarez Marin.pdf",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "text": "We know from social scientists that a diverse group of people can make very good decisions. We also know from a number of recent experiments that {citizens can be called upon to make decisions} on very tough policy issues, including climate change, and even to shape constitutions.",
-      "text2": "Federica Carugati, Wired",
-      "link": "https://www.wired.com/story/opinion-a-council-of-citizens-should-regulate-algorithms/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "\"Citizens' {collective intelligence} is part of the decision making processes that are happening at our town halls.\"",
-      "text2": "Francesca Bria, 2038",
+      "text": "\"Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.\"",
+      "text2": "Mark Wigley, 2038",
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
     },
     {
-      "image": "../images/200608_2038xAWC_Audrey Tang_web.jpg",
-      "text": "Audrey Tang, 2038",
+      "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] provide a meta-offering to the allied disciplines – forms with which to design or actually manipulate them.",
+      "text2": "Keller Easterling, Frieze",
+      "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "\"Architecture, in a feedback loop with reality: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences based on contingency.\" ",
+      "text2": "Cedric Libert, 2038",
+      "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "image": "../images/200501_Stills 2038_ROTICH Juliana_AI.jpg",
+      "color": "#0000FF",
+      "text": "Juliana Rotich, 2038",
       "_template": "PublicationBlock",
       "content": ""
     },
     {
-      "text": "\"The digital was crucial for finding better ways to {facilitate dialogue and work toward common understandings} between different actors and groups.\"",
+      "text": "\"This is the future that is currently the present.\"",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
     },
     {
-      "text": "\"The challenge has been to figure out which technologies we want to keep and which ones are just too socially and ecologically detrimental in everyday arrangements and everyday life to keep maintaining. Now both—{bottom-up and top-down processes—have to work together to end the artificial scarcity that capitalism created}.\" says Joanna Pope.",
-      "text2": "2038, e-flux",
-      "link": "https://www.e-flux.com/announcements/339033/a-message-from-2038/",
+      "videoId": "436540448",
+      "text": "reconnecting ecosystems",
+      "_template": "LandscapeBlock",
+      "content": "",
+      "image": "../images/",
+      "color": "#FFFFFF"
+    },
+    {
+      "text": "\"A designer is more like a gardener, deciding the direction and not the form, thinking of a process, of different possibilities of different future.\" ",
+      "text2": "Ferdinand Ludwig & Daniel Schönle, 2038",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "A {circular economy} is focused on designing out waste and pollution, keeping products and materials in use, and regenerating natural systems, so that {we do not exhaust the resources of our planet.}  ",
+      "text2": "Naoko Ishii & Frans van Houten, WEF",
+      "link": "https://www.weforum.org/agenda/2020/07/to-build-resilience-to-future-pandemics-and-climate-change-we-must-go-circular/",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "„A {new design} has emerged: one that treats buildings as {a raw material stock} for the future.“",
+      "text2": "Sabine Oberhuber & Thomas Rau, 2038",
+      "file": "/uploads/pdfs/2038xAWC_Material Matters_by Sabine Oberhuber and Thomas Rau.pdf",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
+      "text": "The central premise is simple: the goal of economic activity should be about {meeting the core needs of all but within the means of the planet.} The “doughnut” is a device to show what this means in practice [...] recognize the need for national government and supranational authorities to get on board.",
+      "text2": "Daniel Boffey, The Guardian",
+      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg",
+      "color": "#0000FF",
+      "text": "Caroline Nevejan, 2038",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
+      "text": "\"Multi-species urbanism means everything has a voice. 🌊🌳🌸🌴🐛🐬, you and I, {we all have a voice and thus we have rights.}\"",
+      "text2": "",
+      "file": "",
+      "_template": "ArticleBlock",
       "content": ""
     },
     {
@@ -125,99 +161,42 @@
       "content": ""
     },
     {
-      "text": "\"It's like in Star Trek. {People are still messed up and imperfect} and all sorts of bad things happen. {But it's also clearly a much better world.} In some pretty profound and radical ways.\" Come and watch the future #2038 @RADICALXCHANGE @ONARCHITECTURE @BUREAUN ",
-      "text2": "E. Glen Weyl, e-flux",
-      "link": "https://www.e-flux.com/announcements/339142/a-much-better-world/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "videoId": "436540448",
-      "text": "reconnecting ecosystems",
+      "videoId": "436539725",
+      "text": "decoding social relations",
       "_template": "LandscapeBlock",
       "content": "",
       "image": "../images/",
       "color": "#FFFFFF"
     },
     {
-      "text": "„A {new design} has emerged: one that treats buildings as {a raw material stock} for the future.“",
-      "text2": "Sabine Oberhuber & Thomas Rau, 2038",
-      "file": "/uploads/pdfs/2038xAWC_Material Matters_by Sabine Oberhuber and Thomas Rau.pdf",
+      "text": "\"This is what we call {permanent BETA}, a digital contract between individuals that is constantly updated and re-invented because it is never finished.\"",
+      "text2": "Diana Alvarez-Marin, 2038",
+      "file": "/uploads/pdfs/2038xAWC_Collective Contracts_by Finley Hoxha with Diana Alvarez Marin.pdf",
       "_template": "ArticleBlock",
       "content": ""
     },
     {
-      "text": "A {circular economy} is focused on designing out waste and pollution, keeping products and materials in use, and regenerating natural systems, so that {we do not exhaust the resources of our planet.}  ",
-      "text2": "Naoko Ishii & Frans van Houten, WEF",
-      "link": "https://www.weforum.org/agenda/2020/07/to-build-resilience-to-future-pandemics-and-climate-change-we-must-go-circular/",
+      "text": "We know from social scientists that a diverse group of people can make very good decisions. We also know from a number of recent experiments that {citizens can be called upon to make decisions} on very tough policy issues, including climate change, and even to shape constitutions.",
+      "text2": "Federica Carugati, Wired",
+      "link": "https://www.wired.com/story/opinion-a-council-of-citizens-should-regulate-algorithms/",
       "_template": "NewsBlock",
       "content": ""
     },
     {
-      "text": "\"A designer is more like a gardener, {deciding the direction and not the form,} thinking of a process, of different possibilities of different future.\" ",
-      "text2": "Ferdinand Ludwig & Daniel Schönle, 2038",
+      "text": "\"Citizens' {collective intelligence} is part of the decision making processes that are happening at our town halls.\"",
+      "text2": "Francesca Bria, 2038",
       "file": "",
       "_template": "ArticleBlock",
       "content": ""
     },
     {
-      "text": "The central premise is simple: the goal of economic activity should be about {meeting the core needs of all but within the means of the planet.} The “doughnut” is a device to show what this means in practice [...] recognize the need for national government and supranational authorities to get on board.",
-      "text2": "Daniel Boffey, The Guardian",
-      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg",
-      "color": "#0000FF",
-      "text": "Caroline Nevejan, 2038",
+      "image": "../images/200608_2038xAWC_Audrey Tang_web.jpg",
+      "text": "Audrey Tang, 2038",
       "_template": "PublicationBlock",
       "content": ""
     },
     {
-      "text": "\"Multi-species urbanism means everything has a voice. 🌊🌳🌸🌴🐛🐬, you and I, {we all have a voice and thus we have rights.}\"",
-      "text2": "",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "text": "We are always already at stake with each other, partnered all the way down. Inhabitants of the world, [] {human and non-human, are entangled in a series of interlaced trails and creative feedback loops}, holding open life for one another. Everyone holds pieces of each other’s life, socially and financially. We are entre-preneurs and entre-donneurs, inter-holders and inter-givers, networked together {to collectively distribute the risks and opportunities of living}. ",
-      "text2": "Erik Bordelau, e-flux",
-      "link": "https://www.e-flux.com/announcements/339141/more-footage-from-the-future/",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "\"Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.\"",
-      "text2": "Mark Wigley, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] provide a meta-offering to the allied disciplines – forms with which to design or actually manipulate them.",
-      "text2": "Keller Easterling, Frieze",
-      "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "\"Architecture, in a feedback loop with reality: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences based on contingency.\" ",
-      "text2": "Cedric Libert, 2038",
-      "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
-      "image": "../images/200501_Stills 2038_ROTICH Juliana_AI.jpg",
-      "color": "#0000FF",
-      "text": "Juliana Rotich, 2038",
-      "_template": "PublicationBlock",
-      "content": ""
-    },
-    {
-      "text": "\"This is the future that is currently the present.\"",
+      "text": "\"The digital was crucial for finding better ways to {facilitate dialogue and work toward common understandings} between different actors and groups.\"",
       "text2": "",
       "file": "",
       "_template": "ArticleBlock",
@@ -227,6 +206,27 @@
       "text": "NEWS",
       "color": "#0000FF",
       "_template": "SectionBlock",
+      "content": ""
+    },
+    {
+      "text": "\"The challenge has been to figure out which technologies we want to keep and which ones are just too socially and ecologically detrimental in everyday arrangements and everyday life to keep maintaining. Now both—{bottom-up and top-down processes—have to work together to end the artificial scarcity that capitalism created}.\" says Joanna Pope.",
+      "text2": "2038, e-flux",
+      "link": "https://www.e-flux.com/announcements/339033/a-message-from-2038/",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "\"It's like in Star Trek. {People are still messed up and imperfect} and all sorts of bad things happen. {But it's also clearly a much better world.} In some pretty profound and radical ways.\" Come and watch the future #2038 @RADICALXCHANGE @ONARCHITECTURE @BUREAUN ",
+      "text2": "E. Glen Weyl, e-flux",
+      "link": "https://www.e-flux.com/announcements/339142/a-much-better-world/",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "We are always already at stake with each other, partnered all the way down. Inhabitants of the world, [] {human and non-human, are entangled in a series of interlaced trails and creative feedback loops}, holding open life for one another. Everyone holds pieces of each other’s life, socially and financially. We are entre-preneurs and entre-donneurs, inter-holders and inter-givers, networked together {to collectively distribute the risks and opportunities of living}. ",
+      "text2": "Erik Bordelau, e-flux",
+      "link": "https://www.e-flux.com/announcements/339141/more-footage-from-the-future/",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
