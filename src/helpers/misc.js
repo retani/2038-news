@@ -8,3 +8,9 @@ export const objectMap = (obj, fn) =>
       ([k, v], i) => [k, fn(v, k, i)]
     )
   )
+
+export const genericFields = [
+    {
+      name: 'hide', component: 'toggle', label: 'Hide', description: 'Hide this block from website'
+    }
+  ]

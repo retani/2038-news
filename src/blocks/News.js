@@ -11,15 +11,16 @@ import {
   ButtonBlock } from '../components'
 
 import { hasFile } from '../helpers/validators'
+import { genericFields } from '../helpers/misc'
 import { colors, spaces,  typoSizes, blockSnippet, blockTypoSnippet, typoStyles, typoSnippet } from '../../config/styles'
 
 const blockLabel = "NEWS"
 
 export function News({ data }) {
-  const {text, text2, link, file, usePdf} = data
+  const {text, text2, link, file, usePdf, hide} = data
   const textTrimmed = text.replace(/^\s+|\s+$/g, '')
   return (
-    <BlockWrapper label={blockLabel}>
+    <BlockWrapper label={blockLabel} hide={hide}>
       <Container>
         <Spacer space={spaces.medium}/>
         <LargeText>
@@ -84,7 +85,7 @@ export const NewsBlock = {
   name: "news",
   label: blockLabel,
   itemProps: (item) => ({
-    label: <BlockListItem label={blockLabel} preview={item.text} />,
+    label: <BlockListItem label={blockLabel} preview={item.text} hide={item.hide}/>,
   }),
   defaultItem: {
     text: `Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.`,
@@ -119,5 +120,6 @@ export const NewsBlock = {
         ]
       }
     },    
+    ...genericFields,
   ],
 }

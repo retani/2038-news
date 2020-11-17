@@ -3,22 +3,22 @@ import styled from 'styled-components'
 import Img from "gatsby-image"
 import get from "lodash.get"
 
-import BlockWrapper from '../components/BlockWrapper'
 import Document from '../components/Document'
 import {p as P} from '../components/HtmlElements'
 import Spacer from '../components/Spacer'
-import { BlockListItem, ButtonBlock } from '../components'
+import { BlockListItem, ButtonBlock, BlockWrapper } from '../components'
 
+import { genericFields } from '../helpers/misc'
 import { hasFile } from '../helpers/validators'
 import { spaces, colors, blockSnippet, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "PUBLICATION"
 
 export function Publication({ data }) {
-  const {text, file, usePdf, link, color=colors.blue } = data
+  const {text, file, usePdf, link, color=colors.blue, hide } = data
   const hasAttachment = link || usePdf && file
   return (
-    <BlockWrapper label={blockLabel}>
+    <BlockWrapper label={blockLabel} hide={hide}>
       <Document>
         {
           data.image &&
@@ -86,7 +86,7 @@ export const PublicationBlock = {
   label: blockLabel,
   name: "publication",
   itemProps: (item) => ({
-    label: <BlockListItem label={blockLabel} preview={item.text} />,
+    label: <BlockListItem label={blockLabel} preview={item.text} hide={item.hide} />,
   }),  
   defaultItem: {
     image: "",
@@ -141,5 +141,6 @@ export const PublicationBlock = {
       colors: [colors.blue, colors.black],
       widget: 'block',
     },    
+    ...genericFields
   ],
 }

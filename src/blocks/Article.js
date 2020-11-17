@@ -9,14 +9,15 @@ import { BlockListItem, ButtonBlock } from '../components'
 import BlockWrapper from '../components/BlockWrapper'
 
 import { hasFile } from '../helpers/validators'
+import { genericFields } from '../helpers/misc'
 import { colors, spaces, blockTypoSnippet, typoSizes, typoStyles, typoSnippet } from '../../config/styles'
 
 const blockLabel = "QUOTE / ARTICLE"
 
 export function Article({ data, shade }) {
-  const {text, text2, file} = data
+  const {text, text2, file, hide} = data
   return (
-    <BlockWrapper label={blockLabel}>
+    <BlockWrapper label={blockLabel} hide={hide}>
       <Container shade={shade}>
         <LargeText>
           <div>
@@ -81,7 +82,7 @@ export const ArticleBlock = {
   name: "article",
   label: blockLabel,
   itemProps: (item) => ({
-    label: <BlockListItem label={blockLabel} preview={item.text} />,
+    label: <BlockListItem label={blockLabel} preview={item.text} hide={item.hide}/>,
   }),
   defaultItem: {
     text: `„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“`,
@@ -101,5 +102,6 @@ export const ArticleBlock = {
       parse: (file) => `/uploads/pdfs/${file}`,
       uploadDir: () => '/static/uploads/pdfs/', 
     },
+    ...genericFields
   ],
 }

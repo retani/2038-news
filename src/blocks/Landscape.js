@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import Img from "gatsby-image"
 import get from "lodash.get"
 
-import BlockWrapper from '../components/BlockWrapper'
 import BackgroundVideo from "../components/BackgroundVideo"
-import { BlockListItem } from '../components'
+import { BlockListItem, BlockWrapper } from '../components'
+import { genericFields } from '../helpers/misc'
 
 import {   
   typoSizes,
@@ -19,9 +19,9 @@ import {vimeoIdValid} from '../helpers/validators'
 const blockLabel = "LANDSCAPE"
 
 export function Landscape({ data }) {
-  const {text, videoId, color=colors.black } = data
+  const {text, videoId, color=colors.black, hide } = data
   return (
-    <BlockWrapper label={blockLabel}>
+    <BlockWrapper label={blockLabel} hide={hide}>
       <Container>
         { !data.image ? 
           <BackgroundVideo vimeoId={videoId} />
@@ -87,7 +87,7 @@ export const LandscapeBlock = {
   name: "landscape",
   id:"landscape",
   itemProps: (item) => ({
-    label: <BlockListItem label={blockLabel} preview={item.text} />,
+    label: <BlockListItem label={blockLabel} preview={item.text} hide={item.hide} />,
   }),
   defaultItem: {
     videoId: "115845843",
@@ -118,5 +118,6 @@ export const LandscapeBlock = {
       colors: [colors.black, colors.white, colors.turquoise, colors.green],
       widget: 'block',
     },  
+    ...genericFields
   ],
 }

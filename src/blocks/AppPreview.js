@@ -10,15 +10,15 @@ import {
   BlockListItem, 
   ButtonBlock,
   Spacer } from '../components'
-
+import { genericFields } from '../helpers/misc'
 import { typoSizes, spaces, typoStyles, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "APP PREVIEW"
 
 export function AppPreview({ data }) {
-  const {text} = data
+  const {text, hide} = data
   return (
-    <BlockWrapper label={blockLabel}>
+    <BlockWrapper label={blockLabel} hide={hide}>
     <Document>
       {
         data.image &&
@@ -73,5 +73,6 @@ export const AppPreviewBlock = {
         return imageNode.childImageSharp.fluid.src
       },
     },
+    ...genericFields
   ],
 }

@@ -2,6 +2,7 @@ import Accordion from './Accordion'
 import BackgroundVideo from './BackgroundVideo'
 import BackLink from './BackLink'
 import BlockListItem from './BlockListItem'
+import BlockWrapper from './BlockWrapper'
 import ButtonLarge from './ButtonLarge'
 import ButtonSmall from './ButtonSmall'
 import Button from './Button'
@@ -21,6 +22,7 @@ export {
   BackgroundVideo,
   BackLink,
   BlockListItem,
+  BlockWrapper,
   ButtonLarge,
   ButtonSmall,
   Button,

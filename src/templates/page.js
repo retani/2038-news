@@ -193,6 +193,7 @@ export const pageQuery = graphql`
         _template
         content
         name
+        hide
         title
         underline
         dateUTC

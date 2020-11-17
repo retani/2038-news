@@ -6,16 +6,18 @@ import {p as P, Block} from '../components/HtmlElements'
 import { 
   BlockListItem, 
   ButtonBlock,
-  Spacer } from '../components'
+  Spacer,
+  BlockWrapper } from '../components'
 
+import { genericFields } from '../helpers/misc'
 import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
 
 const blockLabel = "INTRO VIDEO"
 
 export function IntroVideo({ data }) {
-  const {text,text2,videoId, file} = data
+  const {text,text2,videoId, file, hide} = data
   return (
-    <Container>
+    <BlockWrapper label={blockLabel} hide={hide}>
       <MainVideo vimeoId={videoId} />
       <Block
         typoSize={typoSizes.moduleMedium}
@@ -34,11 +36,9 @@ export function IntroVideo({ data }) {
         </>
       }
       <Spacer space={spaces.large} />
-    </Container>
+    </BlockWrapper>
   )
 }
-
-const Container = styled.div``
 
 const LargeText = styled(P)`
   ${ 
@@ -69,7 +69,7 @@ export const IntroVideoBlock = {
   label: blockLabel,
   name: "introVideo",
   itemProps: (item) => ({
-    label: <BlockListItem label={blockLabel} preview={item.text} />,
+    label: <BlockListItem label={blockLabel} preview={item.text} hide={item.hide} />,
   }),  
   defaultItem: {
     videoId: "370256053",
@@ -90,5 +90,6 @@ export const IntroVideoBlock = {
       parse: (file) => `/uploads/pdfs/${file}`,
       uploadDir: () => '/static/uploads/pdfs/', 
     },    
+    ...genericFields
   ],
 }

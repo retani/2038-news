@@ -3,18 +3,21 @@ import styled from 'styled-components'
 
 import {p as P} from '../components/HtmlElements'
 import Header from '../components/SectionHeader'
-import { BlockListItem } from '../components'
+import { BlockListItem, BlockWrapper } from '../components'
 
+import { genericFields } from '../helpers/misc'
 import { colors } from '../../config/styles'
 
 const blockLabel = "SECTION"
 
 export function Section({ data }) {
-  const {text, color} = data
+  const {text, color, hide} = data
   return (
-    <Header backgroundColor={color}>
-      {text}
-    </Header>
+    <BlockWrapper label={blockLabel} hide={hide}>
+      <Header backgroundColor={color}>
+        {text}
+      </Header>
+    </BlockWrapper>
   )
 }
 
@@ -25,7 +28,7 @@ export const SectionBlock = {
   label: blockLabel,
   name: "section",
   itemProps: (item) => ({
-    label: <BlockListItem label={blockLabel} preview={item.text} />,
+    label: <BlockListItem label={blockLabel} preview={item.text}  hide={item.hide}/>,
   }),  
   defaultItem: {
     text: `2038`,
@@ -40,6 +43,7 @@ export const SectionBlock = {
       colorFormat: 'hex',
       colors: [colors.blue, colors.green],
       widget: 'block',
-    },    
+    },   
+    ...genericFields 
   ],
 }

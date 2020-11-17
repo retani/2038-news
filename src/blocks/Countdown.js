@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 
+import { genericFields } from '../helpers/misc'
 import { colors, breakpoints, spaces } from '../../config/styles'
 import Accordion from '../components/Accordion'
 import DownloadLink from '../components/DownloadLink'
 import Spacer from '../components/Spacer'
-import { BlockListItem } from '../components'
+import { BlockListItem, BlockWrapper } from '../components'
 
 const blockLabel = "COUNTDOWN"
 
@@ -33,7 +34,7 @@ function renderOffsetObject(distance) {
 
 export const Countdown = (data) =>  {
   
-  const {dateUTC, file} = data.data
+  const { dateUTC, file, hide} = data.data
 
   const parts = dateUTC ? dateUTC.split("-") : "0-0-0-0-0"
   //if (parts.length !== 5) {
@@ -74,7 +75,7 @@ export const Countdown = (data) =>  {
       <span className="seconds">{offset < 0 ? 0 : o.seconds}{!small ? "s" : ""}</span>
     </Text>
 
-  return <Div>
+  return <BlockWrapper label={blockLabel} hide={hide}>
     <Accordion 
         head={offsetText} 
         contentStyle={{paddingTop:"23px"}} 
@@ -85,14 +86,14 @@ export const Countdown = (data) =>  {
       <DownloadLink href={file} text="iCal" textOffset="1px" size="small"/>
       <Spacer space={spaces.medium} />
     </Accordion>
-  </Div>
+  </BlockWrapper>
 }
 
 export const CountdownBlock = {
   label: blockLabel,
   name: "countdown",
   itemProps: (item) => ({
-    label: <BlockListItem label={blockLabel} preview={item.dateUTC} />,
+    label: <BlockListItem label={blockLabel} preview={item.dateUTC} hide={item.hide}/>,
   }),    
   defaultItem: {
     dateUTC: "2020-08-28-14-00",
@@ -110,6 +111,7 @@ export const CountdownBlock = {
       parse: (file) => `/uploads/ics/${file}`,
       uploadDir: () => '/static/uploads/ics/', 
     },    
+    ...genericFields
   ],
 }
 
