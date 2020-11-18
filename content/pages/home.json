@@ -214,7 +214,7 @@
       "color": "#0000FF",
       "_template": "SectionBlock",
       "content": "",
-      "hide": true
+      "hide": false
     },
     {
       "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
