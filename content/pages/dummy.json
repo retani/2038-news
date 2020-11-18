@@ -30,6 +30,7 @@
       "title": "dummy",
       "file": "../pdfs/dummy.pdf",
       "link": "dummy",
+      "hide": false,
       "videoId": "",
       "videoId2": "",
       "videoId3": "",
