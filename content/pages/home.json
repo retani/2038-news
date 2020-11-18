@@ -213,7 +213,8 @@
       "text": "NEWS",
       "color": "#0000FF",
       "_template": "SectionBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
@@ -255,7 +256,8 @@
       "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\nBlaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class, Nick Axel, Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, Tatiana Bilbao, BMI, Oana Bogdan, Erik Bordeleau, Mohamed Bourouissa, Daniela Brahm & Les Schliesser, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Otis Sloan Brittain, Vera Bühlmann, Bureau N, Benjamin Burq, BVNT, Marco Carrino, Mary Ellen Carroll, Vint Cerf, cfk architetti, Kristof Croes, Elke Doppelbauer, Keller Easterling, Tobia de Eccher, Eidotech, Kurt Eggenschwiler, Ludwig Engel, Joao Enxuto & Erica Love, Marta Fernandez Guardado, Cosimo Flohr, Lenny Flohr, Becca Franks & Jennifer Jacquet, Michaela Friedberg, Yona Friedman, Renée Gailhoustet, Jan-Peter Gieseking, Goethe Institut, Olaf Grawert, Dorothee Hahn, Hecker’s Hotel Kurfürstendamm, Helene Hegemann, Holger Heissmeyer, Laura Henno, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild-Drummond, Ludger Hovestadt, Pan Hu, JUNG, Mitchell Joachim, Sonja Junkers, Roberta Jurcic, Claudia Kessler, Gabor Kocsis, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Christopher Kulendran Thomas & Annika Kuhlmann, Phyllis Lambert, Lawrence Lessig, Cedric Libert, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Hilary Mason, V. Mitch McEwen, James Meadway, Omoju Miller, Evgeny Morozov, MOTIF — Institute for Digital Culture, Motor Productions, Salum Mshamu, Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber & Thomas Rau, Jorge Orozco, Verena Otto, Erica Overmeer & Muck Petzet, POLIGONAL — Office for Urban Communication, Joanna Pope, Leif Randt, RAUE Rechtsanwälte und Rechtsanwältinnen, Rebiennale / R3B, Denis 'Jaromil' Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, S.a.L.E. Docks, Saygel, Schreiber & Gioberti, Jan Schmidt-Garre, Patrik Schumacher, Max Senges, Deane Simpson, Solmarino, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, Target Due, Irene Tassinari, Terra0, The Laboratory of Manuel Bürger, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, Marcus Vesterager, VITRA, Georg Vrachliotis, Julian Wäckerlin, Eyal Weizman, Julia Werlen, Glen Weyl, WHY Ventures, Mark Wigley, Hannah Wood, Erez Yoeli, Tirdad Zolghadr\n    \nCommissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
       "_template": "WithBlock",
       "content": "",
-      "file": "/uploads/pdfs/"
+      "file": "/uploads/pdfs/",
+      "hide": false
     },
     {
       "content": "Opening Pavilion:\n21.05.2021,\nGiardini della Biennale, Venice\n\nPress Contact: \npress@2038.xyz",
