@@ -242,7 +242,7 @@
       "content": ""
     },
     {
-      "dateUTC": "2028-01-01-00-01",
+      "dateUTC": "2038-01-01-00-01",
       "_template": "CountdownBlock",
       "content": ""
     },
