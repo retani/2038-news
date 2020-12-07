@@ -9,7 +9,7 @@
       "content": ""
     },
     {
-      "dateUTC": "2021-05-21-13-00",
+      "dateUTC": "2038-01-01-00-01",
       "_template": "CountdownBlock",
       "content": "",
       "file": "/uploads/ics/opening-2038.ics"
