@@ -20,7 +20,7 @@ import { TalkingHeads, TalkingHeadsBlock } from '../blocks/TalkingHeads'
 import { YoutubePlaylist, YoutubePlaylistBlock } from '../blocks/YoutubePlaylist'
 import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
 import { TypoTester, TypoTesterBlock } from '../blocks/TypoTester'
-import { HtmlSnippet } from '../blocks/htmlSnippet'
+import { Takeover, TakeoverBlock } from '../blocks/Takeover'
 
 import { PageLayout } from "../components/pageLayout"
 import { Menu } from "../components/Menu"
@@ -59,7 +59,6 @@ export default function Page(props) {
         <Spacer space={spaces.large} />
       </PageLayout>
 
-      {<HtmlSnippet />}
     </>
   )
 }
@@ -68,6 +67,8 @@ const mapBlocks = function(data,page,blocks) {
   if (!blocks || !Array.isArray(blocks)) return null
   return blocks.map(({ _template, ...data }, i, arr) => {
     switch (_template) {
+      case "TakeoverBlock":
+        return <Takeover data={data}/>
       case "TitleBlock":
         return <Title page={page} data={data} />
       case "CountdownBlock":
@@ -159,6 +160,7 @@ const PageForm = {
         ContentBlock,
         ImpLinkBlock,
         ZipBlock,
+        TakeoverBlock,
         TypoTesterBlock,
       },
     },
