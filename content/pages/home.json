@@ -199,7 +199,8 @@
       "text2": "Diana Alvarez-Marin, 2038",
       "file": "/uploads/pdfs/2038xAWC_Collective Contracts_by Finley Hoxha with Diana Alvarez Marin.pdf",
       "_template": "ArticleBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "We know from social scientists that a diverse group of people can make very good decisions. We also know from a number of recent experiments that citizens can be called upon to make decisions on very tough policy issues, including climate change, and even to shape constitutions.",
