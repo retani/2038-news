@@ -222,7 +222,8 @@
       "image": "../images/200608_2038xAWC_Audrey Tang_web.jpg",
       "text": "Audrey Tang, 2038",
       "_template": "PublicationBlock",
-      "content": ""
+      "content": "",
+      "usePdf": true
     },
     {
       "text": "\"The digital was crucial for finding better ways to facilitate dialogue and work toward common understandings between different actors and groups.\"",
