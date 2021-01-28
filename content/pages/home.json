@@ -182,7 +182,8 @@
       "text2": "Evgeny Morozov, 2038",
       "file": "",
       "_template": "ArticleBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "videoId": "436539725",
