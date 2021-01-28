@@ -64,7 +64,8 @@
       "color": "#0000FF",
       "text": "Juliana Rotich, 2038",
       "_template": "PublicationBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "\"This is the future that is currently the present.\"",
