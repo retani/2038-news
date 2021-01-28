@@ -215,7 +215,8 @@
       "text2": "Francesca Bria, 2038",
       "file": "",
       "_template": "ArticleBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "image": "../images/200608_2038xAWC_Audrey Tang_web.jpg",
