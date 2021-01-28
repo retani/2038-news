@@ -61,6 +61,26 @@
       "hide": false
     },
     {
+      "content": "Opening Pavilion:\n22.05.2020,\nGiardini della Biennale, Venice\n\nPress Contact: \npress@2038.xyz",
+      "center": false,
+      "_template": "ContentBlock"
+    },
+    {
+      "file": "/uploads/zips/2038-presskit.zip",
+      "_template": "ZipBlock",
+      "content": ""
+    },
+    {
+      "content": "Contact: \nmail@2038.xyz",
+      "center": false,
+      "_template": "ContentBlock"
+    },
+    {
+      "text": "IMP.",
+      "_template": "ImpLinkBlock",
+      "content": ""
+    },
+    {
       "videoId": "436672771",
       "text": "architecting time & space",
       "_template": "LandscapeBlock",
@@ -285,26 +305,6 @@
       "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
       "color": "#000000",
       "hide": true
-    },
-    {
-      "content": "Opening Pavilion:\n22.05.2020,\nGiardini della Biennale, Venice\n\nPress Contact: \npress@2038.xyz",
-      "center": false,
-      "_template": "ContentBlock"
-    },
-    {
-      "file": "/uploads/zips/2038-presskit.zip",
-      "_template": "ZipBlock",
-      "content": ""
-    },
-    {
-      "content": "Contact: \nmail@2038.xyz",
-      "center": false,
-      "_template": "ContentBlock"
-    },
-    {
-      "text": "IMP.",
-      "_template": "ImpLinkBlock",
-      "content": ""
     }
   ],
   "hero": {
