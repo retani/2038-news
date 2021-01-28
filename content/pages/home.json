@@ -48,7 +48,8 @@
       "text2": "Cedric Libert, 2038",
       "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
       "_template": "ArticleBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] provide a meta-offering to the allied disciplines – forms with which to design or actually manipulate them.",
