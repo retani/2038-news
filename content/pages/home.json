@@ -97,7 +97,8 @@
       "text2": "Daniel Boffey, The Guardian",
       "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "„A new design has emerged: one that treats buildings as a raw material stock for the future.“",
