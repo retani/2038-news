@@ -166,7 +166,8 @@
       "text2": "Suhail Malik, 2038",
       "file": "/uploads/pdfs/2038xArts of the Working Class_page 33_Suhail Malik.pdf",
       "_template": "ArticleBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "ISCA proposes a system where artists whose work and activities are not remunerated by the market are supported by a cooperatively owned platform that redistributes the spoils of art’s financialization. ",
