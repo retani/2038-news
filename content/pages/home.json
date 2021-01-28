@@ -174,7 +174,8 @@
       "text2": "João Enxuto & Erica Love, Artforum",
       "link": "",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "\"What we actually achieved was the development of a society not obsessed with competition.\" ",
