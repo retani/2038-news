@@ -235,13 +235,6 @@
       "hide": true
     },
     {
-      "text": "NEWS",
-      "color": "#0000FF",
-      "_template": "SectionBlock",
-      "content": "",
-      "hide": false
-    },
-    {
       "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
       "text": "",
       "_template": "PublicationBlock",
