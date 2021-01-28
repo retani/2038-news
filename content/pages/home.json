@@ -56,7 +56,8 @@
       "text2": "Keller Easterling, Frieze",
       "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "image": "../images/200501_Stills 2038_ROTICH Juliana_AI.jpg",
