@@ -81,7 +81,8 @@
       "_template": "LandscapeBlock",
       "content": "",
       "image": "../images/",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "hide": true
     },
     {
       "text": "\"A designer is more like a gardener, deciding the direction and not the form, thinking of a process, of different possibilities of different futures.\" ",
