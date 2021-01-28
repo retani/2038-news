@@ -158,7 +158,8 @@
       "text2": "Kandist Mallett, Teen Vogue ",
       "link": "https://www.teenvogue.com/story/coronavirus-pandemic-failures-capitalism",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "\"Today, private property is no longer a viable basis for social organization, neither in terms of the human social system, nor in terms of the environment.\"",
