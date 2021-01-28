@@ -41,7 +41,8 @@
       "text2": "",
       "link": "http://artsoftheworkingclass.org/places",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "\"Architecture functions in a feedback loop with reality: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences.\" ",
@@ -236,12 +237,12 @@
     },
     {
       "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
-      "text": "",
+      "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
       "_template": "PublicationBlock",
       "content": "",
       "usePdf": false,
       "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
-      "color": "#0000FF"
+      "color": "#000000"
     },
     {
       "text": "Man kann sagen, dass dieser Pavillon einer der optimistischsten ist, die es je gab, eben weil nicht nur behauptet wird, dass man eventuell Ideen für mögliche Lösungen habe, sondern aus der Zukunft verfügt und erklärt wird, dass und wie diese Lösungen funktioniert haben.",
