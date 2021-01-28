@@ -150,7 +150,8 @@
       "file": "/uploads/pdfs/2038xAWC_On the Growthocene_by Joanna Pope.pdf",
       "frontmatter": {
         "text": "<p>„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen agan.“</p>"
-      }
+      },
+      "hide": true
     },
     {
       "text": "The crisis has shown us how little capitalism has done for so many people and that other ways of living and working are possible.",
