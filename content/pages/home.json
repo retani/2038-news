@@ -223,7 +223,8 @@
       "text": "Audrey Tang, 2038",
       "_template": "PublicationBlock",
       "content": "",
-      "usePdf": true
+      "usePdf": true,
+      "hide": true
     },
     {
       "text": "\"The digital was crucial for finding better ways to facilitate dialogue and work toward common understandings between different actors and groups.\"",
