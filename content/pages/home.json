@@ -105,7 +105,8 @@
       "text2": "Sabine Oberhuber & Thomas Rau, 2038",
       "file": "/uploads/pdfs/2038xAWC_Material Matters_by Sabine Oberhuber and Thomas Rau.pdf",
       "_template": "ArticleBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "A circular economy is focused on designing out waste and pollution, keeping products and materials in use, and regenerating natural systems, so that we do not exhaust the resources of our planet.  ",
