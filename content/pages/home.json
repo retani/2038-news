@@ -113,7 +113,8 @@
       "text2": "Naoko Ishii & Frans van Houten, WEF",
       "link": "https://www.weforum.org/agenda/2020/07/to-build-resilience-to-future-pandemics-and-climate-change-we-must-go-circular/",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg",
