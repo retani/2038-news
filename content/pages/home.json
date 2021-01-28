@@ -191,7 +191,8 @@
       "_template": "LandscapeBlock",
       "content": "",
       "image": "../images/",
-      "color": "#FFFFFF"
+      "color": "#FFFFFF",
+      "hide": true
     },
     {
       "text": "\"This is what we call permanent BETA, a digital contract between individuals that is constantly updated and re-invented because it is never finished.\"",
