@@ -207,7 +207,8 @@
       "text2": "Federica Carugati, Wired",
       "link": "https://www.wired.com/story/opinion-a-council-of-citizens-should-regulate-algorithms/",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "\"Citizens' collective intelligence is part of the decision making processes that are happening at our town halls.\"",
