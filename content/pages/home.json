@@ -129,7 +129,7 @@
       "content": "",
       "image": "../images/",
       "color": "#FFFFFF",
-      "hide": false
+      "hide": true
     },
     {
       "text": "\"A designer is more like a gardener, deciding the direction and not the form, thinking of a process, of different possibilities of different futures.\" ",
