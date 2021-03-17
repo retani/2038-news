@@ -72,7 +72,7 @@
       "content": "",
       "image": "../images/",
       "color": "#FFFFFF",
-      "hide": true
+      "hide": false
     },
     {
       "text": "\"Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.\"",
