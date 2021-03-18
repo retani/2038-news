@@ -9,20 +9,19 @@
       "content": ""
     },
     {
-      "videoId": "370256053",
+      "text": "NEWS",
+      "color": "#00FF00",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
+      "videoId": "525549412",
       "text": "Bald hat das Warten ein Ende und die Architekturbiennale eröffnet in Venedig. 2038 freut sich darauf, gemeinsam mit Ihnen dann doch gelassen darauf (zurück) zu blicken. Wie unser Rückblick auf die Gegenwart und die Zukunft genau aussehen wird? Dies und mehr besprechen wir im virtuellen Pressegespräch.",
       "text2": "Press Kit (DE)",
       "_template": "TalkingHeadsBlock",
       "content": "",
       "usePdf": false,
       "link": "https://www.dropbox.com/sh/xouhk5b9354s496/AAAlbQLZdGYk_U97avdeIUBBa?dl=0"
-    },
-    {
-      "text": "Bald hat das Warten ein Ende und die Architekturbiennale eröffnet in Venedig. 2038 freut sich darauf, gemeinsam mit Ihnen dann doch gelassen darauf (zurück) zu blicken. Wie unser Rückblick auf die Gegenwart und die Zukunft genau aussehen wird? Dies und mehr besprechen wir im virtuellen Pressegespräch.",
-      "text2": "Press Kit",
-      "link": "https://www.dropbox.com/sh/xouhk5b9354s496/AAAlbQLZdGYk_U97avdeIUBBa?dl=0",
-      "_template": "NewsBlock",
-      "content": ""
     },
     {
       "text": "NEWS",
