@@ -9,6 +9,11 @@
       "content": ""
     },
     {
+      "file": "",
+      "_template": "ZipBlock",
+      "content": ""
+    },
+    {
       "text": "NEWS",
       "color": "#00FF00",
       "_template": "SectionBlock",
