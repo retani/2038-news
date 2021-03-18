@@ -9,11 +9,6 @@
       "content": ""
     },
     {
-      "file": "/uploads/zips/",
-      "_template": "ZipBlock",
-      "content": ""
-    },
-    {
       "text": "NEWS",
       "color": "#00FF00",
       "_template": "SectionBlock",
