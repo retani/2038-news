@@ -92,19 +92,12 @@
       "hide": true
     },
     {
-      "videoId": "370256053",
-      "text": "„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen again.“",
-      "text2": "Conversation with Charlotte Malterre",
-      "_template": "TalkingHeadsBlock",
-      "content": ""
-    },
-    {
       "text": "\"Architecture functions in a feedback loop with reality: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences.\" ",
       "text2": "Cedric Libert, 2038",
       "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
       "_template": "ArticleBlock",
       "content": "",
-      "hide": false
+      "hide": true
     },
     {
       "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
