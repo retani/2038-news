@@ -97,7 +97,7 @@
       "link": "http://artsoftheworkingclass.org/places",
       "_template": "NewsBlock",
       "content": "",
-      "hide": true
+      "hide": false
     },
     {
       "text": "\"Architecture functions in a feedback loop with reality: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences.\" ",
