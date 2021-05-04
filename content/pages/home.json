@@ -2,7 +2,14 @@
   "path": "/",
   "blocks": [
     {
-      "content": "Hallo wie geht es dir? \nMir geht es gut\nDir?\nAlles okay?",
+      "videoId": "115845843",
+      "text": "legal bodies",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "content": "<br/>Hallo wie geht es dir? \nMir geht es gut\nDir?\nAlles okay?",
       "center": false,
       "_template": "ContentBlock"
     },
