@@ -63,11 +63,12 @@
       "link": "abc"
     },
     {
-      "text": "Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.",
-      "text2": "Erika Mustermann on theatlantic.com",
-      "link": "",
+      "text": "Critical thinking saved us because we no pay attention to the information, asking: where did it come from?",
+      "text2": "Vint Cerf, Father of the Internet",
+      "link": "abc",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "usePdf": false
     },
     {
       "text": "INFO",
