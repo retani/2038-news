@@ -59,7 +59,8 @@
       "videoId2": "370256053",
       "videoId3": "370256053",
       "videoId4": "370256053",
-      "usePdf": true
+      "usePdf": false,
+      "link": "abc"
     },
     {
       "text": "INFO",
