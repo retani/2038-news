@@ -15,6 +15,7 @@ import { With, WithBlock } from "../blocks/With"
 import { AppPreview, AppPreviewBlock } from '../blocks/AppPreview'
 import { Section, SectionBlock } from "../blocks/Section"
 import { IntroVideo, IntroVideoBlock } from "../blocks/IntroVideo"
+import { IntroLink, IntroLinkBlock } from "../blocks/IntroLink"
 import { Article, ArticleBlock } from "../blocks/Article"
 import { FilmQuote, FilmQuoteBlock } from "../blocks/FilmQuote"
 import { TalkingHeads, TalkingHeadsBlock } from '../blocks/TalkingHeads'
@@ -104,6 +105,8 @@ const mapBlocks = function(data,page,blocks) {
         </>
       case "IntroVideoBlock":
         return <IntroVideo key={"IntroVideoBlock" + i} data={data} />
+      case "IntroLinkBlock":
+        return <IntroLink key={"IntroLinkBlock" + i} data={data} />
       case "WithBlock":
         return <>
           { (arr[i-1] && ["NewsBlock"].indexOf(arr[i-1]._template) > -1 )
@@ -164,6 +167,7 @@ const PageForm = {
         FilmQuoteBlock,
         CountdownBlock,
         IntroVideoBlock,
+        IntroLinkBlock,
         LandscapeBlock,
         NewsBlock,
         PublicationBlock,
@@ -222,6 +226,7 @@ export const pageQuery = graphql`
         text
         text2
         link
+        linkText
         center
         bool
         recipient
