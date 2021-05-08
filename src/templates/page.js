@@ -86,9 +86,13 @@ const mapBlocks = function(data,page,blocks) {
       case "PublicationBlock":
         return <Publication key={"PublicationBlock" + i} data={data} />
       case "ArticleBlock":
+        const repeatedArticle = (arr[i + 1] && ["ArticleBlock"].indexOf(arr[i + 1]._template) > -1)
         const shadeBlocks = ["SectionBlock", "WithBlock"]
         const shade = (arr[i+1] && shadeBlocks.indexOf(arr[i+1]._template) > -1 )
-        return <Article key={"ArticleBlock" + i} shade={shade} data={data} />                    
+        return <>
+          <Article key={"ArticleBlock" + i} shade={shade} data={data} />
+          { repeatedArticle && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall} />}
+        </>
       case "IntroVideoBlock":
         return <IntroVideo key={"IntroVideoBlock" + i} data={data} />
       case "WithBlock":
@@ -112,10 +116,10 @@ const mapBlocks = function(data,page,blocks) {
       case "TypoTesterBlock":
         return <TypoTester key={"TypoTesterBlock" + i} data={data} />          
       case "NewsBlock":
-        const repeated = (arr[i+1] && ["NewsBlock"].indexOf(arr[i+1]._template) > -1 )
+        const repeatedNews = (arr[i+1] && ["NewsBlock"].indexOf(arr[i+1]._template) > -1 )
         return <>
           <News key={"NewsBlock" + i} data={data} />
-          { repeated && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall}/> }
+          { repeatedNews && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall}/> }
         </>
       case "ImpLinkBlock":
         return <ImpLink key={"ImpLinkBlock" + i} data={data} />                                
