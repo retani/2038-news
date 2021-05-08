@@ -104,11 +104,11 @@ export const IntroLinkBlock = {
     label: <BlockListItem label={blockLabel} preview={item.text} hide={item.hide} />,
   }),  
   defaultItem: {
-    videoId: "115845843",
-    text: "Today, in the year 2038, we have mastered the large crises. It was a close call, yet, we just about made it. After the total financial melt-down in the year 2022, the world came to its senses. We live in radical democracy and radical bureaucracy, in a society, that knows neither hero nor villain. In a series of films, the German Pavillon shows how we arrived at this era of New Serenity.",
-    text2: "The German Pavillon at the Architecture Biennale 2020",
+    videoId: "382051967",
+    text: "Welcome in 2038, Welcome to the German Pavilion.",
+    text2: "The Hubs Pavilion — La Biennale di Venezia",
     link: "https://thenewserenity.com",
-    linkText: "HUBS",
+    linkText: "Enter",
   },
   fields: [
     { name: "videoId", label: "Vimeo Video ID", component: "text" },
