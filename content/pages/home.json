@@ -8,7 +8,7 @@
       "content": ""
     },
     {
-      "videoId": "503624836",
+      "videoId": "382051967",
       "text": "Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion.     ",
       "text2": "The Hubs Pavilion — La Biennale di Venezia",
       "_template": "IntroVideoBlock",
@@ -36,7 +36,7 @@
       "content": ""
     },
     {
-      "videoId": "Vint Cerf, Father of the Internet",
+      "videoId": "546848425",
       "text": "since all the parts keep influencing the whole, the system becomes so complex",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
@@ -51,12 +51,12 @@
       "usePdf": false
     },
     {
-      "videoId": "525588739",
+      "videoId": "546960434",
       "text": "„Throughout the twenties, it was still common to think about direct democracy and representative democracy as two competing forms of participation. In Taiwan, we had already begun prototyping a new political system that challenged this binary, and explored how direct and representative democracy could work symbiotically, as interwoven, complementary systems.“",
       "text2": "Audrey Tang, XXX, XXX and XXX",
       "_template": "TalkingHeadsBlock",
       "content": "",
-      "videoId2": "525588739",
+      "videoId2": "546959891",
       "videoId3": "",
       "videoId4": "",
       "usePdf": false,
@@ -70,9 +70,16 @@
       "content": ""
     },
     {
-      "videoId": "",
+      "videoId": "546848479",
       "text": "it‘s not about what you and I think, but you and I being part of a system ...",
       "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "videoId": "115845843",
+      "text": "legal bodies",
+      "color": "#000000",
       "_template": "LandscapeBlock",
       "content": ""
     },
@@ -100,7 +107,7 @@
       "content": ""
     },
     {
-      "videoId": "",
+      "videoId": "546848502",
       "text": "the rich were super rich and yet totally unhappy",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
@@ -114,14 +121,14 @@
       "content": ""
     },
     {
-      "videoId": "370256053",
+      "videoId": "546848502",
       "text": "We developed a society not obsessed with competition. So we forgot competition as one of our core values and goals. Instead we re-embraced the values that we have before us: Solidarity & cooperation, engaging in activities that are not driven by expectations of profitability.",
       "text2": "Evgeny Morozov, XXX, XXX and XXX",
       "_template": "TalkingHeadsBlock",
       "content": "",
-      "videoId2": "370256053",
-      "videoId3": "370256053",
-      "videoId4": "370256053"
+      "videoId2": "546848479",
+      "videoId3": "",
+      "videoId4": ""
     },
     {
       "text": "We live in a decentralized and self-organized society.  Of course not everybody is equal, not everybody is happy, not everybody has access to the same things. Still, we are more free in the sense that access is no longer defined by being born rich or in a certain place.",
@@ -131,7 +138,7 @@
       "content": ""
     },
     {
-      "videoId": "",
+      "videoId": "546848425",
       "text": "private ownership of land, when was that?",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
@@ -145,14 +152,59 @@
       "content": ""
     },
     {
-      "videoId": "370256053",
+      "videoId": "546848502",
       "text": "Private property is no longer a viable condition in terms of both the environment and the human social system, which used to be dominated by markets. It‘s clear that the environmental destruction was a consequence of privatization.",
       "text2": "Suhail Malik, XXX XXX and XXX",
       "_template": "TalkingHeadsBlock",
       "content": "",
-      "videoId2": "546848502",
+      "videoId2": "546848425",
       "videoId4": "",
       "videoId3": ""
+    },
+    {
+      "text": "Project development does not only mean buying and financing, but also creating common space. It should not be about maximizing returns, but about creating the best possible space for people.",
+      "text2": "Daniela Brahm & Les Schliesser",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "546848425",
+      "text": "everything that is good and everything that is bad flows into algorithmic processes of shaping the future",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "The main takeaway of this experiment is that distributed technology allows nonhuman actors to engage successfully in relationships built on contracts. This resulted in legal structures that could allow rivers to become legal persons and forests to become corporations.",
+      "text2": "Paul Seidler for Terra0, Augmented Self-Owned Forrest",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "546848502",
+      "text": "At some point we realized that sustainability actually only optimizes the status quo and will thus never lead to a systematic change. Circular economy, on the other hand, does not optimize a dysfunctional system, but designs a new one along an axis of responsibility.",
+      "text2": "Sabine Oberhuber & Thomas Rau, XXX, XXX and XXX",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "videoId2": "546848453",
+      "videoId4": "",
+      "videoId3": ""
+    },
+    {
+      "text": "What has changed? Instead of many nations, we see our-selves as a whole and work together as a planetary population that inhabits one livable spaceship: the Spaceship Earth, as Buckminster Fuller said. We are in this together!",
+      "text2": "Cedric Libert, Architect & Curator",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "",
+      "text": "I like you Greta!",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
     },
     {
       "text": "INFO",
