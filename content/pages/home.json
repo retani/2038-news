@@ -2,13 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "videoId": "115845843",
-      "text": "legal bodies",
-      "color": "#000000",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
       "text": "HUBS",
       "color": "#00FFFF",
       "_template": "SectionBlock",
@@ -52,7 +45,7 @@
     {
       "text": "We couldn‘t change the system by speaking to highly entrenched and disconnected practices. To bring about the large scale change we needed, we had to articulate an (eco)system involving legal, economic, social, and technological dynamics.",
       "text2": "Mara Belistrini, XXX XXX",
-      "link": "www.2038.xyz",
+      "link": "https://www.tagesspiegel.de/",
       "_template": "NewsBlock",
       "content": "",
       "usePdf": false
@@ -76,6 +69,13 @@
       "_template": "NewsBlock",
       "content": "",
       "usePdf": false
+    },
+    {
+      "videoId": "115845843",
+      "text": "legal bodies",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
+      "content": ""
     },
     {
       "text": "INFO",
