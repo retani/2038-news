@@ -63,14 +63,6 @@
       "link": "https://www.tagesspiegel.de/"
     },
     {
-      "text": "Critical thinking saved us because we no pay attention to the information, asking: where did it come from?",
-      "text2": "Vint Cerf, Father of the Internet",
-      "link": "https://www.tagesspiegel.de/",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": false
-    },
-    {
       "videoId": "",
       "text": "it‘s not about what you and I think, but you and I being part of a system ...",
       "color": "#FFFFFF",
@@ -85,12 +77,13 @@
       "content": ""
     },
     {
-      "videoId": "",
+      "videoId": "525588739",
       "text": "Cities became the place for experimenting with sustainability and democracy by reclaiming control over data. Citizens became the ones who owned the data, using it to create a digital commons, which enabled new cooperative platforms.",
       "text2": "Francesca Bria, XXX, XXX and XXX",
       "_template": "TalkingHeadsBlock",
       "content": "",
-      "usePdf": true
+      "usePdf": true,
+      "videoId2": "525588739"
     },
     {
       "text": "INFO",
