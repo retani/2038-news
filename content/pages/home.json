@@ -8,7 +8,7 @@
       "content": ""
     },
     {
-      "videoId": "546848425",
+      "videoId": "382051967",
       "text": "Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion.     ",
       "text2": "The Hubs Pavilion — La Biennale di Venezia",
       "_template": "IntroVideoBlock",
@@ -166,6 +166,13 @@
       "text": "everything that is good and everything that is bad flows into algorithmic processes of shaping the future",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.",
+      "text2": "Erika Mustermann on theatlantic.com",
+      "link": "",
+      "_template": "NewsBlock",
       "content": ""
     },
     {
