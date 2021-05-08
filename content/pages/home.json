@@ -2,6 +2,13 @@
   "path": "/",
   "blocks": [
     {
+      "videoId": "115845843",
+      "text": "legal bodies",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
       "text": "HUBS",
       "color": "#00FFFF",
       "_template": "SectionBlock",
@@ -65,7 +72,7 @@
     {
       "text": "Critical thinking saved us because we no pay attention to the information, asking: where did it come from?",
       "text2": "Vint Cerf, Father of the Internet",
-      "link": "www.2038.xy",
+      "link": "www.2038.xyz",
       "_template": "NewsBlock",
       "content": "",
       "usePdf": false
