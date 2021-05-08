@@ -36,7 +36,7 @@
       "content": ""
     },
     {
-      "videoId": "",
+      "videoId": "Vint Cerf, Father of the Internet",
       "text": "since all the parts keep influencing the whole, the system becomes so complex",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
@@ -65,7 +65,7 @@
     {
       "text": "Critical thinking saved us because we no pay attention to the information, asking: where did it come from?",
       "text2": "Vint Cerf, Father of the Internet",
-      "link": "abc",
+      "link": "www.2038.xy",
       "_template": "NewsBlock",
       "content": "",
       "usePdf": false
