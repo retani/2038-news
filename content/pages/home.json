@@ -131,7 +131,7 @@
       "content": ""
     },
     {
-      "videoId": "546848502",
+      "videoId": "546848425",
       "text": "private ownership of land, when was that?",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
@@ -159,6 +159,13 @@
       "text2": "Daniela Brahm & Les Schliesser",
       "link": "",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "546848425",
+      "text": "everything that is good and everything that is bad flows into algorithmic processes of shaping the future",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
       "content": ""
     },
     {
