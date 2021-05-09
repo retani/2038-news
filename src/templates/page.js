@@ -15,7 +15,9 @@ import { With, WithBlock } from "../blocks/With"
 import { AppPreview, AppPreviewBlock } from '../blocks/AppPreview'
 import { Section, SectionBlock } from "../blocks/Section"
 import { IntroVideo, IntroVideoBlock } from "../blocks/IntroVideo"
+import { IntroLink, IntroLinkBlock } from "../blocks/IntroLink"
 import { Article, ArticleBlock } from "../blocks/Article"
+import { FilmQuote, FilmQuoteBlock } from "../blocks/FilmQuote"
 import { TalkingHeads, TalkingHeadsBlock } from '../blocks/TalkingHeads'
 import { YoutubePlaylist, YoutubePlaylistBlock } from '../blocks/YoutubePlaylist'
 import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
@@ -86,11 +88,25 @@ const mapBlocks = function(data,page,blocks) {
       case "PublicationBlock":
         return <Publication key={"PublicationBlock" + i} data={data} />
       case "ArticleBlock":
+        const repeatedArticle = (arr[i + 1] && ["ArticleBlock", "FilmQuoteBlock"].indexOf(arr[i + 1]._template) > -1)
         const shadeBlocks = ["SectionBlock", "WithBlock"]
         const shade = (arr[i+1] && shadeBlocks.indexOf(arr[i+1]._template) > -1 )
-        return <Article key={"ArticleBlock" + i} shade={shade} data={data} />                    
+        return <>
+          <Article key={"ArticleBlock" + i} shade={shade} data={data} />
+          { repeatedArticle && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall} />}
+        </>
+      case "FilmQuoteBlock":
+        const repeatedFilmQuote = (arr[i + 1] && ["FilmQuoteBlock", "ArticleBlock"].indexOf(arr[i + 1]._template) > -1)
+        const shadeBlocksFilm = ["SectionBlock", "WithBlock"]
+        const shadeFilm = (arr[i + 1] && shadeBlocksFilm.indexOf(arr[i + 1]._template) > -1)
+        return <>
+          <FilmQuote key={"FilmQuoteBlock" + i} shade={shadeFilm} data={data} />
+          { repeatedFilmQuote && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall} />}
+        </>
       case "IntroVideoBlock":
         return <IntroVideo key={"IntroVideoBlock" + i} data={data} />
+      case "IntroLinkBlock":
+        return <IntroLink key={"IntroLinkBlock" + i} data={data} />
       case "WithBlock":
         return <>
           { (arr[i-1] && ["NewsBlock"].indexOf(arr[i-1]._template) > -1 )
@@ -112,10 +128,10 @@ const mapBlocks = function(data,page,blocks) {
       case "TypoTesterBlock":
         return <TypoTester key={"TypoTesterBlock" + i} data={data} />          
       case "NewsBlock":
-        const repeated = (arr[i+1] && ["NewsBlock"].indexOf(arr[i+1]._template) > -1 )
+        const repeatedNews = (arr[i+1] && ["NewsBlock"].indexOf(arr[i+1]._template) > -1 )
         return <>
           <News key={"NewsBlock" + i} data={data} />
-          { repeated && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall}/> }
+          { repeatedNews && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall}/> }
         </>
       case "ImpLinkBlock":
         return <ImpLink key={"ImpLinkBlock" + i} data={data} />                                
@@ -148,8 +164,10 @@ const PageForm = {
       templates: {
         AppPreviewBlock,
         ArticleBlock,
+        FilmQuoteBlock,
         CountdownBlock,
         IntroVideoBlock,
+        IntroLinkBlock,
         LandscapeBlock,
         NewsBlock,
         PublicationBlock,
@@ -208,6 +226,7 @@ export const pageQuery = graphql`
         text
         text2
         link
+        linkText
         center
         bool
         recipient
