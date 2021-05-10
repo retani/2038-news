@@ -9,11 +9,12 @@
     },
     {
       "videoId": "382051967",
-      "text": "Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion. Welcome in 2038, Welcome to the German Pavilion.     ",
+      "text": "Welcome in 2038, Welcome to the German Pavilion.",
       "text2": "The Hubs Pavilion — La Biennale di Venezia",
-      "_template": "IntroVideoBlock",
-      "content": "",
-      "file": "/uploads/pdfs/Placeholder.pdf"
+      "link": "https://thenewserenity.com",
+      "linkText": "Enter",
+      "_template": "IntroLinkBlock",
+      "content": ""
     },
     {
       "text": "HUGS",
@@ -73,13 +74,6 @@
       "videoId": "546848479",
       "text": "it‘s not about what you and I think, but you and I being part of a system ...",
       "color": "#FFFFFF",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
-      "videoId": "115845843",
-      "text": "legal bodies",
-      "color": "#000000",
       "_template": "LandscapeBlock",
       "content": ""
     },
