@@ -2,20 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "text": "2038",
-      "color": "#00FF00",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "videoId": "548031698",
-      "text": "2038 invites you to discover a story between fact and fiction. In a series of films, it tells the story of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. \n",
-      "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia ",
-      "_template": "IntroVideoBlock",
-      "content": "",
-      "file": "/uploads/pdfs/"
-    },
-    {
       "text": "HUBS",
       "color": "#00FFFF",
       "_template": "SectionBlock",
@@ -31,6 +17,14 @@
       "content": ""
     },
     {
+      "videoId": "548031698",
+      "text": "2038 invites you to discover a story between fact and fiction. In a series of films, it tells the story of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. \n",
+      "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia ",
+      "_template": "IntroVideoBlock",
+      "content": "",
+      "file": "/uploads/pdfs/"
+    },
+    {
       "text": "2021",
       "color": "#0000FF",
       "_template": "SectionBlock",
@@ -38,7 +32,7 @@
     },
     {
       "videoId": "548124354",
-      "text": "\"Watching architects work together with filmmakers and experts from a broad stroke of different fields, we can be sure that this year’s contribution to the German Pavilion will not only position architecture as holistic, but will appeal strongly to both political and social spheres. As a collective curatorial work, 2038 tells us how we all want to live in the future.\"",
+      "text": "\"Today, in 2038, we are in the position more than ever to realize sustainable models of social, economic, digital and ecological coexistence.\"",
       "text2": "Anne Katrin Bohle, Secretary of State in the Ministry of Interior, Building and Community",
       "color": "#000000",
       "_template": "TalkingHeadsBlock",
