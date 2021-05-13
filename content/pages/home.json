@@ -178,10 +178,10 @@
     {
       "text": "Project development does not only mean buying and financing, but also creating common space. It should not be about maximizing returns, but about creating the best possible space for people.",
       "text2": "Daniela Brahm and Les Schliesser for ExRotaprint",
-      "link": "https://www.exrotaprint.de/en/exrotaprint-ggmbh/",
+      "link": "",
       "_template": "NewsBlock",
       "content": "",
-      "usePdf": true
+      "usePdf": false
     },
     {
       "videoId": "",
@@ -201,7 +201,7 @@
     {
       "videoId": "546848502",
       "text": "At some point we realized that sustainability actually only optimizes the status quo and will thus never lead to a systematic change. Circular economy, on the other hand, does not optimize a dysfunctional system, but designs a new one along an axis of responsibility.",
-      "text2": "Sabine Oberhuber & Thomas Rau, XXX, XXX and XXX",
+      "text2": "Sabine Oberhuber and Thomas Rau (Economist and Architect)",
       "_template": "TalkingHeadsBlock",
       "content": "",
       "videoId2": "546848453",
