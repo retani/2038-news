@@ -31,7 +31,7 @@
       "file": "/uploads/pdfs/Placeholder.pdf"
     },
     {
-      "text": "2021",
+      "text": "2038",
       "color": "#0000FF",
       "_template": "SectionBlock",
       "content": ""
@@ -47,12 +47,6 @@
       "link": "",
       "videoId2": "547372367",
       "videoId3": ""
-    },
-    {
-      "text": "2038",
-      "color": "#FF99FF",
-      "_template": "SectionBlock",
-      "content": ""
     },
     {
       "videoId": "",
