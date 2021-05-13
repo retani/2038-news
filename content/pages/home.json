@@ -56,7 +56,7 @@
     },
     {
       "videoId": "",
-      "text": "as all parts keep influencing the whole, the system becomes complex",
+      "text": "as all parts keep influencing the whole, the system becomes so complex",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
       "content": "",
@@ -104,13 +104,14 @@
       "content": ""
     },
     {
-      "videoId": "525588739",
+      "videoId": "547890066",
       "text": "\"Cities became the place for experimenting with sustainability and democracy by reclaiming control over data. Citizens became the ones who owned the data, using it to create a digital commons, which enabled new cooperative platforms.\"",
       "text2": "Francesca Bria, Digital Policy Expert & Innovation Economist",
       "_template": "TalkingHeadsBlock",
       "content": "",
       "usePdf": true,
-      "videoId2": "525588739"
+      "videoId2": "546963621",
+      "videoId3": ""
     },
     {
       "text": "I‘m happy we have an ethical code for media and information as a commons, which is not public. You shouldn‘t disclose all your data. Data now operates similarly to how Nobel prize winner Elinor Ostrom describes the management of commons like forests, land or water.",
