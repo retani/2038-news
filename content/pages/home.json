@@ -168,7 +168,7 @@
     {
       "videoId": "546956310",
       "text": "\"Private property is no longer a viable condition in terms of both the environment and the human social system, which used to be dominated by markets. It‘s clear that the environmental destruction was a consequence of privatization.\"",
-      "text2": "Suhail Malik (Reader in Critical Studies)",
+      "text2": "Suhail Malik (Theorist)",
       "_template": "TalkingHeadsBlock",
       "content": "",
       "videoId2": "546969703",
@@ -220,6 +220,21 @@
       "text": "I like you Greta!",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.",
+      "text2": "Erika Mustermann on theatlantic.com",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "370256053",
+      "text": "„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen again.“",
+      "text2": "Conversation with Charlotte Malterre",
+      "color": "white",
+      "_template": "TalkingHeadsBlock",
       "content": ""
     },
     {
