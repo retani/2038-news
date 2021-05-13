@@ -2,7 +2,7 @@
   "path": "/",
   "blocks": [
     {
-      "text": "HUGS",
+      "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
       "content": ""
