@@ -286,6 +286,13 @@
       "content": ""
     },
     {
+      "videoId": "",
+      "text": "Venice was a great idea!",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
       "text": "INFO",
       "color": "#000000",
       "_template": "SectionBlock",
