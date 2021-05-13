@@ -2,6 +2,12 @@
   "path": "/",
   "blocks": [
     {
+      "text": "2038",
+      "color": "#0000ff",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
       "text": "HUBS",
       "color": "#00FFFF",
       "_template": "SectionBlock",
