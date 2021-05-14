@@ -4,7 +4,7 @@ on:
     branches:
       - content
 jobs:
-  productionPromotion:
+  pr-master:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
