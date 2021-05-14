@@ -2,6 +2,20 @@
   "path": "/",
   "blocks": [
     {
+      "text": "Facts are no longer enough to really convince people. We have to tell stories.",
+      "text2": "Oana Bogdan, Architect & Politician",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "Like in Star Trek, people are still messed up. They are imperfect and bad things still happen to them. But it's clearly a much better world. In some pretty profound and radical ways.",
+      "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "videoId": "548031698",
       "text": "2038 - The New Serenity, invites you to discover a story between fact and fiction. In a series of films, it tells the history of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. \n",
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
