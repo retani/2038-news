@@ -5,7 +5,7 @@
       "text": "https://exp.thenewserenity.com",
       "_template": "RedirectBlock",
       "content": "",
-      "hide": true
+      "hide": false
     }
   ]
 }
