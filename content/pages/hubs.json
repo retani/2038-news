@@ -1,0 +1,11 @@
+{
+  "path": "/hubs",
+  "blocks": [
+    {
+      "text": "https://exp.thenewserenity.com",
+      "_template": "RedirectBlock",
+      "content": "",
+      "hide": true
+    }
+  ]
+}

@@ -21,6 +21,7 @@ import { YoutubePlaylist, YoutubePlaylistBlock } from '../blocks/YoutubePlaylist
 import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
 import { TypoTester, TypoTesterBlock } from '../blocks/TypoTester'
 import { Takeover, TakeoverBlock } from '../blocks/Takeover'
+import { Redirect, RedirectBlock } from '../blocks/Redirect'
 
 import { PageLayout } from "../components/pageLayout"
 import { Menu } from "../components/Menu"
@@ -67,6 +68,8 @@ const mapBlocks = function(data,page,blocks) {
   if (!blocks || !Array.isArray(blocks)) return null
   return blocks.map(({ _template, ...data }, i, arr) => {
     switch (_template) {
+      case "RedirectBlock":
+        return <Redirect data={data} />
       case "TakeoverBlock":
         return <Takeover data={data}/>
       case "TitleBlock":
@@ -161,6 +164,7 @@ const PageForm = {
         ImpLinkBlock,
         ZipBlock,
         TakeoverBlock,
+        RedirectBlock,
         TypoTesterBlock,
       },
     },

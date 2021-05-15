@@ -328,7 +328,7 @@ const globalStyles = `
     @media ${ breakpoints.small } {
       line-height: ${ metrics.medium.lineHeightPx }px;
     }    
-    font-family: 'Roboto Mono', 'Andale Mono', monospace;
+    font-family: 'Roboto Mono', 'Andale Mono', monospace, sans-serif;
   }
 `
 
