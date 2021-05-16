@@ -1,4 +1,5 @@
 name: deploy
+concurrency: deploy
 
 on:
   push:
