@@ -52,7 +52,7 @@
     {
       "videoId": "546970268",
       "text": "\"Like in Star Trek, people are still messed up. They are imperfect and bad things still happen to them. But it's clearly a much better world. In some pretty profound and radical ways.\"",
-      "text2": "in conversation with Charlotte Malterre",
+      "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
       "color": "white",
       "_template": "TalkingHeadsBlock",
       "content": "",
@@ -319,13 +319,6 @@
     {
       "text": "Facts are no longer enough to really convince people. We have to tell stories.",
       "text2": "Oana Bogdan, Architect & Politician",
-      "link": "",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "text": "Like in Star Trek, people are still messed up. They are imperfect and bad things still happen to them. But it's clearly a much better world. In some pretty profound and radical ways.",
-      "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
       "link": "",
       "_template": "NewsBlock",
       "content": ""
