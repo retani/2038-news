@@ -1,0 +1,11 @@
+{
+  "path": "/12",
+  "blocks": [
+    {
+      "text": "https://2038.xyz",
+      "_template": "RedirectBlock",
+      "content": "",
+      "hide": false
+    }
+  ]
+}
