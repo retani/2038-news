@@ -2,12 +2,6 @@
   "path": "/new",
   "blocks": [
     {
-      "text": "2038",
-      "color": "#00FF00",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
       "videoId": "548031698",
       "text": "2038 – The New Serenity, invites you to discover a story between fact and fiction. In a series of films, it tells the history of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. The story is based on the knowledge and visions of a collaborative team of international experts from Architecture, Art, Ecology, Economy, Philosophy, Politics, Science and Technology. Together, team 2038 strives to explore our future society through prefigurative politics, illustrating modes of organization and social relationships to come.\n",
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
@@ -32,6 +26,12 @@
       "content": ""
     },
     {
+      "text": "2038",
+      "color": "#00FF00",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
       "videoId": "548124354",
       "text": "\"Today, in 2038, we are in the position more than ever to realize sustainable models of social, economic, digital and ecological coexistence.\"",
       "text2": "Anne Katrin Bohle, Secretary of State, Ministry of Interior, Building and Community",
@@ -42,12 +42,6 @@
       "link": "https://artsandculture.google.com/preview/story/rQUhLlNPDBaD9w",
       "videoId2": "",
       "videoId3": ""
-    },
-    {
-      "text": "2038",
-      "color": "#0000ff",
-      "_template": "SectionBlock",
-      "content": ""
     },
     {
       "videoId": "546970268",
@@ -61,6 +55,12 @@
       "videoId4": "546968529",
       "link": "https://artsandculture.google.com/preview/story/rQUhLlNPDBaD9w",
       "usePdf": false
+    },
+    {
+      "text": "2038",
+      "color": "#00FF00",
+      "_template": "SectionBlock",
+      "content": ""
     },
     {
       "videoId": "548718437",
