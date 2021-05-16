@@ -11,12 +11,13 @@ import {
   BlockWrapper } from '../components'
 
 import { genericFields } from '../helpers/misc'
-import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
+import { hasFile } from '../helpers/validators'
+import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet  } from '../../config/styles'
 
 const blockLabel = "INTRO HUBS"
 
 export function IntroLink({ data }) {
-  const {text,text2,videoId, file, hide, link, linkText} = data
+  const {text,text2,videoId, file, hide, link, linkText, usePdf} = data
   const buttonColor = colors.white
   return (
     <BlockWrapper label={blockLabel} hide={hide}>
@@ -44,12 +45,18 @@ export function IntroLink({ data }) {
       <SmallText>
         <span>{text2}</span>
       </SmallText>
-      { file && file.substr(-3,3).toLowerCase()==="pdf" &&
+
+      { (file && usePdf || !usePdf && link) &&
         <>
           <Spacer space={spaces.small} />
-          <ButtonBlock text=".PDF" href={file} />
+          { !usePdf ?
+            link && <ButtonBlock href={link} title={link} theme="blue-on-white">LINK</ButtonBlock>
+            :
+            hasFile(file, "pdf") && <ButtonBlock theme="blue-on-white" title={file} text=".PDF" href={file} />
+          }
         </>
       }
+
       <Spacer space={spaces.large} />
     </BlockWrapper>
   )
@@ -117,15 +124,30 @@ export const IntroLinkBlock = {
     { name: "text", label: "Text", component: "textarea" },
     { name: "text2", label: "Small Text", component: "text" },
     {
-      name: "file",
-      label: "PDF",
-      component: "file",
-      description: '.PDF Upload',
-      accept: 'application/pdf',
-      clearable: true,
-      parse: (file) => `/uploads/pdfs/${file}`,
-      uploadDir: () => '/static/uploads/pdfs/', 
-    },    
+      label: 'Link or PDF',
+      name: 'usePdf',
+      description: 'Choose Link (left) or PDF (right)',
+      component: "condition",
+      trigger: {
+        component: "toggle"
+      },
+      fields: (usePdf) => {
+        return !usePdf ? [
+          { name: "link", label: "Link", component: "text", description: "URL, e.g. https://theatlantic.com" },
+        ] : [
+          {
+            name: "file",
+            label: "PDF",
+            component: "file",
+            description: '.PDF Upload',
+            accept: 'application/pdf',
+            clearable: true,
+            parse: (file) => `/uploads/pdfs/${file}`,
+            uploadDir: () => '/static/uploads/pdfs/',
+          },
+        ]
+      }
+    },
     ...genericFields
   ],
 }

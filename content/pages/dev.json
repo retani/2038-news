@@ -2,11 +2,22 @@
   "path": "/dev",
   "blocks": [
     {
-      "text": "„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“",
-      "text2": "Conversation with Eyal Weizman",
-      "file": "/uploads/pdfs/",
-      "_template": "ArticleBlock",
-      "content": ""
+      "text": "Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.",
+      "text2": "Erika Mustermann on theatlantic.com",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": "",
+      "usePdf": false
+    },
+    {
+      "videoId": "382051967",
+      "text": "Welcome in 2038, Welcome to the German Pavilion.",
+      "text2": "The Hubs Pavilion — La Biennale di Venezia",
+      "link": "https://thenewserenity.com",
+      "linkText": "Enter",
+      "_template": "IntroLinkBlock",
+      "content": "",
+      "usePdf": false
     },
     {
       "videoId": "370256053",
@@ -14,7 +25,8 @@
       "text2": "The German Pavillon at the Architecture Biennale 2020",
       "_template": "IntroVideoBlock",
       "content": "",
-      "file": "/uploads/pdfs/"
+      "file": "/uploads/pdfs/",
+      "link": ""
     },
     {
       "dateUTC": "2020-08-28-14-00",
