@@ -21,6 +21,7 @@ export function StandaloneVideo({ data }) {
   //const height100vh = use100vh()
 
   const [height100vh, setHeight100vh] = useState(0)
+  const [playing, setPlaying] = useState(false)
 
   const updateDimensions = () => {
     const vh = window.innerHeight;
@@ -37,11 +38,11 @@ export function StandaloneVideo({ data }) {
   return (
     <BlockWrapper label={blockLabel} hide={hide}>
       <Container height100vh={height100vh}>
-        <Back>
+        <Back show={!playing}>
           <Link to="/">2038</Link>
         </Back>
         <VideoContainer height100vh={height100vh}>
-          <MainVideo vimeoId={videoId} style={{marginBottom: 0}}/>
+          <MainVideo vimeoId={videoId} style={{ marginBottom: 0 }} setPlayingCallback={setPlaying} />
         </VideoContainer>
       </Container>
       <Helmet>
@@ -85,6 +86,8 @@ const Back = styled.div`
   }
   //text-shadow: 0.1ex 0.1ex 0.1em #0005;
   z-index: 1;
+  opacity: ${ props => props.show ? 1 : 0};
+  transition: opacity 0.5s;
 `
 
 export const StandaloneVideoBlock = {

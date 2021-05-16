@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react'
+import React, { useState, useEffect } from 'react'
 import Vimeo from '@u-wave/react-vimeo'
 import styled from 'styled-components'
 import Fullscreen from "react-full-screen";
@@ -20,11 +20,10 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
   const [overlay, setOverlay] = useState(false);
   const [hover, setHover] = useState(false);
 
-  const isPlayingCallback = useCallback(
+  useEffect (
     () => {
       if (setPlayingCallback) {
         setPlayingCallback(playing)
-        console.log(playing)
       }
     },
     [playing],
