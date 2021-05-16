@@ -24,6 +24,7 @@ import { ImpLink, ImpLinkBlock } from '../blocks/ImpLink'
 import { TypoTester, TypoTesterBlock } from '../blocks/TypoTester'
 import { Takeover, TakeoverBlock } from '../blocks/Takeover'
 import { Redirect, RedirectBlock } from '../blocks/Redirect'
+import { StandaloneVideo, StandaloneVideoBlock } from "../blocks/StandaloneVideo"
 
 import { PageLayout } from "../components/pageLayout"
 import { Menu } from "../components/Menu"
@@ -70,6 +71,8 @@ const mapBlocks = function(data,page,blocks) {
   if (!blocks || !Array.isArray(blocks)) return null
   return blocks.map(({ _template, ...data }, i, arr) => {
     switch (_template) {
+      case "StandaloneVideoBlock":
+        return <StandaloneVideo data={data} />
       case "RedirectBlock":
         return <Redirect data={data} />
       case "TakeoverBlock":
@@ -183,6 +186,7 @@ const PageForm = {
         ZipBlock,
         TakeoverBlock,
         RedirectBlock,
+        StandaloneVideoBlock,
         TypoTesterBlock,
       },
     },

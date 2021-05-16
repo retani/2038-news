@@ -12,7 +12,7 @@ import FullscreenButton from './FullscreenButton'
 
 let timeoutHandler = null
 
-const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor }) => { 
+const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={} }) => { 
   const [loaded, setLoaded] = useState(false);
   const [shouldPlay, setShouldPlay] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -37,6 +37,7 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor }) => {
       onChange={f => setFullscreen(f)}
     >
     <Container 
+        style={style}
         isFullscreen={fullscreen} 
         onMouseEnter={()=>setHover(true)} 
         onMouseLeave={()=>setHover(false)}
