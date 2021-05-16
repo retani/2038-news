@@ -13,7 +13,8 @@
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
       "_template": "IntroVideoBlock",
       "content": "",
-      "file": "/uploads/pdfs/"
+      "file": "/uploads/pdfs/",
+      "usePdf": false
     },
     {
       "text": "HUBS",
@@ -68,8 +69,8 @@
       "image": "../images/"
     },
     {
-      "text": "We couldn‘t change the system by speaking to highly entrenched and disconnected practices. To bring about the large scale change we needed, we had to articulate an (eco)system involving legal, economic, social, and technological dynamics.",
-      "text2": "Mara Balestrini, Human-Computer Interaction Expert",
+      "text": "Legal requirements for AI systems now give individuals power over their own data, along with the ability to port that data from one system to another — but with the expectation that everything should be explainable in a way that allows us to take advantage of what AI and computers do best, (which is to understand a scale of information that is outside the reach of our human cognitive brains and capacity).",
+      "text2": "Hilary Mason (Human-Computer Interaction Expert)",
       "link": "",
       "_template": "NewsBlock",
       "content": "",
