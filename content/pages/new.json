@@ -14,7 +14,8 @@
       "_template": "IntroVideoBlock",
       "content": "",
       "file": "/uploads/pdfs/",
-      "usePdf": false
+      "usePdf": true,
+      "link": ""
     },
     {
       "videoId": "546848425",
