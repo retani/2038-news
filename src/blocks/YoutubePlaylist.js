@@ -14,7 +14,7 @@ import { colors, spaces, typoSizes, blockSnippet, blockTypoSnippet, typoStyles, 
 const blockLabel = "YOUTUBE PLAYLIST"
 
 export function YoutubePlaylist({ data }) {
-  const { youtubePlaylistId, text, text2, link, file, usePdf } = data
+  const { youtubePlaylistId, text, text2, link, file, usePdf, color = colors.bg } = data
 
   const bottom = <>
     <LargeText>
@@ -34,7 +34,7 @@ export function YoutubePlaylist({ data }) {
 
   return (
     <BlockWrapper label={blockLabel}>
-      <Document color={colors.turquoise}>
+      <Document color={color}>
         <MainVideoYoutubePlaylist youtubePlaylistId={youtubePlaylistId} />
         {bottom}
       </Document>
@@ -53,6 +53,7 @@ export const YoutubePlaylistBlock = {
     youtubePlaylistId: "PLF2PMJdW5CEidfi7vjtH9lv-g4tMd5Rpv",
     text: "„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen again.“",
     text2: "",
+    color: colors.white,
   },
   fields: [
     { name: "youtubePlaylistId", label: "Youtube Playlist ID", component: "text" },
@@ -82,6 +83,14 @@ export const YoutubePlaylistBlock = {
             },
           ]
       }
+    },
+    {
+      name: 'color',
+      component: 'color',
+      label: 'Background Color',
+      colorFormat: 'hex',
+      colors: [colors.turquoise, colors.white],
+      widget: 'block',
     },
   ],
 }

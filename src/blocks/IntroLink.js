@@ -1,25 +1,40 @@
 import React from "react"
 import styled from 'styled-components'
 
-import MainVideo from '../components/MainVideo'
+import BackgroundVideo from "../components/BackgroundVideo"
 import {p as P, Block} from '../components/HtmlElements'
 import { 
   BlockListItem, 
   ButtonBlock,
   Spacer,
+  ButtonLarge,
   BlockWrapper } from '../components'
 
 import { genericFields } from '../helpers/misc'
 import { hasFile } from '../helpers/validators'
-import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet } from '../../config/styles'
+import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet  } from '../../config/styles'
 
-const blockLabel = "INTRO VIDEO"
+const blockLabel = "INTRO HUBS"
 
-export function IntroVideo({ data }) {
-  const {text,text2,videoId, file, hide, usePdf, link} = data
+export function IntroLink({ data }) {
+  const {text,text2,videoId, file, hide, link, linkText, usePdf} = data
+  const buttonColor = colors.white
   return (
     <BlockWrapper label={blockLabel} hide={hide}>
-      <MainVideo vimeoId={videoId} />
+      <Block 
+        spaceBottom={spaces.mediumShrink}
+        spaceSide={spaces.none}
+      >
+        <OverlayContainer>
+          <BackgroundVideo vimeoId={videoId} />
+          <ButtonContainer href={link} >
+            <ButtonLarge highlight={!!buttonColor} color={buttonColor} style={{ mixBlendMode: "screen", fontWeight: "500", textAlign: "center" }}
+            >
+              {linkText.toUpperCase()}
+            </ButtonLarge>
+          </ButtonContainer>
+        </OverlayContainer>
+      </Block>
       <Block
         typoSize={typoSizes.moduleMedium}
         typoStyle={typoStyles.RobotoMonoRegular}  
@@ -30,6 +45,7 @@ export function IntroVideo({ data }) {
       <SmallText>
         <span>{text2}</span>
       </SmallText>
+
       { (file && usePdf || !usePdf && link) &&
         <>
           <Spacer space={spaces.small} />
@@ -40,6 +56,7 @@ export function IntroVideo({ data }) {
           }
         </>
       }
+
       <Spacer space={spaces.large} />
     </BlockWrapper>
   )
@@ -70,19 +87,40 @@ const SmallText = styled(P)`
   justify-content: center;  
 `
 
-export const IntroVideoBlock = {
+const ButtonContainer = styled.a`
+  text-decoration: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:0;
+  top:0;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  flex-direction: column;
+`
+
+const OverlayContainer = styled.div`
+  position: relative;
+`
+
+export const IntroLinkBlock = {
   label: blockLabel,
-  name: "introVideo",
+  name: "introLink",
   itemProps: (item) => ({
     label: <BlockListItem label={blockLabel} preview={item.text} hide={item.hide} />,
   }),  
   defaultItem: {
-    videoId: "370256053",
-    text: "Today, in the year 2038, we have mastered the large crises. It was a close call, yet, we just about made it. After the total financial melt-down in the year 2022, the world came to its senses. We live in radical democracy and radical bureaucracy, in a society, that knows neither hero nor villain. In a series of films, the German Pavillon shows how we arrived at this era of New Serenity.",
-    text2: "The German Pavillon at the Architecture Biennale 2020",
+    videoId: "382051967",
+    text: "Welcome in 2038, Welcome to the German Pavilion.",
+    text2: "The Hubs Pavilion — La Biennale di Venezia",
+    link: "https://thenewserenity.com",
+    linkText: "Enter",
   },
   fields: [
     { name: "videoId", label: "Vimeo Video ID", component: "text" },
+    { name: "link", label: "Link", component: "text", description: "URL, e.g. https://thenewserenity.com" },
+    { name: "linkText", label: "Link Text", component: "text", description: "Link Text, e.g. VISIT NOW" },
     { name: "text", label: "Text", component: "textarea" },
     { name: "text2", label: "Small Text", component: "text" },
     {

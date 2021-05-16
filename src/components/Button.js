@@ -116,6 +116,7 @@ const Container = styled.span`
       color: ${ theme.linkBg };
       &::before {
         content: "👀";
+        filter: grayscale(1);
         font-size: 120%; /* arbitrary value depending on emoji and os */
         line-height: ${ size.height};
         position: absolute;

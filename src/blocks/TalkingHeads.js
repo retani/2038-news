@@ -14,7 +14,7 @@ import { colors, spaces, typoSizes, blockSnippet, blockTypoSnippet, typoStyles, 
 const blockLabel = "TALKING HEADS"
 
 export function TalkingHeads({ data }) {
-  const { videoId, videoId2, videoId3, videoId4, text, text2, link, file, usePdf } = data
+  const { videoId, videoId2, videoId3, videoId4, text, text2, link, file, usePdf, color=colors.bg } = data
 
   const videosAmount = !!videoId + !!videoId2 + !!videoId3 + !!videoId4
 
@@ -37,17 +37,17 @@ export function TalkingHeads({ data }) {
   </>
 
   const content = videosAmount === 1 ?
-    <Document color={colors.turquoise}>
-      <MainVideo vimeoId={videoId} fullscreenButton={false} buttonColor={colors.turquoise} />
+    <Document color={color}>
+      <MainVideo vimeoId={videoId} fullscreenButton={false} buttonColor={color} />
       { bottom }
     </Document>
   :
     <>
       <VideoGrid videosAmount={videosAmount}>
-        <MainVideo vimeoId={videoId} fullscreenButton={false} buttonColor={colors.turquoise} />
-        {videoId2 && <MainVideo vimeoId={videoId2} fullscreenButton={false} buttonColor={colors.turquoise} />}
-        {videoId3 && <MainVideo vimeoId={videoId3} fullscreenButton={false} buttonColor={colors.turquoise} />}
-        {videoId4 && <MainVideo vimeoId={videoId4} fullscreenButton={false} buttonColor={colors.turquoise} />}
+        <MainVideo vimeoId={videoId} fullscreenButton={false} buttonColor={color} />
+        {videoId2 && <MainVideo vimeoId={videoId2} fullscreenButton={false} buttonColor={color} />}
+        {videoId3 && <MainVideo vimeoId={videoId3} fullscreenButton={false} buttonColor={color} />}
+        {videoId4 && <MainVideo vimeoId={videoId4} fullscreenButton={false} buttonColor={color} />}
       </VideoGrid>
       { bottom }
     </>
@@ -71,6 +71,7 @@ export const TalkingHeadsBlock = {
     videoId: "370256053",
     text: "„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen again.“",
     text2: "Conversation with Charlotte Malterre",
+    color: colors.white,
   },
   fields: [
     { name: "videoId", label: "Vimeo Video ID 1", component: "text" },
@@ -103,6 +104,14 @@ export const TalkingHeadsBlock = {
             },
           ]
       }
+    },
+    {
+      name: 'color',
+      component: 'color',
+      label: 'Background Color (only effective when there is only 1 video)',
+      colorFormat: 'hex',
+      colors: [colors.turquoise, colors.white],
+      widget: 'block',
     },
   ],
 }
