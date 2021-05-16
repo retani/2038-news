@@ -26,7 +26,7 @@
       "content": ""
     },
     {
-      "text": "2038",
+      "text": "NEWS",
       "color": "#00FF00",
       "_template": "SectionBlock",
       "content": ""
@@ -35,7 +35,7 @@
       "videoId": "548124354",
       "text": "\"Today, in 2038, we are in the position more than ever to realize sustainable models of social, economic, digital and ecological coexistence.\"",
       "text2": "Anne Katrin Bohle, Secretary of State, Ministry of Interior, Building and Community",
-      "color": "#00FFFF",
+      "color": "#FF99FF",
       "_template": "TalkingHeadsBlock",
       "content": "",
       "usePdf": false,
@@ -57,8 +57,8 @@
       "usePdf": false
     },
     {
-      "text": "2038",
-      "color": "#00FF00",
+      "text": "NEWS",
+      "color": "#0000FF",
       "_template": "SectionBlock",
       "content": ""
     },
