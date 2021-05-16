@@ -2,12 +2,18 @@
   "path": "/",
   "blocks": [
     {
+      "text": "2038",
+      "color": "#00FF00",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
       "videoId": "548031698",
-      "text": "2038. - The New Serenity, invites you to discover a story between fact and fiction. In a series of films, it tells the history of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. \n",
+      "text": "2038 - The New Serenity, invites you to discover a story between fact and fiction. In a series of films, it tells the history of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. \n",
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
       "_template": "IntroVideoBlock",
       "content": "",
-      "file": "/uploads/pdfs/90930909.pdf"
+      "file": "/uploads/pdfs/"
     },
     {
       "text": "HUBS",
@@ -22,8 +28,7 @@
       "link": "https://thenewserenity.com",
       "linkText": "Enter",
       "_template": "IntroLinkBlock",
-      "content": "",
-      "file": "/uploads/pdfs/"
+      "content": ""
     },
     {
       "text": "2038",
@@ -73,14 +78,15 @@
     {
       "videoId": "547870026",
       "text": "„Throughout the twenties, it was still common to think about direct democracy and representative democracy as two competing forms of participation. In Taiwan, we had already begun prototyping a new political system that challenged this binary, and explored how direct and representative democracy could work symbiotically, as interwoven, complementary systems.“",
-      "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan and Helene Hegemann, Writer and Director",
+      "text2": "Audrey Tang (Free Software Programmer and Minister without Portfolio of Taiwan)",
       "_template": "TalkingHeadsBlock",
       "content": "",
       "videoId2": "546960024",
       "videoId3": "",
       "videoId4": "",
-      "usePdf": false,
-      "link": ""
+      "usePdf": true,
+      "link": "",
+      "color": "#FFFFFF"
     },
     {
       "text": "Critical thinking saved us because we now pay attention to the information, asking: where did it come from?",
@@ -327,7 +333,7 @@
       "hide": false
     },
     {
-      "content": "Opening Pavilion:\n\n21.05.2021\n28.08.2020 (postponed)\n22.05.2020 (postponed)\nGiardini della Biennale, Venice\n\nVirtual Press Conference:\n\n18.03.2021, 11:00\nwatch live on twitch.tv/2038serenity\n\nPress Contact: \npress@2038.xyz\n\n\nContact: \nmail@2038.xyz",
+      "content": "Launch Digital Pavilion\n21.05.2021\n\nOpening Pavilion:\n28.08.2020 (postponed)\n22.05.2020 (postponed)\nGiardini della Biennale, Venice\n\nVirtual Press Conference:\n\n18.03.2021, 11:00\nwatch live on twitch.tv/2038serenity\n\nPress Contact: \npress@2038.xyz\n\n\nContact: \nmail@2038.xyz",
       "center": false,
       "_template": "ContentBlock"
     },
