@@ -31,6 +31,7 @@ export default function Page({ data }) {
                 if (data.content && page.childrenPagesJsonBlockMarkdown[i])
                   return (
                     <Document
+                      key={"document" + i}
                       data={data}
                       html={
                         page.childrenPagesJsonBlockMarkdown[i]

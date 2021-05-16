@@ -60,7 +60,9 @@ export default function Page(props) {
         {/*<TypoTester />*/}
         {/*<Menu />*/}
         {mapBlocks(data,page,blocks)}
-        <Spacer space={spaces.large} />
+        { blocks.findIndex(b => b._template == "StandaloneVideo")  > -1 &&
+          <Spacer space={spaces.large} />
+        }
       </PageLayout>
 
     </>
@@ -72,17 +74,17 @@ const mapBlocks = function(data,page,blocks) {
   return blocks.map(({ _template, ...data }, i, arr) => {
     switch (_template) {
       case "StandaloneVideoBlock":
-        return <StandaloneVideo data={data} />
+        return <StandaloneVideo key={"StandaloneVideoBlock" + i} data={data} />
       case "RedirectBlock":
-        return <Redirect data={data} />
+        return <Redirect key={"RedirectBlock" + i} data={data} />
       case "TakeoverBlock":
-        return <Takeover data={data}/>
+        return <Takeover key={"TakeoverBlock" + i} data={data}/>
       case "TitleBlock":
-        return <Title page={page} data={data} />
+        return <Title key={"TitleBlock" + i} page={page} data={data} />
       case "CountdownBlock":
         return <>
           { (arr[i-1] && ["IntroVideoBlock"].indexOf(arr[i-1]._template) < 0 )
-             && <Spacer space={spaces.none} /> }
+            && <Spacer key={"CountdownBlockSpacer" + i} space={spaces.none} /> }
           <Countdown key={"CountdownBlock" + i} data={data} />
         </>        
       case "TalkingHeadsBlock":
@@ -99,7 +101,7 @@ const mapBlocks = function(data,page,blocks) {
         const shade = (arr[i+1] && shadeBlocks.indexOf(arr[i+1]._template) > -1 )
         return <>
           <Article key={"ArticleBlock" + i} shade={shade} data={data} />
-          { repeatedArticle && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall} />}
+          { repeatedArticle && <Spacer key={"ArticleBlockSpacer" + i} space={spaces.verySmall} />}
         </>
       case "FilmQuoteBlock":
         const repeatedFilmQuote = (arr[i + 1] && ["FilmQuoteBlock", "ArticleBlock"].indexOf(arr[i + 1]._template) > -1)
@@ -116,7 +118,7 @@ const mapBlocks = function(data,page,blocks) {
       case "WithBlock":
         return <>
           { (arr[i-1] && ["NewsBlock"].indexOf(arr[i-1]._template) > -1 )
-             && <Spacer space={spaces.verySmall} /> }
+            && <Spacer key={"WithBlockSpacer" + i} space={spaces.verySmall} /> }
           <With key={"WithBlock" + i} data={data} />
         </>
       case "SectionBlock":
@@ -124,7 +126,7 @@ const mapBlocks = function(data,page,blocks) {
         if (arr[i-1] && ["CountdownBlock"].indexOf(arr[i-1]._template) >-1 ) sectionSpace = spaces.none
         if (arr[i-1] && ["NewsBlock"].indexOf(arr[i-1]._template) >-1 ) sectionSpace = spaces.none
         return <>
-          <Spacer space={sectionSpace} />
+          <Spacer key={"SectionBlockSpacer" + i} space={sectionSpace} />
           <Section key={"SectionBlock" + i} data={data} />                
         </>
       case "AppPreviewBlock":

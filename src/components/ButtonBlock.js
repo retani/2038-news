@@ -34,7 +34,8 @@ export default ({children, href, to, title, download, text, textOffset, theme, d
   </Container>
 }
 
-const Container = styled.div`
+const Container = styled.span`
+  display: block;
   ${ ({size}) => `
     height: ${size.typoSize.lineHeightPx.l + "px"};
     @media ${ breakpoints.small } {

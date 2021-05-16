@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 import Vimeo from '@u-wave/react-vimeo'
 import styled from 'styled-components'
 import Fullscreen from "react-full-screen";
@@ -12,13 +12,23 @@ import FullscreenButton from './FullscreenButton'
 
 let timeoutHandler = null
 
-const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={} }) => { 
+const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPlayingCallback=null }) => { 
   const [loaded, setLoaded] = useState(false);
   const [shouldPlay, setShouldPlay] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [fullscreen, setFullscreen] = useState(false);
   const [overlay, setOverlay] = useState(false);
   const [hover, setHover] = useState(false);
+
+  const isPlayingCallback = useCallback(
+    () => {
+      if (setPlayingCallback) {
+        setPlayingCallback(playing)
+        console.log(playing)
+      }
+    },
+    [playing],
+  );
 
   const mouseMove = debounce(() => {
     setOverlay(true)

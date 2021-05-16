@@ -48,6 +48,7 @@
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
+    "react-div-100vh": "^0.6.0",
     "react-dom": "^16.10.2",
     "react-full-screen": "^0.2.4",
     "react-helmet": "^6",
