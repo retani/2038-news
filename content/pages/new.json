@@ -17,12 +17,6 @@
       "usePdf": false
     },
     {
-      "text": "HUBS",
-      "color": "#FF44FF",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
       "videoId": "546848425",
       "text": "How we arrived in this state of New Serenity? Find out in the Hubs Pavilion. It allows you to playfully explore 2038, by bridging space and time. Sounds abstract? It's not. Press enter and meet people from all around the world, to binge-watch the films from 2038 and discuss the expert's ideas and visions from the future.",
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
@@ -51,7 +45,7 @@
     },
     {
       "text": "2038",
-      "color": "#00FF00",
+      "color": "#FF66FF",
       "_template": "SectionBlock",
       "content": ""
     },
