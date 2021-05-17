@@ -2,9 +2,17 @@
   "path": "/new",
   "blocks": [
     {
+      "videoId": "551242428",
+      "text": "\"Having access to what belongs to everyone is much better than having absolute control over your own things. So we came up with a market based, decentralized mechanism for having common ownership, moving beyond the idea of socialists 💗 taxes and capitalists 💗 private property.\"",
+      "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
       "videoId": "551240489",
-      "text": "„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen again.“",
-      "text2": "Conversation with Charlotte Malterre",
+      "text": "\"Honestly, there are certain pathways that are very thin and difficult, but that's the only way out of the wicked problem\"",
+      "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan",
       "color": "#66FFFF",
       "_template": "TalkingHeadsBlock",
       "content": ""
