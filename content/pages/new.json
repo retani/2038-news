@@ -67,7 +67,8 @@
       "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan",
       "color": "#66FFFF",
       "_template": "TalkingHeadsBlock",
-      "content": ""
+      "content": "",
+      "usePdf": true
     },
     {
       "videoId": "547870026",
@@ -209,8 +210,8 @@
       "content": ""
     },
     {
-      "text": "We couldn't change the system by speaking to highly entrenched and disconnected practices. To bring about the large scale change we needed, we had to articulate an (eco)system involving legal, economic, social, and technological dynamics.",
-      "text2": "Mara Balestrini, Human-Computer Interaction Expert",
+      "text": "At some point we realized that sustainability actually only optimizes the status quo and will thus never lead to a systematic change. Circular economy, on the other hand, does not optimize a dysfunctional system, but designs a new one along an axis of responsibility.",
+      "text2": "Sabine Oberhuber & Thomas Rau (Economist & Architect)",
       "link": "",
       "_template": "NewsBlock",
       "content": ""
@@ -235,8 +236,8 @@
       "videoId2": "546969703"
     },
     {
-      "text": "\"At some point we realized that sustainability actually only optimizes the status quo and will thus never lead to a systematic change. Circular economy, on the other hand, does not optimize a dysfunctional system, but designs a new one along an axis of responsibility.",
-      "text2": "Sabine Oberhuber & Thomas Rau (Economist & Architect)",
+      "text": "We couldn't change the system by speaking to highly entrenched and disconnected practices. To bring about the large scale change we needed, we had to articulate an (eco)system involving legal, economic, social, and technological dynamics.",
+      "text2": "Mara Balestrini, Human-Computer Interaction Expert",
       "link": "",
       "_template": "NewsBlock",
       "content": ""
