@@ -140,19 +140,9 @@
       "videoId": "551237342",
       "text": "\"We developed a society not obsessed with competition. So we forgot competition as one of our core values and goals. Instead we re-embraced the values that we have before us: Solidarity & cooperation, engaging in activities that are not driven by expectations of profitability.\"",
       "text2": "Evgeny Morozov, Writer and Researcher for Political and Social Implications of Technology",
-      "color": "white",
+      "color": "#66FFFF",
       "_template": "TalkingHeadsBlock",
       "content": ""
-    },
-    {
-      "videoId": "546965642",
-      "text": "\"We developed a society not obsessed with competition. So we forgot competition as one of our core values and goals. Instead we re-embraced the values that we have before us: Solidarity & cooperation, engaging in activities that are not driven by expectations of profitability.\"",
-      "text2": "Evgeny Morozov, Writer and Researcher for Political and Social Implications of Technology",
-      "_template": "TalkingHeadsBlock",
-      "content": "",
-      "videoId2": "547887366",
-      "videoId3": "",
-      "videoId4": ""
     },
     {
       "text": "We live in a decentralized and self-organized society. Of course not everybody is equal, not everybody is happy, not everybody has access to the same things. Still, we are more free in the sense that access is no longer defined by being born rich or in a certain place.",
@@ -174,24 +164,6 @@
       "link": "",
       "_template": "NewsBlock",
       "content": ""
-    },
-    {
-      "videoId": "547887366",
-      "text": "Project development does not only mean buying and financing, but also creating common space. It should not be about maximizing returns, but about creating the best possible space for people.",
-      "text2": "Daniela Brahm and Les Schliesser, Co-Initiators ExRotaprint",
-      "color": "white",
-      "_template": "TalkingHeadsBlock",
-      "content": "",
-      "link": "https://g.co/arts/MYz9iqUeyNgikU3N9"
-    },
-    {
-      "image": "",
-      "color": "#000000",
-      "text": "ExRotaprint is located at the former site of the Rotaprint printing press manufacturing plant in Berlin’s Wedding district. The ExRotaprint model for urban development rules out financial profit and exponential growth. ExRotaprint is a non-profit based on the idea of Heritable Building Rights, meant to ensure long-term affordable rent and development for the common good. The Heritable Building Right Law was implemented in Germany after the First World War to stimulate housing construction and to enable lower-income populations to build their own homes without owning the land the house is built on. \n\nThe project goes back to an initiative from 2004 by Daniela Brahm & Les Schliesser, who wanted to take over the former industrial “Rotaprint” site in Berlin, and develop the location for heterogeneous mix of uses: art, community and work. Together with other tenants they founded a non-profit company and teamed up with two foundations to legally secure the project. The foundations bought the land and leased it to ExRotaprint for 99 years under the Heritable Building Right Law. ExRotaprint owns the buildings, manages and develops the site. ExRotaprint owns the buildings, manages and develops the site. As a non-profit organization, they are committed to non-profit objectives: any financial profits shall be invested in the preservation of the buildings and the promotion of art and culture. \n\nThe goals of ExRotaprint are consistent with those of the foundations, which resist property speculation and invest revenues from rent into similar co-housing and community projects. Development for the common good. Rents are the financial basis of the project. To finance the renovation, ExRotaprint took out a building loan with a Swiss pension fund, which committed itself – vis-à-vis its investors – to contribute to sustainable, social-oriented, ecological, or cultural projects. Therefore, ExRotaprint was able to raise sustainable capital to develop the site. Nevertheless, this model is based on the willingness of the stakeholders to relinquish individual profit and their commitment to non-profit developments.",
-      "_template": "PublicationBlock",
-      "content": "",
-      "usePdf": false,
-      "link": "https://g.co/arts/YcH3e6GAuBvudwQw5"
     },
     {
       "videoId": "546956310",
@@ -219,18 +191,23 @@
       "usePdf": false
     },
     {
-      "videoId": "546848502",
+      "videoId": "551533540",
       "text": "\"At some point we realized that sustainability actually only optimizes the status quo and will thus never lead to a systematic change. Circular economy, on the other hand, does not optimize a dysfunctional system, but designs a new one along an axis of responsibility.\"",
       "text2": "Sabine Oberhuber and Thomas Rau, Economist and Architect",
+      "color": "#66FFFF",
       "_template": "TalkingHeadsBlock",
-      "content": "",
-      "videoId2": "546848453",
-      "videoId4": "",
-      "videoId3": ""
+      "content": ""
     },
     {
       "text": "What has changed? Instead of many nations, we see our-selves as a whole and work together as a planetary population that inhabits one livable spaceship: the Spaceship Earth, as Buckminster Fuller said. We are in this together!",
       "text2": "Cedric Libert, Architect & Curator",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "Through this picture, people realized that Earth is a closed and finite system. We understood that everything is limited in space and in time; especially our needs and their possible answers. We understand that architecture is a only temporary response to a temporary need. ",
+      "text2": "Sabine Oberhuber & Thomas Rau (Economist & Architect)",
       "link": "",
       "_template": "NewsBlock",
       "content": ""
@@ -259,13 +236,6 @@
       "videoId4": "",
       "videoId3": "",
       "videoId2": "546953301"
-    },
-    {
-      "text": "Through this picture, people realized that Earth is a closed and finite system. We understood that everything is limited in space and in time; especially our needs and their possible answers. We understand that architecture is a only temporary response to a temporary need. ",
-      "text2": "Sabine Oberhuber & Thomas Rau (Economist & Architect)",
-      "link": "",
-      "_template": "NewsBlock",
-      "content": ""
     },
     {
       "videoId": "548718762",
@@ -324,7 +294,8 @@
       "text2": "Oana Bogdan, Architect & Politician",
       "link": "",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "INFO",
