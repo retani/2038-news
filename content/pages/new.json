@@ -138,7 +138,8 @@
       "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
       "link": "",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "videoId": "551242428",
