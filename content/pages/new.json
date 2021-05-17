@@ -287,7 +287,8 @@
       "text2": "Cédric Libert, Architect",
       "link": "",
       "_template": "NewsBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "Facts are no longer enough to really convince people. We have to tell stories.",
