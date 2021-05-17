@@ -224,6 +224,14 @@
       "content": ""
     },
     {
+      "videoId": "551243282",
+      "text": "\"Thinking in fixed objects is much riskier than thinking in open processes. Fixed entities remove all possibilities for future change and are unable to update the past. It took us 30 years to shift our way of understanding and to find out that these systems, technically and ecologically, are nested within each other on very different scales of space and time.\"",
+      "text2": "Ferdinand Ludwig and Daniel Schönle, Architects and Buildingbotanists",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
       "videoId": "546957643",
       "text": "„In architecture there are no more distinctions between landscape and housing. Thanks to advances in synthetic biology over the last twenty years, they have turned into one.“",
       "text2": "Mitchell Joachim, Architect and Co-Founder Terreform ONE",
@@ -256,14 +264,6 @@
       "content": ""
     },
     {
-      "videoId": "551243282",
-      "text": "\"Thinking in fixed objects is much riskier than thinking in open processes. Fixed entities remove all possibilities for future change and are unable to update the past. It took us 30 years to shift our way of understanding and to find out that these systems, technically and ecologically, are nested within each other on very different scales of space and time.\"",
-      "text2": "Ferdinand Ludwig and Daniel Schönle, Architects and Buildingbotanists",
-      "color": "#66FFFF",
-      "_template": "TalkingHeadsBlock",
-      "content": ""
-    },
-    {
       "videoId": "546957643",
       "text": "\"Thinking in fixed objects is much riskier than thinking in open processes. Fixed entities remove all possibilities for future change and are unable to update the past. It took us 30 years to shift our way of understanding and to find out that these systems, technically and ecologically, are nested within each other on very different scales of space and time.\"",
       "text2": "Ferdinand Ludwig and Daniel Schönle, Architects and Buildingbotanists",
@@ -286,7 +286,7 @@
       "link": "",
       "_template": "NewsBlock",
       "content": "",
-      "hide": true
+      "hide": false
     },
     {
       "videoId": "548718055",
