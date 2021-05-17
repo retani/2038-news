@@ -2,10 +2,9 @@
   "path": "/08",
   "blocks": [
     {
-      "text": "https://2038.xyz",
-      "_template": "RedirectBlock",
-      "content": "",
-      "hide": false
+      "videoId": "548031698",
+      "_template": "StandaloneVideoBlock",
+      "content": ""
     }
   ]
 }
