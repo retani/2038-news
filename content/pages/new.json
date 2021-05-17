@@ -2,6 +2,14 @@
   "path": "/new",
   "blocks": [
     {
+      "videoId": "551240489",
+      "text": "„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen again.“",
+      "text2": "Conversation with Charlotte Malterre",
+      "color": "white",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
@@ -18,7 +26,7 @@
       "link": ""
     },
     {
-      "videoId": "551244713",
+      "videoId": "551583909",
       "text": "How we arrived in this state of New Serenity? Find out in the Hubs Pavilion. It allows you to playfully explore 2038, by bridging space and time. Sounds abstract? It's not. Press enter and meet people from all around the world, to binge-watch the films from 2038 and discuss the expert's ideas and visions from the future.",
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
       "link": "https://exp.thenewserenity.com/",
