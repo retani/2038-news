@@ -27,8 +27,8 @@
       "content": ""
     },
     {
-      "text": "NEWS",
-      "color": "#0000FF",
+      "text": "2038",
+      "color": "#FF66FF",
       "_template": "SectionBlock",
       "content": ""
     },
@@ -45,8 +45,8 @@
       "videoId3": ""
     },
     {
-      "text": "2038",
-      "color": "#FF66FF",
+      "text": "NEWS",
+      "color": "#0000FF",
       "_template": "SectionBlock",
       "content": ""
     },
@@ -62,12 +62,6 @@
       "videoId4": "546968529",
       "link": "https://artsandculture.google.com/preview/story/rQUhLlNPDBaD9w",
       "usePdf": false
-    },
-    {
-      "text": "NEWS",
-      "color": "#0000FF",
-      "_template": "SectionBlock",
-      "content": ""
     },
     {
       "videoId": "548718437",
@@ -138,7 +132,7 @@
     },
     {
       "videoId": "548718187",
-      "text": "The rich were super rich and yet totally unhappy.",
+      "text": "the rich were super rich and yet totally unhappy",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
       "content": ""
