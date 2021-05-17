@@ -68,7 +68,7 @@
       "color": "#66FFFF",
       "_template": "TalkingHeadsBlock",
       "content": "",
-      "usePdf": true
+      "usePdf": false
     },
     {
       "videoId": "547870026",
