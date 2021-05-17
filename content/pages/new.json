@@ -269,6 +269,14 @@
       "content": ""
     },
     {
+      "text": "Facts are no longer enough to really convince people. We have to tell stories.",
+      "text2": "Oana Bogdan, Architect & Politician",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": "",
+      "hide": true
+    },
+    {
       "videoId": "548718055",
       "text": "Venice was a great idea!",
       "color": "#FFFFFF",
@@ -278,14 +286,6 @@
     {
       "text": "Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘",
       "text2": "Cédric Libert, Architect",
-      "link": "",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "Facts are no longer enough to really convince people. We have to tell stories.",
-      "text2": "Oana Bogdan, Architect & Politician",
       "link": "",
       "_template": "NewsBlock",
       "content": "",
