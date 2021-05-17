@@ -276,7 +276,7 @@
       "link": "",
       "_template": "NewsBlock",
       "content": "",
-      "hide": false
+      "hide": true
     },
     {
       "videoId": "548718055",
