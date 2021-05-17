@@ -310,11 +310,6 @@
       "center": false,
       "_template": "ImpLinkBlock",
       "text": "IMP."
-    },
-    {
-      "text": "IMP.",
-      "_template": "ImpLinkBlock",
-      "content": ""
     }
   ],
   "displayTitle": false,
