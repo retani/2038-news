@@ -20,6 +20,8 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
   const [overlay, setOverlay] = useState(false);
   const [hover, setHover] = useState(false);
 
+  const vimeoIdIsValid = (typeof (vimeoId) === "string" || typeof (vimeoId) === "number") && String(vimeoId).match(/[0-9]+/) !== null
+
   useEffect (
     () => {
       if (setPlayingCallback) {
@@ -51,25 +53,33 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
         onMouseEnter={()=>setHover(true)} 
         onMouseLeave={()=>setHover(false)}
       >
-      <Vimeo
-        style={{
-          position:"relative",
-          /*top:"50%"*/
-        }}
-        video={vimeoId}
-        responsive
-        play={shouldPlay}
-        id="player"
-        loop
-        paused={!shouldPlay}
-        controls={false}
-        volume={1}
-        onPlay={ () => {setPlaying(true); setOverlay(false)} }
-        onPause={ () => setPlaying(false) }
-        onEnd={ () => {setPlaying(false); setShouldPlay(false)} }
-        onError={ () => {setPlaying(false); setShouldPlay(false)} }
-        onLoaded={ () => setLoaded(true)}
-      />
+      {vimeoIdIsValid ? 
+        <Vimeo
+          style={{
+            position:"relative",
+            /*top:"50%"*/
+          }}
+          video={vimeoId}
+          responsive
+          play={shouldPlay}
+          id="player"
+          loop
+          paused={!shouldPlay}
+          controls={false}
+          volume={1}
+          onPlay={ () => {setPlaying(true); setOverlay(false)} }
+          onPause={ () => setPlaying(false) }
+          onEnd={ () => {setPlaying(false); setShouldPlay(false)} }
+          onError={ () => {setPlaying(false); setShouldPlay(false)} }
+          onLoaded={ () => setLoaded(true)}
+        /> 
+      :
+        <Error>
+          <span>
+            "{vimeoId}" is not a valid vimeo ID
+            </span>
+        </Error>
+      }
       <Overlay show={overlay || !playing} onClick={triggerPlay} style={{mixBlendMode: "screen"}}>
         <ButtonContainer style={{mixBlendMode: "screen"}}>
           { loaded &&
@@ -142,4 +152,15 @@ const FullscreenButtonContainer = styled.div`
     bottom: ${ dist.smallSpacer };
     right: ${ dist.smallSpacer };    
   }
+`
+
+const Error = styled.div`
+  background-color: red;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 `
