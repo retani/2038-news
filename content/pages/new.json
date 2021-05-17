@@ -2,30 +2,6 @@
   "path": "/new",
   "blocks": [
     {
-      "videoId": "551243282",
-      "text": "\"Thinking in fixed objects is much riskier than thinking in open processes. Fixed entities remove all possibilities for future change and are unable to update the past. It took us 30 years to shift our way of understanding and to find out that these systems, technically and ecologically, are nested within each other on very different scales of space and time.\"",
-      "text2": "Ferdinand Ludwig and Daniel Schönle, Architects and Buildingbotanists",
-      "color": "#66FFFF",
-      "_template": "TalkingHeadsBlock",
-      "content": ""
-    },
-    {
-      "videoId": "551242428",
-      "text": "\"Having access to what belongs to everyone is much better than having absolute control over your own things. So we came up with a market based, decentralized mechanism for having common ownership, moving beyond the idea of socialists 💗 taxes and capitalists 💗 private property.\"",
-      "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
-      "color": "#66FFFF",
-      "_template": "TalkingHeadsBlock",
-      "content": ""
-    },
-    {
-      "videoId": "551240489",
-      "text": "\"Honestly, there are certain pathways that are very thin and difficult, but that's the only way out of the wicked problem\"",
-      "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan",
-      "color": "#66FFFF",
-      "_template": "TalkingHeadsBlock",
-      "content": ""
-    },
-    {
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
@@ -57,18 +33,6 @@
       "content": ""
     },
     {
-      "videoId": "548124354",
-      "text": "\"Today, in 2038, we are in the position more than ever to realize sustainable models of social, economic, digital and ecological coexistence.\"",
-      "text2": "Anne Katrin Bohle, Secretary of State, Ministry of Interior, Building and Community",
-      "color": "#66FFFF",
-      "_template": "TalkingHeadsBlock",
-      "content": "",
-      "usePdf": false,
-      "link": "https://artsandculture.google.com/preview/story/rQUhLlNPDBaD9w",
-      "videoId2": "",
-      "videoId3": ""
-    },
-    {
       "videoId": "546970268",
       "text": "\"Like in Star Trek, people are still messed up. They are imperfect and bad things still happen to them. But it's clearly a much better world. In some pretty profound and radical ways.\"",
       "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
@@ -98,6 +62,14 @@
       "usePdf": true
     },
     {
+      "videoId": "551240489",
+      "text": "\"Honestly, there are certain pathways that are very thin and difficult, but that's the only way out of the wicked problem\"",
+      "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
       "videoId": "547870026",
       "text": "„Throughout the twenties, it was still common to think about direct democracy and representative democracy as two competing forms of participation. In Taiwan, we had already begun prototyping a new political system that challenged this binary, and explored how direct and representative democracy could work symbiotically, as interwoven, complementary systems.“",
       "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan",
@@ -122,6 +94,14 @@
       "text": "it's not about what we think, but about us being part of a system",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "videoId": "551237342",
+      "text": "\"We developed a society not obsessed with competition. So we forgot competition as one of our core values and goals. Instead we re-embraced the values that we have before us: Solidarity & cooperation, engaging in activities that are not driven by expectations of profitability.\"",
+      "text2": "Evgeny Morozov, Writer and Researcher for Political and Social Implications of Technology",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
       "content": ""
     },
     {
@@ -161,9 +141,9 @@
       "content": ""
     },
     {
-      "videoId": "551237342",
-      "text": "\"We developed a society not obsessed with competition. So we forgot competition as one of our core values and goals. Instead we re-embraced the values that we have before us: Solidarity & cooperation, engaging in activities that are not driven by expectations of profitability.\"",
-      "text2": "Evgeny Morozov, Writer and Researcher for Political and Social Implications of Technology",
+      "videoId": "551242428",
+      "text": "\"Having access to what belongs to everyone is much better than having absolute control over your own things. So we came up with a market based, decentralized mechanism for having common ownership, moving beyond the idea of socialists 💗 taxes and capitalists 💗 private property.\"",
+      "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
       "color": "#66FFFF",
       "_template": "TalkingHeadsBlock",
       "content": ""
@@ -273,6 +253,14 @@
       "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
       "link": "",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "551243282",
+      "text": "\"Thinking in fixed objects is much riskier than thinking in open processes. Fixed entities remove all possibilities for future change and are unable to update the past. It took us 30 years to shift our way of understanding and to find out that these systems, technically and ecologically, are nested within each other on very different scales of space and time.\"",
+      "text2": "Ferdinand Ludwig and Daniel Schönle, Architects and Buildingbotanists",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
       "content": ""
     },
     {
