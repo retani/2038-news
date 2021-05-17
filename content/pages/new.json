@@ -95,7 +95,7 @@
     },
     {
       "videoId": "548718691",
-      "text": "It's not about what you and I think, but about you and I being part of a system.",
+      "text": "it's not about what we think, but about us being part of a system",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
       "content": ""
@@ -111,19 +111,9 @@
       "videoId": "551237725",
       "text": "\"Cities became the place for experimenting with sustainability and democracy by reclaiming control over data. Citizens became the ones who owned the data, using it to create a digital commons, which enabled new cooperative platforms.\"",
       "text2": "Francesca Bria, Digital Policy Expert and Innovation Economist",
-      "color": "#00FF00",
+      "color": "#66FFFF",
       "_template": "TalkingHeadsBlock",
       "content": ""
-    },
-    {
-      "videoId": "546963621",
-      "text": "\"Cities became the place for experimenting with sustainability and democracy by reclaiming control over data. Citizens became the ones who owned the data, using it to create a digital commons, which enabled new cooperative platforms.\"",
-      "text2": "Francesca Bria, Digital Policy Expert and Innovation Economist",
-      "_template": "TalkingHeadsBlock",
-      "content": "",
-      "usePdf": false,
-      "videoId2": "547890066",
-      "videoId3": ""
     },
     {
       "text": "I‘m happy we have an ethical code for media and information as a commons, which is not public. You shouldn‘t disclose all your data. Data now operates similarly to how Nobel prize winner Elinor Ostrom describes the management of commons like forests, land or water.",
