@@ -2,13 +2,6 @@
   "path": "/new",
   "blocks": [
     {
-      "text": "Private property is no longer a viable condition in terms of both the environment and the human social system, which used to be dominated by markets. It‘s clear that the environmental destruction was a consequence of privatization.",
-      "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
-      "link": "",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
@@ -133,12 +126,11 @@
       "content": ""
     },
     {
-      "text": "Having access to what belongs to everyone is much better than having absolute control over your own things. So we came up with a market based, decentralized mechanism for having common ownership, moving beyond the idea of socialists 💗 taxes and capitalists 💗 private property.",
-      "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
+      "text": "We live in a decentralized and self-organized society. Of course not everybody is equal, not everybody is happy, not everybody has access to the same things. Still, we are more free in the sense that access is no longer defined by being born rich or in a certain place.",
+      "text2": "Diana Alvarez-Marín, Architect & Scientist",
       "link": "",
       "_template": "NewsBlock",
-      "content": "",
-      "hide": true
+      "content": ""
     },
     {
       "videoId": "551242428",
@@ -149,8 +141,8 @@
       "content": ""
     },
     {
-      "text": "We live in a decentralized and self-organized society. Of course not everybody is equal, not everybody is happy, not everybody has access to the same things. Still, we are more free in the sense that access is no longer defined by being born rich or in a certain place.",
-      "text2": "Diana Alvarez-Marín, Architect & Scientist",
+      "text": "Private property is no longer a viable condition in terms of both the environment and the human social system, which used to be dominated by markets. It‘s clear that the environmental destruction was a consequence of privatization.",
+      "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
       "link": "",
       "_template": "NewsBlock",
       "content": ""
@@ -175,7 +167,7 @@
       "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
       "_template": "TalkingHeadsBlock",
       "content": "",
-      "videoId2": "546969703",
+      "videoId2": "546964720",
       "videoId4": "",
       "videoId3": ""
     },
