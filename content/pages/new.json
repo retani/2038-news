@@ -34,8 +34,8 @@
     },
     {
       "videoId": "546970268",
-      "text": "\"Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.\"",
-      "text2": "Mark Wigley, Architect, Historian and Theorist",
+      "text": "Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘",
+      "text2": " Cédric Libert, Architect",
       "color": "white",
       "_template": "TalkingHeadsBlock",
       "content": "",
@@ -235,17 +235,17 @@
       "videoId2": "546969703"
     },
     {
-      "videoId": "548718762",
-      "text": "I think he still doesn‘t think in cybernetic or recursive loops",
-      "color": "#FFFFFF",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
       "text": "Through this picture, people realized that Earth is a closed and finite system. We understood that everything is limited in space and in time; especially our needs and their possible answers. We understand that architecture is a only temporary response to a temporary need. ",
       "text2": "Sabine Oberhuber & Thomas Rau (Economist & Architect)",
       "link": "",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "548718762",
+      "text": "I think he still doesn‘t think in cybernetic or recursive loops",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
       "content": ""
     },
     {
@@ -286,7 +286,7 @@
       "content": ""
     },
     {
-      "text": "Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘",
+      "text": "Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘\n\nCédric Libert, Architect",
       "text2": "Cédric Libert, Architect",
       "link": "",
       "_template": "NewsBlock",
