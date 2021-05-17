@@ -2,6 +2,13 @@
   "path": "/new",
   "blocks": [
     {
+      "text": "Private property is no longer a viable condition in terms of both the environment and the human social system, which used to be dominated by markets. It‘s clear that the environmental destruction was a consequence of privatization.",
+      "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
@@ -97,6 +104,13 @@
       "content": ""
     },
     {
+      "text": "I‘m happy we have an ethical code for media and information as a commons, which is not public. You shouldn‘t disclose all your data. Data now operates similarly to how Nobel prize winner Elinor Ostrom describes the management of commons like forests, land or water.",
+      "text2": "Denis „Jaromil“ Roio, Open-Source Developer & Hacker",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
       "videoId": "551237342",
       "text": "\"We developed a society not obsessed with competition. So we forgot competition as one of our core values and goals. Instead we re-embraced the values that we have before us: Solidarity & cooperation, engaging in activities that are not driven by expectations of profitability.\"",
       "text2": "Evgeny Morozov, Writer and Researcher for Political and Social Implications of Technology",
@@ -107,21 +121,6 @@
     {
       "text": "Some of the innovations that have scaled out of Africa, particularly East Africa, are participatory systems of governance that foreground crowdsourcing and bottom-up participation of citizens, and are not limited to election cycles.",
       "text2": "Juliana Rotich, Information Technology Expert",
-      "link": "",
-      "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "videoId": "551237725",
-      "text": "\"Cities became the place for experimenting with sustainability and democracy by reclaiming control over data. Citizens became the ones who owned the data, using it to create a digital commons, which enabled new cooperative platforms.\"",
-      "text2": "Francesca Bria, Digital Policy Expert and Innovation Economist",
-      "color": "#66FFFF",
-      "_template": "TalkingHeadsBlock",
-      "content": ""
-    },
-    {
-      "text": "I‘m happy we have an ethical code for media and information as a commons, which is not public. You shouldn‘t disclose all your data. Data now operates similarly to how Nobel prize winner Elinor Ostrom describes the management of commons like forests, land or water.",
-      "text2": "Denis „Jaromil“ Roio, Open-Source Developer & Hacker",
       "link": "",
       "_template": "NewsBlock",
       "content": ""
@@ -262,6 +261,14 @@
       "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
       "link": "",
       "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "551237725",
+      "text": "\"Cities became the place for experimenting with sustainability and democracy by reclaiming control over data. Citizens became the ones who owned the data, using it to create a digital commons, which enabled new cooperative platforms.\"",
+      "text2": "Francesca Bria, Digital Policy Expert and Innovation Economist",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
       "content": ""
     },
     {
