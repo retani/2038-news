@@ -2,10 +2,9 @@
   "path": "/06",
   "blocks": [
     {
-      "text": "https://vimeo.com/547901336",
-      "_template": "RedirectBlock",
-      "content": "",
-      "hide": false
+      "videoId": "546969703",
+      "_template": "StandaloneVideoBlock",
+      "content": ""
     }
   ]
 }

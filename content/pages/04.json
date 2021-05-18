@@ -2,10 +2,9 @@
   "path": "/04",
   "blocks": [
     {
-      "text": "https://youtu.be/LzHJDF5Olr8",
-      "_template": "RedirectBlock",
-      "content": "",
-      "hide": false
+      "videoId": "551242428",
+      "_template": "StandaloneVideoBlock",
+      "content": ""
     }
   ]
 }
