@@ -24,7 +24,7 @@ export function IntroLink({ data }) {
       <VideoBlock>
         <OverlayContainer>
           <BackgroundVideo vimeoId={videoId} />
-          <ButtonContainer href={link} >
+          <ButtonContainer href={link} target="_2038_hubs">
             <ButtonLarge highlight={!!buttonColor} color={buttonColor} style={{ mixBlendMode: "screen", fontWeight: "500", textAlign: "center" }}
             >
               {linkText.toUpperCase()}
