@@ -62,7 +62,6 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
           video={vimeoId}
           responsive
           play={shouldPlay}
-          id="player"
           loop
           paused={!shouldPlay}
           controls={false}
