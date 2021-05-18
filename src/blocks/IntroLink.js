@@ -12,7 +12,7 @@ import {
 
 import { genericFields } from '../helpers/misc'
 import { hasFile } from '../helpers/validators'
-import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet  } from '../../config/styles'
+import { colors, spaces, typoSizes, typoStyles, blockTypoSnippet, blockSnippet  } from '../../config/styles'
 
 const blockLabel = "INTRO HUBS"
 
@@ -21,10 +21,7 @@ export function IntroLink({ data }) {
   const buttonColor = colors.white
   return (
     <BlockWrapper label={blockLabel} hide={hide}>
-      <Block 
-        spaceBottom={spaces.mediumShrink}
-        spaceSide={spaces.none}
-      >
+      <VideoBlock>
         <OverlayContainer>
           <BackgroundVideo vimeoId={videoId} />
           <ButtonContainer href={link} >
@@ -34,7 +31,7 @@ export function IntroLink({ data }) {
             </ButtonLarge>
           </ButtonContainer>
         </OverlayContainer>
-      </Block>
+      </VideoBlock>
       <Block
         typoSize={typoSizes.moduleMedium}
         typoStyle={typoStyles.RobotoMonoRegular}  
@@ -71,6 +68,16 @@ const LargeText = styled(P)`
   };
   color: ${ colors.blue };
   text-align: center;
+`
+
+const VideoBlock = styled.div`
+  overflow: hidden;
+  ${
+    blockSnippet({
+      spaceSide: spaces.none,
+      spaceBottom: spaces.mediumShrink,
+    })
+  }
 `
 
 const SmallText = styled(P)`
