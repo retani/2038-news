@@ -24,7 +24,8 @@
       "link": "https://exp.thenewserenity.com/",
       "linkText": "Enter",
       "_template": "IntroLinkBlock",
-      "content": ""
+      "content": "",
+      "hide": true
     },
     {
       "text": "2038",
