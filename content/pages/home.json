@@ -8,303 +8,309 @@
       "content": ""
     },
     {
-      "videoId": "370256053",
-      "text": "Today, in the year 2038, we have mastered the great crises. It was close, but we made it. The global ecological, social and economic disasters of the 2020s brought people, states, institutions and companies together. They committed themselves to fundamental rights and jointly created viable, adaptable systems and legal frameworks on a planetary basis, giving decentralized, local structures the space to maintain and create highly diverse models of co-existing.\n\nTechnology and big data helped us to turn new and old ideas into reality. And often architects were part of the solution because they had answers instead of coming up with more questions. Drama is now history. We live in a radical democracy, in a radical bureaucracy. On a planet that doesn't know or need heroes or villains.\n",
-      "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia ",
+      "videoId": "548031698",
+      "text": "2038 – The New Serenity, invites you to discover a story between fact and fiction. In a series of films, it tells the history of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. \n\nBased on the knowledge and visions of a collaborative team of international experts from Architecture, Art, Ecology, Economy, Philosophy, Politics, Science and Technology, team 2038 strives to explore our future society through prefigurative politics, illustrating modes of organization and social relationships to come.\n",
+      "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
       "_template": "IntroVideoBlock",
-      "content": ""
-    },
-    {
-      "dateUTC": "2021-05-21-15-00",
-      "_template": "CountdownBlock",
-      "content": ""
-    },
-    {
-      "videoId": "525575856",
-      "text": "Bald hat das Warten ein Ende und die Architekturbiennale eröffnet in Venedig. 2038 freut sich darauf, gemeinsam mit Ihnen dann doch gelassen darauf (zurück) zu blicken. Wie unser Rückblick auf die Gegenwart und die Zukunft genau aussehen wird? Dies und mehr besprechen wir im virtuellen Pressegespräch.",
-      "text2": "Press Kit (DE)",
-      "_template": "TalkingHeadsBlock",
       "content": "",
+      "file": "/uploads/pdfs/",
       "usePdf": false,
-      "link": "https://www.dropbox.com/sh/xouhk5b9354s496/AAAlbQLZdGYk_U97avdeIUBBa?dl=0"
+      "link": ""
     },
     {
-      "text": "NEWS",
-      "color": "#00FF00",
+      "videoId": "551584252",
+      "text": "How we arrived in this state of New Serenity? Find out in the Cloud Pavilion. It allows you to playfully explore 2038, by bridging space and time, exploring how communication in mixed reality can come to life.\n\nSounds abstract? It's not. Press enter and meet people from all around the world, to binge-watch the films from 2038 and discuss the expert's ideas and visions from the future.",
+      "text2": "Cloud pavilion built with open source software Mozilla hubs",
+      "link": "https://exp.thenewserenity.com/",
+      "linkText": "Enter",
+      "_template": "IntroLinkBlock",
+      "content": ""
+    },
+    {
+      "text": "2038",
+      "color": "#FF66FF",
       "_template": "SectionBlock",
       "content": ""
     },
     {
-      "text": "Find first {perspectives} from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes open, support the street vendors or find out online where else to buy the newspaper.",
-      "text2": "",
-      "link": "http://artsoftheworkingclass.org/places",
-      "_template": "NewsBlock",
-      "content": ""
+      "videoId": "546970268",
+      "text": "\"Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘\"",
+      "text2": "Cédric Libert, Architect",
+      "color": "white",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "videoId2": "546966762",
+      "videoId3": "546967716",
+      "videoId4": "546968529",
+      "link": "https://artsandculture.google.com/preview/story/rQUhLlNPDBaD9w",
+      "usePdf": false
     },
     {
-      "text": "Man kann sagen, dass dieser Pavillon einer der optimistischsten ist, die es je gab, eben weil nicht nur behauptet wird, dass man eventuell Ideen für mögliche {Lösungen} habe, sondern aus der Zukunft verfügt und erklärt wird, dass und wie diese Lösungen funktioniert haben.",
-      "text2": "",
-      "link": "https://www.faz.net/aktuell/feuilleton/kunst/vertagte-architektur-biennale-in-venedig-16799052.html",
+      "videoId": "548718437",
+      "text": "as all parts keep influencing the whole, the system becomes so complex",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": "",
+      "image": "../images/"
+    },
+    {
+      "text": "There are purely digital spaces that we now consider to be on the same spectrum of “places in which humans operate.” It turns out that architecture and AI have more to do with each other than anyone once imagined.",
+      "text2": "Hilary Mason, Data Scientist",
+      "link": "",
       "_template": "NewsBlock",
+      "content": "",
+      "usePdf": true
+    },
+    {
+      "videoId": "551240489",
+      "text": "\"Previously, before digital, it was easy for a room with 20 people to end up agreeing on each other’s values, but these 20 people were not capable to bring that feeling back to their comrades, back to their communities. The digital helped us make sure that people entered into an empathy space similar to that of face to face encounters.\"",
+      "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
       "content": "",
       "usePdf": false
     },
     {
-      "text": "All das sind Ideen, die bereits heute als {Antworten} auf die aktuellen Fragestellungen proklamiert werden. Und die \"Zeitzeugen\" des Jahres 2038, die in den Interviews die segensreichen Auswirkungen beschreiben, die diese Maßnahmen entwickelt haben, sind genau jene Akteure, die die Umsetzung dieser Vorschläge heute fordern.",
-      "text2": "",
-      "link": "https://www.stylepark.com/de/news/deutscher-pavillon-biennale-2020",
-      "_template": "NewsBlock",
-      "content": ""
+      "videoId": "547870026",
+      "text": "„Throughout the twenties, it was still common to think about direct democracy and representative democracy as two competing forms of participation. In Taiwan, we had already begun prototyping a new political system that challenged this binary, and explored how direct and representative democracy could work symbiotically, as interwoven, complementary systems.“",
+      "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "videoId2": "546960024",
+      "videoId3": "",
+      "videoId4": "",
+      "usePdf": true,
+      "link": "",
+      "color": "#FFFFFF"
     },
     {
-      "text": "Üblicherweise versuchen wir, aus der Gegenwart heraus eine Zukunft zu entwerfen. Jetzt drehen wir die Blickrichtung um und schauen aus einer gedachten {Zukunft} zurück auf die Gegenwart.  ",
-      "text2": "",
+      "text": "Critical thinking has saved us because we are paid attention to the information, asking: where did it come from? Who put it up here? What intent did they have? We live in a more rational society now than ever. ",
+      "text2": "Vint Cerf, Internet Pioneer aka \"Father of the Internet\"",
       "link": "",
       "_template": "NewsBlock",
       "content": ""
     },
     {
-      "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\nBlaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class, Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, Tatiana Bilbao, Lara Verena Bellenghi, BMI, Oana Bogdan, Erik Bordeleau, Mohamed Bourouissa, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Loren Britton, Agnieszka Brzezanska, Vera Bühlmann, BUREAU N, Benjamin Burq, Marina Castillo Deball, Vint Cerf, cfk architetti, Kristof Croes, Elke Doppelbauer, Keller Easterling, Tobia de Eccher, Ludwig Engel, Joao Enxuto & Erica Love, ExRotaprint, Manuel Falkenhahn, Jan Fermon, Cosimo Flohr, Foreign Legion, Yona Friedman, Renée Gailhoustet, Jan-Peter Gieseking, Goethe-Institut, Olaf Grawert, Dorothee Hahn, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt, Pan Hu, JUNG, Jennifer Jacquet & Becca Franks, Mitchell Joachim, Sonja Junkers, Roberta Jurčić, Claudia Kessler, Goda Klumbyte, Gábor Kocsis, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Phyllis Lambert, Samira Lenzin, Lawrence Lessig, Cédric Libert, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Renzo Martens, Hilary Mason, V. Mitch McEwen, James Meadway, MicroEnergy International, Omoju Miller, Evgeny Morozov, MOTIF, Motor Productions, Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber & Thomas Rau, Jorge Orozco, Verena Otto, Shwetal Patel, Wong Ping, POLIGONAL, Joanna Pope, Christian Posthofen, Leif Randt, RAUE Rechtsanwälte und Rechtsanwältinnen, Rebiennale, Kim Stanley Robinson, Denis “Jaromil” Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, S.a.L.E. Docks, Saygel Schreiber & Gioberti, Patrik Schumacher, Jack Self, Max Senges, Deane Simpson, space-time.tv, Jonas Staal, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, Terra0, The Laboratory of Manuel Bürger, Cassie Thornton, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, Marcus Vesterager, VITRA, Julian Wäckerlin, Eyal Weizman, Julia Werlen, E. Glen Weyl, WHY Ventures, Mark Wigley, Anna Yeboah, Erez Yoeli, Tirdad Zolghadr\n    \nCommissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
+      "videoId": "548718691",
+      "text": "it's not about what we think, but about us being part of a system",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "I‘m happy we have an ethical code for media and information as a commons, which is not public. You shouldn‘t disclose all your data. Data now operates similarly to how Nobel prize winner Elinor Ostrom describes the management of commons like forests, land or water.",
+      "text2": "Denis „Jaromil“ Roio, Open-Source Developer & Hacker",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "551237342",
+      "text": "\"We developed a society not obsessed with competition. So we forgot competition as one of our core values and goals. Instead we re-embraced the values that we have before us: Solidarity & cooperation, engaging in activities that are not driven by expectations of profitability.\"",
+      "text2": "Evgeny Morozov, Writer and Researcher for Political and Social Implications of Technology",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
+      "text": "Some of the innovations that have scaled out of Africa, particularly East Africa, are participatory systems of governance that foreground crowdsourcing and bottom-up participation of citizens, and are not limited to election cycles.",
+      "text2": "Juliana Rotich, Information Technology Expert",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "548718187",
+      "text": "the rich were super rich and yet totally unhappy",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "We live in a decentralized and self-organized society. Of course not everybody is equal, not everybody is happy, not everybody has access to the same things. Still, we are more free in the sense that access is no longer defined by being born rich or in a certain place.",
+      "text2": "Diana Alvarez-Marín, Architect & Scientist",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "551242428",
+      "text": "\"Having access to what belongs to everyone is much better than having absolute control over your own things. So we came up with a market based, decentralized mechanism for having common ownership, moving beyond the idea of socialists 💗 taxes and capitalists 💗 private property.\"",
+      "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
+      "text": "Private property is no longer a viable condition in terms of both the environment and the human social system, which used to be dominated by markets. It‘s clear that the environmental destruction was a consequence of privatization.",
+      "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "548718258",
+      "text": "private ownership of land, when was that?",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "Project development does not only mean buying and financing, but also creating common space. It should not be about maximizing returns, but about creating the best possible space for people.",
+      "text2": "Daniela Brahm and Les Schliesser, Co-Initiators ExRotaprint",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "546956310",
+      "text": "\"It is quite remarkable, our current culture of victoriousness. For all intents and purposes, we did win our war against the crisis. Our world is now replete with mostly carefully planned, mostly just, mostly degrowing economies, now winding down to their steadiest state.\"",
+      "text2": "Joanna Pope, Degrowth Researcher",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "videoId2": "546964720",
+      "videoId4": "",
+      "videoId3": ""
+    },
+    {
+      "videoId": "548718839",
+      "text": "everything good and bad flows into algorithmic processes of shaping the future",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "The main takeaway of this experiment is that distributed technology allows nonhuman actors to engage successfully in relationships built on contracts. This resulted in legal structures that could allow rivers to become legal persons and forests to become corporations.",
+      "text2": "Paul Seidler, Co-Founder Terra0, Augmented Self-Owned Forrest",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": "",
+      "usePdf": false
+    },
+    {
+      "videoId": "551533540",
+      "text": "\"Through this picture, people realized that Earth is a closed and finite system. We understood that everything is limited in space and in time; especially our needs and their possible answers. We understand that architecture is a only temporary response to a temporary need.\"",
+      "text2": "Sabine Oberhuber and Thomas Rau, Economist and Architect",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
+      "text": "What has changed? Instead of many nations, we see our-selves as a whole and work together as a planetary population that inhabits one livable spaceship: the Spaceship Earth, as Buckminster Fuller said. We are in this together!",
+      "text2": "Cedric Libert, Architect & Curator",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "548718558",
+      "text": "I like you Greta!",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "At some point we realized that sustainability actually only optimizes the status quo and will thus never lead to a systematic change. Circular economy, on the other hand, does not optimize a dysfunctional system, but designs a new one along an axis of responsibility.",
+      "text2": "Sabine Oberhuber & Thomas Rau (Economist & Architect)",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "551243282",
+      "text": "\"Thinking in fixed objects is much riskier than thinking in open processes. Fixed entities remove all possibilities for future change and are unable to update the past. It took us 30 years to shift our way of understanding and to find out that these systems, technically and ecologically, are nested within each other on very different scales of space and time.\"",
+      "text2": "Ferdinand Ludwig and Daniel Schönle, Architects and Buildingbotanists",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "546953301",
+      "text": "„In architecture there are no more distinctions between landscape and housing. Thanks to advances in synthetic biology over the last twenty years, they have turned into one.“",
+      "text2": "Mitchell Joachim, Architect and Co-Founder Terreform ONE",
+      "color": "white",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "videoId4": "",
+      "videoId3": "",
+      "videoId2": "546969703"
+    },
+    {
+      "text": "We couldn't change the system by speaking to highly entrenched and disconnected practices. To bring about the large scale change we needed, we had to articulate an (eco)system involving legal, economic, social, and technological dynamics.",
+      "text2": "Mara Balestrini, Human-Computer Interaction Expert",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "548718762",
+      "text": "I think he still doesn‘t think in cybernetic or recursive loops",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "Architects don't build in space, they build in time (configurations). We should not only think about the practicalities of what will happen next, but about the consequences of our work and how it generate new results, feeding back into the system.",
+      "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "videoId": "551237725",
+      "text": "\"Cities became the place for experimenting with sustainability and democracy by reclaiming control over data. Citizens became the ones who owned the data, using it to create a digital commons, which enabled new cooperative platforms.\"",
+      "text2": "Francesca Bria, Digital Policy Expert and Innovation Economist",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
+      "text": "However, being able to think architectonically does not imply that we stopped building. We certainly still do that, but since architectonics is abstract and operational, the building aspect is just one of its possible renders. Architecture remains as relevant as ever.",
+      "text2": "Diana Alvarez-Marín, Architect and Scientist",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": ""
+    },
+    {
+      "text": "Facts are no longer enough to really convince people. We have to tell stories.",
+      "text2": "Oana Bogdan, Architect & Politician",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": "",
+      "hide": true
+    },
+    {
+      "videoId": "548718055",
+      "text": "Venice was a great idea!",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘\n\nCédric Libert, Architect",
+      "text2": "Cédric Libert, Architect",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": "",
+      "hide": true
+    },
+    {
+      "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\nLeo Altaras, Blaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class (Alina Kolar, Maria Ines Plaza Lazo, Paul Sochacki), Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, Tatiana Bilbao, Lara Verena Bellenghi, BMI, Oana Bogdan, Erik Bordeleau, Mohamed Bourouissa, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Loren Britton, Agnieszka Brzezanska, Vera Bühlmann, bureau n (Inga Krumme, Katharina Neumann, Silke Neumann, Caroline Wolf), Benjamin Burq, Marina Castillo Deball, Vint Cerf, CFK Architetti (Martin Weigert), Cinema Key (Marco Fantacuzzi), Kristof Croes, Joana de la Fontaine, Elke Doppelbauer, Keller Easterling, Tobia de Eccher, Ludwig Engel, Joao Enxuto & Erica Love, ExRotaprint (Daniela Brahm and Les Schliesser), Manuel Falkenhahn, Jan Fermon, Cosimo Flohr, Foreign Legion (Matylda Krzykowski and Vera Sacchetti), Yona Friedman, Renée Gailhoustet, Jan-Peter Gieseking, Goethe-Institut, Google Arts & Culture (Klaus Hans Teuschler), Olaf Grawert, Avital Greenshopn, Dorothee Hahn, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt, Pan Hu, Jennifer Jacquet & Becca Franks, Jonas Janke, Mitchell Joachim, JUNG, Sonja Junkers, Roberta Jurčić, Claudia Kessler, Goda Klumbyte, Gábor Kocsis, Ferdinand Knecht, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Phyllis Lambert, Samira Lenzin, Lawrence Lessig, Cédric Libert, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Renzo Martens, Hilary Mason, V. Mitch McEwen, James Meadway, Roman Miletitch, Omoju Miller, Evgeny Morozov, MOTIF (Kathrin Fritsch, Helene von Schwichow, Diana Kozachek), Motor Productions (Severin Bärenbold), Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber & Thomas Rau, Jorge Orozco, Verena Otto, Shwetal Patel, Wong Ping, POLIGONAL (Christian Haid, Lukas Staudinger), Joanna Pope, Christian Posthofen, Alessandra Quattrini, Leif Randt, RAUE Partnerschaft von Rechtsanwälten und Rechtsanwältinnen, Rebiennale (Giulio Grillo), Kim Stanley Robinson, Denis “Jaromil” Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, Belle Santos, S.a.L.E. Docks, Saygel Schreiber & Gioberti (Attila Saygel), Clemens Schick, Ivo Semenitsch, Patrik Schumacher, Jack Self, Max Senges, Deane Simpson, space-time.tv (Carl Berthold, Holger Friese, Max Kossatz), Jonas Staal, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, Tecnoservice (Pierro Zennaro), terra0 (Max Hampshire, Paul Kolling, Paul Seidler), The Laboratory of Manuel Bürger (Manuel Bürger, Simon Schindele), Cassie Thornton, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, Marcus Vesterager, Vitra, Julian Wäckerlin, Eyal Weizman, Julia Werlen, E. Glen Weyl, WHY Ventures (Floris Dreesman, Marie-Charlotte Schmidt), Mark Wigley, Anna Yeboah, Vanessa Yeboah, Erez Yoeli, Marco Zambrano, Tirdad Zolghadr\n    \nCommissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
       "_template": "WithBlock",
       "content": "",
       "file": "/uploads/pdfs/",
       "hide": false
     },
     {
-      "content": "Opening Pavilion:\n21.05.2021, 16:00\nHubs Pavilion, online \n\nIndividual press tours during the Preview Days in Venice:\nWED 19.5. 10am – 1pm / 2pm – 5pm\nTUE 20.5. 10am – 1pm / 2pm – 5pm\nFRI 21.5 10am - 1pm\n\nFor appointments, please contact:\n2038@bureau-n.de\n\nContact: \nmail@2038.xyz",
+      "content": "LAUNCH OF THE VIRTUAL PAVILION\n21 May 2021, 4 pm\n\nOPENING HOURS ON-SITE\n21/05–21/11/21\nTue–Sun, 10 am – 7 pm\nGiardini della Biennale, Venice\n\nPress Contact: \npress@2038.xyz\n\nContact: \nmail@2038.xyz",
       "center": false,
       "_template": "ContentBlock"
     },
     {
-      "text": "IMP.",
+      "content": "Launch Digital Pavilion\n21.05.2021\n\nOpening Hours:\n\n21.05. – 21.11.21\nTue - Sun, 10:00 – 19:00\nGiardini della Biennale, Venice\n\nPress Contact: \npress@2038.xyz\n\n\nContact: \nmail@2038.xyz",
+      "center": false,
       "_template": "ImpLinkBlock",
-      "content": ""
-    },
-    {
-      "videoId": "436672771",
-      "text": "2021\nA state of paralysis and existential pain!",
-      "_template": "LandscapeBlock",
-      "content": "",
-      "image": "../images/",
-      "color": "#FFFFFF",
-      "hide": true
-    },
-    {
-      "text": "\"Any idea you have about the future cannot be the future, because the future is by definition what exceeds your ideas.\"",
-      "text2": "Mark Wigley, 2038",
-      "file": "/uploads/pdfs/2038xArts of the Working Class_page 69_Mark Wigley.pdf",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "\"Architecture functions in a feedback loop with reality: based on real-time data, such as the availability of resources, the needs of a (local) community and the management of social consequences.\" ",
-      "text2": "Cedric Libert, 2038",
-      "file": "/uploads/pdfs/2038xAWC_Game Changer_by Aang Nkurunziza and Cedric Libert.pdf",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "Find first perspectives from 2038 in the collaborative edition of the street journal Arts of the Working Class. So keep your eyes out and support the street vendors or find out online where else to buy the newspaper.",
-      "text2": "Arts of the ",
-      "link": "http://artsoftheworkingclass.org/places",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "Even though architects and urbanists have often been as perplexed as any other explorer of these new territories, they [...] provide a meta-offering to the allied disciplines – forms with which to design or actually manipulate them.",
-      "text2": "Keller Easterling, Frieze",
-      "link": "https://frieze.com/article/keller-easterling-where-activism-fails-and-how-we-can-reformat-it",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "image": "../images/200501_Stills 2038_ROTICH Juliana_AI.jpg",
-      "color": "#0000FF",
-      "text": "Juliana Rotich, 2038",
-      "_template": "PublicationBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "\"This is the future that is currently the present.\"",
-      "text2": "",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "videoId": "436540448",
-      "text": "reconnecting ecosystems",
-      "_template": "LandscapeBlock",
-      "content": "",
-      "image": "../images/",
-      "color": "#FFFFFF",
-      "hide": true
-    },
-    {
-      "text": "\"A designer is more like a gardener, deciding the direction and not the form, thinking of a process, of different possibilities of different futures.\" ",
-      "text2": "Ferdinand Ludwig & Daniel Schönle, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "The central premise is simple: the goal of economic activity should be about meeting the core needs of all but within the means of the planet. The “doughnut” is a device to show what this means in practice [...] recognize the need for national government and supranational authorities to get on board.",
-      "text2": "Daniel Boffey, The Guardian",
-      "link": "https://www.theguardian.com/world/2020/apr/08/amsterdam-doughnut-model-mend-post-coronavirus-economy",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "„A new design has emerged: one that treats buildings as a raw material stock for the future.“",
-      "text2": "Sabine Oberhuber & Thomas Rau, 2038",
-      "file": "/uploads/pdfs/2038xAWC_Material Matters_by Sabine Oberhuber and Thomas Rau.pdf",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "A circular economy is focused on designing out waste and pollution, keeping products and materials in use, and regenerating natural systems, so that we do not exhaust the resources of our planet.  ",
-      "text2": "Naoko Ishii & Frans van Houten, WEF",
-      "link": "https://www.weforum.org/agenda/2020/07/to-build-resilience-to-future-pandemics-and-climate-change-we-must-go-circular/",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "image": "../images/200608_2038xAWC_Caroline Nevejan_web.jpg",
-      "color": "#0000FF",
-      "text": "Caroline Nevejan, 2038",
-      "_template": "PublicationBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "\"Multi-species urbanism means everything has a voice. Animals and plants, you and I, we all have a voice and thus we have rights.\"",
-      "text2": "",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "videoId": "436674406",
-      "text": "enacting disownership",
-      "_template": "LandscapeBlock",
-      "content": "",
-      "image": "../images/",
-      "color": "#FFFFFF",
-      "hide": true
-    },
-    {
-      "videoId": "370256053",
-      "text": "\"This new world exists only so long as transnational solidarity exists, allowing processes of cooperation and autonomous self-determination to keep unfolding.\"",
-      "text2": "Joanna Pope, 2038",
-      "_template": "ArticleBlock",
-      "content": "",
-      "file": "/uploads/pdfs/2038xAWC_On the Growthocene_by Joanna Pope.pdf",
-      "frontmatter": {
-        "text": "<p>„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen agan.“</p>"
-      },
-      "hide": true
-    },
-    {
-      "text": "The crisis has shown us how little capitalism has done for so many people and that other ways of living and working are possible.",
-      "text2": "Kandist Mallett, Teen Vogue ",
-      "link": "https://www.teenvogue.com/story/coronavirus-pandemic-failures-capitalism",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "\"Today, private property is no longer a viable basis for social organization, neither in terms of the human social system, nor in terms of the environment.\"",
-      "text2": "Suhail Malik, 2038",
-      "file": "/uploads/pdfs/2038xArts of the Working Class_page 33_Suhail Malik.pdf",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "ISCA proposes a system where artists whose work and activities are not remunerated by the market are supported by a cooperatively owned platform that redistributes the spoils of art’s financialization. ",
-      "text2": "João Enxuto & Erica Love, Artforum",
-      "link": "",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "\"What we actually achieved was the development of a society not obsessed with competition.\" ",
-      "text2": "Evgeny Morozov, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "videoId": "436539725",
-      "text": "decoding social relations",
-      "_template": "LandscapeBlock",
-      "content": "",
-      "image": "../images/",
-      "color": "#FFFFFF",
-      "hide": true
-    },
-    {
-      "text": "\"This is what we call permanent BETA, a digital contract between individuals that is constantly updated and re-invented because it is never finished.\"",
-      "text2": "Diana Alvarez-Marin, 2038",
-      "file": "/uploads/pdfs/2038xAWC_Collective Contracts_by Finley Hoxha with Diana Alvarez Marin.pdf",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "We know from social scientists that a diverse group of people can make very good decisions. We also know from a number of recent experiments that citizens can be called upon to make decisions on very tough policy issues, including climate change, and even to shape constitutions.",
-      "text2": "Federica Carugati, Wired",
-      "link": "https://www.wired.com/story/opinion-a-council-of-citizens-should-regulate-algorithms/",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "\"Citizens' collective intelligence is part of the decision making processes that are happening at our town halls.\"",
-      "text2": "Francesca Bria, 2038",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "image": "../images/200608_2038xAWC_Audrey Tang_web.jpg",
-      "text": "Audrey Tang, 2038",
-      "_template": "PublicationBlock",
-      "content": "",
-      "usePdf": true,
-      "hide": true
-    },
-    {
-      "text": "\"The digital was crucial for finding better ways to facilitate dialogue and work toward common understandings between different actors and groups.\"",
-      "text2": "",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "image": "../images/AOWC_2038_#120_fin_lo_cover_double_rgb.jpg",
-      "text": "",
-      "_template": "PublicationBlock",
-      "content": "",
-      "usePdf": false,
-      "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-120-the-new-serenity/",
-      "color": "#000000",
-      "hide": true
+      "text": "IMP."
     }
   ],
   "displayTitle": false,
