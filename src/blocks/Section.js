@@ -1,5 +1,6 @@
 import React from "react"
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 
 import {p as P} from '../components/HtmlElements'
 import Header from '../components/SectionHeader'
@@ -11,11 +12,16 @@ import { colors } from '../../config/styles'
 const blockLabel = "SECTION"
 
 export function Section({ data }) {
-  const {text, color, hide} = data
+  const {text, color, hide, link} = data
+
+  const content = link ? link.indexOf("://") > -1 
+    ? <a href={link} >{text}</a> : <Link to={link}>{text}</Link> 
+    : text
+
   return (
-    <BlockWrapper label={blockLabel} hide={hide}>
+    <BlockWrapper label={blockLabel} hide={hide} >
       <Header backgroundColor={color}>
-        {text}
+        {content}
       </Header>
     </BlockWrapper>
   )
@@ -32,10 +38,12 @@ export const SectionBlock = {
   }),  
   defaultItem: {
     text: `2038`,
-    color: colors.blue
+    color: colors.blue,
+    link: ""
   },
   fields: [
     { name: "text", label: "Text", component: "text" },
+    { name: "link", label: "Link", component: "text", description: `Use "/" to link to home page. Leave empty for no link.`},
     {
       name: 'color',
       component: 'color',

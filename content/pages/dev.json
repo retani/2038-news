@@ -2,8 +2,19 @@
   "path": "/dev",
   "blocks": [
     {
-      "videoId": "370256053",
-      "_template": "StandaloneVideoBlock",
+      "text": "2038",
+      "color": "#0000ff",
+      "link": "/",
+      "_template": "SectionBlock",
+      "content": ""
+    },
+    {
+      "videoId": "382051967",
+      "text": "Welcome in 2038, Welcome to the German Pavilion.",
+      "text2": "The Hubs Pavilion — La Biennale di Venezia",
+      "link": "https://thenewserenity.com",
+      "linkText": "Enter",
+      "_template": "IntroLinkBlock",
       "content": ""
     }
   ],
