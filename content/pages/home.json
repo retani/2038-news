@@ -25,7 +25,7 @@
       "linkText": "Enter",
       "_template": "IntroLinkBlock",
       "content": "",
-      "hide": false
+      "hide": true
     },
     {
       "text": "2038",
