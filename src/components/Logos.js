@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 import { dist, breakpoints,spaces } from '../../config/styles'
 
-export default () =>  <Container>
-  <ImgLarge src="/logos.png"/>
-  <ImgSmall src="/logosSmall.png"/>
+export default ({imgSrcLarge = "/logos.png", imgSrcSmall = "/logosSmall.png"}) =>  <Container>
+  <ImgLarge src={imgSrcLarge}/>
+  <ImgSmall src={imgSrcSmall}/>
 </Container>
 
 const Container = styled.div`
