@@ -27,7 +27,7 @@ COPY . /app/
 #RUN ls -la
 #ENV PATH="/usr/local/bin:/app/node_modules/.bin:${PATH}"
 
-RUN gatsby build
+RUN gatsby clean && gatsby build
 
 FROM mhart/alpine-node:12
 
