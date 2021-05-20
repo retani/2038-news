@@ -70,6 +70,11 @@ const Text = styled.span`
       typoStyle: typoStyles.NeueHaasUnicaBold
     }) 
   };
+
+  @media screen and (min-width: 751px) and (max-width: 900px) {
+    font-size:   9vw;
+    line-height: 9vw;
+  }
   text-align: center;
   color: ${ ({color}) => color };
 `
