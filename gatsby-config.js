@@ -7,6 +7,8 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-tinacms-json`,
     `gatsby-transformer-json`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: "gatsby-plugin-tinacms",
       options: {
@@ -54,8 +56,6 @@ module.exports = {
         component: require.resolve(`./src/components/siteLayout.js`),
       },
     },
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -92,7 +92,7 @@ module.exports = {
               destinationDir: "static",
             },
           },
-          {
+          /*{
             resolve: `gatsby-remark-prismjs`,
             options: {
               classPrefix: "language-",
@@ -106,7 +106,7 @@ module.exports = {
                 global: false,
               },
             },
-          },
+          },*/
         ],
       },
     },
