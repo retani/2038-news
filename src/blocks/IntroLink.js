@@ -24,11 +24,12 @@ export function IntroLink({ data }) {
       <VideoBlock>
         <OverlayContainer>
           <BackgroundVideo vimeoId={videoId} />
-          <ButtonContainer href={link} target="_2038_hubs">
+          <ButtonContainer href={link} target="_blank">
             <ButtonLarge highlight={!!buttonColor} color={buttonColor} style={{ mixBlendMode: "screen", fontWeight: "500", textAlign: "center" }}
             >
               {linkText.toUpperCase()}
             </ButtonLarge>
+            <ExtraLink href={link} target="_blank" />
           </ButtonContainer>
         </OverlayContainer>
       </VideoBlock>
@@ -105,6 +106,15 @@ const ButtonContainer = styled.a`
   align-items: center;
   place-content: center;
   flex-direction: column;
+`
+
+const ExtraLink = styled.a`
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  display: block;
 `
 
 const OverlayContainer = styled.div`
