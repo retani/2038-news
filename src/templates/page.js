@@ -29,7 +29,7 @@ import { StandaloneVideo, StandaloneVideoBlock } from "../blocks/StandaloneVideo
 import { PageLayout } from "../components/pageLayout"
 import { Menu } from "../components/Menu"
 
-import { globalStyles, spaces } from '../../config/styles'
+import { globalStyles, spaces, fontStack_Roboto } from '../../config/styles'
 import { Spacer } from '../components'
 
 import { useLocalJsonForm } from "gatsby-tinacms-json"
@@ -52,7 +52,11 @@ export default function Page(props) {
         <style>
           {`div[class^=FormHeader] + div > div {
             overflow: auto;
-          }`}
+          }
+          :root {
+            --tina-font-family: ${fontStack_Roboto} !important;
+          }
+          `}
         </style>
       </Helmet>
 
@@ -260,7 +264,6 @@ export const pageQuery = graphql`
           html
         }
       }
-
       rawJson
       fileRelativePath
     }

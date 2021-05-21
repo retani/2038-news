@@ -58,11 +58,14 @@ const typoSizes = {
   },
 }
 
+const fontStack_Roboto = "'Roboto Mono', 'Menlo', 'Andale Mono', monospace, sans-serif"
+const fontStack_Haas = "NeueHaasUnicaW1G-Bold, Arial, sans-serif"
+
 const typoStyles = {
-  RobotoMonoLight:   { name: "Roboto Mono", weight: 300, lineTopPerc: 0.12, lineBottomPerc: 0.12 },
-  RobotoMonoRegular: { name: "Roboto Mono", weight: 400, lineTopPerc: 0.12, lineBottomPerc: 0.12 },
-  RobotoMonoMedium:  { name: "Roboto Mono", weight: 500, lineTopPerc: 0.12, lineBottomPerc: 0.12 },
-  NeueHaasUnicaBold: { name: "NeueHaasUnicaW1G-Bold",weight: "normal" /*???*/, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
+  RobotoMonoLight:   { name: fontStack_Roboto, weight: 300, lineTopPerc: 0.12, lineBottomPerc: 0.12 },
+  RobotoMonoRegular: { name: fontStack_Roboto, weight: 400, lineTopPerc: 0.12, lineBottomPerc: 0.12 },
+  RobotoMonoMedium:  { name: fontStack_Roboto, weight: 500, lineTopPerc: 0.12, lineBottomPerc: 0.12 },
+  NeueHaasUnicaBold: { name: fontStack_Haas,   weight: "normal" /*???*/, lineTopPerc: 0.1, lineBottomPerc: 0.1 },
 }
 
 const fontSnippet = ({typoSize, typoStyle}) => {
@@ -328,7 +331,7 @@ const globalStyles = `
     @media ${ breakpoints.small } {
       line-height: ${ metrics.medium.lineHeightPx }px;
     }    
-    font-family: 'Roboto Mono', 'Andale Mono', monospace, sans-serif;
+    font-family: ${fontStack_Roboto};
   }
 `
 
@@ -350,6 +353,7 @@ export {
   colors,
   spaced,
   snippets,
+  fontStack_Roboto,
   breakpoints,
   metrics,
   typoSizes,
