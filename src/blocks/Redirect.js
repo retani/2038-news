@@ -22,6 +22,7 @@ export function Redirect({ data }) {
   const action =
     <Helmet>
       {url && <meta http-equiv="refresh" content={`2; url = ${url}`} />}
+      <link rel="prefetch" href={url} />
     </Helmet>
 
   const content = 
