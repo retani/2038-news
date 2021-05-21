@@ -3,7 +3,7 @@
   "blocks": [
     {
       "text": "2038",
-      "color": "#0000ff",
+      "color": "#00FFFF",
       "link": "/",
       "_template": "SectionBlock",
       "content": ""
