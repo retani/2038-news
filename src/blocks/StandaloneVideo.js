@@ -88,6 +88,12 @@ const Back = styled.div`
   z-index: 1;
   opacity: ${ props => props.show ? 1 : 0};
   transition: opacity 0.5s;
+  @media screen and (min-aspect-ratio: 21/9) {
+    opacity: 1;
+  }
+  @media screen and (max-aspect-ratio: 1/1) {
+    opacity: 1;
+  }
 `
 
 export const StandaloneVideoBlock = {
