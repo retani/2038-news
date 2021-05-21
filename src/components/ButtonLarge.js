@@ -9,7 +9,7 @@ export default ({children, onClick, style, highlight, color}) => {
   </Container>
 }
 
-const Container = styled.div`
+const Container = styled.span`
   display: inline-block;
   width: 138px;
   height: ${ dist.largeButtonHeight };
