@@ -5,7 +5,8 @@
       "text": "https://exp.thenewserenity.com",
       "_template": "RedirectBlock",
       "content": "",
-      "hide": false
+      "hide": false,
+      "text2": "Entering Cloud Pavillon..."
     }
   ]
 }
