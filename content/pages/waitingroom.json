@@ -7,6 +7,13 @@
       "link": "/",
       "_template": "SectionBlock",
       "content": ""
+    },
+    {
+      "videoId": "551244713",
+      "text": "many people are visiting us at the same time. we kindly ask for your patience.",
+      "color": "#FFFFFF",
+      "_template": "LandscapeBlock",
+      "content": ""
     }
   ],
   "displayTitle": false,
