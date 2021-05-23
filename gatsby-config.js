@@ -68,7 +68,7 @@ module.exports = {
         icon: `content/images/icon.png`,
       },
     },
-    `gatsby-plugin-remove-serviceworker`,
+    //`gatsby-plugin-remove-serviceworker`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
