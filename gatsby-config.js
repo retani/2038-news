@@ -92,7 +92,7 @@ module.exports = {
               destinationDir: "static",
             },
           },
-          /*{
+          {
             resolve: `gatsby-remark-prismjs`,
             options: {
               classPrefix: "language-",
@@ -106,7 +106,7 @@ module.exports = {
                 global: false,
               },
             },
-          },*/
+          },
         ],
       },
     },
