@@ -2,6 +2,17 @@
   "path": "/",
   "blocks": [
     {
+      "videoId": "566532856",
+      "text": "„For those who never experienced a change of the political system, it seemed unimaginable. But it happened and it could happen again.“",
+      "text2": "Conversation with Charlotte Malterre",
+      "color": "white",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "videoId2": "566532856",
+      "videoId3": "566532856",
+      "videoId4": "566532856"
+    },
+    {
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
@@ -33,18 +44,6 @@
       "link": "",
       "_template": "SectionBlock",
       "content": ""
-    },
-    {
-      "videoId": "552808465",
-      "text": "\"How will we live together?\" 2038 invited artists to contribute to The New Serenity. Discover the works of Diann Bauer, Mohamed Bourouissa, João Enxuto and Erica Love, and Bahar Noorizadeh in the Cloud Pavilion.",
-      "text2": "",
-      "color": "white",
-      "_template": "TalkingHeadsBlock",
-      "content": "",
-      "link": "",
-      "videoId2": "552810149",
-      "videoId3": "552809590",
-      "videoId4": "552809052"
     },
     {
       "text": "2038",
@@ -313,6 +312,18 @@
       "_template": "NewsBlock",
       "content": "",
       "hide": true
+    },
+    {
+      "videoId": "552808465",
+      "text": "\"How will we live together?\" 2038 invited artists to contribute to The New Serenity. Discover the works of Diann Bauer, Mohamed Bourouissa, João Enxuto and Erica Love, and Bahar Noorizadeh in the Cloud Pavilion.",
+      "text2": "",
+      "color": "white",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "link": "",
+      "videoId2": "552810149",
+      "videoId3": "552809590",
+      "videoId4": "552809052"
     },
     {
       "videoId": "548124354",
