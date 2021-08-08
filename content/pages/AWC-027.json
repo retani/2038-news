@@ -1,4 +1,11 @@
 {
   "path": "/AWC-027",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/after-competition-serenity-cybernetics",
+      "text2": "Loading: AFTER COMPETITION: SERENITY CYBERNETICS by Joanna Pope on Evgeny Morozov",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
