@@ -1,4 +1,16 @@
 {
   "path": "/AWC-016",
-  "blocks": []
+  "blocks": [
+    {
+      "videoId": "551237725",
+      "_template": "StandaloneVideoBlock",
+      "content": ""
+    },
+    {
+      "text": "551237725",
+      "text2": "Redirecting...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
