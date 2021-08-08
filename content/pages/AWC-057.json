@@ -1,4 +1,11 @@
 {
   "path": "/AWC-057",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/game-changer-exploring-a-new-world-of-play",
+      "text2": "Loading: GAME CHANGER by Aang Nkurunziza, Cédric Libert",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
