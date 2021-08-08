@@ -1,4 +1,11 @@
 {
   "path": "/AWC-019",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/after-zero-sum-serenity-for-democracy",
+      "text2": "Loading: AFTER ZERO-SUM: SERENITY FOR DEMOCRACY by Joanna Pope with Audrey Tang",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
