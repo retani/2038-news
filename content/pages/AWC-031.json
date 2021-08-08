@@ -1,4 +1,11 @@
 {
   "path": "/AWC-031",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/doubling-the-marshmallows",
+      "text2": "Loading: DOUBLING THE MARSHMALLOWS by Anna Yeboah",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
