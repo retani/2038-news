@@ -1,4 +1,11 @@
 {
   "path": "/AWC-099",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/arbeiterinnenbriefe-1",
+      "text2": "Loading: Letter of Workers",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
