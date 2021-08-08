@@ -1,4 +1,11 @@
 {
   "path": "/AWC-059",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/hundert-jahre-architektieren-1938-2038",
+      "text2": "Loading: 100 JAHRE ARCHITEKTIEREN by Christian Posthofen",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
