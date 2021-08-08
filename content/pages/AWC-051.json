@@ -1,4 +1,11 @@
 {
   "path": "/AWC-051",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/thriving-is-a-multi-species-right",
+      "text2": "Loading: THRIVING IS A MULTISPECIES RIGHT by Caroline Nevejan",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
