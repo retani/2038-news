@@ -1,4 +1,10 @@
 {
   "path": "/AWC-068",
-  "blocks": []
+  "blocks": [
+    {
+      "videoId": "551533540",
+      "_template": "StandaloneVideoBlock",
+      "content": ""
+    }
+  ]
 }
