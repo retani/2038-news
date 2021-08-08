@@ -1,4 +1,11 @@
 {
   "path": "/AWC-075",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/reality-check-von-leif-randt",
+      "text2": "Loading: REALITY CHECK by Leif Randt",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
