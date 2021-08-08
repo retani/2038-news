@@ -1,4 +1,11 @@
 {
   "path": "/AWC-049",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/planetary-rights-at-last",
+      "text2": "Loading: PLANETARY RIGHTS, AT LAST! by Galaad Van Daele",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
