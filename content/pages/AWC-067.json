@@ -1,4 +1,11 @@
 {
   "path": "/AWC-067",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/was-kostet-die-welt",
+      "text2": "Loading: WAS KOSTET DIE WELT? by Sabine Oberhuber, Thomas Rau",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
