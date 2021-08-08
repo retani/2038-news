@@ -1,4 +1,11 @@
 {
   "path": "/AWC-017",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/after-rebellion-the-serene-city",
+      "text2": "Loading: AFTER REBELLION: THE SERENE CITY by Joanna Pope on Francesca Bria",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
