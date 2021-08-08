@@ -1,4 +1,11 @@
 {
   "path": "/AWC-071",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/la-normalita-era-il-problema",
+      "text2": "Loading: LA NORMALITÀ ERA IL PROBLEMA by Rebiennale / R3B, Giulio Grillo",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
