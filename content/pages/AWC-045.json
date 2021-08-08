@@ -1,4 +1,11 @@
 {
   "path": "/AWC-045",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/lucid-sidewalks",
+      "text2": "Loading: LUCID SIDEWALKS by Bar Gregoryan, Bee Haven with Mitchell Joachim",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
