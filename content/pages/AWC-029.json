@@ -1,4 +1,11 @@
 {
   "path": "/AWC-029",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/on-the-growthocene-1",
+      "text2": "Loading: ON THE 'GROWTHOCENE' by Joanna Pope",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
