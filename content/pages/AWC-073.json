@@ -1,4 +1,11 @@
 {
   "path": "/AWC-073",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/now-live-on-konrad-tv-the-compulsion-to-overcome-the-finshed-object",
+      "text2": "Loading: NOW LIVE ON KONRAD TV by Jeanne Hu and Mark Wigley on Konrad Wachsmann",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
