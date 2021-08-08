@@ -1,4 +1,11 @@
 {
   "path": "/AWC-039",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/food-for-thought-and-justice",
+      "text2": "Loading: FOOD FOR THOUGHT AND JUSTICE by Marlo Wang with Charlotte Malterre-Barthes",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
