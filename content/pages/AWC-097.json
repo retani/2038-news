@@ -1,4 +1,11 @@
 {
   "path": "/AWC-097",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/things-might-become-everything-but-a-carpet",
+      "text2": "Loading: THINGS MIGHT BECOME... by Matylda Krzykowski",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
