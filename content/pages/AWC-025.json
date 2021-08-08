@@ -1,4 +1,11 @@
 {
   "path": "/AWC-025",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/on-protecting-digital-identity",
+      "text2": "Loading: ON PROTECTING DIGITAL IDENTITY by Varuna Jael with Ludger Hovestadt",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
