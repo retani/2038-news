@@ -1,4 +1,11 @@
 {
   "path": "/AWC-033",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/atualizacoes-sobre-a-aprendizagem-autonoma-1",
+      "text2": "Loading: AUTONOMOUS LEARNING by Samira Lenzin",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
