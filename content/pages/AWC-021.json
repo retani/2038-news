@@ -1,4 +1,11 @@
 {
   "path": "/AWC-021",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/the-hologram",
+      "text2": "Loading: THE HOLOGRAM by Cassie Thornton",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
