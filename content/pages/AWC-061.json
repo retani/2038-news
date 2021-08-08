@@ -1,4 +1,11 @@
 {
   "path": "/AWC-061",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/after-the-collapse-architecture-for-the-99",
+      "text2": "Loading: AFTER THE COLLAPSE: ARCHITECTURE FOR THE 99% by Park Chan-sol with Suhail Malik",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
