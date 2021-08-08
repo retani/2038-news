@@ -1,4 +1,11 @@
 {
   "path": "/AWC-015",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/splendid-isolation",
+      "text2": "Loading: SPLENDID ISOLATION by Ludwig Engel",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
