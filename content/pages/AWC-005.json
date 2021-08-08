@@ -1,4 +1,11 @@
 {
   "path": "/AWC-005",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/i-love-my-time",
+      "text2": "I LOVE MY TIME by Christopher Roth",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
