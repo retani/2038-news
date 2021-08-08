@@ -1,4 +1,11 @@
 {
   "path": "/AWC-041",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/the-end-of-endlessly-endless-questionnaires",
+      "text2": "Loading: THE END OF ENDLESSLY ENDLESS QUESTIONNAIRES by Euroboden",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
