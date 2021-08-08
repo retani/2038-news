@@ -1,4 +1,11 @@
 {
   "path": "/AWC-065",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/2038-sette-scene-da-venezia",
+      "text2": "Loading: SETTE SCENE DA VENEZIA by S.a.L.E. Docks",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
