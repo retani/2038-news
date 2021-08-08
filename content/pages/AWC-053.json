@@ -1,4 +1,11 @@
 {
   "path": "/AWC-053",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "http://artsoftheworkingclass.org/text/the-architect-as-a-planetary-gardener",
+      "text2": "Loading: THE ARCHITECT AS A PLANETARY GARDENER by Ferdinand Ludwig, Daniel Schönle",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
