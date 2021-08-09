@@ -1,4 +1,11 @@
 {
   "path": "/AWC-083",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://www.kerearchitecture.com",
+      "text2": "Redirecting to 2021...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
