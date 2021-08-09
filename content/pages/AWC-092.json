@@ -1,4 +1,11 @@
 {
   "path": "/AWC-092",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://berlinquestions.com/speakers/caroline-nevejan/",
+      "text2": "Redirecting to 2021...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
