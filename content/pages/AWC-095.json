@@ -1,4 +1,11 @@
 {
   "path": "/AWC-095",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://berlinquestions.com",
+      "text2": "Redirecting to The New Now...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
