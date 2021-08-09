@@ -1,4 +1,11 @@
 {
   "path": "/AWC-078",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://stopconstruction.cargo.site/",
+      "text2": "Redirecting to 2021...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
