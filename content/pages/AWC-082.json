@@ -1,4 +1,11 @@
 {
   "path": "/AWC-082",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://counterspace-studio.com",
+      "text2": "Redirecting to 2021...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
