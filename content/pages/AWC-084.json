@@ -1,4 +1,11 @@
 {
   "path": "/AWC-084",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://vimeo.com/482230283",
+      "text2": "Redirecting to 2021...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
