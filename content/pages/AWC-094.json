@@ -1,4 +1,11 @@
 {
   "path": "/AWC-094",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://berlinquestions.com/speakers/dorte-mandrup/",
+      "text2": "Redirecting to 2021...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
