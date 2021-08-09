@@ -1,4 +1,11 @@
 {
   "path": "/AWC-088",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://berlinquestions.com/speakers/sabine-oberhuber/",
+      "text2": "Redirecting to 2021...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
