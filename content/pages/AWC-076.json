@@ -1,4 +1,12 @@
 {
   "path": "/AWC-076",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://berlinquestions.com/michael-mueller/",
+      "text2": "Redirecting to 2021... ",
+      "_template": "RedirectBlock",
+      "content": "",
+      "hide": false
+    }
+  ]
 }
