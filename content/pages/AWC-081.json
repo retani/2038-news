@@ -1,4 +1,11 @@
 {
   "path": "/AWC-081",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://berlinquestions.com/speakers/patricia-atkinson/",
+      "text2": "Redirecting to 2021...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
