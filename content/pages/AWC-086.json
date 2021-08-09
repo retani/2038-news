@@ -1,4 +1,11 @@
 {
   "path": "/AWC-086",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://berlinquestions.com/speakers/sumi-somaskanda/",
+      "text2": "Redirecting to 2021...",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
