@@ -2,6 +2,13 @@
   "path": "/",
   "blocks": [
     {
+      "image": "../images/AWC 2038 2021_smallest Kopie.jpg",
+      "color": "#000000",
+      "text": "ARTS OF THE WORKING CLASS\nWith texts by Olaf Grawert, Dorothee Hahn, Nils Havelka, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt and many more",
+      "_template": "PublicationBlock",
+      "content": ""
+    },
+    {
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
@@ -26,13 +33,6 @@
       "_template": "IntroLinkBlock",
       "content": "",
       "hide": false
-    },
-    {
-      "text": "NEWS",
-      "color": "#0000ff",
-      "link": "",
-      "_template": "SectionBlock",
-      "content": ""
     },
     {
       "text": "2038",
