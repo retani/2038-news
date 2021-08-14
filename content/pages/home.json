@@ -18,16 +18,6 @@
       "link": ""
     },
     {
-      "videoId": "551584252",
-      "text": "How we arrived in this state of New Serenity? Find out in the Cloud Pavilion. It allows you to playfully explore 2038, by bridging space and time, exploring how communication in mixed reality can come to life.\n\nSounds abstract? It's not. Press enter and meet people from all around the world, to binge-watch the films from 2038 and discuss the expert's ideas and visions from the future.",
-      "text2": "Cloud pavilion built with open source software Mozilla hubs",
-      "link": "https://exp.thenewserenity.com/",
-      "linkText": "Enter",
-      "_template": "IntroLinkBlock",
-      "content": "",
-      "hide": false
-    },
-    {
       "text": "NEWS",
       "color": "#0000ff",
       "link": "",
@@ -40,6 +30,16 @@
       "text": "ARTS OF THE WORKING CLASS\nWith texts by Olaf Grawert, Dorothee Hahn, Nils Havelka, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt and many more",
       "_template": "PublicationBlock",
       "content": ""
+    },
+    {
+      "videoId": "551584252",
+      "text": "How we arrived in this state of New Serenity? Find out in the Cloud Pavilion. It allows you to playfully explore 2038, by bridging space and time, exploring how communication in mixed reality can come to life.\n\nSounds abstract? It's not. Press enter and meet people from all around the world, to binge-watch the films from 2038 and discuss the expert's ideas and visions from the future.",
+      "text2": "Cloud pavilion built with open source software Mozilla hubs",
+      "link": "https://exp.thenewserenity.com/",
+      "linkText": "Enter",
+      "_template": "IntroLinkBlock",
+      "content": "",
+      "hide": false
     },
     {
       "text": "2038",
