@@ -35,16 +35,11 @@
       "content": ""
     },
     {
-      "videoId": "566532856",
-      "text": "The Malaria Houses began as an interdisciplinary case study in which a group of experts tested the potential of architecture in fighting malaria. Today, in 2038, the method has become common practice among architects and part of the global policy to fight suffering. ",
-      "text2": "Visit the Cloud Pavilion and watch the full series.",
-      "color": "white",
-      "_template": "TalkingHeadsBlock",
-      "content": "",
-      "videoId2": "566531320",
-      "videoId3": "566531831",
-      "videoId4": "566532321",
-      "link": "https://thenewserenity.com/35CSQfc/basement-user-01/?vr_entry_type=2d_now"
+      "image": "../images/unnamed_C1SqclC.png.1100x700_q85.jpg",
+      "color": "#000000",
+      "text": "ARTS OF THE WORKING CLASS\nWith texts by Olaf Grawert, Dorothee Hahn, Nils Havelka, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt and many more",
+      "_template": "PublicationBlock",
+      "content": ""
     },
     {
       "text": "The way that architects think about making change, is to build something new and then get people to look at it and say, ‘Hey, that's cool!’ and copy it. If local people see the appeal of these science-based designs, they’ll be more likely to build that way too.",
@@ -320,6 +315,18 @@
       "_template": "NewsBlock",
       "content": "",
       "hide": true
+    },
+    {
+      "videoId": "566532856",
+      "text": "The Malaria Houses began as an interdisciplinary case study in which a group of experts tested the potential of architecture in fighting malaria. Today, in 2038, the method has become common practice among architects and part of the global policy to fight suffering. ",
+      "text2": "Visit the Cloud Pavilion and watch the full series.",
+      "color": "white",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "videoId2": "566531320",
+      "videoId3": "566531831",
+      "videoId4": "566532321",
+      "link": "https://thenewserenity.com/35CSQfc/basement-user-01/?vr_entry_type=2d_now"
     },
     {
       "videoId": "552808465",
