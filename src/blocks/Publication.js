@@ -36,7 +36,7 @@ export function Publication({ data }) {
             { !usePdf ? 
               link && <ButtonBlock href={link} theme={/*color===colors.black ? "black-on-white" : null*/null} title={link}>LINK</ButtonBlock>
               :
-              hasFile(file, "pdf") && <ButtonBlock theme={/*color===colors.black ? "black-on-white" : null*/null} title={file} text=".PDF" href={file} />
+              hasFile(file, "pdf") && <ButtonBlock theme={/*color===colors.black ? "black-on-white" : null*/null} title={file} text=".PDF" href={"/uploads/pdfs/" + file} />
             }      
           </Bottom>
         }
