@@ -14,18 +14,13 @@ jobs:
     runs-on: ubuntu-18.04
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
+      - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
-
-      - name: Deploy the application
-        uses: thadeu/easily-dokku-action@v1.0.8
-        env:
-          BRANCH: master # optional
-          PROJECT: 2038-news
-          FLAGS: --force # optional
-          PORT: 22 # optional
-          SSH_PRIVATE_KEY: ${{ secrets.DOKKU_PRIVATE_KEY }}
-          SSH_PUBLIC_KEY: ${{ secrets.DOKKU_PUBLIC_KEY }}
-          SSH_HOST: ${{ secrets.DOKKU_HOST }}
+            fetch-depth: 0
+      - id: deploy
+        name: Deploy to dokku
+        uses: idoberko2/dokku-deploy-github-action@v1
+        with:
+            ssh-private-key: ${{ secrets.DOKKU_PRIVATE_KEY }}
+            dokku-host: ${{ secrets.DOKKU_HOST }}
+            app-name: '2038-news'
