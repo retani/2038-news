@@ -1,9 +1,9 @@
 {
-  "name": "tina-grande",
+  "name": "2038.xyz",
   "private": true,
-  "description": "A configurable starter for Gatsby & Tina",
+  "description": "2038.xyz website",
   "version": "0.1.0",
-  "author": "Scott Byrne <scott.byrne@forestry.io>",
+  "author": "hi@intergestalt.info",
   "engines": {
     "node": "12"
   },
@@ -66,11 +66,10 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "clean": "rm -rf ./cache",
+    "clean": "rm -rf ./cache && gatsby clean",
     "dev": "yarn clean && yarn develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "yarn develop",
