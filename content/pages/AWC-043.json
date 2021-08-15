@@ -2,6 +2,15 @@
   "path": "/AWC-043",
   "blocks": [
     {
+      "image": "",
+      "color": "#000000",
+      "text": "ARTS OF THE WORKING CLASS",
+      "_template": "PublicationBlock",
+      "content": "",
+      "usePdf": true,
+      "link": ".."
+    },
+    {
       "text": "https://thenewserenity.com/Yd7EP25/space-user-01/?vr_entry_type=2d_now",
       "text2": "Entering the Cloud Pavilion",
       "_template": "RedirectBlock",
