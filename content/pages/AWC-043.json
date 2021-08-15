@@ -3,10 +3,11 @@
   "blocks": [
     {
       "color": "#000000",
-      "text": "ARTS OF THE WORKING CLASS\nWith texts by Olaf Grawert, Dorothee Hahn, Nils Havelka, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt and many more",
+      "text": "",
       "_template": "PublicationBlock",
       "content": "",
-      "usePdf": true
+      "usePdf": true,
+      "link": ""
     }
   ]
 }
