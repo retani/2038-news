@@ -89,7 +89,7 @@ export const PublicationBlock = {
     label: <BlockListItem label={blockLabel} preview={item.text} hide={item.hide} />,
   }),  
   defaultItem: {
-    image: "../images/",
+    //image: "../images/",
     color: colors.black,
     text: `ARTS OF THE WORKING CLASS\nWith texts by Olaf Grawert, Dorothee Hahn, Nils Havelka, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt and many more`,
   },
