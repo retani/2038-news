@@ -4,7 +4,7 @@
     {
       "image": "../images/Malaria Houses.png",
       "color": "#000000",
-      "text": "THE MALARIA HOUSES",
+      "text": "THE MALARIA HOUSES ",
       "_template": "PublicationBlock",
       "usePdf": true,
       "file": "Malaria Houses.pdf",
