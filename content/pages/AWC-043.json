@@ -2,19 +2,12 @@
   "path": "/AWC-043",
   "blocks": [
     {
-      "image": "",
+      "image": "../images/",
       "color": "#000000",
-      "text": "ARTS OF THE WORKING CLASS",
+      "text": "ARTS OF THE WORKING CLASS\nWith texts by Olaf Grawert, Dorothee Hahn, Nils Havelka, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt and many more",
       "_template": "PublicationBlock",
       "content": "",
-      "usePdf": true,
-      "link": ".."
-    },
-    {
-      "text": "https://thenewserenity.com/Yd7EP25/space-user-01/?vr_entry_type=2d_now",
-      "text2": "Entering the Cloud Pavilion",
-      "_template": "RedirectBlock",
-      "content": ""
+      "usePdf": true
     }
   ]
 }
