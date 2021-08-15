@@ -2,9 +2,13 @@
   "path": "/AWC-036",
   "blocks": [
     {
-      "videoId": "559721951",
-      "_template": "StandaloneVideoBlock",
-      "content": ""
+      "color": "#000000",
+      "image": "../images/Material Matters.png",
+      "text": "MATERIAL MATTERS",
+      "_template": "PublicationBlock",
+      "content": "",
+      "usePdf": true,
+      "file": "Material Matters.pdf"
     }
   ]
 }

@@ -2,10 +2,13 @@
   "path": "/AWC-063",
   "blocks": [
     {
-      "text": "https://thenewserenity.com/Yd7EP25/space-user-01/?vr_entry_type=2d_now",
-      "text2": "Entering the Cloud Pavilion",
-      "_template": "RedirectBlock",
-      "content": ""
+      "color": "#000000",
+      "image": "../images/ExRotaprint Frei Otto.png",
+      "text": "",
+      "_template": "PublicationBlock",
+      "content": "",
+      "usePdf": true,
+      "file": "ExRotaprint Frei Otto.pdf"
     }
   ]
 }
