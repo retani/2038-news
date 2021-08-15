@@ -27,6 +27,18 @@ exports.setFieldsOnGraphQLNodeType = ({ type }) => {
   return {}
 }
 
+/*
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type pagesJson implements blocks {
+      image: String
+    }
+  `
+  createTypes(typeDefs)
+}
+*/
+
 exports.onCreateNode = ({
   node,
   actions,
