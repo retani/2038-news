@@ -13,6 +13,7 @@ import FullscreenButton from './FullscreenButton'
 let timeoutHandler = null
 
 const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPlayingCallback=null }) => { 
+  const [vimeoPlayer, setVimeoPlayer] = useState(null);
   const [loaded, setLoaded] = useState(false);
   const [shouldPlay, setShouldPlay] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -71,6 +72,7 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
           onEnd={ () => {setPlaying(false); setShouldPlay(false)} }
           onError={ () => {setPlaying(false); setShouldPlay(false)} }
           onLoaded={ () => setLoaded(true)}
+          onReady={player => { setVimeoPlayer(player); player.enableTextTrack("en")}}
         /> 
       :
         <Error>
