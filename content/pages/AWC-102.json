@@ -1,4 +1,11 @@
 {
   "path": "/AWC-102",
-  "blocks": []
+  "blocks": [
+    {
+      "text": "https://www.e-flux.com/announcements/431263/conference-of-the-absent/",
+      "text2": "Conference of the Absent",
+      "_template": "RedirectBlock",
+      "content": ""
+    }
+  ]
 }
