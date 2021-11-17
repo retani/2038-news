@@ -9,8 +9,9 @@ import { dist, colors, breakpoints } from '../../config/styles'
 import ButtonLarge from './ButtonLarge'
 import FullscreenButton from './FullscreenButton'
 
-
 let timeoutHandler = null
+let languageTracks = []
+const initialLanguageTrack = "en"
 
 const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPlayingCallback=null }) => { 
   const [vimeoPlayer, setVimeoPlayer] = useState(null);
@@ -20,6 +21,8 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
   const [fullscreen, setFullscreen] = useState(false);
   const [overlay, setOverlay] = useState(false);
   const [hover, setHover] = useState(false);
+  const [currentLanguageTrack, setCurrentLanguageTrack] = useState(initialLanguageTrack);
+  const [languageTracks, setLanguageTracks] = useState([]);
 
   const vimeoIdIsValid = (typeof (vimeoId) === "string" || typeof (vimeoId) === "number") && String(vimeoId).match(/[0-9]+/) !== null
 
@@ -39,6 +42,11 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
     }
     timeoutHandler = setTimeout(()=>setOverlay(false),2000)
   },10)
+
+  const toggleLanguage = () => {
+    const newTrack = languageTracks.find(track => track.language !== currentLanguageTrack)
+    vimeoPlayer.enableTextTrack(newTrack.language)
+  }
 
   const triggerPlay = debounce(() => {
     (playing === shouldPlay) && setShouldPlay(!shouldPlay)
@@ -72,7 +80,23 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
           onEnd={ () => {setPlaying(false); setShouldPlay(false)} }
           onError={ () => {setPlaying(false); setShouldPlay(false)} }
           onLoaded={ () => setLoaded(true)}
-          onReady={player => { setVimeoPlayer(player); player.enableTextTrack("en")}}
+          onReady={player => { 
+            setVimeoPlayer(player); 
+            player.enableTextTrack(initialLanguageTrack).then( (track) => {
+              setCurrentLanguageTrack(track.language)
+            })
+            .catch(function (error) {
+              console.warn("text track" + initialLanguageTrack + " not found")
+            });
+            player.getTextTracks().then(function (tracks) {
+              setLanguageTracks(tracks)
+            }).catch(function (error) {
+              // an error occurred
+            });
+            player.on("texttrackchange", newTrack => {
+              setCurrentLanguageTrack(newTrack.language)
+            })
+          }}
         /> 
       :
         <Error>
@@ -101,6 +125,15 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
           />
         </FullscreenButtonContainer>
       }
+      {playing &&
+        <LanguageTrackButtonContainer>
+          <LanguageTrackButton onClick={toggleLanguage}>
+            {
+              currentLanguageTrack
+            }
+          </LanguageTrackButton>
+        </LanguageTrackButtonContainer>
+    }
     </Container>
   </Fullscreen>
 }
@@ -153,6 +186,27 @@ const FullscreenButtonContainer = styled.div`
     bottom: ${ dist.smallSpacer };
     right: ${ dist.smallSpacer };    
   }
+`
+
+const LanguageTrackButtonContainer = styled.div`
+  position: absolute;
+  top: ${dist.spacer};
+  right: ${dist.spacer};
+  @media ${breakpoints.small} {
+    top: ${dist.smallSpacer};
+    right: ${dist.smallSpacer};    
+  }
+`
+
+const LanguageTrackButton = styled.span`
+  background-color: white;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
 `
 
 const Error = styled.div`
