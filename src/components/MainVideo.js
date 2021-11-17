@@ -44,8 +44,13 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
   },10)
 
   const toggleLanguage = () => {
-    const newTrack = languageTracks.find(track => track.language !== currentLanguageTrack)
-    vimeoPlayer.enableTextTrack(newTrack.language)
+    const currentTrackIndex = languageTracks.findIndex(track => track.language === currentLanguageTrack)
+    let newTrackIndex = currentTrackIndex + 1
+    if (!languageTracks[newTrackIndex]) {
+      newTrackIndex = 0
+    }
+    const newLanguage = languageTracks[newTrackIndex].language
+    vimeoPlayer.enableTextTrack(newLanguage)
   }
 
   const triggerPlay = debounce(() => {
@@ -82,16 +87,14 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
           onLoaded={ () => setLoaded(true)}
           onReady={player => { 
             setVimeoPlayer(player); 
-            player.enableTextTrack(initialLanguageTrack).then( (track) => {
-              setCurrentLanguageTrack(track.language)
-            })
-            .catch(function (error) {
-              console.warn("text track" + initialLanguageTrack + " not found")
-            });
             player.getTextTracks().then(function (tracks) {
               setLanguageTracks(tracks)
+              console.log(tracks)
+              player.enableTextTrack(initialLanguageTrack).then( (track) => {
+                setCurrentLanguageTrack(track.language)
+              })
             }).catch(function (error) {
-              // an error occurred
+              console.warn("text track error", error)
             });
             player.on("texttrackchange", newTrack => {
               setCurrentLanguageTrack(newTrack.language)
