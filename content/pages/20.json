@@ -2,8 +2,9 @@
   "path": "/20",
   "blocks": [
     {
-      "videoId": "566009193",
-      "_template": "StandaloneVideoBlock",
+      "text": "https://www.instagram.com/slubicz/",
+      "text2": "Redirecting to Sam Lubicz",
+      "_template": "RedirectBlock",
       "content": ""
     }
   ]
