@@ -108,7 +108,7 @@ const ButtonContainer = styled.a`
   flex-direction: column;
 `
 
-const ExtraLink = styled.a`
+const ExtraLink = styled.span`
   position: absolute;
   top:0;
   left:0;

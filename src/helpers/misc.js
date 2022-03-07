@@ -11,6 +11,14 @@ export const objectMap = (obj, fn) =>
 
 export const genericFields = [
     {
-      name: 'hide', component: 'toggle', label: 'Hide', description: 'Hide this block from website'
-    }
+      name: 'place', component: 'toggle', label: 'Hide', description: 'Hide this block from website'
+    },
+    {
+      component: 'select',
+      name: 'place',
+      label: 'Place',
+      description: 'choose a column',
+      options: ['left', 'right'],
+      default: 'left',
+    },
   ]

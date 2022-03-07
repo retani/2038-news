@@ -58,14 +58,19 @@ export default function Page(props) {
           }
           `}
         </style>
+        <meta name="theme-color" content="#D8D8D8" />
       </Helmet>
 
-      <PageLayout page={page}>
+      <PageLayout 
+          page={page} 
+          left={mapBlocks(data,page,blocks.filter(b => (b.place === 'left' || !b.place)),1000)}
+          right={mapBlocks(data,page,blocks.filter(b => (b.place === 'right' )))}
+        >
         {/*<TypoTester />*/}
         {/*<Menu />*/}
-        {mapBlocks(data,page,blocks)}
+        
         { blocks.findIndex(b => b._template == "StandaloneVideo")  > -1 &&
-          <Spacer space={spaces.large} />
+          <Spacer key="page-spacer" space={spaces.large} />
         }
       </PageLayout>
 
@@ -73,9 +78,10 @@ export default function Page(props) {
   )
 }
 
-const mapBlocks = function(data,page,blocks) {
+const mapBlocks = function(data,page,blocks,offset=0) {
   if (!blocks || !Array.isArray(blocks)) return null
   return blocks.map(({ _template, ...data }, i, arr) => {
+    i+=offset
     switch (_template) {
       case "StandaloneVideoBlock":
         return <StandaloneVideo key={"StandaloneVideoBlock" + i} data={data} />
@@ -91,7 +97,7 @@ const mapBlocks = function(data,page,blocks) {
             && <Spacer key={"CountdownBlockSpacer" + i} space={spaces.none} /> }
           <Countdown key={"CountdownBlock" + i} data={data} />
         </>        
-      case "TalkingHeadsBlock":
+        case "TalkingHeadsBlock":
         return <TalkingHeads key={"TalkingHeadsBlock" + i} data={data} />
       case "YoutubePlaylistBlock":
         return <YoutubePlaylist key={"YoutubePlaylistBlock" + i} data={data} />
@@ -113,13 +119,13 @@ const mapBlocks = function(data,page,blocks) {
         const shadeFilm = (arr[i + 1] && shadeBlocksFilm.indexOf(arr[i + 1]._template) > -1)
         return <>
           <FilmQuote key={"FilmQuoteBlock" + i} shade={shadeFilm} data={data} />
-          { repeatedFilmQuote && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall} />}
+          { repeatedFilmQuote && <Spacer key={"FilmQuoteBlockSpacer" + i} space={spaces.verySmall} />}
         </>
       case "IntroVideoBlock":
         return <IntroVideo key={"IntroVideoBlock" + i} data={data} />
       case "IntroLinkBlock":
         return <IntroLink key={"IntroLinkBlock" + i} data={data} />
-      case "WithBlock":
+        /*case "WithBlock":
         return <>
           { (arr[i-1] && ["NewsBlock"].indexOf(arr[i-1]._template) > -1 )
             && <Spacer key={"WithBlockSpacer" + i} space={spaces.verySmall} /> }
@@ -142,10 +148,11 @@ const mapBlocks = function(data,page,blocks) {
       case "NewsBlock":
         const repeatedNews = (arr[i+1] && ["NewsBlock"].indexOf(arr[i+1]._template) > -1 )
         return <>
+        {"XXX NewsBlock"+i}
           <News key={"NewsBlock" + i} data={data} />
           { repeatedNews && <Spacer key={"NewsBlockSpacer" + i} space={spaces.verySmall}/> }
         </>
-      case "ImpLinkBlock":
+        */case "ImpLinkBlock":
         return <ImpLink key={"ImpLinkBlock" + i} data={data} />                                
       case "ContentBlock":
         if (data.content && page.childrenPagesJsonBlockMarkdown[i])
@@ -246,6 +253,7 @@ export const pageQuery = graphql`
         recipient
         usePdf
         color
+        place
         fields {
           label
           inputType
