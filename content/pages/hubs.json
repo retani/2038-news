@@ -2,11 +2,11 @@
   "path": "/hubs",
   "blocks": [
     {
-      "text": "https://exp.thenewserenity.com",
+      "text": "https://www.2038.xyz/",
       "_template": "RedirectBlock",
       "content": "",
       "hide": false,
-      "text2": "Entering Cloud Pavillon...\n\nPlease allow access to your microphone"
+      "text2": "Loading 2038"
     }
   ]
 }
