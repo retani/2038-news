@@ -34,7 +34,7 @@ FROM mhart/alpine-node:12
 COPY --from=builder /app/public /public
 
 WORKDIR /public
-RUN yarn global add serve
+RUN yarn global add serve@13
 
 EXPOSE 8000
 
