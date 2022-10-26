@@ -6,7 +6,7 @@
       "color": "#00FF00",
       "_template": "SectionBlock",
       "content": "",
-      "place": "left"
+      "place": false
     },
     {
       "videoId": "548031698",
@@ -220,22 +220,6 @@
       "link": "",
       "_template": "NewsBlock",
       "content": ""
-    },
-    {
-      "text": "Facts are no longer enough to really convince people. We have to tell stories.",
-      "text2": "Oana Bogdan, Architect & Politician",
-      "link": "",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
-    },
-    {
-      "text": "Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘\n\nCédric Libert, Architect",
-      "text2": "Cédric Libert, Architect",
-      "link": "",
-      "_template": "NewsBlock",
-      "content": "",
-      "hide": true
     },
     {
       "videoId": "566532856",
