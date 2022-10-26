@@ -53,15 +53,6 @@
       "usePdf": false
     },
     {
-      "videoId": "548718437",
-      "text": "as all parts keep influencing the whole, the system becomes so complex",
-      "color": "#FFFFFF",
-      "_template": "LandscapeBlock",
-      "content": "",
-      "image": "../images/",
-      "place": "left"
-    },
-    {
       "text": "There are purely digital spaces that we now consider to be on the same spectrum of “places in which humans operate.” It turns out that architecture and AI have more to do with each other than anyone once imagined.",
       "text2": "Hilary Mason, Data Scientist",
       "link": "",
@@ -99,14 +90,6 @@
       "content": ""
     },
     {
-      "videoId": "548718691",
-      "text": "it's not about what we think, but about us being part of a system",
-      "color": "#FFFFFF",
-      "_template": "LandscapeBlock",
-      "content": "",
-      "place": "left"
-    },
-    {
       "text": "I‘m happy we have an ethical code for media and information as a commons, which is not public. You shouldn‘t disclose all your data. Data now operates similarly to how Nobel prize winner Elinor Ostrom describes the management of commons like forests, land or water.",
       "text2": "Denis „Jaromil“ Roio, Open-Source Developer & Hacker",
       "link": "",
@@ -129,13 +112,6 @@
       "content": ""
     },
     {
-      "videoId": "548718187",
-      "text": "the rich were super rich and yet totally unhappy",
-      "color": "#FFFFFF",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
       "text": "We live in a decentralized and self-organized society. Of course not everybody is equal, not everybody is happy, not everybody has access to the same things. Still, we are more free in the sense that access is no longer defined by being born rich or in a certain place.",
       "text2": "Diana Alvarez-Marín, Architect & Scientist",
       "link": "",
@@ -148,13 +124,6 @@
       "text2": "E. Glen Weyl, Economist & Principal Researcher at Microsoft",
       "color": "#66FFFF",
       "_template": "TalkingHeadsBlock",
-      "content": ""
-    },
-    {
-      "text": "Private property is no longer a viable condition in terms of both the environment and the human social system, which used to be dominated by markets. It‘s clear that the environmental destruction was a consequence of privatization.",
-      "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
-      "link": "",
-      "_template": "NewsBlock",
       "content": ""
     },
     {
@@ -182,13 +151,6 @@
       "videoId3": ""
     },
     {
-      "videoId": "548718839",
-      "text": "everything good and bad flows into algorithmic processes of shaping the future",
-      "color": "#FFFFFF",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
       "text": "The main takeaway of this experiment is that distributed technology allows nonhuman actors to engage successfully in relationships built on contracts. This resulted in legal structures that could allow rivers to become legal persons and forests to become corporations.",
       "text2": "Paul Seidler, Co-Founder Terra0, Augmented Self-Owned Forrest",
       "link": "",
@@ -209,13 +171,6 @@
       "text2": "Cedric Libert, Architect & Curator",
       "link": "",
       "_template": "NewsBlock",
-      "content": ""
-    },
-    {
-      "videoId": "548718558",
-      "text": "I like you Greta!",
-      "color": "#FFFFFF",
-      "_template": "LandscapeBlock",
       "content": ""
     },
     {
@@ -252,13 +207,6 @@
       "content": ""
     },
     {
-      "videoId": "548718762",
-      "text": "I think he still doesn‘t think in cybernetic or recursive loops",
-      "color": "#FFFFFF",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
       "text": "Architects don't build in space, they build in time (configurations). We should not only think about the practicalities of what will happen next, but about the consequences of our work and how it generate new results, feeding back into the system.",
       "text2": "Suhail Malik, Theorist and Reader in Critical Studies",
       "link": "",
@@ -287,13 +235,6 @@
       "_template": "NewsBlock",
       "content": "",
       "hide": true
-    },
-    {
-      "videoId": "548718055",
-      "text": "Venice was a great idea!",
-      "color": "#FFFFFF",
-      "_template": "LandscapeBlock",
-      "content": ""
     },
     {
       "text": "Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘\n\nCédric Libert, Architect",
