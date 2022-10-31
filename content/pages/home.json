@@ -16,7 +16,8 @@
       "content": "",
       "file": "/uploads/pdfs/",
       "usePdf": false,
-      "link": ""
+      "link": "",
+      "place": "right"
     },
     {
       "text": "NEWS",
