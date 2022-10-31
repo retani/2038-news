@@ -44,6 +44,7 @@
       "usePdf": false,
       "image": "../images/dummy.jpg",
       "color": "#000000",
+      "place": "left",
       "fields": [
         {
           "_template": "dummy",
