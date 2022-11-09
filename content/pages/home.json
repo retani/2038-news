@@ -2,13 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "text": "2038",
-      "color": "#00FF00",
-      "_template": "SectionBlock",
-      "content": "",
-      "place": "left"
-    },
-    {
       "videoId": "548031698",
       "text": "2038 – The New Serenity, invites you to discover a story between fact and fiction. In a series of films, it tells the history of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. \n\nBased on the knowledge and visions of a collaborative team of international experts from Architecture, Art, Ecology, Economy, Philosophy, Politics, Science and Technology, team 2038 strives to explore our future society through prefigurative politics, illustrating modes of organization and social relationships to come.\n",
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
@@ -27,40 +20,6 @@
       "content": "",
       "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-17-the-new-serenity/",
       "place": "left"
-    },
-    {
-      "text": "NEWS",
-      "color": "#0000ff",
-      "link": "",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "text": "2038",
-      "color": "#FF66FF",
-      "_template": "SectionBlock",
-      "content": ""
-    },
-    {
-      "videoId": "546970268",
-      "text": "\"Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘\"",
-      "text2": "Cédric Libert, Architect",
-      "color": "white",
-      "_template": "TalkingHeadsBlock",
-      "content": "",
-      "videoId2": "546966762",
-      "videoId3": "546967716",
-      "videoId4": "546968529",
-      "link": "https://artsandculture.google.com/story/mAXhX_W1t0eQfQ",
-      "usePdf": false
-    },
-    {
-      "text": "There are purely digital spaces that we now consider to be on the same spectrum of “places in which humans operate.” It turns out that architecture and AI have more to do with each other than anyone once imagined.",
-      "text2": "Hilary Mason, Data Scientist",
-      "link": "",
-      "_template": "NewsBlock",
-      "content": "",
-      "usePdf": true
     },
     {
       "videoId": "551240489",
@@ -83,6 +42,27 @@
       "usePdf": true,
       "link": "",
       "color": "#FFFFFF"
+    },
+    {
+      "videoId": "546970268",
+      "text": "\"Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘\"",
+      "text2": "Cédric Libert, Architect",
+      "color": "white",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "videoId2": "546966762",
+      "videoId3": "546967716",
+      "videoId4": "546968529",
+      "link": "https://artsandculture.google.com/story/mAXhX_W1t0eQfQ",
+      "usePdf": false
+    },
+    {
+      "text": "There are purely digital spaces that we now consider to be on the same spectrum of “places in which humans operate.” It turns out that architecture and AI have more to do with each other than anyone once imagined.",
+      "text2": "Hilary Mason, Data Scientist",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": "",
+      "usePdf": true
     },
     {
       "text": "Critical thinking has saved us because we are paid attention to the information, asking: where did it come from? Who put it up here? What intent did they have? We live in a more rational society now than ever. ",
