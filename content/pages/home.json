@@ -4,9 +4,17 @@
     {
       "videoId": "370256053",
       "text": "",
-      "text2": "History ",
+      "text2": "History Channel",
       "_template": "IntroVideoBlock",
       "content": ""
+    },
+    {
+      "text": "Oditesto denitisquam nus quamend ipsam, sus ma dolut est voluptam diciis dem ut quas que qui quibusdamet ut et denitisquam nus quamend.",
+      "text2": "Erika Mustermann on theatlantic.com",
+      "link": "",
+      "_template": "NewsBlock",
+      "content": "",
+      "place": "right"
     },
     {
       "videoId": "609354987",
