@@ -2,6 +2,14 @@
   "path": "/",
   "blocks": [
     {
+      "videoId": "609354987",
+      "text": "Talking Head 2",
+      "text2": "Subtitle Talking Head",
+      "color": "white",
+      "_template": "TalkingHeadsBlock",
+      "content": ""
+    },
+    {
       "videoId": "370256053",
       "text": "",
       "text2": "",
