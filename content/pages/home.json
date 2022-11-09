@@ -2,6 +2,11 @@
   "path": "/",
   "blocks": [
     {
+      "file": "/uploads/zips/Bildschirmfoto 2022-11-09 um 14.16.04.png.zip",
+      "_template": "ZipBlock",
+      "content": ""
+    },
+    {
       "videoId": "370256053",
       "text": "",
       "text2": "History Channel",
