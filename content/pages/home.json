@@ -13,6 +13,15 @@
       "place": "left"
     },
     {
+      "videoId": "551240489",
+      "text": "\"Previously, before digital, it was easy for a room with 20 people to end up agreeing on each other’s values, but these 20 people were not capable to bring that feeling back to their comrades, back to their communities. The digital helped us make sure that people entered into an empathy space similar to that of face to face encounters.\"",
+      "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan",
+      "color": "#66FFFF",
+      "_template": "TalkingHeadsBlock",
+      "content": "",
+      "usePdf": false
+    },
+    {
       "image": "../images/AWC 2038 2021_smallest Kopie.jpg",
       "color": "#000000",
       "text": "The second edition of 2038 x Arts of the Working Class brings back the story to the streets of the world. Arts of the Working Class is a multi-lingual street journal which is published every two months and contains contributions by artists and thinkers from different fields and in different languages. Everyone who sells this street journal earns money directly. Vendors keep 100% of the sales. Every artist whose work is advertised, designs with us its substance.",
@@ -22,12 +31,16 @@
       "place": "left"
     },
     {
-      "videoId": "551240489",
-      "text": "\"Previously, before digital, it was easy for a room with 20 people to end up agreeing on each other’s values, but these 20 people were not capable to bring that feeling back to their comrades, back to their communities. The digital helped us make sure that people entered into an empathy space similar to that of face to face encounters.\"",
-      "text2": "Audrey Tang, Free Software Programmer and Minister without Portfolio of Taiwan",
-      "color": "#66FFFF",
+      "videoId": "546970268",
+      "text": "\"Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘\"",
+      "text2": "Cédric Libert, Architect",
+      "color": "white",
       "_template": "TalkingHeadsBlock",
       "content": "",
+      "videoId2": "546966762",
+      "videoId3": "546967716",
+      "videoId4": "546968529",
+      "link": "https://artsandculture.google.com/story/mAXhX_W1t0eQfQ",
       "usePdf": false
     },
     {
@@ -42,19 +55,6 @@
       "usePdf": true,
       "link": "",
       "color": "#FFFFFF"
-    },
-    {
-      "videoId": "546970268",
-      "text": "\"Remember, Buckminster Fuller saying: ‚You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.‘\"",
-      "text2": "Cédric Libert, Architect",
-      "color": "white",
-      "_template": "TalkingHeadsBlock",
-      "content": "",
-      "videoId2": "546966762",
-      "videoId3": "546967716",
-      "videoId4": "546968529",
-      "link": "https://artsandculture.google.com/story/mAXhX_W1t0eQfQ",
-      "usePdf": false
     },
     {
       "text": "There are purely digital spaces that we now consider to be on the same spectrum of “places in which humans operate.” It turns out that architecture and AI have more to do with each other than anyone once imagined.",
