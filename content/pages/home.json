@@ -2,6 +2,14 @@
   "path": "/",
   "blocks": [
     {
+      "videoId": "115845843",
+      "text": "Ausstellungsbilder",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
+      "content": "",
+      "image": "../images/Bildschirmfoto 2022-11-09 um 14.16.04.png"
+    },
+    {
       "file": "/uploads/zips/Bildschirmfoto 2022-11-09 um 14.16.04.png.zip",
       "_template": "ZipBlock",
       "content": ""
