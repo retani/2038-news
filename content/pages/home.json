@@ -2,19 +2,19 @@
   "path": "/",
   "blocks": [
     {
-      "text": "2038",
-      "color": "#0000ff",
-      "link": "",
-      "_template": "SectionBlock",
-      "content": "",
-      "place": "right"
-    },
-    {
       "videoId": "370256053",
       "text": "",
       "text2": "History Channel",
       "_template": "IntroVideoBlock",
       "content": ""
+    },
+    {
+      "text": "„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“",
+      "text2": "Conversation with Eyal Weizman",
+      "file": "",
+      "_template": "FilmQuoteBlock",
+      "content": "",
+      "place": "right"
     },
     {
       "videoId": "609354987",
