@@ -10,7 +10,7 @@
       "file": "/uploads/pdfs/",
       "usePdf": false,
       "link": "",
-      "place": "left"
+      "place": false
     },
     {
       "videoId": "551240489",
