@@ -2,6 +2,34 @@
   "path": "/",
   "blocks": [
     {
+      "videoId": "609354987",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor . ",
+      "text2": "Lorem Txt ",
+      "_template": "IntroVideoBlock",
+      "content": "",
+      "usePdf": false
+    },
+    {
+      "text": "2038 is an international team of architects, artists, ecologists, economists, scientists, politicians and writers, initiated in 2019, aiming to tell a (hi)story that today we call future:\n\n      Blaise Agüera y Arcas, Diana Alvarez-Marin, Andrés Arauz, Arts of the Working Class, Mara Balestrini, Sandra Bartoli, Diann Bauer, Jan Bauer, BBSR, BMI, Oana Bogdan, Mohamed Bourouissa, Arno Brandlhuber, Jakob Brandtberg Knudsen & Lorenz von Seidlein, Francesca Bria, Vera Bühlmann, Bureau N, Benjamin Burq, Vint Cerf, cfk architetti, Elke Doppelbauer, Tobia de Eccher, Keller Easterling, Eidotech, Kurt Eggenschwiler, Ludwig Engel, ExRotaprint, Cosimo Flohr, Lenny Flohr, Michaela Friedberg, Jan-Peter Gieseking, Goethe Institut, Olaf Grawert, Dorothee Hahn, Nils Havelka, Hecker’s Hotel Kurfürstendamm, Helene Hegemann, Holger Heissmeyer, Angelika Hinterbrandner, Nikolaus Hirsch, Fabrizio Hochschild Drummond, Ludger Hovestadt, Pan Hu, JUNG, Jennifer Jacquet & Becca Franks, Mitchell Joachim, Sonja Junkers, Roberta Jurcic, Claudia Kessler, Sénamé Koffi Agbodjinou, Ulrich Kriese, Lukas Kubina, Nikolaus Kuhnert, Christopher Kulendran Thomas & Annika Kuhlmann, Lawrence Lessig, Ferdinand Ludwig & Daniel Schoenle, Suhail Malik, Charlotte Malterre-Barthes, Hilary Mason, V. Mitch McEwen, James Meadway, Omoju Miller, Evgeny Morozov, Motif, Motor Productions, Caroline Nevejan, Bahar Noorizadeh, Sabine Oberhuber, Jorge Orozco, Verena Otto, Poligonal, Leif Randt, Thomas Rau, RAUE Rechtsanwälte und Rechtsanwältinnen, Rebiennale, Denis 'Jaromil' Roio, Raquel Rolnik, Meghan Rolvien, Christopher Roth, Juliana Rotich, Saygel, Schreiber & Gioberti, Jan Schmidt-Garre, Patrik Schumacher, Max Senges, Deane Simpson, Sol Marino, Bruce Sterling, Michael Stöppler, Lia Strenge, Audrey Tang, TECE, The Laboratory of Manuel Bürger, Jeanne Tremsal, Galaad Van Daele, Iris van der Tuin, VITRA International, Georg Vrachliotis, Julian Wäckerlin, Eyal Weizman, Julia Werlen, E. Glen Weyl, Why Ventures, Mark Wigley, Erez Yoeli, Tirdad Zolghadr and many others\n\n      Commissioned by Bundesministerium des Innern, für Bau und Heimat (BMI)",
+      "text2": "in collaboration with",
+      "_template": "WithBlock",
+      "content": ""
+    },
+    {
+      "text": "„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“",
+      "text2": "Conversation with Eyal Weizman",
+      "file": "",
+      "_template": "FilmQuoteBlock",
+      "content": ""
+    },
+    {
+      "text": "„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“",
+      "text2": "Conversation with Eyal Weizman",
+      "file": "",
+      "_template": "ArticleBlock",
+      "content": ""
+    },
+    {
       "videoId": "548031698",
       "text": "2038 – The New Serenity, invites you to discover a story between fact and fiction. In a series of films, it tells the history of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. \n\nBased on the knowledge and visions of a collaborative team of international experts from Architecture, Art, Ecology, Economy, Philosophy, Politics, Science and Technology, team 2038 strives to explore our future society through prefigurative politics, illustrating modes of organization and social relationships to come.\n",
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
