@@ -9,6 +9,15 @@
       "place": "left"
     },
     {
+      "image": "../images/AWC 2038 2021_smallest Kopie.jpg",
+      "color": "#000000",
+      "text": "The second edition of 2038 x Arts of the Working Class brings back the story to the streets of the world. Arts of the Working Class is a multi-lingual street journal which is published every two months and contains contributions by artists and thinkers from different fields and in different languages. Everyone who sells this street journal earns money directly. Vendors keep 100% of the sales. Every artist whose work is advertised, designs with us its substance.",
+      "_template": "PublicationBlock",
+      "content": "",
+      "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-17-the-new-serenity/",
+      "place": "left"
+    },
+    {
       "videoId": "548031698",
       "text": "2038 – The New Serenity, invites you to discover a story between fact and fiction. In a series of films, it tells the history of a better world in which everything, though imperfect, is better in some pretty profound and radical ways. \n\nBased on the knowledge and visions of a collaborative team of international experts from Architecture, Art, Ecology, Economy, Philosophy, Politics, Science and Technology, team 2038 strives to explore our future society through prefigurative politics, illustrating modes of organization and social relationships to come.\n",
       "text2": "German Pavilion at the 17th International Architecture Exhibition — La Biennale di Venezia",
@@ -25,15 +34,6 @@
       "link": "",
       "_template": "SectionBlock",
       "content": ""
-    },
-    {
-      "image": "../images/AWC 2038 2021_smallest Kopie.jpg",
-      "color": "#000000",
-      "text": "The second edition of 2038 x Arts of the Working Class brings back the story to the streets of the world. Arts of the Working Class is a multi-lingual street journal which is published every two months and contains contributions by artists and thinkers from different fields and in different languages. Everyone who sells this street journal earns money directly. Vendors keep 100% of the sales. Every artist whose work is advertised, designs with us its substance.",
-      "_template": "PublicationBlock",
-      "content": "",
-      "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-17-the-new-serenity/",
-      "place": "left"
     },
     {
       "text": "2038",
