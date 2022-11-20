@@ -27,10 +27,11 @@
     },
     {
       "text": "\"This might seem counterintuitive, but it's science.",
-      "text2": "The Malaria Houses2038 after Jakob Brandtberg Knudsen, Lorenz von Seidlein ",
+      "text2": "The Malaria Houses, 2038 after Jakob Brandtberg Knudsen, Lorenz von Seidlein",
       "file": "",
       "_template": "FilmQuoteBlock",
-      "content": ""
+      "content": "",
+      "place": "right"
     },
     {
       "text": "\"Afrofuturism was about solidarity and transnational thinking. At times, when the ‘first-world’ lost unity, the African Union got it right. Now, their models are distributed and implemented on a planetary scale.\"",
