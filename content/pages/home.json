@@ -2,6 +2,13 @@
   "path": "/",
   "blocks": [
     {
+      "text": "„We love our time,\nOur time, our time\nWe love our time…\nAND HERE IS WHY“",
+      "text2": "Christopher",
+      "file": "",
+      "_template": "FilmQuoteBlock",
+      "content": ""
+    },
+    {
       "text": "\"There are many futures and futures are tools.\"",
       "text2": "Ludwig Engel, Olaf Grawert",
       "file": "",
@@ -10,7 +17,7 @@
       "place": "right"
     },
     {
-      "text": "\"We learned […] that we should work less on a singular future and more on an endless scenario universe of connections, joints, interstices, and storylines. […] We managed to deal with complexity. Because we stopped changing people and instead built adaptable, viable systems. Locally and globally. Decentralised and centralised.",
+      "text": "\"We learned […] that we should work less on a singular future and more on an endless scenario universe of connections, joints, interstices, and storylines. […] We managed to deal with complexity. Because we stopped changing people and instead built adaptable, viable systems. Locally and globally. Decentralised and centralised.\"",
       "text2": "Excerpt of Editorial",
       "file": "",
       "_template": "FilmQuoteBlock",
