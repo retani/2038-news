@@ -11,7 +11,7 @@
     },
     {
       "videoId": "548031698",
-      "text": "Spring 2038. The world has changed. Intelligent systems ensure fair distribution processes, smallest and largest communities interact in feedback loops, peace reigns in dimmed prosperity, and personal technology helps us to cope with complexity. A serene civilization. But it is still exciting to be 18 years old!",
+      "text": "(Interrail) Spring 2038. The world has changed. Intelligent systems ensure fair distribution processes, smallest and largest communities interact in feedback loops, peace reigns in dimmed prosperity, and personal technology helps us to cope with complexity. A serene civilization. But it is still exciting to be 18 years old! ",
       "text2": "Interrail 2038",
       "_template": "IntroVideoBlock",
       "content": ""
@@ -55,6 +55,13 @@
       "videoId": "551533540",
       "text": "(06) (ECO)SYSTEMS from HISTORY CHANNELS",
       "text2": "(06) (ECO)SYSTEMS from HISTORY CHANNELS",
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
+      "videoId": "370256053",
+      "text": "Today, in the year 2038, we have mastered the large crises. It was a close call, yet, we just about made it. After the total financial melt-down in the year 2022, the world came to its senses. We live in radical democracy and radical bureaucracy, in a society, that knows neither hero nor villain. In a series of films, the German Pavillon shows how we arrived at this era of New Serenity.",
+      "text2": "The German Pavillon at the Architecture Biennale 2020",
       "_template": "IntroVideoBlock",
       "content": ""
     },
