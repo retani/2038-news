@@ -6,7 +6,8 @@
       "text2": "Conversation with Eyal Weizman",
       "file": "",
       "_template": "FilmQuoteBlock",
-      "content": ""
+      "content": "",
+      "place": "right"
     },
     {
       "videoId": "548031698",
