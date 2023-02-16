@@ -2,6 +2,13 @@
   "path": "/",
   "blocks": [
     {
+      "text": "+++++++ LINKE SPALTE, hier runter: ",
+      "text2": "",
+      "file": "",
+      "_template": "FilmQuoteBlock",
+      "content": ""
+    },
+    {
       "videoId": "548031698",
       "text": "Spring 2038. The world has changed. Intelligent systems ensure fair distribution processes, smallest and largest communities interact in feedback loops, peace reigns in dimmed prosperity, and personal technology helps us to cope with complexity. A serene civilization. But it is still exciting to be 18 years old!",
       "text2": "Interrail 2038",
