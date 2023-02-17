@@ -2,20 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "videoId": "",
-      "text": "1 Pic Cloud Pavilion",
-      "color": "#000000",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
-      "videoId": "",
-      "text": "2 Pic Cloud Pavilion",
-      "color": "#000000",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
       "text": "+ + +  LINKE SPALTE + + +",
       "text2": "",
       "file": "",
@@ -459,7 +445,7 @@
     },
     {
       "videoId": "",
-      "text": "1",
+      "text": "1 Pic Ausstellung ",
       "color": "#000000",
       "_template": "LandscapeBlock",
       "content": ""
@@ -477,6 +463,20 @@
       "text2": "",
       "file": "",
       "_template": "FilmQuoteBlock",
+      "content": ""
+    },
+    {
+      "videoId": "",
+      "text": "1 Pic Cloud Pavilion",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "videoId": "",
+      "text": "2 Pic Cloud Pavilion",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
       "content": ""
     },
     {
