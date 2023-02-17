@@ -437,7 +437,7 @@
       "content": ""
     },
     {
-      "text": "+ + + PICs AUSSTELLUNG + + +",
+      "text": "+ + + PICs AUSSTELLUNG + + +\n\nAll installation shots:\n\n2038 – The New Serenity © Federico Torra for 2038",
       "text2": "",
       "file": "",
       "_template": "FilmQuoteBlock",
@@ -454,7 +454,8 @@
       "text": "+ + + PICs Cloud Pavilion + + +",
       "text2": "",
       "file": "",
-      "_template": "FilmQuoteBlock"
+      "_template": "FilmQuoteBlock",
+      "content": ""
     },
     {
       "text": "+ + +  RECHTE SPALTE + + +",
