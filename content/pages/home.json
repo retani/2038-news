@@ -307,43 +307,57 @@
       "videoId": "609408843",
       "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV (Part 2)",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "567464787",
       "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Sylvia Lavin",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "567529493",
       "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Sina Najafi",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "567461309",
       "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Simon Denny",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "609379770",
       "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Philip ???\"Dany\"??? & Shannon ???\"Stacki\"???",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "567523892",
       "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Niklas Maak",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "567459266",
       "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Michael Webb",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
+      "videoId": "609069999",
+      "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Mark Wasiuta",
+      "text2": "History Channel",
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "text": "+ + + + + RECHTE SPALTE, hier runter: ",
