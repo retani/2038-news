@@ -244,7 +244,15 @@
       "videoId": "566187172",
       "text": "THE MALARIA HOUSES (08)",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
+      "videoId": "566189063",
+      "text": "THE MALARIA HOUSES (09)",
+      "text2": "History Channel",
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "text": "+ + + + + RECHTE SPALTE, hier runter: ",
