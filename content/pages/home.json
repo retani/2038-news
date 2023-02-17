@@ -2,6 +2,13 @@
   "path": "/",
   "blocks": [
     {
+      "videoId": "567512284",
+      "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Juan Herreros",
+      "text2": "History Channel",
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
       "text": "+ + + + +  LINKE SPALTE, hier runter: ",
       "text2": "",
       "file": "",
