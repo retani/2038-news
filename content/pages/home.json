@@ -2,13 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "videoId": "115845843",
-      "text": "legal bodies",
-      "color": "#000000",
-      "_template": "LandscapeBlock",
-      "content": ""
-    },
-    {
       "text": "+ + +  LINKE SPALTE + + +",
       "text2": "",
       "file": "",
@@ -444,7 +437,14 @@
       "content": ""
     },
     {
-      "text": "+ + + + + RECHTE SPALTE, hier runter: ",
+      "videoId": "115845843",
+      "text": "legal bodies",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "+ + +  RECHTE SPALTE + + +",
       "text2": "",
       "file": "",
       "_template": "FilmQuoteBlock",
