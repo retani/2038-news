@@ -2,7 +2,14 @@
   "path": "/",
   "blocks": [
     {
-      "text": "+ + + + +  LINKE SPALTE, hier runter: ",
+      "videoId": "115845843",
+      "text": "legal bodies",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "text": "+ + +  LINKE SPALTE + + +",
       "text2": "",
       "file": "",
       "_template": "FilmQuoteBlock",
@@ -405,31 +412,36 @@
       "videoId": "609354987",
       "text": "(19) SCALE IT UP!",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "609333125",
       "text": "(20) PUBLIC AND PRIVATE",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "609336285",
       "text": "(21) PLANETARY UNION with Eyal Weizmann",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "609328003",
       "text": "(22) HERE IS HOW, ALADDIN",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "videoId": "609336843",
       "text": "(23) HERE IS HOW, THE BEGINNING",
       "text2": "History Channel",
-      "_template": "IntroVideoBlock"
+      "_template": "IntroVideoBlock",
+      "content": ""
     },
     {
       "text": "+ + + + + RECHTE SPALTE, hier runter: ",
