@@ -448,6 +448,13 @@
       "text": "",
       "color": "#000000",
       "_template": "LandscapeBlock",
+      "content": ""
+    },
+    {
+      "videoId": "",
+      "text": "",
+      "color": "#000000",
+      "_template": "LandscapeBlock",
       "content": "",
       "image": "../images/"
     },
