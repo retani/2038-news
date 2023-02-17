@@ -2,13 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "videoId": "567512284",
-      "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Juan Herreros",
-      "text2": "History Channel",
-      "_template": "IntroVideoBlock",
-      "content": ""
-    },
-    {
       "text": "+ + + + +  LINKE SPALTE, hier runter: ",
       "text2": "",
       "file": "",
@@ -383,6 +376,20 @@
     {
       "videoId": "609339396",
       "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Keller Easterling & Felicity D. Scott",
+      "text2": "History Channel",
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
+      "videoId": "567512284",
+      "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Juan Herreros",
+      "text2": "History Channel",
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
+      "videoId": "567506148",
+      "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with John Enright & Christian Sumi",
       "text2": "History Channel",
       "_template": "IntroVideoBlock",
       "content": ""
