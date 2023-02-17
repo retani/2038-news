@@ -2,13 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "videoId": "547904284",
-      "text": "THE NEW SERENITY: Sorry, 2038! (Part 5) with Gabriel von Max",
-      "text2": "History Channel",
-      "_template": "IntroVideoBlock",
-      "content": ""
-    },
-    {
       "text": "+ + + + +  LINKE SPALTE, hier runter: ",
       "text2": "",
       "file": "",
@@ -187,6 +180,20 @@
     {
       "videoId": "547904122",
       "text": "THE NEW SERENITY: Sorry, 2038! (Part 4) with Gabriel von Max",
+      "text2": "History Channel",
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
+      "videoId": "547904284",
+      "text": "THE NEW SERENITY: Sorry, 2038! (Part 5) with Gabriel von Max",
+      "text2": "History Channel",
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
+      "videoId": "566532856",
+      "text": "THE MALARIA HOUSES (01)",
       "text2": "History Channel",
       "_template": "IntroVideoBlock",
       "content": ""
