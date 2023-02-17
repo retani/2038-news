@@ -2,13 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "videoId": "567516995",
-      "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Liz Diller",
-      "text2": "History Channel",
-      "_template": "IntroVideoBlock",
-      "content": ""
-    },
-    {
       "text": "+ + + + +  LINKE SPALTE, hier runter: ",
       "text2": "",
       "file": "",
@@ -152,13 +145,6 @@
     {
       "videoId": "559664132",
       "text": "(11) DE-GROWTH with Thomas Rau and Sabine Oberhuber",
-      "text2": "History Channel",
-      "_template": "IntroVideoBlock",
-      "content": ""
-    },
-    {
-      "videoId": "559681097",
-      "text": "(12) COEXIST IN (ECO)SYSTEMS",
       "text2": "History Channel",
       "_template": "IntroVideoBlock",
       "content": ""
@@ -376,6 +362,20 @@
     {
       "videoId": "609368141",
       "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Lydia Kallipoliti & Andrés Jaque (Part 2)",
+      "text2": "History Channel",
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
+      "videoId": "567516995",
+      "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Liz Diller",
+      "text2": "History Channel",
+      "_template": "IntroVideoBlock",
+      "content": ""
+    },
+    {
+      "videoId": "609339396",
+      "text": "MARK WIGLEY presents KONRAD WACHSMANN’s TV with Keller Easterling & Felicity D. Scott",
       "text2": "History Channel",
       "_template": "IntroVideoBlock",
       "content": ""
