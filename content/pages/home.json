@@ -2,6 +2,14 @@
   "path": "/",
   "blocks": [
     {
+      "text": "2038",
+      "color": "#0000ff",
+      "link": "",
+      "_template": "SectionBlock",
+      "content": "",
+      "place": "right"
+    },
+    {
       "text": "+ + +  LINKE SPALTE + + +",
       "text2": "",
       "file": "",
